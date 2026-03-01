@@ -9,7 +9,7 @@
 1. [EDAとは](section1/eda11.md)
 2. [古典的、ベイズ的とEDAとの比較](section1/eda12.md)
 3. [EDAと要約との比較](section1/eda13.md)
-4. [EDAの目的](section1/eda14.md)
+4. [EDAの目標](section1/eda14.md)
 5. [図の役割](section1/eda15.md)
 6. [EDA/図の例](section1/eda16.md)
 7. [一般的な問題の分類](section1/eda17.md)
@@ -31,8 +31,8 @@
 
 ### 4. [EDA事例研究](section4/eda4.md)
 1. [はじめに](section4/eda41.md)
-2. [問題分類別](section4/eda42.md) |
+2. [問題分類別](section4/eda42.md) 
 
 [詳細な章目次](eda_d.md)  
-[参考文献](section4/eda43.md) 
+[参考文献](section4/eda43.md)  
 [EDA技法のためのDataplotコマンド](section4/eda44.md)
