@@ -7,7 +7,7 @@
 
 ### 1.[EDA入門](section1/eda1.md)
 1. [EDAとは](section1/eda11.md)
-2. [古典的、ベイズ的とEDAとの比較](section1/eda12.md)
+2. [EDAと古典的およびベイズとの比較](section1/eda12.md)
 3. [EDAと要約との比較](section1/eda13.md)
 4. [EDAの目標](section1/eda14.md)
 5. [図の役割](section1/eda15.md)
