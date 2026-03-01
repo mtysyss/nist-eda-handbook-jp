@@ -1,6 +1,4 @@
---- 
-原文URL: https://www.itl.nist.gov/div898/handbook/eda/section1/eda1.htm
----
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section1/eda1.htm)
 
 1.1. 探索的データ分析（EDA）の導入
 
