@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
 
+
 # 1. 探索的データ解析
 
 本章では、EDA（探索的データ解析）を用いて、データへの洞察を得るために必要な前提条件と、原則、技法について説明する。
@@ -30,8 +31,8 @@
 
 ### 4. [EDA事例研究](section4/eda4.md)
 1. [はじめに](section4/eda41.md)
-2. [問題分類別](section4/eda42.md) |
+2. [問題分類別](section4/eda42.md) 
 
 [詳細な章目次](eda_d.md)  
-[参考文献](section4/eda43.md) 
+[参考文献](section4/eda43.md)  
 [EDA技法のためのDataplotコマンド](section4/eda44.md)
