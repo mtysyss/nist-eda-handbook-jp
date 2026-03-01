@@ -10,6 +10,10 @@
 2. [EDAと古典的およびベイズとの比較](section1/eda12.md)
 3. [EDAと要約との比較](section1/eda13.md)
 4. [EDAの目標](section1/eda14.md)
+=======
+2. [古典的、ベイズ的とEDAとの比較](section1/eda12.md)
+3. [EDAと要約との比較](section1/eda13.md)
+4. [EDAの目的](section1/eda14.md)
 5. [図の役割](section1/eda15.md)
 6. [EDA/図の例](section1/eda16.md)
 7. [一般的な問題の分類](section1/eda17.md)
