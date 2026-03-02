@@ -24,7 +24,7 @@
 ### 3. [EDA手法](section3/eda3.md)
 1. [はじめに](section3/eda31.md)
 2. [解析上の論点](section3/eda32.md)
-3. [図解技法：アルファベット順](section3/eda33.md)
+3. [図表技法：アルファベット順](section3/eda33.md)
 4. [図表技法：問題分類別](section3/eda34.md)
 5. [定量技法](section3/eda35.md)
 6. [確率分布](section3/eda36.md)
