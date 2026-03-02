@@ -1,10 +1,11 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section1/eda11.htm)
+
 閲覧(UTC)：2026-03-02 13:33:59
 
-[1. 探索的データ分析](../eda.md)  
+[1. 探索的データ解析](../eda.md)  
 [1.1. EDA入門](eda1.md)
 
-# 1.1.1. EDAとは何か？  
+# 1.1.1. EDAとは  
 
 #### 取組み方  
 
