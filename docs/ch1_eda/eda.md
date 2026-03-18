@@ -3,7 +3,7 @@
 
 # 1. 探索的データ解析
 
-本章では、EDA（探索的データ解析）を用いて、データへの洞察を得るために必要な前提条件と、原則、技法について説明する。
+本章では、EDA（探索的データ解析）を用いて、データへの洞察を得るために必要な仮定と、原則、技法について説明する。
 
 ### 1.[EDA入門](section1/eda1.md)
 1. [EDAとは](section1/eda11.md)
@@ -14,8 +14,8 @@
 6. [EDA/図の例](section1/eda16.md)
 7. [一般的な問題の分類](section1/eda17.md)
   
-### 2. [EDAの前提条件](section2/eda2.md)
-1. [基礎となる前提条件](section2/eda21.md)
+### 2. [EDAの仮定](section2/eda2.md)
+1. [基礎となる仮定](section2/eda21.md)
 2. [重要性](section2/eda22.md)
 3. [仮定検定の技法](section2/eda23.md)
 4. [4-Plotの解釈](section2/eda24.md)
