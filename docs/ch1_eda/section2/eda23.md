@@ -16,7 +16,7 @@
 
 1. [連シーケンス・プロット](../section3/runseqpl.md)（ $$Y_i$$ 対 $$i$$ ）
 2. [ラグ・プロット](../section3/lagplot.md)（ $$Y_i$$ 対 $$Y_{i-1}$$ ）  
-3. [ヒストグラム](../section3/histogra.htm)（ 計数 対 $$Y$$ の標本群 ）  
+3. [ヒストグラム](../section3/histogra.htm)（ 計数 対 $$Y$$ の区間群 ）  
 4. [正規確率プロット](../section3/normprpl.md)（ 順序付き $$Y$$ 対 理論的順序付き $$Y$$ ）  
 
 #### データを素早く特徴付けるための単ページのプロット
