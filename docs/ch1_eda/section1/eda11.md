@@ -37,6 +37,6 @@ EDAの草分け的な著作は [ Exploratory Data Analysis, Tukey, (1977)](../se
 
 EDAで用いられる特定の図表現技法は往々にして非常に単純で、以下のような様々な技法から構成されている。
 
-1. 生データの作図（[データ追跡](../section3/runseqpl.md)、[ヒストグラム](../section3/histogra.md)、[バイ・ヒストグラム](../section3/bihistog.md)、[確率プロット](../section3/probplot.htm)、[ラグ・プロット](../section3/lagplot.htm)、[ブロック・プロット](../section3/blockplo.md)、[ユーデン・プロット](../section3/youdplot.md)など） 
+1. 生データの作図（[データ追跡](../section3/runseqpl.md)、[ヒストグラム](../section3/histogra.md)、[二元ヒストグラム](../section3/bihistog.md)、[確率プロット](../section3/probplot.htm)、[ラグ・プロット](../section3/lagplot.htm)、[ブロック・プロット](../section3/blockplo.md)、[ユーデン・プロット](../section3/youdplot.md)など） 
 2. [平均プロット](../section3/meanplot.md)、[標準偏差プロット](../section3/sdplot.md)、[箱ひげ図](../section3/boxplot.md)、生データの主効果プロットなどの単純な統計量の作図  
 3. 複数のプロットを1ページに配置するなどの人間の自然なパターン認識能力を最大限に活用するための配置
