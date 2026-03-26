@@ -15,18 +15,16 @@
 
 <!-----row 1----->
 
-||||  
-|--|--|--|--|  
-|![Autocorrelation Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/autocopl.gif)  
-[自己相関プロット: 1.3.3.1](autocopl.htm)|
+![Autocorrelation Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/autocopl.gif)  
+[自己相関プロット: 1.3.3.1](autocopl.htm)  
 
 ![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)  
-[二元ヒストグラム: 1.3.3.2](bihistog.htm)| 
+[二元ヒストグラム: 1.3.3.2](bihistog.htm)  
 
 ![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)  
-[ブロック・プロット: 1.3.3.3](blockplo.htm)|  
+[ブロック・プロット: 1.3.3.3](blockplo.htm)    
 
-![Bootstrap Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif)  [Bootstrap Plot: 1.3.3.4](bootplot.htm)|  
+![Bootstrap Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif)  [Bootstrap Plot: 1.3.3.4](bootplot.htm)  
 
 <!-----row 2----->
 
@@ -81,7 +79,7 @@
 ![Linear Residual Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linrsdpl.gif)  
 [Linear Residual Standard Deviation Plot: 1.3.3.19](linressd.htm)  
 
-![Mean Plot](gif100/meanplot.gif)  
+![Mean Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/meanplot.gif)  
 [Mean Plot: 1.3.3.20](meanplot.htm)  
 
 <!-----row 6----->
