@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/eda33.htm)
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/eda33.htm)  
 閲覧(UTC)：2026-03-26 09:17:58
 
 1. [探索的データ解析](../eda.md)  
@@ -105,7 +105,7 @@
 ![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)  
 [散布図: 1.3.3.26](scatterp.htm)  
 
-![Spectrum]( https://www.itl.nist.gov/div898/handbook/eda/gif100/spectrum.gif)
+![Spectrum]( https://www.itl.nist.gov/div898/handbook/eda/gif100/spectrum.gif)  
 [スペクトル図: 1.3.3.27](spectrum.htm)  
 
 ![Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/sdplot.gif)  
