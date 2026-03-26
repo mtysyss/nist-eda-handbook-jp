@@ -1,7 +1,7 @@
 [原文 (Original English)](../section3/eda3.htm)  
 閲覧(UTC)：2026-03-05 09:03:04
 
-[1. 探索的データ解析](../eda.md)
+1. [探索的データ解析](../eda.md)
 
 ---
 
