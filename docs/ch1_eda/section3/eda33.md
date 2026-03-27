@@ -15,8 +15,9 @@
 
 <!-----row 1----->
 
+<!--- リンク統一　--->
 ![Autocorrelation Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/autocopl.gif)  
-[自己相関プロット: 1.3.3.1](autocopl.htm)  
+[自己相関プロット: 1.3.3.1](eda331.htm)  
 
 ![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)  
 [二元ヒストグラム: 1.3.3.2](bihistog.htm)  
