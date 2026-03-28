@@ -1,4 +1,4 @@
-# NIST EDA 13313 Autocorreleation Plot: Random Data ####
+# NIST EDA 13313 Autocorrelation Plot: Strong Autocorrelation and Autoregressive Model ####
 # Date: 20260328
 # Created by MATSUYOSHI Yasushi PCCPMDEV.JP
 # Source: 
@@ -8,7 +8,7 @@
 # Data URL:
 #   https://www.itl.nist.gov/div898/handbook/datasets/RANDWALK.DAT
 # 説明 ####
-# NIST Statistic Handbook 1.3.3.1.1の自己相関プロット：無作為データ
+# NIST Statistic Handbook 1.3.3.1.3の自己相関プロット：強い自己相関と自己回帰モデル
 # R標準ライブラリでのスクリプトをベースに描画調整しています。調整部分は
 # "#<-で注意書きを記しています"
 # テキストは信頼区間線分は2種類設定されていますが、R標準ライブラリでの
@@ -27,7 +27,7 @@ url <- "https://www.itl.nist.gov/div898/handbook/datasets/RANDWALK.DAT"
 data <- read.table(url,skip=25)
 
 # 自己相関プロットの作成 ####
-# lag.max = 250 でラグの範囲を指定
+# lag.max = 125 でラグの範囲を指定
 # main, xlab, ylab でラベルを画像に合わせる
 acf(data, 
     lag.max = 125, 

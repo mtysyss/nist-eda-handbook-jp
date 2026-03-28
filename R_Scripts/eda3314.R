@@ -1,14 +1,14 @@
-# NIST EDA 13311 Autocorreleation Plot: Random Data ####
+# NIST EDA 13314 Autocorrelation Plot: Sinusoidal Model ####
 # Date: 20260328
 # Created by MATSUYOSHI Yasushi PCCPMDEV.JP
 # Source: 
 # page URL: 
-#   https://www.itl.nist.gov/div898/handbook/eda/section3/eda3311.htm
-#   https://www.itl.nist.gov/div898/handbook/eda/section3/autocop1.htm
+#   https://www.itl.nist.gov/div898/handbook/eda/section3/eda3314.htm
+#   https://www.itl.nist.gov/div898/handbook/eda/section3/autocop4.htm
 # Data URL:
-#   https://www.itl.nist.gov/div898/handbook/datasets/RANDN.DAT
+#   https://www.itl.nist.gov/div898/handbook/datasets/LEW.DAT
 # 説明 ####
-# NIST Statistic Handbook 1.3.3.1.1の自己相関プロット：無作為データ
+# NIST Statistic Handbook 1.3.3.1.4の自己相関プロット：正弦波モデル
 # R標準ライブラリでのスクリプトをベースに描画調整しています。調整部分は
 # "#<-で注意書きを記しています"
 # テキストは信頼区間線分は2種類設定されていますが、R標準ライブラリでの
@@ -23,16 +23,16 @@ par(mar = c(3,3,2.5,1), # プロットエリア外周余白の調整
     tck = 0.02) # 目盛線を内向きに変更
 
 # データの読み込み ####
-url <- "https://www.itl.nist.gov/div898/handbook/datasets/RANDN.DAT"
-data0 <- read.table(url,skip=25)
-data <- c(t(data0)) # 10列50行データを1列にする
+url <- "https://www.itl.nist.gov/div898/handbook/datasets/LEW.DAT"
+data <- read.table(url,skip=25)
 
 # 自己相関プロットの作成 ####
-# lag.max = 50 でラグの範囲を指定
+# lag.max = 49 でラグの範囲を指定
 # main, xlab, ylab でラベルを画像に合わせる
 acf(data, 
-    lag.max = 50, 
+    lag.max = 49, 
     main = "", #<- タイトル位置を近づけるために別関数で設定しています
+    ylim = c(-1,1), #<- 正弦波なので、Y軸範囲を　-1〜1に設定した
     xlab = "ラグ", 
     ylab = "自己相関",
     col = "deepskyblue", #<- メインプロットの色設定
@@ -41,7 +41,7 @@ acf(data,
 )
 
 ## タイトルの作成 ####
-title(main = "自己相関プロット：無作為データ", line = 1) #<- タイトル位置修正
+title(main = "自己相関プロット：正弦波モデル", line = 1) #<- タイトル位置修正
 
 # 環境の呼び戻し ####
 on.exit(par(original_par))
