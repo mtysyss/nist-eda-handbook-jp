@@ -20,7 +20,7 @@
 [自己相関プロット: 1.3.3.1](eda331.md)  
 
 ![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)  
-[二元ヒストグラム: 1.3.3.2](bihistog.md)  
+[対比ヒストグラム: 1.3.3.2](eda332.md)  
 
 ![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)  
 [ブロック・プロット: 1.3.3.3](blockplo.md)    
