@@ -73,5 +73,6 @@ for(i in 1:n_blocks) {
   text(current_x, val1, "1", pos=ifelse(val1 > val2, 3, 1), offset=0.2, cex=0.8)
   text(current_x, val2, "2", pos=ifelse(val2 > val1, 3, 1), offset=0.2, cex=0.8)
 }
+text(x = 0.5, y = 45, labels = "プロット文字 = 溶接法 (2)", font = 1, adj = 0)
 # 環境の呼び戻し ####
 on.exit(par(original_par))
