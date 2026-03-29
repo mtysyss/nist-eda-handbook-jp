@@ -11,5 +11,5 @@
 | [1.3.3.1.](docs/ch1_eda/section3/eda331.md) | autocop2 | eda3312 |  
 | [1.3.3.1.](docs/ch1_eda/section3/eda331.md) | autocop3 | eda3313 |  
 | [1.3.3.1.](docs/ch1_eda/section3/eda331.md) | autocop4 | eda3314 |  
-| [1.3.3.2.](docs/ch1_eda/section3/eda331.md) | histogra | eda33e |  
-
+| [1.3.3.2.](docs/ch1_eda/section3/eda332.md) | histogra | eda33e |  
+| [1.3.3.3.](docs/ch1_eda/section3/eda333.md) | bihistog | eda332 |  
