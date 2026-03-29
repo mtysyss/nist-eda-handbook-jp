@@ -18,10 +18,10 @@
 <!--- リンク統一　--->
 
 ![Autocorrelation Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/autocopl.gif)  
-[自己相関プロット: 1.3.3.1](autocopl.md)  
+[自己相関プロット: 1.3.3.1](eda331.md)  
 
 ![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)  
-[対比ヒストグラム: 1.3.3.2](bihistog.md)  
+[対比ヒストグラム: 1.3.3.2](eda332.md)  
 
 ![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)  
 [ブロック・プロット: 1.3.3.3](blockplo.md)    
@@ -137,4 +137,4 @@
 ---
 #### 訳註  
 * ページ中の図およびデータのリンク先は ソースページを維持し、NISTへのリンクになっています。
-* 原典の各プロットへのリンクはセクション番号ではなくプロット名を基準に設定されています。リンク先はセクション番号だけを表示する実体mdファイルになっています。
+* 原典の各プロットへのリンクはセクション番号ではなくプロット名を基準に設定されています。mdファイルではセクション番号にリンクを変更しております。（REMARKS.md参照）
