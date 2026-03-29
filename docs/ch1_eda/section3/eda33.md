@@ -24,7 +24,7 @@
 [対比ヒストグラム: 1.3.3.2](eda332.md)  
 
 ![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)  
-[ブロック・プロット: 1.3.3.3](blockplo.md)    
+[ブロック・プロット: 1.3.3.3](eda333.md)    
 
 ![Bootstrap Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif)  
 [ブートストラップ・プロット: 1.3.3.4](bootplot.md)  
