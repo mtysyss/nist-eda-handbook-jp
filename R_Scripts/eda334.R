@@ -3,14 +3,12 @@
 # Created by MATSUYOSHI Yasushi PCCPMDEV.JP
 # Source: 
 # page URL: 
-#   https://www.itl.nist.gov/div898/handbook/eda/section3/eda333.htm
+#   https://www.itl.nist.gov/div898/handbook/eda/section3/eda334.htm
 #   https://www.itl.nist.gov/div898/handbook/eda/section3/bootplot.htm
 # Data URL:
 #   https://www.itl.nist.gov/div898/handbook/datasets/RANDU.DAT
 # 説明 ####
 # NIST Statistic Handbook 1.3.3.4のブートストラップ・プロット
-# データなしのプロットエリアを描画しておき、rect()でボックスを描画する
-# ボックスのグルーピングはマニュアルで調整が必要です。
 # 
 # デフォルト環境の保存と調整 ####
 original_par <- par(no.readonly = TRUE)
@@ -60,7 +58,7 @@ midci = paste("90% CI: ", "(", round(z3$basic[4],4), ", ",
 
 
 # プロット####
-par(mfrow=c(2,3))
+par(mfrow=c(2,3),par(yaxs="r"))
 plot(b1$t,type="l",xlab="",ylab="",main=meanci)
 plot(b2$t,type="l",xlab="",ylab="",main=medci)
 plot(b3$t,type="l",xlab="",ylab="",main=midci)
