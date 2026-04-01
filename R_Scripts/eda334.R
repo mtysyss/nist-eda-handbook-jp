@@ -61,24 +61,24 @@ midci = paste("90% CI: ", "(", round(z3$basic[4],4), ", ",
 
 # プロット####
 par(mfrow=c(2,3))
-plot(b1$t,type="l",ylab="Mean",main=meanci)
-plot(b2$t,type="l",ylab="Median",main=medci)
-plot(b3$t,type="l",ylab="Midrange",main=midci)
+plot(b1$t,type="l",xlab="",ylab="",main=meanci)
+plot(b2$t,type="l",xlab="",ylab="",main=medci)
+plot(b3$t,type="l",xlab="",ylab="",main=midci)
 
 # ヒストグラムは、描画を調整
 par(yaxs="i")
 h1 <- hist(b1$t,breaks = 25, plot = FALSE)
 max_y1 <- max(h1$counts) * 1.1
-hist(b1$t,breaks = 25, ylim = c(0, max_y1), main="Bootstrap Mean",xlab="Mean", xlim = c(0.45,0.55))
+hist(b1$t,breaks = 25, ylim = c(0, max_y1), main="Bootstrap Mean",xlab="",ylab="", xlim = c(0.45,0.55))
 box()
 
 h2 <- hist(b2$t,breaks = 25, plot = FALSE)
 max_y2 <- max(h2$counts) * 1.1
-hist(b2$t,breaks = 25, ylim = c(0, max_y2),main="Bootstrap Median",xlab="Median", xlim = c(0.45,0.55))
+hist(b2$t,breaks = 25, ylim = c(0, max_y2),main="Bootstrap Median",xlab="",ylab="", xlim = c(0.45,0.55))
 box()
 
 h3 <- hist(b3$t,breaks = 25, plot = FALSE)
 max_y3 <- max(h3$counts) * 1.1
-hist(b3$t,breaks = 25, ylim = c(0, max_y3),main="Bootstrap Midrange",xlab="Midrange", xlim = c(0.45,0.55))
+hist(b3$t,breaks = 25, ylim = c(0, max_y3),main="Bootstrap Midrange",xlab="",ylab="", xlim = c(0.45,0.55))
 box()
 par(original_par)
