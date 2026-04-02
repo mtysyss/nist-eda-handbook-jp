@@ -26,12 +26,12 @@ par(mar = c(3,3,2.5,1), # プロットエリア外周余白の調整
 # データの読み込み ####
 url <- "https://www.itl.nist.gov/div898/handbook/datasets/JONES.DAT"
 data <- read.table(url,skip=25)
+# 列名の割り当て
+colnames(data) <- c("Density","Temperature")
 
 # プロットエリアの設定####
 par(mfrow = c(2,2))
 ## データの生成 ####
-# 列名の割り当て
-colnames(data) <- c("Density","Temperature")
 
 ## 線形回帰モデルの計算####
 fit <- lm( data$Density ~ data$Temperature)

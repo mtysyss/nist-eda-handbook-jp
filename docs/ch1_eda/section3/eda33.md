@@ -35,7 +35,7 @@
 [Box-Cox 線形プロット: 1.3.3.5](eda335.md)
 
 ![Box-Cox Normality Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/boxcox.gif)  
-[Box-Cox 正規性プロット: 1.3.3.6](boxcox.md)  
+[Box-Cox 正規性プロット: 1.3.3.6](eda336.md)  
 
 ![Box Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/boxplot.gif)  
 [ ボックス・プロット: 1.3.3.7](boxplot.md)  
