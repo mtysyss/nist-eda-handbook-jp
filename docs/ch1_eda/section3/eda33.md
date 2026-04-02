@@ -38,7 +38,7 @@
 [Box-Cox 正規性プロット: 1.3.3.6](eda336.md)  
 
 ![Box Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/boxplot.gif)  
-[ ボックス・プロット: 1.3.3.7](boxplot.md)  
+[ ボックス・プロット: 1.3.3.7](eda337.md)  
 
 ![Demodulation Amplitude Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/cdampplo.gif)  
 [複素復調振幅プロット: 1.3.3.8](compdeam.md)  
