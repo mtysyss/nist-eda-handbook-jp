@@ -6,7 +6,7 @@
 
 ---
 
-# 1.3.3. 図表現技法：英語アルファベット順  
+# 1.3.3. 図表現技法：アルファベット順  
 
 この節では、いくつかの有用な図表現技法のギャラリーを提供する。
 技法をアルファベット順に並べられていが、順番通りに読むことを意図していない。
@@ -38,7 +38,7 @@
 [Box-Cox 正規性プロット: 1.3.3.6](eda336.md)  
 
 ![Box Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/boxplot.gif)  
-[ ボックス・プロット: 1.3.3.7](eda337.md)  
+[ 箱ひげ図: 1.3.3.7](eda337.md)  
 
 ![Demodulation Amplitude Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/cdampplo.gif)  
 [複素復調振幅プロット: 1.3.3.8](compdeam.md)  
@@ -108,7 +108,7 @@
 [散布図: 1.3.3.26](scatterp.md)  
 
 ![Spectrum]( https://www.itl.nist.gov/div898/handbook/eda/gif100/spectrum.gif)  
-[スペクトル図: 1.3.3.27](spectrum.md)  
+[スペクトル図: 1.3.3.27](eda33r.md)  
 
 ![Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/sdplot.gif)  
 [標準偏差プロット: 1.3.3.28](sdplot.md)  
