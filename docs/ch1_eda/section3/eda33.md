@@ -41,12 +41,12 @@
 [ 箱ひげ図: 1.3.3.7](eda337.md)  
 
 ![Demodulation Amplitude Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/cdampplo.gif)  
-[複素復調振幅プロット: 1.3.3.8](compdeam.md)  
+[複素復調振幅プロット: 1.3.3.8](eda338.md)  
 
 <!-----row 3----->
 
 ![Complex Demodulation Phase Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/cdphasep.gif)  
-[複素復調フェーズ・プロット: 1.3.3.9](compdeph.md)
+[複素復調フェーズ・プロット: 1.3.3.9](eda339.md)
 
 ![Contour Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/contourp.gif)  
 [等高線図: 1.3.3.10](contour.md)
