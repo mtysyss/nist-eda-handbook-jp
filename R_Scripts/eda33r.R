@@ -25,7 +25,6 @@ colnames(data) <- c("Deflection")
 
 y <- data$Deflection
 
-y <- data$Deflection
 # スペクトル密度の計算とプロット####
 # spec.pgram 関数を使用
 # detrend=TRUE: トレンドを除去
