@@ -49,7 +49,7 @@
 [複素復調フェーズ・プロット: 1.3.3.9](eda339.md)
 
 ![Contour Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/contourp.gif)  
-[等高線図: 1.3.3.10](contour.md)
+[等高線図: 1.3.3.10](eda33a.md)
 
 ![DOE Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexscatp.gif)  
 [DOE 散布図: 1.3.3.11](dexsplot.md)  
