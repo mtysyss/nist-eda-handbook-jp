@@ -19,7 +19,7 @@ DOE平均プロットは、実験計画おける従来の[分散分析](../../pp
 
 #### サンプルプロット：因子4、2、1が最も重要な因子
 ![1.3.3.12.DOE Mean Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/eda_dexboxbike_r02.gif)    
-この[BOXBIKE2.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/BOXBIKE2.DAT)のDOE平均プロットのサンプルは、以下のことを示している。
+この[BOXBIKE2.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/BOXBIKE2.DAT)のDOE平均プロットのサンプルは、以下のことを示している。 
 
 1. 因子4が最も重要である。  
 2. 因子2が2番目に重要である。  
@@ -63,7 +63,7 @@ DOE平均プロットはこうした質問に答えるのに理想的に適し�
 このプロットは、最も重要な因子がX1であり、最も重要な交互作用がX1とX3の間にあることを示している。 
 
 #### 関連技術
-[DOE散布図](eda33b.md) 
+[DOE散布図](eda33b.md)  
 [DOE標準偏差プロット](eda33d.md)  
 [ブロック・プロット](eda333.md)  
 [箱ひげ図](eda337.md)  
