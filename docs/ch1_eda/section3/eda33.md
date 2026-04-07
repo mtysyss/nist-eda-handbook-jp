@@ -63,7 +63,7 @@
 [DOE 標準偏差プロット: 1.3.3.13](eda33d.md)  
 
 ![Histogram]( https://www.itl.nist.gov/div898/handbook/eda/gif100/histogra.gif)  
-[ヒストグラム: 1.3.3.14](histogra.md)  
+[ヒストグラム: 1.3.3.14](eda33e.md)  
 
 ![Lag Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lagplot.gif)  
 [ラグ・プロット: 1.3.3.15](lagplot.md)  
