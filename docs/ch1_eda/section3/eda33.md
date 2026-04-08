@@ -66,7 +66,7 @@
 [ヒストグラム: 1.3.3.14](eda33e.md)  
 
 ![Lag Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lagplot.gif)  
-[ラグ・プロット: 1.3.3.15](lagplot.md)  
+[遅延プロット: 1.3.3.15](eda33f.md)  
 
 ![Linear Correlation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lincorrp.gif)  
 [線形相関プロット: 1.3.3.16](linecorr.md)  
