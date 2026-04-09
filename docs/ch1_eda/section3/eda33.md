@@ -69,18 +69,18 @@
 [遅延プロット: 1.3.3.15](eda33f.md)  
 
 ![Linear Correlation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lincorrp.gif)  
-[線形相関プロット: 1.3.3.16](linecorr.md)  
+[線形相関プロット: 1.3.3.16](eda33g.md)  
 
 <!-----row 5----->
 
 ![Linear Intercept Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linintpl.gif)  
-[線形切片プロット 1.3.3.17](lineinte.md)  
+[線形切片プロット 1.3.3.17](eda33h.md)  
 
 ![Linear Slope Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linslopl.gif)  
-[線形傾きプロット: 1.3.3.18](lineslop.md)
+[線形傾きプロット: 1.3.3.18](eda33i.md)
 
 ![Linear Residual Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linrsdpl.gif)  
-[線形残差標準偏差プロット: 1.3.3.19](linressd.md)  
+[線形残差標準偏差プロット: 1.3.3.19](eda33j.md)  
 
 ![Mean Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/meanplot.gif)  
 [平均プロット: 1.3.3.20](meanplot.md)  
