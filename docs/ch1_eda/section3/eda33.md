@@ -83,12 +83,12 @@
 [線形残差標準偏差プロット: 1.3.3.19](eda33j.md)  
 
 ![Mean Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/meanplot.gif)  
-[平均プロット: 1.3.3.20](meanplot.md)  
+[平均プロット: 1.3.3.20](eda33k.md)  
 
 <!-----row 6----->
 
 ![Normal Probability Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/normprpl.gif)  
-[正規確率プロット: 1.3.3.21](normprpl.md)
+[正規確率プロット: 1.3.3.21](eda33l.md)
 
 ![Probability Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/probplot.gif)  
 [確率プロット: 1.3.3.22](probplot.md)  
