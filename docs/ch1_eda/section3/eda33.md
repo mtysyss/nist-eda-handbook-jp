@@ -102,7 +102,7 @@
 <!-----row 7----->
 
 ![Run Sequence Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif)  
-[連シーケンス・プロット: 1.3.3.25](runseqpl.md)   
+[実行順序プロット: 1.3.3.25](runseqpl.md)   
 
 ![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)  
 [散布図: 1.3.3.26](scatterp.md)  

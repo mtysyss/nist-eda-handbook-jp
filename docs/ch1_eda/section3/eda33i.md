@@ -19,7 +19,7 @@
 代わりに異なるデータ集合があり、同じ近似が各データ集合に適切に適用できるかを知りたいときがある。
 この場合、各データ集合を単純に群と考えし、群に線形傾きプロットを適用する。 
 
-#### サンプルプロット
+#### プロット例  
 ![1.3.3.18.Linear Slope Plot](https://www.itl.nist.gov/div898/handbook/eda/gif/linslopl.gif)  
 [HSU12.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/HSU12.DAT)のこの線形傾きプロットは、全群において傾きが約0.174（±0.002）であることを示している。
 傾きの変動に特定のパターンは観られない。

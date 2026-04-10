@@ -24,7 +24,7 @@
 
 本節の[例](eda33e.md#examples)では、ヒストグラムによって明らかにされるいくつかの一般的な特徴の外観を示す。   
 
-#### サンプルプロット
+#### プロット例  
 ![ample histogram](https://www.itl.nist.gov/div898/handbook/eda/gif/histogr0.gif)  
 上記のプロットは、[光のMichelson速度データ集合](https://www.itl.nist.gov/div898/handbook/datasets/MICHELSO.DAT)のヒストグラムである。  
 

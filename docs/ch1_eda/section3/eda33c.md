@@ -17,7 +17,7 @@ DOE平均プロットは、重要な因子について、各因子が2つ以上�
 DOE平均プロットは、実験計画おける従来の[分散分析](../../ppc/section2/ppc23.md)を補完するものである。 
 このプロットは通常、平均値に対して作成する。ただし、中央値などの他の位置統計量に対しても作成しても良い。 
 
-#### サンプルプロット：因子4、2、1が最も重要な因子
+#### プロット例  因子4、2、1が最も重要な因子
 ![1.3.3.12.DOE Mean Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/eda_dexboxbike_r02.gif)    
 この[BOXBIKE2.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/BOXBIKE2.DAT)のDOE平均プロットのサンプルは、以下のことを示している。 
 

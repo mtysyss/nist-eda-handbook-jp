@@ -18,7 +18,7 @@ DOE標準偏差プロットは、実験計画の従来の[分散分析](../../pp
 このプロットは通常、標準偏差に対して作成する。
 しかし、範囲、絶対偏差の中央値、平均絶対偏差などの他の尺度統計量に対しても作成可能である。 
 
-#### サンプルプロット
+#### プロット例  
 ![sample DOE Standard Deviation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/eda_dexboxbike_r03.gif)  
 [BOXBIKE2.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/BOXBIKE2.DAT)のこのDOE標準偏差プロットのサンプルは、以下のことを示している。
 

@@ -18,7 +18,7 @@
 群がない場合もあるかもしれない。代わりに異なるデータ集合があり、単一の近似を各データ集合に適切に適用できるかを知りたいこともある。
 この場合には、単純に異なるデータ集合を群として扱い、群ごとに線形切片プロットを適用する。
 
-#### サンプル・プロット
+#### プロット例
 ![1.3.3.17.Linear Intercept Plot](https://www.itl.nist.gov/div898/handbook/eda/gif/linintpl.gif)  
 [HSU12.DAT データ集合](https://www.itl.nist.gov/div898/handbook/datasets/HSU12.DAT)のこの線形切片プロットは、切片に偏位があることを示している。
 最初の3つの切片は他の群よりも低い値になっている。

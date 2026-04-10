@@ -15,7 +15,7 @@
 遅延プロットに非無作為な構造が認められる場合、元のデータが無作為でないことを示す。
 以下に示す[例](eda33f.md#例)には、遅延プロットの代表的なパターンがいくつか含まれている。
 
-#### サンプル・プロット
+#### プロット例
 ![1.3.3.15.Lag Plot](https://www.itl.nist.gov/div898/handbook/eda/gif/lagplot0.gif)  
 
 [MAVRO.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/MAVRO.DAT)のこのサンプル遅延プロットは線形パターンを示している。
