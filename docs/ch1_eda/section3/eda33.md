@@ -91,10 +91,10 @@
 [正規確率プロット: 1.3.3.21](eda33l.md)
 
 ![Probability Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/probplot.gif)  
-[確率プロット: 1.3.3.22](probplot.md)  
+[確率プロット: 1.3.3.22](eda33m.md)  
 
 ![Probability Plot Correlation Coefficient Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/ppccplot.gif)  
-[確率プロット相関係数プロット: 1.3.3.23](ppccplot.md)  
+[確率プロット相関係数プロット: 1.3.3.23](eda33n.md)  
 
 ![Quantile-Quantile Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/qqplot.gif)  
 [分位数-分位数プロット: 1.3.3.24](qqplot.md)  
