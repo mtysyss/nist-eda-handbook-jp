@@ -49,10 +49,10 @@ draw_batch_qq <- function(x_batch, y_batch, x_label = "Batch 2", y_label = "Batc
   
   # ラベル描画####
   mtext(x_label, side = 1, line = 1.8)
-  mtext(y_label, side = 2, line = max_digits*0.3 + 0.2, las = 3)
+  mtext(y_label, side = 2, line = max_digits*0.3+0.2, las = 3)
 }
 
-# データ前処理####
+# データの読み込み####
 batches <- with(data, split(Y[Bat %in% 1:2], Bat[Bat %in% 1:2]))
 # プロット####
 draw_batch_qq(batches$`2`, batches$`1`)

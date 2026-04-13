@@ -18,7 +18,7 @@
 正規確率プロットは[確率プロット](eda33m.md)の特殊な例である。
 正規確率プロットは、多くの応用において重要であるため、別途取り上げる。
 
-#### プロットの例
+プロット例
 ![1.3.3.21.Normal Probability Plot](https://www.itl.nist.gov/div898/handbook/eda/gif/normprpl.gif)  
 
 [100個の正規乱数](https://www.itl.nist.gov/div898/handbook/datasets/NORMAL.DAT)に関する正規確率プロットの点は、ほぼ直線的なパターンを形成しており、正規分布がこのデータ集合に対する適切なモデルであることを示している。 

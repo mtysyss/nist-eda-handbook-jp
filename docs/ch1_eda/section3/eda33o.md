@@ -29,7 +29,7 @@ q-qプロットの利点は以下の通り。
 q-qプロットは[確率プロット](eda33m.md)に似ている。
 確率プロットでは、一方のデータ標本の分位数が、理論分布の分位数に置き換えられる。 
 
-#### プロットの例
+#### プロット例
 ![1.3.3.24.Quantile-Quantile Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/qqplot.gif)  
 
 この[JAHANMI2.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/JAHANMI2.DAT)のq-qプロットは、以下のことを示している。

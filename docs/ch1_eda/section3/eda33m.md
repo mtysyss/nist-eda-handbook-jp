@@ -24,7 +24,7 @@
 
 [正規確率プロット](eda33l.md)は多くの統計的応用において重要であるため、その具体的な事例を別途取り上げる。 
 
-#### プロットの例
+#### プロット例
 ![1.3.3.22.Probability Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/probplot.gif)  
 
 このデータは、形状母数 = 2、位置母数 = 0、尺度母数= 1 の[ワイブル](eda3668.md)に従う 500個の[乱数](https://www.itl.nist.gov/div898/handbook/datasets/RANDWEIB.DAT)の集合である。
