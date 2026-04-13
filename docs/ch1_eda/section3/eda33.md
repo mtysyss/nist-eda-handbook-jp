@@ -105,7 +105,7 @@
 [実行順序プロット: 1.3.3.25](eda33p.md)   
 
 ![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)  
-[散布図: 1.3.3.26](scatterp.md)  
+[散布図: 1.3.3.26](eda33q.md)  
 
 ![Spectrum]( https://www.itl.nist.gov/div898/handbook/eda/gif100/spectrum.gif)  
 [スペクトル図: 1.3.3.27](eda33r.md)  
