@@ -97,7 +97,7 @@
 [確率プロット相関係数プロット: 1.3.3.23](eda33n.md)  
 
 ![Quantile-Quantile Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/qqplot.gif)  
-[分位数-分位数プロット: 1.3.3.24](qqplot.md)  
+[分位数-分位数プロット: 1.3.3.24](eda33o.md)  
 
 <!-----row 7----->
 
