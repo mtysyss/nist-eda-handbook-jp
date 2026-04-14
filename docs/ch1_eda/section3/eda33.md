@@ -116,7 +116,7 @@
 <!-----row 8----->
 
 ![Star Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/starplot.gif)  
-[ スター・プロット: 1.3.3.29](eda33t.md)  
+[ 星図: 1.3.3.29](eda33t.md)  
 
 ![Weibull Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif)  
 [Weibullプロット: 1.3.3.30](weibplot.md)  

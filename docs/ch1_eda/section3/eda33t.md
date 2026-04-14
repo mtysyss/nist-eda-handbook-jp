@@ -58,7 +58,7 @@ AMCモデルは低価格傾向にあり、燃費は平均以下、高さ・重�
 その主な欠点は、数百点未満のデータ集合にのみに有効であることである。
 それ以上の規模では、情報量が多過ぎる。  
 
-大規模データ集合に適した図表現技法に関しては、[スコット](../section4/eda43.md#SCOTT)で議論されている。 
+大規模データ集合に適した図表現技法に関しては、[Scott](../section4/eda43.md#SCOTT)で議論されている。 
 
 #### 関連技法
 多変量データをプロットする代替手法は、[Chambers](../section4/eda43.md#Chambers),[du Toit](../section4/eda43.md#du Toit), および[Everitt](../section4/eda43.md#Everitt) で議論されている。
