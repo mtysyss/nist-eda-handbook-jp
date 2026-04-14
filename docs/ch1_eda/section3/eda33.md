@@ -111,12 +111,12 @@
 [スペクトル図: 1.3.3.27](eda33r.md)  
 
 ![Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/sdplot.gif)  
-[標準偏差プロット: 1.3.3.28](sdplot.md)  
+[標準偏差プロット: 1.3.3.28](eda33s.md)  
 
 <!-----row 8----->
 
 ![Star Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/starplot.gif)  
-[ スター・プロット: 1.3.3.29](starplot.md)  
+[ スター・プロット: 1.3.3.29](eda33t.md)  
 
 ![Weibull Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif)  
 [Weibullプロット: 1.3.3.30](weibplot.md)  
