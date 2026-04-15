@@ -9,15 +9,11 @@
 # 1.3.4. 図表現技法：問題区分別
 
 #### 単変量<br>$`y=c+e`$
-
-![Run Sequence Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif)  
-[実行順序プロット: 1.3.3.25](eda33p.md)  
-
-![Lag Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lagplot.gif)  
-[遅延プロット: 1.3.3.15](eda33f.md)  
-
-![Histogram]( https://www.itl.nist.gov/div898/handbook/eda/gif100/histogra.gif)  
-[ヒストグラム: 1.3.3.14](eda33e.md)  
+|   |   |   |  
+| --- | --- | --- |  
+| ![Run Sequence Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif)  
+[実行順序プロット: 1.3.3.25](eda33p.md) | ![Lag Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lagplot.gif)  
+[遅延プロット: 1.3.3.15](eda33f.md) | ![Histogram]( https://www.itl.nist.gov/div898/handbook/eda/gif100/histogra.gif)  [ヒストグラム: 1.3.3.14](eda33e.md) |  
 
 ![Normal Probability Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/normprpl.gif)  
 [正規確率プロット: 1.3.3.21](eda33l.md)
@@ -91,9 +87,10 @@
 ---
 #### 多因子/スクリーニング<br>$`y=f(x_1,x_2,x_3,...,x_k)+e`$
 
-|   |   |   |   |    
-| --- | --- | --- | --- |  
-| ![DOE Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexscatp.gif)<br>[DOE 散布図: 1.3.3.11](eda33b.md) | ![DOE Mean Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexmeanp.gif)<br>[DOE 平均プロット: 1.3.3.12](eda33c.md) | ![DOE Standard Deviation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/dexsdplo.gif)<br>[DOE 標準偏差プロット: 1.3.3.13](eda33d.md) | ![Contour Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/contourp.gif)<br>[等高線図: 1.3.3.10](eda33a.md) |  
+|   |   |   |  
+| --- | --- | --- |  
+| ![DOE Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexscatp.gif)<br>[DOE 散布図: 1.3.3.11](eda33b.md) | ![DOE Mean Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexmeanp.gif)<br>[DOE 平均プロット: 1.3.3.12](eda33c.md) | ![DOE Standard Deviation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/dexsdplo.gif)<br>[DOE 標準偏差プロット: 1.3.3.13](eda33d.md) |  
+| ![Contour Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/contourp.gif)<br>[等高線図: 1.3.3.10](eda33a.md) |  |  |  
 
 ---
 #### 回帰<br>$`y=f(x_1,x_2,x_3,...,x_k)+e`$
