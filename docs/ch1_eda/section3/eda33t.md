@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/starplot.htm)
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/starplot.htm)  
 閲覧(UTC)：2026-03-05 09:16:30
 
 1. [探索的データ解析](../eda.md)  

@@ -119,18 +119,18 @@
 [ 星図: 1.3.3.29](eda33t.md)  
 
 ![Weibull Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif)  
-[Weibullプロット: 1.3.3.30](weibplot.md)  
+[Weibullプロット: 1.3.3.30](eda33u.md)  
 
 ![Youden Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/youdenpl.gif)  
-[Youden プロット: 1.3.3.31](youdplot.md)  
+[Youden プロット: 1.3.3.31](eda33v.md)  
 
 ![4-Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/4plot.gif)  
-[4-プロット: 1.3.3.32](4plot.md)  
+[4-プロット: 1.3.3.32](eda33w.md)  
 
 <!-----row 9----->
 
 ![6-Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/6plot.gif)  
-[6-プロット: 1.3.3.33](6plot.md)
+[6-プロット: 1.3.3.33](eda33x.md)
 
 <!-----end jjf----->
 
