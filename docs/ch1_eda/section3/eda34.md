@@ -11,33 +11,14 @@
 #### 単変量<br>$`y=c+e`$
 |   |   |   |  
 | --- | --- | --- |  
-| ![Run Sequence Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif)  
-[実行順序プロット: 1.3.3.25](eda33p.md) | ![Lag Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lagplot.gif)  
-[遅延プロット: 1.3.3.15](eda33f.md) | ![Histogram]( https://www.itl.nist.gov/div898/handbook/eda/gif100/histogra.gif)  [ヒストグラム: 1.3.3.14](eda33e.md) |  
+| ![Run Sequence Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif)<br>[実行順序プロット: 1.3.3.25](eda33p.md) | ![Lag Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lagplot.gif)<br>[遅延プロット: 1.3.3.15](eda33f.md) | ![Histogram]( https://www.itl.nist.gov/div898/handbook/eda/gif100/histogra.gif)<br>[ヒストグラム: 1.3.3.14](eda33e.md) |  
 
-![Normal Probability Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/normprpl.gif)  
-[正規確率プロット: 1.3.3.21](eda33l.md)
+| ![Normal Probability Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/normprpl.gif)<br>>[正規確率プロット: 1.3.3.21](eda33l.md) | ![4-Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/4plot.gif)<br>[4-プロット: 1.3.3.32](eda33w.md) | ![Probability Plot Correlation Coefficient Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/ppccplot.gif)<br>
+[確率プロット相関係数プロット: 1.3.3.23](eda33n.md) |  
 
-![4-Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/4plot.gif)  
-[4-プロット: 1.3.3.32](eda33w.md)  
+| ![Weibull Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif)<br>[Weibullプロット: 1.3.3.30](eda33u.md) | ![Probability Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/probplot.gif)<br>[確率プロット: 1.3.3.22](eda33m.md) | ![Box-Cox Linearity Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/boxcoxli.gif)<br>[Box-Cox 線形性プロット: 1.3.3.5](eda335.md) |  
 
-![Probability Plot Correlation Coefficient Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/ppccplot.gif)  
-[確率プロット相関係数プロット: 1.3.3.23](eda33n.md)  
-
-![Weibull Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif)  
-[Weibullプロット: 1.3.3.30](eda33u.md)  
-
-![Probability Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/probplot.gif)  
-[確率プロット: 1.3.3.22](eda33m.md)  
-
-![Box-Cox Linearity Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/boxcoxli.gif)  
-[Box-Cox 線形性プロット: 1.3.3.5](eda335.md)
-
-![Box-Cox Normality Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/boxcox.gif)  
-[Box-Cox 正規性プロット: 1.3.3.6](eda336.md)  
-
-![Bootstrap Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif)  
-[ブートストラップ・プロット: 1.3.3.4](eda334.md) 
+| ![Box-Cox Normality Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/boxcox.gif)<br>[Box-Cox 正規性プロット: 1.3.3.6](eda336.md) | ![Bootstrap Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif)<br>[ブートストラップ・プロット: 1.3.3.4](eda334.md) | |  
 
 ---
 #### 時系列<br>$`y=f(t)+e`$
