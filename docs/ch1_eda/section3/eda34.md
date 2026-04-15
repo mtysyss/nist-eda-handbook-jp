@@ -7,6 +7,7 @@
 ---
 
 # 1.3.4. 図表現技法：問題区分別
+
 ---
 #### 単変量<br>$`y=c+e`$
 
@@ -80,14 +81,16 @@
 [平均プロット: 1.3.3.20](eda33k.md)  
 
 ![Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/sdplot.gif)  
-[標準偏差プロット: 1.3.3.28](eda33s.md) 
+[標準偏差プロット: 1.3.3.28](eda33s.md)  
+
 ---
-#### 多因子/比較<br>$`y=f(xp, x1,x2,...,xk)+e`$
+#### 多因子/比較<br>$`y=f(x_p, x_1,x_2,...,x_k)+e`$
 
 ![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)  
 [ブロック・プロット: 1.3.3.3](eda333.md)  
+
 ---
-#### 多因子/スクリーニング<br>$`y=f(x1,x2,x3,...,xk)+e`$
+#### 多因子/スクリーニング<br>$`y=f(x_1,x_2,x_3,...,x_k)+e`$
 
 ![DOE Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexscatp.gif)  
 [DOE 散布図: 1.3.3.11](eda33b.md)  
@@ -99,9 +102,10 @@
 [DOE 標準偏差プロット: 1.3.3.13](eda33d.md)  
 
 ![Contour Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/contourp.gif)  
-[等高線図: 1.3.3.10](eda33a.md)
+[等高線図: 1.3.3.10](eda33a.md)  
+
 ---
-#### 回帰<br>$`y=f(x1,x2,x3,...,xk)+e`$
+#### 回帰<br>$`y=f(x_1,x_2,x_3,...,x_k)+e`$
 
 ![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)  
 [散布図: 1.3.3.26](eda33q.md)  
@@ -120,13 +124,15 @@
 
 ![Linear Residual Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linrsdpl.gif)  
 [線形残差標準偏差プロット: 1.3.3.19](eda33j.md)  
+
 ---
-#### 試験所間<br>$`(y1,y2)=f(x)+e`$
+#### 試験所間<br>$`(y_1,y_2)=f(x)+e`$
 
 ![Youden Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/youdenpl.gif)  
 [Youden プロット: 1.3.3.31](eda33v.md)  
+
 ---
-#### 多変量<br>$`(y1,y2,...,yp)`$
+#### 多変量<br>$`(y_1,y_2,...,y_p)`$
 
 ![Star Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/starplot.gif)  
 [星図: 1.3.3.29](eda33t.md) 
