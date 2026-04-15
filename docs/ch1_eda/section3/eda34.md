@@ -91,7 +91,7 @@
 ---
 #### 多因子/スクリーニング<br>$`y=f(x_1,x_2,x_3,...,x_k)+e`$
 
-|   |   |   |  
+|   |   |   |   |    
 | --- | --- | --- | --- |  
 | ![DOE Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexscatp.gif)  
 [DOE 散布図: 1.3.3.11](eda33b.md) | ![DOE Mean Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/dexmeanp.gif) | [DOE 平均プロット: 1.3.3.12](eda33c.md)|![DOE Standard Deviation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/dexsdplo.gif) | [DOE 標準偏差プロット: 1.3.3.13](eda33d.md)|![Contour Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/contourp.gif) | [等高線図: 1.3.3.10](eda33a.md) |  
