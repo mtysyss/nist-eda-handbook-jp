@@ -16,18 +16,11 @@
 <!-----row 1----->
 
 <!--- リンク統一　--->
-
-![Autocorrelation Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/autocopl.gif)  
-[自己相関プロット: 1.3.3.1](eda331.md)  
-
-![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)  
-[対比ヒストグラム: 1.3.3.2](eda332.md)  
-
-![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)  
-[ブロック・プロット: 1.3.3.3](eda333.md)    
-
-![Bootstrap Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif)  
-[ブートストラップ・プロット: 1.3.3.4](eda334.md)  
+|   |   |   |   |  
+|:---:|:---:|:---:|:---:|   
+| ![Autocorrelation Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/autocopl.gif)  
+<br>[自己相関プロット: 1.3.3.1](eda331.md) | ![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)<br>[対比ヒストグラム: 1.3.3.2](eda332.md) | ![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)<br>[ブロック・プロット: 1.3.3.3](eda333.md) | ![Bootstrap Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif)  
+<br>[ブートストラップ・プロット: 1.3.3.4](eda334.md) |  
 
 <!-----row 2----->
 
