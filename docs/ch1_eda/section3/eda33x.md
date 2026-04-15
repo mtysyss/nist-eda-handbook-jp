@@ -17,9 +17,9 @@
 1. [応答および予測値対独立変数の散布図](scatterp.md)  
 2. [残差対独立変数の散布図](scatterp.md)  
 3. [残差対予測値の散布図](scatterp.md)  
-4. [残差の遅延プロット](lagplot.md)  
-5. [残差のヒストグラム](histogra.md)  
-6. [残差の正規確率プロット](normprpl.md)  
+4. [残差の遅延プロット](eda33f.md)  
+5. [残差のヒストグラム](eda33e.md)  
+6. [残差の正規確率プロット](eda33l.md)  
 
 #### プロット例  
 ![1.3.3.33. 6-Plot](http://www.itl.nist.gov/div898/handbook/eda/gif/6plot.gif)  
@@ -84,10 +84,10 @@ $$Y_i=f(X_i)+E_i$$
 [線形最小二乗法](../../pmd/section1/pmd141.md)  
 [非線形最小二乗法](../../pmd/section1/pmd142.md)  
 [散布図](scatterp.md)  
-[実行順序プロット](runseqpl.md)  
-[遅延プロット](lagplot.md)  
-[正規確率プロット](normprpl.md)  
-[ヒストグラム](histogra.md)  
+[実行順序プロット](eda33p.md)  
+[遅延プロット](eda33f.md)  
+[正規確率プロット](eda33l.md)  
+[ヒストグラム](eda33e.md)  
 
 
 #### 事例研究

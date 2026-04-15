@@ -29,7 +29,7 @@
 一方、統計ツールには一般的に図表現技法と呼ばれる膨大な蓄積がある。これには以下が含まれる：
 
 * [散布図](../section3/scatterp.md)
-* [ヒストグラム](../section3/histogra.md)
+* [ヒストグラム](../section3/eda33e.md)
 * [確率プロット](../section3/probplot.md)
 * [残差プロット](../section3/6plot.md)
 * [箱ひげ図](../section3/boxplot.md)
