@@ -8,7 +8,6 @@
 
 # 1.3.4. 図表現技法：問題区分別
 
----
 #### 単変量<br>$`y=c+e`$
 
 ![Run Sequence Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif)  
