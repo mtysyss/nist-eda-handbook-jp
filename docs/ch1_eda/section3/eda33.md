@@ -38,7 +38,7 @@
 [Box-Cox 正規性プロット: 1.3.3.6](eda336.md)  
 
 ![Box Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/boxplot.gif)  
-[ 箱ひげ図: 1.3.3.7](eda337.md)  
+[箱ひげ図: 1.3.3.7](eda337.md)  
 
 ![Demodulation Amplitude Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/cdampplo.gif)  
 [複素復調振幅プロット: 1.3.3.8](eda338.md)  
@@ -116,7 +116,7 @@
 <!-----row 8----->
 
 ![Star Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/starplot.gif)  
-[ 星図: 1.3.3.29](eda33t.md)  
+[星図: 1.3.3.29](eda33t.md)  
 
 ![Weibull Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif)  
 [Weibullプロット: 1.3.3.30](eda33u.md)  
