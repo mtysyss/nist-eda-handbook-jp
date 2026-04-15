@@ -25,24 +25,10 @@
 
 ---
 #### 1因子<br>$`y=f(x)+e`$
-
-![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)  
-[散布図: 1.3.3.26](eda33q.md)  
-
-![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)  
-[ブロック・プロット: 1.3.3.3](eda333.md)  
-
-![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)  
-[対比ヒストグラム: 1.3.3.2](eda332.md) 
-
-![Quantile-Quantile Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/qqplot.gif)  
-[分位数-分位数プロット: 1.3.3.24](eda33o.md)  
-
-![Mean Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/meanplot.gif)  
-[平均プロット: 1.3.3.20](eda33k.md)  
-
-![Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/sdplot.gif)  
-[標準偏差プロット: 1.3.3.28](eda33s.md)  
+|   |   |   |  
+|:---:|:---:|:---:|  
+| ![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)<br>[散布図: 1.3.3.26](eda33q.md) | ![Block Plot](https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif)<br>[ブロック・プロット: 1.3.3.3](eda333.md) | ![Bihistogram](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)<br>[対比ヒストグラム: 1.3.3.2](eda332.md) |  
+| ![Quantile-Quantile Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/qqplot.gif)<br>[分位数-分位数プロット: 1.3.3.24](eda33o.md) | ![Mean Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/meanplot.gif)<br>[平均プロット: 1.3.3.20](eda33k.md) | ![Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/sdplot.gif)<br>[標準偏差プロット: 1.3.3.28](eda33s.md) |  
 
 ---
 #### 多因子/比較<br>$`y=f(x_p, x_1,x_2,...,x_k)+e`$
@@ -60,24 +46,12 @@
 
 ---
 #### 回帰<br>$`y=f(x_1,x_2,x_3,...,x_k)+e`$
-
-![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)  
-[散布図: 1.3.3.26](eda33q.md)  
-
-![6-Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/6plot.gif)  
-[6-プロット: 1.3.3.33](eda33x.md)
-
-![Linear Correlation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lincorrp.gif)  
-[線形相関プロット: 1.3.3.16](eda33g.md)  
-
-![Linear Intercept Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linintpl.gif)  
-[線形切片プロット 1.3.3.17](eda33h.md)  
-
-![Linear Slope Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linslopl.gif)  
-[線形傾きプロット: 1.3.3.18](eda33i.md)
-
-![Linear Residual Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linrsdpl.gif)  
-[線形残差標準偏差プロット: 1.3.3.19](eda33j.md)  
+|   |   |   |  
+| --- | --- | --- |  
+| ![Scatter Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif)  
+[散布図: 1.3.3.26](eda33q.md) | ![6-Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/6plot.gif) [6-プロット: 1.3.3.33](eda33x.md) | ![Linear Correlation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/lincorrp.gif)  
+[線形相関プロット: 1.3.3.16](eda33g.md) |  
+| ![Linear Intercept Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linintpl.gif)<br>[線形切片プロット 1.3.3.17](eda33h.md) | ![Linear Slope Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100/linslopl.gif)<br>[線形傾きプロット: 1.3.3.18](eda33i.md) | ![Linear Residual Standard Deviation Plot]( https://www.itl.nist.gov/div898/handbook/eda/gif100<br>linrsdpl.gif)<br>[線形残差標準偏差プロット: 1.3.3.19](eda33j.md) |  
 
 ---
 #### 試験所間<br>$`(y_1,y_2)=f(x)+e`$
