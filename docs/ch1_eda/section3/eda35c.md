@@ -110,11 +110,11 @@ $$Y\_{i} = A\_0 + E\_{i}$$
 #### 事例研究
 [熱流量計](../section4/eda428.md)のデータは、データが無作為過程に由来するかを判断するために自己相関が用いられる。
 
-#### ソフトウェア  
+#### ソフトウェア
 自己相関機能は、ほとんどの汎用統計ソフトウェア・プログラムで利用可能である。
 本節の分析出力には、[Dataplotコード](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35c.dp)と[Rコード](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35c.r)の両方が使用できる。
 これらのスクリプトは[LEW.DAT](https://www.itl.nist.gov/div898/handbook/datasets/LEW.DAT)データ・ファイルを使用する。
----
 
+---
 #### 訳註  
 * 原典の各リンクは節識別番号ではなく節名を基準に設定されて箇所があります。mdファイルのリンク先は節識別番号だけを表示するmdファイルになっています。 
