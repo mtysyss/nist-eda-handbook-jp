@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section1/eda13.htm)  
-閲覧(UTC)：2026-03-03 02:18:54
+閲覧(UTC)：2026-03-03 02:18:54  
+[⬅️](eda126.md)   [➡️](eda14.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.1. [EDA入門](eda1.md)
