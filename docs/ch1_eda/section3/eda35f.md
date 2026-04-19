@@ -21,7 +21,7 @@
 カイ二乗検定は、[Anderson-Darling](eda35e.md) 検定および [Kolmogorov-Smirnov](eda35g.md) 適合度検定の代替である。
 カイ二乗適合度検定は、[二項分布](eda366i.md)や [Poisson 分布](eda366j.md)などの離散分布に適用できる。
 一方、Kolmogorov-Smirnov 検定および Anderson-Darling 検定は連続分布に限定される。
-カイ二乗適合度検定に関する追加の説明は、[製品および工程の比較](../../prc/section2/prc211.md)の章（第 7 章）に記載されている。 
+カイ二乗適合度検定に関する追加の説明は、[製品および工程の比較](../../prc/section2/prc211.md)の章（7章）に記載されている。 
 
 #### 定義
 カイ二乗検定は次の仮説に対して定義する。  
@@ -55,8 +55,8 @@ $$E_{i} = N (F_{\theta}(y_{i+1})-F_{\theta}(y_{i})$$
 
 カイ二乗検定は、$`\theta`$ の推定値が個々の観測値ではなく、観測されたビンカウントから導出された[最尤](../../apr/section4/apr412.md)推定値であると仮定する。
 このような推定値（$`\widetilde{\theta}`$ と表記）は、対数尤度関数 $`\ell`$ を $`\theta`$ に関して数値的に最大化することで計算できる。  
-$$\theta) = \sum\_{i=1}^{k} O\_{i} \log(F\_{\theta}(y\_{i+1})-F\_{\theta}(y\_{i}$$  
-期待値を持つビンカウントは、$`E_{i} = N (F_{\widetilde{\theta}}(y_{i+1})-F_{\widetilde{\theta}}(y_{i})  `$ （$`i=1,\dots,k  `$ ）として計算される。 
+$$\ell(\theta) = \sum_{i=1}^{k} O_{i} \log(F_{\theta}(y_{i+1})-F_{\theta}(y_{i}$$  
+期待値を持つビンのカウント数は、$`E_{i} = N (F_{\widetilde{\theta}}(y_{i+1})-F_{\widetilde{\theta}}(y_{i})  `$ （$`i=1,\dots,k  `$ ）として計算される。 
 
 ##### 有意水準:
 *α*
