@@ -68,7 +68,7 @@
 #### 標準化得点と修正標準化得点
 観測値の標準化得点（訳註：Z-Score）は次式で定義される。
 
-$$Z\_i = \frac{Y\_i - \bar{Y}} {s}$$  
+$$Z_i = \frac{Y_i - \bar{Y}} {s}$$  
 
 ここで、$`\bar{Y}`$  および $`s`$ は、それぞれ標本平均と標本標準偏差を表す。
 言い換えれば、データは平均から何標準偏差離れているかという単位で表される。
@@ -77,7 +77,7 @@ $$Z\_i = \frac{Y\_i - \bar{Y}} {s}$$
 
 [IglewiczとHoaglin](../section4/eda43.md#Iglewicz)は、以下の修正標準化得点の使用を推奨している。  
 
-$$M\_{i} = \frac{0.6745(x\_{i} - \tilde{x})} {\mbox{MAD}}$$  
+$$M_{i} = \frac{0.6745(x_{i} - \tilde{x})} {\mbox{MAD}}$$  
 
 ここで、MADは[中央絶対偏差](../section3/eda356.md#MAD)であり、$`\tilde{x}`$ は中央値である。  
 

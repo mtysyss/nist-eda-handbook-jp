@@ -15,7 +15,7 @@ Kolmogorov-Smirnov 検定（[Chakravart, Laha, and Roy, 1967](../section4//eda43
 Kolmogorov-Smirnov（K-S）検定は、経験分布関数（ECDF）に基づく。
 <u>順序付けられた</u> *N* 個のデータ点 $`Y_1, Y_2,...,Y_N`$ が与えられたとき、ECDF は次式で定義される。  
 
-$$E\_{N} = n(i)/N$$  
+$$E_{N} = n(i)/N$$  
 
 ここで $`n(i)`$は $`Y_i`$ 未満のデータ点の数であり、$`Y_i`$ は最小値から最大値へ順序付けられる。
 これは各順序付けデータ点の値で $`1/N`$ ずつ増加する階段関数である。
@@ -57,7 +57,7 @@ Kolmogorov-Smirnov 検定は以下で定義する。
 ##### 検定統計量:
 Kolmogorov-Smirnov 検定統計量は次式で定義される。  
 
-$$D = \max\_{1 \le i \le N} \left( F(Y\_{i}) -\frac{i-1} {N}, \frac{i}{N} - F(Y\_{i}) \right)$$  
+$$D = \max_{1 \le i \le N} \left( F(Y_{i}) -\frac{i-1} {N}, \frac{i}{N} - F(Y_{i}) \right)$$  
 
 ここで、$`F`$ は検定対象の分布の理論的累積分布関数であり、連続分布（二項分布や Poisson 分布などの離散分布ではない）でなければならず、完全に指定されている必要がある（つまり、[位置、幅](eda364.md)、[形状](eda363.md)の母数はデータから推定できない）。
 
@@ -75,12 +75,12 @@ K-S 検定を実行するソフトウェア・プログラムが関連する棄�
 #### 技術ノート
 電子ハンドブックの過去の版では、Kolmogorov-Smirnov 適合度統計量の計算式として以下の式を示していた。  
 
-$$D = \max\_{1 \le i \le N}\left| F(Y\_{i}) - \frac{i} {N} \right|$$  
+$$D = \max_{1 \le i \le N}\left| F(Y_{i}) - \frac{i} {N} \right|$$  
 
 この式は実際には正しくない。
 この式は次のように書き換えられることに注意する。  
 
-$$D = \max\_{1 \le i \le N}(F(Y\_{i}) - \frac{i} {N}, \frac{i}{N} - F(Y\_{i}))$$  
+$$D = \max_{1 \le i \le N}(F(Y_{i}) - \frac{i} {N}, \frac{i}{N} - F(Y_{i}))$$  
 
 この形式では、両式間の差の上限が $`i/N`$ であることが明確となる。
 実際のデータでは、差は上限より小さくなる可能性が高い。
