@@ -64,7 +64,7 @@ $$\ell(\theta) = \sum_{i=1}^{k} O_{i} \log (F_{\theta}(y_{i+1})-F_{\theta}(y_{i}
 
 期待値を持つビンのカウント数は 次式で計算される。  
 
-$$E_{i} = N (F_{\widetilde{\theta}}(y_{i+1})-F_{\widetilde{\theta}}(y_{i}))  i=1,\dots,k$$  
+$$E_{i} = N (F_{\widetilde{\theta}}(y_{i+1})-F_{\widetilde{\theta}}(y_{i}))\;\;\;\;i=1,\dots,k$$  
 
 
 ##### 有意水準: 
