@@ -24,9 +24,8 @@
 5. [定量技法：アルファベット順](../section3/eda35.md)  
 6. [確率分布](../section3/eda36.md)  
 
-
 ---
 #### 訳註  
 * 3節目次の  
-    - 「定量技法」は原典では「[Alphabetical](https://www.itl.nist.gov/div898/handbook/eda/section3/eda3.htm)」となっていますが、そうは並んでいません。
+    - 「定量技法」は原典では「[Alphabetical](https://www.itl.nist.gov/div898/handbook/eda/section3/eda3.htm)」となっていますが、そうは並んでいません。[1章の目次](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)では付記されていないことから、このページの誤りと思われます。
     - 「図表現技法：アルファベット順」は、翻訳では原典順（英語アルファベット順）にしています。
