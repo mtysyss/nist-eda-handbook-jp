@@ -57,7 +57,7 @@ $`U_1`$ を用いて $`U_2`$ を解く代数式はより複雑になるが、基
 
 ![](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/pri61a_r01.gif)  
 
-#### サンプルDOE等高線図の解釈
+#### DOE等高線図例の解釈
 上記のDOE等高線図から、以下の情報を導き出せる。  
 
 1. 相互作用の有意性  
