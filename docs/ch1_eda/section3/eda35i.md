@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35i.htm)
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35i.htm)  
 閲覧(UTC)：2026-04-18 02:58:02
 
 1. [探索的データ解析](../eda.md)  
