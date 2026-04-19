@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section2/eda24.htm)
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section2/eda24.htm)  
 閲覧(UTC)：2026-03-05 08:45:40  
 [⬅️](eda23.md)[➡️](eda25.md)  
 
