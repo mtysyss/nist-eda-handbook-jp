@@ -58,7 +58,7 @@ $$E_{i} = N (F_{\theta}(y_{i+1})-F_{\theta}(y_{i})$$
 $$\ell(\theta) = \sum_{i=1}^{k} O_{i} \log(F_{\theta}(y_{i+1})-F_{\theta}(y_{i}$$  
 期待値を持つビンのカウント数は、$`E_{i} = N (F_{\widetilde{\theta}}(y_{i+1})-F_{\widetilde{\theta}}(y_{i})  `$ （$`i=1,\dots,k  `$ ）として計算される。 
 
-##### 有意水準:
+##### 有意水準: 
 *α*
 
 ##### 臨界領域:
