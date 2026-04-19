@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
 
+[次ページ](section1/eda1.md  
 
 # 1. 探索的データ解析
 
