@@ -55,7 +55,7 @@ $$E_{i} = N (F_{\theta}(y_{i+1})-F_{\theta}(y_{i}))$$
 
 カイ二乗検定は、$`\theta`$ の推定値が個々の観測値ではなく、観測されたビンカウントから導出された[最尤](../../apr/section4/apr412.md)推定値であると仮定する。
 このような推定値（$`\widetilde{\theta}`$ と表記）は、対数尤度関数 $`\ell`$ を $`\theta`$ に関して数値的に最大化することで計算できる。  
-$$\ell(\theta) = \sum_{i=1}^{k} O_{i} \log(F_{\theta}(y_{i+1})-F_{\theta}(y_{i})$$  
+$$\ell(\theta) = \sum_{i=1}^{k} O_{i} \log (F_{\theta}(y_{i+1})-F_{\theta}(y_{i}))$$  
 期待値を持つビンのカウント数は、$`E_{i} = N (F_{\widetilde{\theta}}(y_{i+1})-F_{\widetilde{\theta}}(y_{i})) `$ （$`i=1,\dots,k `$ ）として計算される。 
 
 ##### 有意水準: 
