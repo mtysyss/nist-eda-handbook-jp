@@ -52,7 +52,7 @@
 2. [係数：桁数基準](eda35i2.md#係数：桁数基準)  
 3. [係数：統計的有意差](eda35i2.md#係数：統計的有意差)  
 4. [係数：確率プロット](eda35i2.md#係数：確率プロット)  
-5. [効果：Youden プロット](eda35i2.md#効果推定値のYouden プロット)  
+5. [効果：Youden プロット](eda35i2.md#効果推定値のYoudenプロット)  
 6. [残差標準偏差：工学的有意差](eda35i2.md#残差の標準偏差：工学的有意差)  
 7. [残差標準偏差：統計的有意差](eda35i2.md#残差の標準偏差：統計的有意差)  
 
@@ -131,7 +131,7 @@ $$ |\hat{\beta\_i}| > 2 \cdot \mbox{s.e.}(\hat{\beta\_i}) $$
 #### 係数の正規確率プロット
 以下の正規確率プロットは、渦電流データに対する係数推定値を示している。
 
-![1.3.5.18.2.Important Factors fig1](file:///Users/matsuyoshiyasushi/git/nist-eda-handbook-jp/original/eda/section3/eda35i2_r01.gif)  
+![1.3.5.18.2.Important Factors fig1](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35i2_r01.gif)  
 
 この例では、確率プロットにおいて 2つの因子（ X1 と X2 ）が直線から外れていることが明確に判る。
 残りの 5つの係数はすべて、中心が 0 の正規分布から無作為に抽出されたような挙動を示し、したがって統計的に有意ではないとみなされる。
@@ -147,7 +147,7 @@ $$ |\hat{\beta\_i}| > 2 \cdot \mbox{s.e.}(\hat{\beta\_i}) $$
 #### 効果推定値のYouden プロット
 以下は、渦電流データの効果推定値の Youden プロットである。
 
-![1.3.5.18.2.Important Factors fig2](file:///Users/matsuyoshiyasushi/git/nist-eda-handbook-jp/original/eda/section3/eda35i2_r02.gif)  
+![1.3.5.18.2.Important Factors fig2](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35i2_r02.gif)  
 
 この例において、Youden プロットは、全体平均（2.65875）付近に点の群が集まっていることを明確に示し、その上（因子1）と下（因子2）に2つの外れた点が存在する。
 Youden プロットに基づき、X1（1.55125）とX2（-0.43375）の2つの因子を保持すると結論付ける。 
