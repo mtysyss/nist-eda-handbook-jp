@@ -74,7 +74,7 @@ Tietjen-Moore の論文では、[金星の垂直半径](https://www.itl.nist.gov
 
 まず、正規確率プロットを作成した。
 
-![1.3.5.17.2.Tietjen-Moore Test for Outliers](file:///Users/matsuyoshiyasushi/git/nist-eda-handbook-jp/original/eda/section3/gif/tm.gif)  
+![1.3.5.17.2.Tietjen-Moore Test for Outliers](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/tm.gif)  
 
 このプロットは、正規性の仮定が妥当であることを示している。
 最小値は外れ値であるように観える。

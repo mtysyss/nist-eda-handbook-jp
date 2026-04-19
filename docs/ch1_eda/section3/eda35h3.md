@@ -77,7 +77,7 @@ $$ p = 1-\frac{\alpha}{2(n-i+1)} $$
 
 まず、正規確率プロットを作成した。   
 
-![1.3.5.17.3.Generalized ESD Test for Outliers](file:///Users/matsuyoshiyasushi/git/nist-eda-handbook-jp/original/eda/section3/gif/gesd.gif)  
+![1.3.5.17.3.Generalized ESD Test for Outliers](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/gesd.gif)  
 
 このプロットは、正規性の仮定が疑わしいことを示している。  
 
@@ -92,7 +92,7 @@ Rosner 論文に従い、最大10個の外れ値について検定を行う。
    両側検定の要約表  
 　　---------------------------------------  
 　　正確な外れ値数,　　検定統計量,　　棄却値,  
-　　　　　　　 *i*　　　　　$`R_i`$　　$`λ_i`$ 5%  
+　　　　　　　 *i*　　　　　　$`R_i`$　　　　$`λ_i`$ 5%  
 　　---------------------------------------  
 　　　　　1　　　　　　3.118　　　　　3.158  
 　　　　　2　　　　　　2.942　　　　　3.151  
