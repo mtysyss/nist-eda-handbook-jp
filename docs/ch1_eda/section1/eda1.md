@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section1/eda1.htm)  
 閲覧(UTC)：2026-03-02 13:32:01  
-[⬅️](../eda.md)   [➡️](eda11.md)  
+[⬅️](../eda.md)[➡️](eda11.md)  
 
 1. [探索的データ解析](../eda.md)
  

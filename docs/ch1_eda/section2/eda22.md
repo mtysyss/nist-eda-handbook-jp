@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section2/eda22.htm)  
-閲覧(UTC)：2026-03-05 08:45:29
+閲覧(UTC)：2026-03-05 08:45:29  
+[⬅️](eda21.md)[➡️](eda23.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.2. [EDAの仮定](eda2.md)
