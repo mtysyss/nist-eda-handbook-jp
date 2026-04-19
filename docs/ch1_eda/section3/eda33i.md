@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/lineslop.htm)  
-閲覧(UTC)：2026-03-05 09:11:44
+閲覧(UTC)：2026-03-05 09:11:44  
+[⬅️](eda33h.md)[➡️](eda33j.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.3. [EDA技法](eda3.md)  

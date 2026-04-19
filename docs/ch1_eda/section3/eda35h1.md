@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h1.htm)  
-閲覧(UTC)：2026-04-18 02:57:13
+閲覧(UTC)：2026-04-18 02:57:13  
+[⬅️](eda35h.md)[➡️](eda35h2.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.3. [EDA技法](eda3.md)  

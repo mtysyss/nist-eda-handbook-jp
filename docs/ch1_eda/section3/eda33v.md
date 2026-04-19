@@ -1,5 +1,6 @@
 [原文 (Original English)](http://www.itl.nist.gov/div898/handbook/eda/section3/youdplot.htm)  
-閲覧(UTC)：2026-03-26 11:35:08
+閲覧(UTC)：2026-03-26 11:35:08  
+[⬅️](eda33u.md)[➡️](eda33v1.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.3. [EDA技法](eda3.md)  

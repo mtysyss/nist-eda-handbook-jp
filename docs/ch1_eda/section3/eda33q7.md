@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section3/scatter7.htm)  
-閲覧(UTC)：2026-03-05 09:04:05
+閲覧(UTC)：2026-03-05 09:04:05  
+[⬅️](eda33q6.md)[➡️](eda33q8.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.3. [EDA技法](eda3.md)  

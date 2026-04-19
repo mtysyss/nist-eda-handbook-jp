@@ -1,5 +1,6 @@
 [原文 (Original English)](http://www.itl.nist.gov/div898/handbook/eda/section3/eda33j.htm)  
-閲覧(UTC)：2026-03-26 11:40:36
+閲覧(UTC)：2026-03-26 11:40:36  
+[⬅️](eda33i.md)[➡️](eda33k.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.3. [EDA技法](eda3.md)  
