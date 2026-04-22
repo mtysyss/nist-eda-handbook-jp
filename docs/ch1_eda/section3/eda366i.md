@@ -21,7 +21,8 @@
 
 $$P(x;p,n) = \left(\begin{array}{c} n \\ x \end{array} \right)(p)^{x}(1 - p)^{(n-x)} \qquad \mbox{$x = 0, 1, 2, \cdots , n$ の場合}$$   
 
-$$( \begin{array}{c} n \\ x \end{array} )$$  
+$$P(x;p,n) = \binom{n}{x} p^{x}(1 - p)^{(n-x)} \qquad \text{$x = 0, 1, 2, \cdots , n$ の場合}$$
+
 
 ここで 
 
