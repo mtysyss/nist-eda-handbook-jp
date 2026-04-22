@@ -90,7 +90,7 @@ Birnbaum-Saunders [逆生存関数](eda362.md#生存関数)は、 Birnbaum-Saund
 変動係数　　　　$`\frac{2 + \gamma^{2}} {\gamma\sqrt{1 + 5\gamma^{2}}}`$  
 
 #### 母数推定
-[Birnbaum-Saunders 分布の最尤推定](../../apr/section4/apr413#fatigue life)は、[信頼性](../../apr/apr.md)の章で議論されている。
+[Birnbaum-Saunders 分布の最尤推定](../../apr/section4/apr413#疲労寿命)は、[信頼性](../../apr/apr.md)の章で議論されている。
 
 #### 解説   
 Birnbaum-Saunders 分布は、[信頼性](../../apr/apr.md)の応用において故障時間をモデル化するために広く用いられている。
