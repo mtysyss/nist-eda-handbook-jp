@@ -21,9 +21,7 @@
 
 $$P(x;p,n) = \left(\begin{array}{c} n \\ x \end{array} \right)(p)^{x}(1 - p)^{(n-x)} \qquad \mbox{$x = 0, 1, 2, \cdots , n$ の場合}$$   
 
-$$
-\left ( \begin{array}{c} n \\ x \end{array} \right )
-$$  
+$$( \begin{array}{c} n \\ x \end{array} )$$  
 
 ここで 
 
