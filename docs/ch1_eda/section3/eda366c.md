@@ -33,7 +33,12 @@ $$f(x) = \frac{e^{-|x|}}{2}$$
 #### 累積分布関数
 二重指数分布の[累積分布関数](eda362.md#累積分布関数)の式は次式である。
 
-$$F(x) = \begin{array}{ll} & \frac{e^{x}} {2} & \mbox{$x < 0$ の場合} \\ 1 - \frac{e^{-x}} {2} & \mbox{$x \ge 0$ の場合} \end{array}$$   
+$$
+F(x) = \begin{array}{ll} 
+& \frac{e^{x}} {2} & \mbox{$x < 0$ の場合} \\
+& 1 - \frac{e^{-x}} {2} & \mbox{$x \ge 0$ の場合} 
+\end{array}
+$$   
 
 以下は二重指数累積分布関数のグラフである。  
 
