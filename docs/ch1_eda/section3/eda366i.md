@@ -19,14 +19,12 @@
 
 二項確率質量関数の式は次式である。  
 
-$$P(x;p,n) = \left(\begin{array}{c} n \\ x \end{array} \right)(p)^{x}(1 - p)^{(n-x)} \qquad \mbox{$x = 0, 1, 2, \cdots , n$ の場合}$$   
-
 $$P(x;p,n) = \binom{n}{x} (p)^{x}(1 - p)^{(n-x)} \qquad \text{$x = 0, 1, 2, \cdots , n$ の場合}$$
 
 
 ここで 
 
-$$\left(\begin{array}{c} n \\ x \end{array} \right) = \frac{n!}{x!(n-x)! }$$  
+$$\binom{n}{x}= \frac{n!}{x!(n-x)! }$$  
 
 以下は、$`p`$ の 4 つの値および $`n=100`$ に対する二項分布の確率密度関数のプロットである。
 
