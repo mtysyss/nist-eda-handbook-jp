@@ -114,7 +114,6 @@ $$\hat{\beta} = \frac{s^{2}} {\bar{x}}$$
 2 係数ガンマ分布の最大尤度推定量は、以下の連立方程式の解である。
  
 $$\hat{\beta} - \frac{\bar{x}}{\hat{\gamma}} = 0$$   
-$$\hat{\beta} - \frac{\bar{x}}{\hat{\gamma}} = 0$$   
 $$\log{\hat{\gamma}} - \psi(\hat{\gamma}) - \log \left( \frac{\bar{x}}{ \left( \prod\_{i=1}^{n}{x\_i} \right) ^{1/n} } \right) = 0$$   
  
 ここで $`ψ`$ はディガンマ関数を表す。
