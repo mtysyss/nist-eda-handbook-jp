@@ -34,7 +34,7 @@ Tukey-Lambda 分布は単純な閉形式を持たない。
 #### パーセント点関数
 標準形　Tukey-Lambda 分布の[パーセント点関数](eda362.md#PPF)の式は次式である。 
 
-$` G(p;\lambda) = \frac{p^{\lambda} - (1 - p)^{\lambda}} {\lambda} `$ 
+$$G(p;\lambda) = \frac{p^{\lambda} - (1 - p)^{\lambda}} {\lambda}$$ 
 
 以下は、上記の確率密度関数のプロットと同じ $`λ`$ の値を用いた Tukey-Lambda パーセント点関数のプロットである。  
 
