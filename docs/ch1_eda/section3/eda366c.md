@@ -35,8 +35,8 @@ $$f(x) = \frac{e^{-|x|}}{2}$$
 
 $$
 F(x) = \begin{array}{ll} 
-& \frac{e^{x}} {2} & \mbox{$x < 0$ の場合} \\
-& 1 - \frac{e^{-x}} {2} & \mbox{$x \ge 0$ の場合} 
+\frac{e^{x}} {2} & \mbox{$x < 0$ の場合} \\
+1 - \frac{e^{-x}} {2} & \mbox{$x \ge 0$ の場合} 
 \end{array}
 $$   
 
@@ -61,7 +61,12 @@ $$
 #### ハザード関数
 二重指数分布の[ハザード関数](eda362.md#ハザード関数)の式は次式である。   
 
-$$h(x) = \begin{array}{ll} \frac{e^{x}} {2 - e^{x}} &\mbox{for $x < 0$} \\ 1 & \mbox{for $x \ge 0$} \end{array}$$   
+$$
+h(x) = \begin{array}{ll} 
+\frac{e^{x}} {2 - e^{x}} &\mbox{for $x < 0$} \\ 
+1 & \mbox{for $x \ge 0$} 
+\end{array}
+$$   
 
 以下は二重指数ハザード関数のグラフである。  
 
@@ -70,7 +75,10 @@ $$h(x) = \begin{array}{ll} \frac{e^{x}} {2 - e^{x}} &\mbox{for $x < 0$} \\ 1 & \
 #### 累積ハザード関数
 二重指数分布の[累積ハザード関数](eda362.md#累積ハザード関数)の式は次式である。 
 
-$$H(x) = \begin{array}{ll} -log{(1 - \frac{e^{x}} {2})} &\mbox{for $x < 0$} \\ x + \log{(2)} & \mbox{for $x \ge 0$} \end{array}$$   
+$$H(x) = \begin{array}{ll} 
+-log{(1 - \frac{e^{x}} {2})} &\mbox{for $x < 0$} \\ 
+x + \log{(2)} & \mbox{for $x \ge 0$} 
+\end{array}$$   
 
 以下は二重指数累積ハザード関数のグラフである。  
 
