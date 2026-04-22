@@ -101,7 +101,7 @@ $$h(x) = \frac{e^{-x}} {e^{e^{-x}} - 1}$$
 ![plot of the Gumbel hazard function for the maximum case](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/ev1haz2.gif)  
 
 #### 累積ハザード関数
-Gumbel 分布（最小値）の累積ハザード関数(eda362.htm#累積ハザード関数)の式は次式である。   
+Gumbel 分布（最小値）の[累積ハザード関数](eda362.htm#累積ハザード関数)の式は次式である。   
 
 $$H(x) = e^{x}$$   
 
@@ -111,7 +111,7 @@ $$H(x) = e^{x}$$
 
 Gumbel 分布（最大値）の[累積ハザード関数](eda362.md#累積ハザード関数)の式は次式である。   
 
-$$H(x) = -\ln(1 - e^{-e^{-x}})`$ 
+$$H(x) = -\ln(1 - e^{-e^{-x}})$$ 
 
 以下は最大値ケースの Gumbel 累積ハザード関数のグラフである。  
 

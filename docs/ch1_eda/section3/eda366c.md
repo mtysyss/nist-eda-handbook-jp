@@ -77,7 +77,7 @@ $$
 
 $$H(x) = \begin{array}{ll} 
 -log{(1 - \frac{e^{x}} {2})} &\mbox{$x < 0$ の場合} \\ 
-x + \log{(2)} & \mbox{for $x \ge 0$ の場合} 
+x + \log{(2)} & \mbox{$x \ge 0$ の場合} 
 \end{array}$$   
 
 以下は二重指数累積ハザード関数のグラフである。  
