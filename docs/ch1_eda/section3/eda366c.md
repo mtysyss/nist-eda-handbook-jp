@@ -63,8 +63,8 @@ $$
 
 $$
 h(x) = \begin{array}{ll} 
-\frac{e^{x}} {2 - e^{x}} &\mbox{for $x < 0$} \\ 
-1 & \mbox{for $x \ge 0$} 
+\frac{e^{x}} {2 - e^{x}} &\mbox{$x < 0$ の場合} \\ 
+1 & \mbox{$x \ge 0$ の場合} 
 \end{array}
 $$   
 
@@ -76,8 +76,8 @@ $$
 二重指数分布の[累積ハザード関数](eda362.md#累積ハザード関数)の式は次式である。 
 
 $$H(x) = \begin{array}{ll} 
--log{(1 - \frac{e^{x}} {2})} &\mbox{for $x < 0$} \\ 
-x + \log{(2)} & \mbox{for $x \ge 0$} 
+-log{(1 - \frac{e^{x}} {2})} &\mbox{$x < 0$ の場合} \\ 
+x + \log{(2)} & \mbox{for $x \ge 0$ の場合} 
 \end{array}$$   
 
 以下は二重指数累積ハザード関数のグラフである。  
@@ -87,7 +87,10 @@ x + \log{(2)} & \mbox{for $x \ge 0$}
 #### 生存関数
 二重指数分布の[生存関数](eda362.md#生存関数)の式は次式である。  
 
-$$S(x) = \begin{array}{ll} 1 - \frac{e^{x}} {2} & \mbox{for $x < 0$} \\\frac{e^{-x}} {2} & \mbox{for $x \ge 0$} \end{array}$$   
+$$S(x) = \begin{array}{ll} 
+1 - \frac{e^{x}} {2} & \mbox{$x < 0$ の場合} \\
+\frac{e^{-x}} {2} & \mbox{$x \ge 0$ の場合} 
+\end{array}$$   
 
 以下は二重指数生存関数のグラフである。  
 
@@ -96,7 +99,10 @@ $$S(x) = \begin{array}{ll} 1 - \frac{e^{x}} {2} & \mbox{for $x < 0$} \\\frac{e^{
 #### 逆生存関数
 二重指数分布の[逆生存関数](eda362.md#INVERSESURVIVAL)の式は次式である。  
 
-$$Z(P) = \begin{array}{ll} \log(2(1-p)) & \mbox{$p \le 0.5$ の場合} \\-\log(2p) & \mbox{$p > 0.5$ の場合} \end{array}$$   
+$$Z(P) = \begin{array}{ll} 
+\log(2(1-p)) & \mbox{$p \le 0.5$ の場合} \\
+-\log(2p) & \mbox{$p > 0.5$ の場合} 
+\end{array}$$   
 
 以下は二重指数逆生存関数のグラフである。  
 
