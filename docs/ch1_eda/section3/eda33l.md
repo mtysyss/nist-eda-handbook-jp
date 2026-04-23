@@ -22,7 +22,7 @@
 プロット例
 ![1.3.3.21.Normal Probability Plot](https://www.itl.nist.gov/div898/handbook/eda/gif/normprpl.gif)  
 
-[100個の正規乱数](https://www.itl.nist.gov/div898/handbook/datasets/NORMAL.DAT)に関する正規確率プロットの点は、ほぼ直線的なパターンを形成しており、正規分布がこのデータ集合に対する適切なモデルであることを示している。 
+[100個の正規乱数](https://www.itl.nist.gov/div898/handbook/datasets/NORMAL.DAT)に関する正規確率プロットの点は、近似的に直線的なパターンを形成しており、正規分布がこのデータ集合に対する適切なモデルであることを示している。 
 
 
 #### 定義：順序付き応答値と正規順序統計量
