@@ -13,7 +13,7 @@
 
 |   |   |   |  
 |:---:|:---:|:---:|  
-| ![Normal Random Numbers](https://www.itl.nist.gov/div898/handbook/eda/gif100/randn4p.gif)<br>[正規乱数](eda421.md) | ![Uniform Random Numbers](https://www.itl.nist.gov/div898/handbook/eda/gif100/randu4p.gif)<br>[一様乱数](eda421.md) | ![Random Walk](https://www.itl.nist.gov/div898/handbook/eda/gif100/randwa4p.gif)<br>[ランダム・ウォーク](eda421.md |  
+| ![Normal Random Numbers](https://www.itl.nist.gov/div898/handbook/eda/gif100/randn4p.gif)<br>[正規乱数](eda421.md) | ![Uniform Random Numbers](https://www.itl.nist.gov/div898/handbook/eda/gif100/randu4p.gif)<br>[一様乱数](eda421.md) | ![Random Walk](https://www.itl.nist.gov/div898/handbook/eda/gif100/randwa4p.gif)<br>[ランダム・ウォーク](eda421.md) |  
 | ![Josephson Junciton Cryothermometry](https://www.itl.nist.gov/div898/handbook/eda/gif100/soulen4p.gif)<br>[Josephson 接合低温温度計](eda421.md) | ![Beam Deflections](https://www.itl.nist.gov/div898/handbook/eda/gif100/lew4p.gif)<br>[梁のたわみ](eda421.md) | ![Filter Transmittance](https://www.itl.nist.gov/div898/handbook/eda/gif100/mavro4p.gif)<br>[フィルターの透過](eda421.md) |  
 | ![Standard Resistor](https://www.itl.nist.gov/div898/handbook/eda/gif100/dziuba4p.gif)<br>[標準抵抗器](eda421.md) |![Heat Flow Meter1](https://www.itl.nist.gov/div898/handbook/eda/gif100/zarr134p.gif)<br>[熱流量計](eda421.md) | |  
 
