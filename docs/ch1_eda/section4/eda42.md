@@ -1,4 +1,4 @@
-[原文 (Original English)](eda42.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section4/eda42.htm)  
 閲覧(UTC)：2026-04-23 04:28:21  
 [⬅️](eda41.md)[➡️](eda421.md)  
 
