@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section4/eda4.htm)  
+[原文 (Original English)](eda4.htm)  
 閲覧(UTC)：2026-04-23 04:28:04  
 [⬅️](../section3/eda3676.md)[➡️](eda41.md)  
 
