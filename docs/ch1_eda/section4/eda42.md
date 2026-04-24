@@ -21,7 +21,7 @@
 ![Fatigue Life of Aluminium Alloy Specimens](https://www.itl.nist.gov/div898/handbook/eda/gif100/fuller2.gif)<br>[アルミニウム合金試験片の疲労寿命](eda429.md)
 
 #### 多因子
-![Ceramic Strength](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)<br>セラミックの強度](eda42a.md)
+![Ceramic Strength](https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif)<br>[セラミックの強度](eda42a.md)
 
 
 ---
