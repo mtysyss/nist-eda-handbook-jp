@@ -5,13 +5,13 @@
 1. [探索的データ解析](../eda.md)  
 1.3. [EDA技法](eda3.md)  
 1.3.3. [図表現技法：アルファベット順](eda33.md)  
-1.3.3.21. [正規分布の確率プロット](eda33l.md)
+1.3.3.21. [正規確率プロット](eda33l.md)
 
 ---
 
 # 1.3.3.21.1. 正規確率プロット：正規分布に従うデータ
 
-#### 正規分布の確率プロット
+#### 正規確率プロット
 以下の正規確率プロットは[熱流量計](../section4/eda428.md)のデータに基づいている。  
 
 ![1.3.3.21.1.Normal Probability Plot: Normally Distributed Data](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/normprp1.gif)  
