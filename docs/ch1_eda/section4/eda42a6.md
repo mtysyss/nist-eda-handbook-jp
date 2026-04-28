@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/eda/section4/eda42a6.htm)  
 閲覧(UTC)：2026-04-24 16:55:19  
-[⬅️](eda42a5.md)[➡️]()  
+[⬅️](eda42a5.md)[➡️](eda43.md)  
 
 1. [探索的データ解析](../eda.md)  
 1.4. [EDA事例研究](eda4.md)  
