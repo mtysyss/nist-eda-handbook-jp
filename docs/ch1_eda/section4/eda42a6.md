@@ -41,7 +41,7 @@ Dataplot を実行するには、あらかじめ Dataplot を[ダウンロード
 | [2. q-q プロットを作成する。](https://www.itl.nist.gov/div898/handbook/eda/section4/jahanmi2/dpmacros/qqplot.dp) | [2. q-qプロットは、バッチ1とバッチ2は共通した分布からのものではないことを示している。](eda42a3.md#分位数分位数プロット) |
 | [3. 箱ひげ図を作成する。](https://www.itl.nist.gov/div898/handbook/eda/section4/jahanmi2/dpmacros/boxplot.dp) | [3. 箱ひげ図は、約75 から 100 のバッチ効果を示し、いくつかの外れ値があることを示している。](eda42a3.md#箱ひげ図) |
 | [4. ブロック・プロットを作成する。](https://www.itl.nist.gov/div898/handbook/eda/section4/jahanmi2/dpmacros/blockpl1.dp) | [4. ブロック・プロットは、バッチ効果が主因子に対し試験所間と水準で一定であることを示している。](eda42a3.md#ブロック・プロット) |
-| [5. 平均値が等しいかの2標本*t*-検定を行う。](https://www.itl.nist.gov/div898/handbook/eda/section4/jahanmi2/dpmacros/ttest.dp) | [5. t-検定は、それぞれの平均値に関してバッチ効果を検証している。](eda42a3.md#2標本t-検定) |
+| [5. 平均値が等しいかの二標本*t*-検定を行う。](https://www.itl.nist.gov/div898/handbook/eda/section4/jahanmi2/dpmacros/ttest.dp) | [5. t-検定は、それぞれの平均値に関してバッチ効果を検証している。](eda42a3.md#二標本t-検定) |
 | [6. 標準偏差が等しいかの F-検定を行う。](https://www.itl.nist.gov/div898/handbook/eda/section4/jahanmi2/dpmacros/ftest.dp) | [6. Fテストは、各標準偏差に対しい有意なバッチ効果を示していない。](eda42a3.md#F検定) |
 | 4. 試験所効果があるかを判断しする。 |  |
 | [1. 2バッチを合わせ、試験所の箱ひげ図を作成する。](https://www.itl.nist.gov/div898/handbook/eda/section4/jahanmi2/dpmacros/boxplotl.dp) | [1. 箱ひげ図は、有意な試験所効果を示していない。](eda42a4.md#箱ひげ図) |

@@ -15,7 +15,7 @@ Youdenプロットは、各ラボが同一製品で2回の実験を行い、ま�
 Youdenプロットは、試験所内のばらつきと試験所間のばらつきの両方を比較する簡単だが効果的な方法である。
 
 #### プロット例  
-![1.3.3.31. Youden Plot](http://www.itl.nist.gov/div898/handbook/eda/gif/youdenpl.gif)  
+![1.3.3.31. Youden Plot](https://www.itl.nist.gov/div898/handbook/eda/gif/youdenpl.gif)  
 
 [UGIANSKY.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/UGIANSKY.DAT)のこのYoudenプロットは、以下点を示している。  
 
