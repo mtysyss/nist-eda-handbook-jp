@@ -5,7 +5,7 @@
 # 2. 測定工程の特徴付け
 ## 1. [特徴付け](section1/mpc1.md)
 1. [課題](section1/mpc11.md)  
-2. [検査標準](section1/mpc21.md)  
+2. [検査標準](section1/mpc12.md)  
 
 
 ## 2. [制御](section2/mpc2.md)
