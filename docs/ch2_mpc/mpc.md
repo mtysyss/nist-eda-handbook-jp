@@ -11,7 +11,7 @@
 ## 2. [制御](section2/mpc2.md)
 
 1. [課題](section2/mpc21.md)  
-2. [バイアスと長期ばらつき](section2/mpc22.md)  
+2. [偏りと長期ばらつき](section2/mpc22.md)  
 3. [短期ばらつき](section2/mpc23.md)  
 
 ## 3. [校正](section3/mpc3.md)
