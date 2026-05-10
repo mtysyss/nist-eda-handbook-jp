@@ -129,7 +129,7 @@
         15. [カイ二乗適合度検定](section3/eda35f.md) [1.3.5.15.]
         16. [Kolmogorov-Smirnov 適合度検定](section3/eda35g.md) [1.3.5.16.]
         17. [外れ値の検出](section3/eda35h.md) [1.3.5.17.]
-        18. [Yates アルゴリズム](section3/eda35i.md) [1.3.5.18.]
+        18. [Yates 処理手順](section3/eda35i.md) [1.3.5.18.]
             1. [モデルと予測式の定義](section3/eda35i1.md) [1.3.5.18.1.]
             2. [重要因子](section3/eda35i2.md) [1.3.5.18.2.]
     6. [多種の確率分布](section3/eda36.md) [1.3.6.]

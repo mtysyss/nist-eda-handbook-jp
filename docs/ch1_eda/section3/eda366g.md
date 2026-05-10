@@ -182,11 +182,11 @@ Gumbel （最小）分布のモーメント法推定量は以下となる。
  
 最大値ケースの最尤推定量は、以下の連立方程式の解である。 
  
-$$\bar{x} - \frac{\sum\_{i=1}^{n}{x\_i \exp(-x\_i/\hat{\beta})}}{\sum\_{i=1}^{n}{\exp(-x\_i/\hat{\beta})}} - \hat{\beta} = 0$$  
+$$\bar{x} - \frac{\sum_{i=1}^{n}{x_i \exp(-x_i/\hat{\beta})}}{\sum_{i=1}^{n}{\exp(-x_i/\hat{\beta})}} - \hat{\beta} = 0$$  
 
-$$-\hat{\beta} \log \left( \frac{1}{n}\sum\_{i=1}^{n}{\exp(-x\_i/\hat{\beta})} \right) - \hat{\mu} = 0$$  
+$$-\hat{\beta} \log \left( \frac{1}{n}\sum_{i=1}^{n}{\exp(-x_i/\hat{\beta})} \right) - \hat{\mu} = 0$$  
  
-最小値ケースは、上記の式において $`-x\_i`$ を $`x\_i`$ に置き換える。
+最小値ケースは、上記の式において $`-x_i`$ を $`x_i`$ に置き換える。
 
 これらの式は数値的に解く必要があり、これは通常、統計ソフトウェア・パッケージを使用して行う。 
 
