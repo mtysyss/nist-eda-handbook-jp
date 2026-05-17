@@ -8,7 +8,7 @@
 2. [検査標準](section1/mpc12.md)  
 
 
-## 2. [制御](section2/mpc2.md)
+## 2. [管理](section2/mpc2.md)
 
 1. [課題](section2/mpc21.md)  
 2. [偏りと長期ばらつき](section2/mpc22.md)  
