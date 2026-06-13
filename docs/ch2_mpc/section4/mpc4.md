@@ -28,8 +28,8 @@
 [偏りの特定と分析方法](mpc45.md)  
 
 1. [解像度](mpc451.md)  
-2. [線形性](mpc452.md)  
-3. [ヒステリシス](mpc46.md#hiysteresis)  
+2. [直線性](mpc452.md)  
+3. [履歴効果](mpc46.md#hiysteresis)  
 4. [偏り](mpc453.md)  
 5. [ゲージ間の差異](mpc454.md)  
 6. [構造、構成の差異](mpc455.md)  
