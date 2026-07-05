@@ -4,3 +4,5 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 
 1 [探索的データ解析](docs/ch1_eda/eda.md)  
 2 [測定工程の特徴付け](docs/ch2_mpc/mpc.md)  
+
+* NISTのhtmデータでは、2章の6節のhtmデータがあるが、目次から削除されているため、翻訳対象から外しています。
