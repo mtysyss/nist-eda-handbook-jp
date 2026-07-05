@@ -10,25 +10,15 @@
 |  |  |  
 | :--- | :-------------------- |  
 | <I>Degrees of freedom</I> | <A NAME="Brownlee">K. A. Brownlee</A> (1960).  <I><B>Statistical Theory and Methodology in Science and Engineering,</I></B> John Wiley & Sons, Inc., New York, p. 236. |  
-
 | <I>Calibration designs</I> | <A NAME="Cameronetal">J. M. Cameron, M. C. Croarkin and R. C. Raybold (1977). </A><I><B>Designs for the Calibration of Standards of Mass,</B></I> NBS Technical Note 952, U.S. Dept. Commerce, 58 pages. |  
-
 | <I>Calibration designs for eliminating drift</I> | <A NAME="CameronHailes">J. M. Cameron and G. E. Hailes (1974). </A><I><B>Designs for the Calibration of Small Groups of Standards in the Presence of Drift</B></I>, Technical Note 844, U.S. Dept. Commerce, 31 pages. |  
-
 | <I>Measurement assurance for measurements on ICs</I> | <A NAME="CroarkinVarner">Carroll Croarkin and Ruth Varner (1982). </A><I><B>Measurement Assurance for Dimensional Measurements on Integrated-circuit Photomasks, </B></I>NBS Technical Note 1164, U.S. Dept. Commerce, 44 pages. |  
-
 | <I>Calibration designs for gauge blocks</I> | <A NAME="Doiron">Ted Doiron (1993). </A><I><B>Drift Eliminating Designs for Non-Simultaneous Comparison Calibrations</B></I>, <U><I>J Research National Institute of Standards and Technology, 98,</I></U> pp. 217-224. |  
-
 | <I>Type A & B uncertainty analyses for resistivities</I> | <A NAME="Ehrstein">J. R. Ehrstein and M. C. Croarkin (1998). </A><I><B>Standard Reference Materials: The Certification of 100 mm Diameter Silicon Resistivity SRMs 2541 through 2547 Using Dual-Configuration Four-Point Probe Measurements,</B></I> NIST Special Publication 260-131, Revised, 84 pages. |  
-
 | <I>Calibration designs for electrical standards</I> | <A NAME="EickeCameron">W. G. Eicke and J. M. Cameron (1967).</A><I><B>Designs for Surveillance of the Volt Maintained By a Group of Saturated Standard Cells,</B></I> NBS Technical Note 430, U.S. Dept. Commerce 19 pages. |  
-
 | <I>Theory of uncertainty analysis</I> | <A NAME="Eisenhart">Churchill Eisenhart (1962). </A><I><B>Realistic Evaluation of the Precision and Accuracy of Instrument Calibration Systems</B><U>J Research National Bureau of Standards-C. Engineering and Instrumentation, Vol. 67C, No.2</U></I>, p. 161-187.</A> |  
-
 | <I>Confidence, prediction, and tolerance intervals</I> | <A NAME="HahnMeeker">Gerald J. Hahn and William Q. Meeker (1991). <I><B>Statistical Intervals: A Guide for Practitioners</I></B>, John Wiley & Sons, Inc., New York.</A> |  
-
 | <I>Original calibration designs for weighings</I> | <TD VALIGN=TOP WIDTH=85%> <A NAME="Hayford">J. A. Hayford (1893).  <I><B>On the Least Square Adjustment of Weighings,</B></I> U.S. Coast and Geodetic Survey Appendix 10, Report for 1892.</A> |  
-
 | <I>Uncertainties for values from a calibration curve</I> | <A NAME="HockersmithKu">Thomas E. Hockersmith and Harry H. Ku (1993).  <I><B>Uncertainties associated with proving ring calibrations</B></I>, <U>NBS Special Publication 300: Precision Measurement and Calibration, Statistical Concepts and Procedures, Vol. 1,</U> pp. 257-263,  H. H. Ku, editor. </A> |  
 
 
