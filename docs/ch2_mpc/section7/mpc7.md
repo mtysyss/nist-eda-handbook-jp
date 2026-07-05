@@ -20,146 +20,19 @@
 | <I>Confidence, prediction, and tolerance intervals</I> | <A NAME="HahnMeeker">Gerald J. Hahn and William Q. Meeker (1991).</A> <I><B>Statistical Intervals: A Guide for Practitioners</I></B>, John Wiley & Sons, Inc., New York. |  
 | <I>Original calibration designs for weighings</I> | <A NAME="Hayford">J. A. Hayford (1893).</A>  <I><B>On the Least Square Adjustment of Weighings,</B></I> U.S. Coast and Geodetic Survey Appendix 10, Report for 1892. |  
 | <I>Uncertainties for values from a calibration curve</I> | <A NAME="HockersmithKu">Thomas E. Hockersmith and Harry H. Ku (1993).</A>  <I><B>Uncertainties associated with proving ring calibrations</B></I>, <U>NBS Special Publication 300: Precision Measurement and Calibration, Statistical Concepts and Procedures, Vol. 1,</U> pp. 257-263,  H. H. Ku, editor.  |  
-
-
-
-
-| 
-<I>EWMA control charts</I>
-
-| 
-<A NAME="Hunter">Hunter, J. S. (1986).</A> The Exponentially Weighted
-Moving Average.  <i>Journal of Quality Technology</i>, 18(4), 203-210.
-doi:10.1080/00224065.1986.11979014
-
-
-
-
-| 
-<I>Fundamentals of mass metrology</I>
-
-| 
-<A NAME="JaegerDavis">K. B. Jaeger and R. S. Davis (1984).
-<I><B>A Primer for Mass Metrology</I></B>, NBS Special Publication
-700-1, 85 pages.</A>
-
-
-
-
-<TD VALIGN="top" WIDTH=15%>
-<I>Fundamentals of propagation of error</I>
-
-| 
-<A NAME="Ku">Harry Ku (1966). <I><B>Notes on the Use of
-Propagation of Error Formulas, </B><U><I>J Research of National
-Bureau of Standards-C.  Engineering and Instrumentation, Vol. 70C,
-No.4</U></I>, pp. 263-273.</A>
-
-
-
-
-| 
-<I>Handbook of statistical methods</I>
-
-<TD VALIGN=TOP VALIGN=TOP WIDTH=85%>
-<A NAME="Natrella">Mary Gibbons Natrella (1963).
-<I><B>Experimental Statistics,</B></I> <U>NBS Handbook 91</U>,
-US Deptartment of Commerce.</A>
-
-
-
-
-<TD VALIGN=top WIDTH=15%>
-<I>Omnitab</I>
-
-<TD  VALIGN=TOP VALIGN=TOP WIDTH=85%>
-<A NAME="Omnitab">Sally T. Peavy, Shirley G. Bremer,
-Ruth N. Varner, David Hogben (1986).
-<I><B>OMNITAB 80: An Interpretive System for Statistical and
-Numerical Data Analysis,</B></I> <U>NBS Special Publication
-701</U>, US Deptartment of Commerce.</A>
-
-
-
-
-| 
-<I>Uncertainties for uncorrected bias</I>
-
-| 
-<A NAME="Phillips">Steve D. Phillips and Keith R. Eberhardt (1997).
-<I><B>Guidelines for Expressing the Uncertainty of Measurement
-Results Containing Uncorrected Bias</I></B>, <U><I>NIST Journal
-of Research, Vol. 102, No. 5</I></U>.</A>
-
-
-
-
-| 
-<I>Calibration of roundness artifacts</I>
-
-| 
-<A NAME="ReeveRoundness">Charles P. Reeve (1979).
-<I><B>Calibration designs for roundness standards</I></B>,
-NBSIR 79-1758, 21 pages.</A>
-
-
-
-
-| 
-<I>Calibration designs for angle blocks</I>
-
-| 
-<A NAME="ReeveAngle">Charles P. Reeve (1967).  <I><B>The
-Calibration of Angle Blocks by Comparison</I></B>, NBSIR 80-19767,
-24 pages.</A>
-
-
-
-
-| 
-<I>SI units</I>
-
-| 
-<A NAME="Taylor">Barry N. Taylor (1991).  <I><B>Interpretation
-of the SI for the United States and Metric Conversion Policy for
-Federal Agencies,</B></I> NIST Special Publication 841,
-U.S. Deptartment of Commerce.</A>
-
-
-
-
-| 
-<I>Uncertainties for calibrated values</I>
-
-| 
-<A NAME="TurgelVecchia">Raymond Turgel and Dominic Vecchia 
-(1987).  <I><B>Precision Calibration of Phase Meters,</I></B>
-<I><U>IEEE Transactions on Instrumentation and Measurement, Vol.
-IM-36, No. 4.,</I></U> pp. 918-922.</A>
-
-
-
-
-| 
-<I>Example of propagation of error for flow measurements</I>
-
-| 
-<A NAME="Whetstone">James R. Whetstone et al. (1989).
-<I><B>Measurements of Coefficients of Discharge for Concentric
-Flange-Tapped Square-Edged Orifice Meters in Water Over the
-Reynolds Number Range 600 to 2,700,000</B></I>, NIST Technical
-Note 1264. pp. 97.</A>
-
-
-
-
-| 
-<I>Mathematica software</I>
-
-| 
-<A NAME="Wolfram">Stephen Wolfram (1993). <I><B>Mathematica, A
-System of Doing Mathematics by Computer, 2nd edition,</B></I>
-Addison-Wesley Publishing Co., New York.</A>
+| <I>EWMA control charts</I> | <A NAME="Hunter">Hunter, J. S. (1986).</A> The Exponentially Weighted Moving Average.  <i>Journal of Quality Technology</i>, 18(4), 203-210. doi:10.1080/00224065.1986.11979014 |  
+| <I>Fundamentals of mass metrology</I> | <A NAME="JaegerDavis">K. B. Jaeger and R. S. Davis (1984).</A> <I><B>A Primer for Mass Metrology</I></B>, NBS Special Publication 700-1, 85 pages. |  
+| <I>Fundamentals of propagation of error</I> | <A NAME="Ku">Harry Ku (1966).</A> <I><B>Notes on the Use of Propagation of Error Formulas, </B><U><I>J Research of National Bureau of Standards-C.  Engineering and Instrumentation, Vol. 70C, No.4</U></I>, pp. 263-273. |  
+| <I>Handbook of statistical methods</I> | <A NAME="Natrella">Mary Gibbons Natrella (1963).</A> <I><B>Experimental Statistics,</B></I> <U>NBS Handbook 91</U>, US Deptartment of Commerce. |  
+| <I>Omnitab</I> | <A NAME="Omnitab">Sally T. Peavy, Shirley G. Bremer, Ruth N. Varner, David Hogben (1986).</A><I><B>OMNITAB 80: An Interpretive System for Statistical and Numerical Data Analysis,</B></I> <U>NBS Special Publication 701</U>, US Deptartment of Commerce. |  
+| <I>Uncertainties for uncorrected bias</I> | <A NAME="Phillips">Steve D. Phillips and Keith R. Eberhardt (1997).</A><I><B>Guidelines for Expressing the Uncertainty of Measurement Results Containing Uncorrected Bias</I></B>, <U><I>NIST Journal of Research, Vol. 102, No. 5</I></U>. |  
+| <I>Calibration of roundness artifacts</I> | <A NAME="ReeveRoundness">Charles P. Reeve (1979).</A><I><B>Calibration designs for roundness standards</I></B>, NBSIR 79-1758, 21 pages. |  
+| <I>Calibration designs for angle blocks</I> | <A NAME="ReeveAngle">Charles P. Reeve (1967).</A><I><B>The Calibration of Angle Blocks by Comparison</I></B>, NBSIR 80-19767, 24 pages. |  
+| <I>SI units</I> | <A NAME="Taylor">Barry N. Taylor (1991).</A><I><B>Interpretation of the SI for the United States and Metric Conversion Policy for Federal Agencies,</B></I> NIST Special Publication 841, U.S. Deptartment of Commerce. |  
+| <I>Uncertainties for calibrated values</I> | <A NAME="TurgelVecchia">Raymond Turgel and Dominic Vecchia (1987). </A><I><B>Precision Calibration of Phase Meters,</I></B><I><U>IEEE Transactions on Instrumentation and Measurement, Vol.
+IM-36, No. 4.,</I></U> pp. 918-922. |  
+| <I>Example of propagation of error for flow measurements</I> | <A NAME="Whetstone">James R. Whetstone et al. (1989).</A> <I><B>Measurements of Coefficients of Discharge for Concentric Flange-Tapped Square-Edged Orifice Meters in Water Over the Reynolds Number Range 600 to 2,700,000</B></I>, NIST Technical Note 1264. pp. 97. |  
+| <I>Mathematica software</I> | <A NAME="Wolfram">Stephen Wolfram (1993).</A> <I><B>Mathematica, A System of Doing Mathematics by Computer, 2nd edition,</B></I> Addison-Wesley Publishing Co., New York. |  
 
 
 
