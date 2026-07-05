@@ -16,7 +16,7 @@
 | <I>Calibration designs for gauge blocks</I> | <A NAME="Doiron"></A>Ted Doiron (1993). <I><B>Drift Eliminating Designs for Non-Simultaneous Comparison Calibrations</B></I>, <U><I>J Research National Institute of Standards and Technology, 98,</I></U> pp. 217-224. |  
 | <I>Type A & B uncertainty analyses for resistivities</I> | <A NAME="Ehrstein"></A>J. R. Ehrstein and M. C. Croarkin (1998). <I><B>Standard Reference Materials: The Certification of 100 mm Diameter Silicon Resistivity SRMs 2541 through 2547 Using Dual-Configuration Four-Point Probe Measurements,</B></I> NIST Special Publication 260-131, Revised, 84 pages. |  
 | <I>Calibration designs for electrical standards</I> | <A NAME="EickeCameron"></A>W. G. Eicke and J. M. Cameron (1967).<I><B>Designs for Surveillance of the Volt Maintained By a Group of Saturated Standard Cells,</B></I> NBS Technical Note 430, U.S. Dept. Commerce 19 pages. |  
-| <I>Theory of uncertainty analysis</I> | <A NAME="Eisenhart"</A>>Churchill Eisenhart (1962). <I><B>Realistic Evaluation of the Precision and Accuracy of Instrument Calibration Systems</B><U>J Research National Bureau of Standards-C. Engineering and Instrumentation, Vol. 67C, No.2</U></I>, p. 161-187. |  
+| <I>Theory of uncertainty analysis</I> | <A NAME="Eisenhart"></A>>Churchill Eisenhart (1962). <I><B>Realistic Evaluation of the Precision and Accuracy of Instrument Calibration Systems</B><U>J Research National Bureau of Standards-C. Engineering and Instrumentation, Vol. 67C, No.2</U></I>, p. 161-187. |  
 | <I>Confidence, prediction, and tolerance intervals</I> | <A NAME="HahnMeeker"></A>Gerald J. Hahn and William Q. Meeker (1991). <I><B>Statistical Intervals: A Guide for Practitioners</I></B>, John Wiley & Sons, Inc., New York. |  
 | <I>Original calibration designs for weighings</I> | <A NAME="Hayford"></A>J. A. Hayford (1893).  <I><B>On the Least Square Adjustment of Weighings,</B></I> U.S. Coast and Geodetic Survey Appendix 10, Report for 1892. |  
 | <I>Uncertainties for values from a calibration curve</I> | <A NAME="HockersmithKu"></A>Thomas E. Hockersmith and Harry H. Ku (1993).  <I><B>Uncertainties associated with proving ring calibrations</B></I>, <U>NBS Special Publication 300: Precision Measurement and Calibration, Statistical Concepts and Procedures, Vol. 1,</U> pp. 257-263,  H. H. Ku, editor.  |  
@@ -24,7 +24,7 @@
 | <I>Fundamentals of mass metrology</I> | <A NAME="JaegerDavis"></A>K. B. Jaeger and R. S. Davis (1984). <I><B>A Primer for Mass Metrology</I></B>, NBS Special Publication 700-1, 85 pages. |  
 | <I>Fundamentals of propagation of error</I> | <A NAME="Ku"></A>Harry Ku (1966). <I><B>Notes on the Use of Propagation of Error Formulas, </B><U><I>J Research of National Bureau of Standards-C.  Engineering and Instrumentation, Vol. 70C, No.4</U></I>, pp. 263-273. |  
 | <I>Handbook of statistical methods</I> | <A NAME="Natrella"></A>Mary Gibbons Natrella (1963). <I><B>Experimental Statistics,</B></I> <U>NBS Handbook 91</U>, US Deptartment of Commerce. |  
-| <I>Omnitab</I> | <A NAME="Omnitab">Sally T. Peavy, Shirley G. Bremer, Ruth N. Varner, David Hogben (1986).<I><B>OMNITAB 80: An Interpretive System for Statistical and Numerical Data Analysis,</B></I> <U>NBS Special Publication 701</U>, US Deptartment of Commerce. |  
+| <I>Omnitab</I> | <A NAME="Omnitab"></A>Sally T. Peavy, Shirley G. Bremer, Ruth N. Varner, David Hogben (1986).<I><B>OMNITAB 80: An Interpretive System for Statistical and Numerical Data Analysis,</B></I> <U>NBS Special Publication 701</U>, US Deptartment of Commerce. |  
 | <I>Uncertainties for uncorrected bias</I> | <A NAME="Phillips"></A>Steve D. Phillips and Keith R. Eberhardt (1997).<I><B>Guidelines for Expressing the Uncertainty of Measurement Results Containing Uncorrected Bias</I></B>, <U><I>NIST Journal of Research, Vol. 102, No. 5</I></U>. |  
 | <I>Calibration of roundness artifacts</I> | <A NAME="ReeveRoundness"></A>Charles P. Reeve (1979).<I><B>Calibration designs for roundness standards</I></B>, NBSIR 79-1758, 21 pages. |  
 | <I>Calibration designs for angle blocks</I> | <A NAME="ReeveAngle"></A>Charles P. Reeve (1967).<I><B>The Calibration of Angle Blocks by Comparison</I></B>, NBSIR 80-19767, 24 pages. |  
@@ -35,86 +35,12 @@
 | <I>Restrained least squares</I> | <A NAME="Zelen"></A>Marvin Zelen (1962). <I><B>"Linear Estimation and Related Topics"</B></I> in <U><I>Survey of Numerical Analysis</I></U> edited by John Todd, McGraw-Hill Book Co. Inc., New York, pp. 558-577. |  
 | <I>ASTM F84 for resistivity</I> | <A NAME="ASTM F84"></A><I><B>ASTM Method F84-93, Standard Test Method for Measuring Resistivity of Silicon Wafers With an In-line Four-Point Probe.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
 | <I>ASTM E691 for interlaboratory testing</I> | <A NAME="ASTME691"></A><I><B>ASTM Method E691-92, Standard Practice for Conducting an Interlaboratory Study to Determine the Precision of a Test Method.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
-
-
-
-
-| 
-<I>Guide to uncertainty analysis</I>
-
-| 
-<A NAME="GUM"><I><B>Guide to the Expression of Uncertainty of
-Measurement </B></I>(1993). ISBN 91-67-10188-9, 1st ed. ISO, Case
-postale 56, CH-1211, Gen�ve 20, Switzerland, 101 pages.
-
-
-
-
-| 
-<I>ISO 5725 for interlaboratory testing</I>
-
-| 
-<A NAME="ISO5725"> <I><B>ISO 5725: 1997. Accuracy (trueness and
-precision) of measurement results, Part 2: Basic method for
-repeatability and reproducibility of a standard measurement
-method, </B></I> ISO, Case postale 56, CH-1211, Gen�ve 20,
-Switzerland.
-
-
-
-
-| 
-<I>ISO 11095 on linear calibration</I>
-
-| 
-<A NAME="ISO11095"><I><B>ISO 11095: 1997. Linear Calibration
-using Reference Materials,</B></I> ISO, Case postale 56,
-CH-1211, Gen�ve 20, Switzerland.
-
-
-
-
-| 
-<I>MSA gauge studies manual</I>
-
-| 
-<A NAME="MSA"><I><B>Measurement Systems Analysis Reference Manual,
-2nd ed., </B></I>(1995). Chrysler Corp., Ford Motor Corp., General
-Motors Corp., 120 pages.
-
-
-
-
-| 
-<I>NCSL RP on uncertainty analysis</I>
-
-| 
-<A NAME="NCSL"><I><B>Determining and Reporting Measurement
-Uncertainties, </B></I> National Conference of Standards
-Laboratories RP-12, (1994), Suite 305B, 1800 30th St.,
-Boulder, CO 80301.
-
-
-
-
-| 
-<I>ISO Vocabulary for metrology</I>
-
-| 
-<A NAME="VIM"><I><B>International Vocabulary of Basic and General
-Terms in Metrology, 2nd ed., </B></I>(1993). ISO, Case postale 56,
-CH-1211, Gen�ve 20, Switzerland, 59 pages.
-
-
-
-
-| 
-<I>Exact variance for length and width</I>
-
-| 
-<A NAME="Goodman">Leo Goodman (1960).
-<I><B>"On the Exact Variance
-of Products"</B></I> in <U><I>Journal of the American Statistical
-Association</I></U>, December, 1960, pp. 708-713.
+| <I>Guide to uncertainty analysis</I> | <A NAME="GUM"></A><I><B>Guide to the Expression of Uncertainty of Measurement </B></I>(1993). ISBN 91-67-10188-9, 1st ed. ISO, Case postale 56, CH-1211, Gen�ve 20, Switzerland, 101 pages. |  
+| <I>ISO 5725 for interlaboratory testing</I> | <A NAME="ISO5725"></A> <I><B>ISO 5725: 1997. Accuracy (trueness and precision) of measurement results, Part 2: Basic method for repeatability and reproducibility of a standard measurement method, </B></I> ISO, Case postale 56, CH-1211, Gen�ve 20, Switzerland. |  
+| <I>ISO 11095 on linear calibration</I> | <A NAME="ISO11095"></A><I><B>ISO 11095: 1997. Linear Calibration using Reference Materials,</B></I> ISO, Case postale 56, CH-1211, Gen�ve 20, Switzerland. |  
+| <I>MSA gauge studies manual</I> | <A NAME="MSA"></A><I><B>Measurement Systems Analysis Reference Manual, 2nd ed., </B></I>(1995). Chrysler Corp., Ford Motor Corp., General Motors Corp., 120 pages. |  
+| <I>NCSL RP on uncertainty analysis</I> | <A NAME="NCSL"></A><I><B>Determining and Reporting Measurement Uncertainties, </B></I> National Conference of Standards Laboratories RP-12, (1994), Suite 305B, 1800 30th St., Boulder, CO 80301. |  
+| <I>ISO Vocabulary for metrology</I> | <A NAME="VIM"></A><I><B>International Vocabulary of Basic and General Terms in Metrology, 2nd ed., </B></I>(1993). ISO, Case postale 56, CH-1211, Gen�ve 20, Switzerland, 59 pages. |  
+| <I>Exact variance for length and width</I> | <A NAME="Goodman"></A>Leo Goodman (1960). <I><B>"On the Exact Variance of Products"</B></I> in <U><I>Journal of the American Statistical Association</I></U>, December, 1960, pp. 708-713. |  
 
 
