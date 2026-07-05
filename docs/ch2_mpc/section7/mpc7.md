@@ -8,7 +8,7 @@
 
 # 2.7. 参考文献
 |  |  |  
-| :--- | :-------------------- |  
+| :----- | :-------------------- |  
 | <I>Degrees of freedom</I> | <A NAME="Brownlee">K. A. Brownlee</A> (1960).  <I><B>Statistical Theory and Methodology in Science and Engineering,</I></B> John Wiley & Sons, Inc., New York, p. 236. |  
 | <I>Calibration designs</I> | <A NAME="Cameronetal">J. M. Cameron, M. C. Croarkin and R. C. Raybold (1977). </A><I><B>Designs for the Calibration of Standards of Mass,</B></I> NBS Technical Note 952, U.S. Dept. Commerce, 58 pages. |  
 | <I>Calibration designs for eliminating drift</I> | <A NAME="CameronHailes">J. M. Cameron and G. E. Hailes (1974). </A><I><B>Designs for the Calibration of Small Groups of Standards in the Presence of Drift</B></I>, Technical Note 844, U.S. Dept. Commerce, 31 pages. |  
