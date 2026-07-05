@@ -29,46 +29,12 @@
 | <I>Calibration of roundness artifacts</I> | <A NAME="ReeveRoundness">Charles P. Reeve (1979).</A><I><B>Calibration designs for roundness standards</I></B>, NBSIR 79-1758, 21 pages. |  
 | <I>Calibration designs for angle blocks</I> | <A NAME="ReeveAngle">Charles P. Reeve (1967).</A><I><B>The Calibration of Angle Blocks by Comparison</I></B>, NBSIR 80-19767, 24 pages. |  
 | <I>SI units</I> | <A NAME="Taylor">Barry N. Taylor (1991).</A><I><B>Interpretation of the SI for the United States and Metric Conversion Policy for Federal Agencies,</B></I> NIST Special Publication 841, U.S. Deptartment of Commerce. |  
-| <I>Uncertainties for calibrated values</I> | <A NAME="TurgelVecchia">Raymond Turgel and Dominic Vecchia (1987). </A><I><B>Precision Calibration of Phase Meters,</I></B><I><U>IEEE Transactions on Instrumentation and Measurement, Vol.
-IM-36, No. 4.,</I></U> pp. 918-922. |  
+| <I>Uncertainties for calibrated values</I> | <A NAME="TurgelVecchia">Raymond Turgel and Dominic Vecchia (1987). </A><I><B>Precision Calibration of Phase Meters,</I></B><I><U>IEEE Transactions on Instrumentation and Measurement, Vol. IM-36, No. 4.,</I></U> pp. 918-922. |  
 | <I>Example of propagation of error for flow measurements</I> | <A NAME="Whetstone">James R. Whetstone et al. (1989).</A> <I><B>Measurements of Coefficients of Discharge for Concentric Flange-Tapped Square-Edged Orifice Meters in Water Over the Reynolds Number Range 600 to 2,700,000</B></I>, NIST Technical Note 1264. pp. 97. |  
 | <I>Mathematica software</I> | <A NAME="Wolfram">Stephen Wolfram (1993).</A> <I><B>Mathematica, A System of Doing Mathematics by Computer, 2nd edition,</B></I> Addison-Wesley Publishing Co., New York. |  
-
-
-
-
-| 
-<I>Restrained least squares</I>
-
-| 
-<A NAME="Zelen">Marvin Zelen (1962). <I><B>"Linear Estimation
-and Related Topics"</B></I> in <U><I>Survey of Numerical
-Analysis</I></U> edited by John Todd, McGraw-Hill Book Co. Inc.,
-New York, pp. 558-577.</A>
-
-
-
-
-| 
-<I>ASTM F84 for resistivity</I>
-
-| 
-<A NAME="ASTM F84"><I><B>ASTM Method F84-93, Standard Test Method
-for Measuring Resistivity of Silicon Wafers With an In-line
-Four-Point Probe.</I></B>  Annual Book of ASTM Standards, 10.05,
-West Conshohocken, PA 19428.</A>
-
-
-
-
-| 
-<I>ASTM E691 for interlaboratory testing</I>
-
-| 
-<A NAME="ASTME691"><I><B>ASTM Method E691-92, Standard Practice
-for Conducting an Interlaboratory Study to Determine the Precision
-of a Test Method.</I></B>  Annual Book of ASTM Standards, 10.05,
-West Conshohocken, PA 19428.</A>
+| <I>Restrained least squares</I> | <A NAME="Zelen">Marvin Zelen (1962).</A> <I><B>"Linear Estimation and Related Topics"</B></I> in <U><I>Survey of Numerical Analysis</I></U> edited by John Todd, McGraw-Hill Book Co. Inc., New York, pp. 558-577. |  
+| <I>ASTM F84 for resistivity</I> | <A NAME="ASTM F84"/><I><B>ASTM Method F84-93, Standard Test Method for Measuring Resistivity of Silicon Wafers With an In-line Four-Point Probe.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
+| <I>ASTM E691 for interlaboratory testing</I> | <A NAME="ASTME691"/><I><B>ASTM Method E691-92, Standard Practice for Conducting an Interlaboratory Study to Determine the Precision of a Test Method.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
 
 
 
