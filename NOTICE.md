@@ -1,6 +1,6 @@
 # 著作権表示および免責事項 / Copyright and Disclaimer
 
-本プロジェクトは、米国国立標準技術研究所（NIST）が公開している技術資料を基に作成された非公式の日本語翻訳プロジェクトです。
+本プロジェクトは、米国国立標準技術研究所（NIST）が公開している『ENGINEERING STATISTICS HANDBOOK』の非公式の日本語翻訳プロジェクトです。
 
 ## 1. 原典について (Original Source)
 - **名称**: NIST/SEMATECH e-Handbook of Statistical Methods
