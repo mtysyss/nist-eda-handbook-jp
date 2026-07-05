@@ -33,8 +33,8 @@
 | <I>Example of propagation of error for flow measurements</I> | <A NAME="Whetstone">James R. Whetstone et al. (1989).</A> <I><B>Measurements of Coefficients of Discharge for Concentric Flange-Tapped Square-Edged Orifice Meters in Water Over the Reynolds Number Range 600 to 2,700,000</B></I>, NIST Technical Note 1264. pp. 97. |  
 | <I>Mathematica software</I> | <A NAME="Wolfram">Stephen Wolfram (1993).</A> <I><B>Mathematica, A System of Doing Mathematics by Computer, 2nd edition,</B></I> Addison-Wesley Publishing Co., New York. |  
 | <I>Restrained least squares</I> | <A NAME="Zelen">Marvin Zelen (1962).</A> <I><B>"Linear Estimation and Related Topics"</B></I> in <U><I>Survey of Numerical Analysis</I></U> edited by John Todd, McGraw-Hill Book Co. Inc., New York, pp. 558-577. |  
-| <I>ASTM F84 for resistivity</I> | <A NAME="ASTM F84"/><I><B>ASTM Method F84-93, Standard Test Method for Measuring Resistivity of Silicon Wafers With an In-line Four-Point Probe.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
-| <I>ASTM E691 for interlaboratory testing</I> | <A NAME="ASTME691"/><I><B>ASTM Method E691-92, Standard Practice for Conducting an Interlaboratory Study to Determine the Precision of a Test Method.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
+| <I>ASTM F84 for resistivity</I> | <A NAME="ASTM F84"></A><I><B>ASTM Method F84-93, Standard Test Method for Measuring Resistivity of Silicon Wafers With an In-line Four-Point Probe.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
+| <I>ASTM E691 for interlaboratory testing</I> | <A NAME="ASTME691"></A><I><B>ASTM Method E691-92, Standard Practice for Conducting an Interlaboratory Study to Determine the Precision of a Test Method.</I></B>  Annual Book of ASTM Standards, 10.05, West Conshohocken, PA 19428. |  
 
 
 
