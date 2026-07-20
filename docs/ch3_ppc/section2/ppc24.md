@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section2/ppc24.htm)  
 閲覧(UTC)：2026-07-05 16:02:10  
-[⬅️](ppc2331.md)[➡️](../section3/ppc3.md)  
+[⬅️](ppc2331.md)[➡️](../ppc.md)  
 
 3. [生産工程の特徴付け](../ppc.md)  
 3.2. [前提条件／必要条件](ppc2.md)  

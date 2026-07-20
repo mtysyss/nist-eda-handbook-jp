@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section1/ppc14.htm)  
 閲覧(UTC)：2026-07-05 15:58:51  
-[⬅️](ppc136.md)[➡️](../section2/ppc2.md)  
+[⬅️](ppc136.md)[➡️](../ppc.md)  
 
 3. [生産工程の特徴付け](../ppc.md)  
 3.1. [生産工程特徴付けの概要](ppc1.md)  
