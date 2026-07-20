@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section4/ppc42.htm)  
 閲覧(UTC)：2026-07-05 16:05:17  
-[⬅️](ppc412.md)[➡️](ppc421.md)  
+[⬅️](ppc41.md)[➡️](ppc421.md)  
 
 3. [生産工程の特徴付け](../ppc.md)  
 3.4. [PPCのためのデータ分析](ppc4.md)  
@@ -26,5 +26,4 @@
 これにより、応答変数に影響を及ぼす主な要因が示される。
 最後に、説明変数の水準を条件として、応答変数をプロットする。
 これにより、説明変数間の相互作用が明らかになる。
-相互作用を可視化するために、枝分かれた[箱hige
-図](../../ch1_eda/section3/eda337.md)と[ブロック・プロット](../../ch1_eda/section3/eda333.md)を使用する。
+相互作用を可視化するために、枝分かれた[箱ひげ図](../../ch1_eda/section3/eda337.md)と[ブロック・プロット](../../ch1_eda/section3/eda333.md)を使用する。
