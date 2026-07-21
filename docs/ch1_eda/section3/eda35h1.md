@@ -115,7 +115,7 @@ Grubbs 検定は、以下の質問に答える。
 
 #### ソフトウェア
 一部の汎用統計ソフトウェアでは、Grubbs 検定に対応している。
-このセクションの解析を行うには[、Dataplotコード](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h1.dp)と[Rコードの](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h1.r)どちらも使用できる。
+この節の解析を行うには[、Dataplotコード](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h1.dp)と[Rコードの](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h1.r)どちらも使用できる。
 
 
 ---

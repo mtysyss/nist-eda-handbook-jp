@@ -1,0 +1,275 @@
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section5/Machine/dpm52.htm)  
+閲覧(UTC)：2026-07-05 16:06:51
+
+#### ソフトウェアの設定を行い、使い始めましょう
+```
+.
+. Starting Furnace Case Study
+.
+. Setting Dataplot Defaults
+reset data
+reset plot control
+erase
+dimension 100 variables
+tic mark offset units absolute
+tic mark offset 5 5
+label case asis
+title case asis
+title displacement 1.5
+char x
+lines blank
+.  Following 2 lines for better looking gif files
+frame thickness 0.15
+tic mark thickness 0.15
+. Finished Setting Defaults
+.
+. Starting Step 1.1
+skip 25
+read machine.dat machine day time sample diameter
+variable label machine Machine
+variable label day Day
+variable label time Time of Day
+variable label sample Sample Number
+variable label diameter Diameter (inches)
+. Finished Step 1.1: Page Back for Output
+```
+
+#### 機械による箱ひげ図
+```
+.
+. Starting Step 2.1
+.
+title Box Plot by Machine
+x1label ^machine
+y1label ^diameter
+character box plot
+line box plot
+fences on
+xlimits 1 3
+major xtic mark number 3
+minor xtic mark number 0
+xtic offset 1 1
+ytic offset 0.001 0.001
+tic offset units data
+ylimits 0.120 0.128
+y1label displacement 12
+ytic mark decimal 3
+box plot diameter machine
+line solid all
+character blank all
+let xmean = mean diameter
+drawdata 0 xmean 4 xmean
+xlimits
+major xtic mark number
+minor xtic mark number
+xtic marks offset units abso
+xtic marks offset 0 0
+ytic mark decimal
+y1label displacement
+.
+. Finished Step 2.1: Page Back for Output
+```
+
+#### 日別の箱ひげ図
+```
+.
+. Starting Step 2.2
+.
+title Box Plot by Day
+x1label ^day
+y1label ^diameter
+character box plot
+line box plot
+fences on
+xlimits 1 3
+major xtic mark number 3
+minor xtic mark number 0
+xtic offset 1 1
+ytic offset 0.001 0.001
+tic offset units data
+ylimits 0.120 0.128
+y1label displacement 12
+ytic mark decimal 3
+box plot diameter day
+line solid all
+character blank all
+let xmean = mean diameter
+drawdata 0 xmean 4 xmean
+xlimits
+major xtic mark number
+minor xtic mark number
+xtic marks offset units abso
+xtic marks offset 0 0
+ytic mark decimal
+y1label displacement
+.
+. Finished Step 2.2: Page Back for Output
+```
+
+#### 時間帯別の箱ひげ図
+```
+.
+. Starting Step 2.3
+.
+title Box Plot by Time of Day
+x1label ^time
+y1label ^diameter
+character box plot
+line box plot
+fences on
+xlimits 1 2
+major xtic mark number 2
+minor xtic mark number 0
+xtic offset 1 1
+x1tic mark label format alpha
+x1tic mark label content AM PM
+ytic offset 0.001 0.001
+tic offset units data
+ylimits 0.120 0.128
+y1label displacement 12
+ytic mark decimal 3
+box plot diameter time
+line solid all
+character blank all
+let xmean = mean diameter
+drawdata 0 xmean 3 xmean
+xlimits
+major xtic mark number
+minor xtic mark number
+xtic marks offset units abso
+xtic marks offset 0 0
+ytic mark decimal
+y1label displacement
+x1tic mark label format
+x1tic mark label content
+.
+. Finished Step 2.3: Page Back for Output
+```
+
+#### サンプルごとの箱ひげ図
+```
+.
+. Starting Step 2.4
+.
+title Box Plot by Sample
+x1label ^sample
+y1label ^diameter
+character box plot
+line box plot
+fences on
+xlimits 1 10
+x1tic mark label format
+x1tic mark label content
+major xtic mark number 10
+minor xtic mark number 0
+xtic offset 1 1
+ytic offset 0.001 0.001
+tic offset units data
+ylimits 0.120 0.128
+y1label displacement 12
+ytic mark decimal 3
+box plot diameter sample
+line solid all
+character blank all
+let xmean = mean diameter
+drawdata 0 xmean 11 xmean
+xlimits
+major xtic mark number
+minor xtic mark number
+xtic marks offset units abso
+xtic marks offset 0 0
+ytic mark decimal
+y1label displacement
+.
+. Finished Step 2.4: Page Back for Output
+```
+
+#### 分散分析：すべての因子変数
+```
+.
+. Starting Step 3.1
+anova diameter machine day time sample
+.
+. Finished Step 3.1: Page Back for Output
+```
+
+#### 分散分析：機械のみ
+```
+.
+. Starting Step 3.2
+anova diameter machine
+.
+delete stderr nim1 ucl lcl level ni levmean
+skip 0
+read dpst2f.dat junk1 level ni levmean
+let stderr = ressd/sqrt(ni)
+let nim1 = ni-1
+let ucl = levmean + stderr*tppf(0.975,resdf)
+let lcl = levmean + stderr*tppf(0.025,resdf)
+set write format f6.0,f8.0,f10.6,f10.6,f10.6,f10.6
+print "Level  Number      Mean Std Error Lower 95% Upper 95%"
+print level ni levmean stderr lcl ucl
+.
+. Finished Step 3.2: Page Back for Output
+```
+
+#### モデルの検証
+```
+.
+. Starting Step 3.3
+.
+multiplot scale factor 2
+multiplot corner coordinates 5 5 95 95
+4-plot res
+multiplot scale factor 1
+.
+. Finished Step 3.3: Page Back for Output
+```
+
+#### スループットのグラフ
+```
+.
+. Starting Step 4.1
+.
+title Throughput by Machine
+x1label ^machine
+y1label Count
+character x x x
+line solid solid solid
+xlimits 1 3
+major xtic mark number 3
+minor xtic mark number 0
+let ytemp = data 576 604 583 657 604 586 510 546 571
+let xtemp = sequence 1 3 1 3
+print xtemp ytemp
+plot ytemp xtemp xtemp
+line solid all
+character blank all
+let xmean = mean ytemp
+drawdata 1 xmean 3 xmean
+xlimits
+major xtic mark number
+minor xtic mark number
+.
+. Finished Step 4.1: Page Back for Output
+```
+
+#### 分散分析：スループット
+```
+.
+. Starting Step 4.2
+anova ytemp xtemp
+.
+delete level ni levmean ucl lcl nim1
+skip 0
+read dpst2f.dat junk1 level ni levmean
+let stderr = ressd/sqrt(ni)
+let nim1 = ni-1
+let ucl = levmean + stderr*tppf(0.975,resdf)
+let lcl = levmean + stderr*tppf(0.025,resdf)
+set write format f6.0,f8.0,f10.3,f10.3,f10.3,f10.3
+print "Level  Number      Mean Std Error Lower 95% Upper 95%"
+print level ni levmean stderr lcl ucl
+.
+. Finished Step 4.2: Page Back for Output
+```
