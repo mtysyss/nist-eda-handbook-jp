@@ -15,7 +15,7 @@
 4. [PPCの手順](section1/ppc14.md)
 
 #### 2. [前提条件](section2/ppc2.md)
-1. [一般的な仮定](section2/ppc21.md)
+1. [一般的な前提条件](section2/ppc21.md)
 2. [特定のPPCモデル](section2/ppc22.md)
 
 #### 3. [データ収集](section3/ppc3.md)
