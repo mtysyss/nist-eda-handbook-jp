@@ -7,17 +7,17 @@
 
 ---
 
-# 3.5.2. 小ねじの事例研究
+# 3.5.2. 機械ねじの事例研究
 
 #### はじめに
 この事例研究では、3台の自動ねじ加工機を分析し、そのうち1台を置き換えることを検討している。
 
 #### 目次
-この事例研究は、以下の手順に分けて説明されている。
+この事例研究は、以下の手順に分けて説明する。
 
-1. [背景とデータ](https://www.itl.nist.gov/div898/handbook/ppc/section5/ppc521.md)  
-* [要因別の箱ひげ図](https://www.itl.nist.gov/div898/handbook/ppc/section5/ppc522.md)  
-* [分散分析](https://www.itl.nist.gov/div898/handbook/ppc/section5/ppc523.md)  
-* [スループット](https://www.itl.nist.gov/div898/handbook/ppc/section5/ppc524.md)  
-* [最終的な結論](https://www.itl.nist.gov/div898/handbook/ppc/section5/ppc525.md)  
-* [この例題を自分で解いてみよう](https://www.itl.nist.gov/div898/handbook/ppc/section5/ppc526.md)
+1. [背景とデータ](ppc521.md)  
+2. [要因別の箱ひげ図](ppc522.md)  
+3. [分散分析](ppc523.md)  
+4. [スループット](ppc524.md)  
+5. [最終結論](ppc525.md)  
+6. [例題を自分で解いてみる](ppc526.md)
