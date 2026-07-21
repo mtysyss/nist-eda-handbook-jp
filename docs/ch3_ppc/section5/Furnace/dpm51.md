@@ -1,7 +1,7 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section5/Furnace/dpm51.htm)  
 閲覧(UTC)：2026-07-05 16:06:44
 
-#### ソフトウェアの設定を行い、使い始めましょう
+#### ソフトウェアの設定を行い、使い始める
 ```
 .
 . Starting Furnace Case Study
@@ -138,7 +138,7 @@ capability analysis filmthic
 . Finished Step 2.3: Page Back for Output
 ```
 
-#### ランごとの箱ひげ図
+#### 実行ごとの箱ひげ図
 ```
 .
 . Starting Step 3.1
@@ -170,7 +170,7 @@ xtic marks offset 0 0
 . Finished Step 3.1: Page Back for Output
 ```
 
-#### 炉の設置場所別の箱ひげ図
+#### 炉の位置別の箱ひげ図
 ```
 .
 . Starting Step 3.2
@@ -202,7 +202,7 @@ xtic marks offset 0 0
 . Finished Step 3.2: Page Back for Output
 ```
 
-#### ウェーハごとの箱ひげ図
+#### ウェハごとの箱ひげ図
 ```
 .
 . Starting Step 3.3
@@ -234,7 +234,7 @@ xtic marks offset 0 0
 . Finished Step 3.3: Page Back for Output
 ```
 
-#### ブロックプロット
+#### ブロック・プロット
 ```
 .
 . Starting Step 3.4
