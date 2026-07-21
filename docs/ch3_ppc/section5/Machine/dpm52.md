@@ -1,7 +1,7 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section5/Machine/dpm52.htm)  
 閲覧(UTC)：2026-07-05 16:06:51
 
-#### ソフトウェアの設定を行い、使い始めましょう
+#### ソフトウェアの設定を行い、使い始める
 ```
 .
 . Starting Furnace Case Study
@@ -34,7 +34,7 @@ variable label diameter Diameter (inches)
 . Finished Step 1.1: Page Back for Output
 ```
 
-#### 機械による箱ひげ図
+#### 装置ごとの箱ひげ図
 ```
 .
 . Starting Step 2.1
@@ -70,7 +70,7 @@ y1label displacement
 . Finished Step 2.1: Page Back for Output
 ```
 
-#### 日別の箱ひげ図
+#### 日ごとの箱ひげ図
 ```
 .
 . Starting Step 2.2
@@ -106,7 +106,7 @@ y1label displacement
 . Finished Step 2.2: Page Back for Output
 ```
 
-#### 時間帯別の箱ひげ図
+#### 時間帯ごとの箱ひげ図
 ```
 .
 . Starting Step 2.3
@@ -146,7 +146,7 @@ x1tic mark label content
 . Finished Step 2.3: Page Back for Output
 ```
 
-#### サンプルごとの箱ひげ図
+#### 標本ごとの箱ひげ図
 ```
 .
 . Starting Step 2.4
@@ -193,7 +193,7 @@ anova diameter machine day time sample
 . Finished Step 3.1: Page Back for Output
 ```
 
-#### 分散分析：機械のみ
+#### 分散分析：装置のみ
 ```
 .
 . Starting Step 3.2
@@ -226,7 +226,7 @@ multiplot scale factor 1
 . Finished Step 3.3: Page Back for Output
 ```
 
-#### スループットのグラフ
+#### 効率のグラフ
 ```
 .
 . Starting Step 4.1
@@ -254,7 +254,7 @@ minor xtic mark number
 . Finished Step 4.1: Page Back for Output
 ```
 
-#### 分散分析：スループット
+#### 分散分析：効率
 ```
 .
 . Starting Step 4.2
