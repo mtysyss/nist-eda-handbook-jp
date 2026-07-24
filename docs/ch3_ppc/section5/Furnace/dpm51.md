@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section5/Furnace/dpm51.htm)  
-閲覧(UTC)：2026-07-05 16:06:44
+閲覧(UTC)：2026-07-05 16:06:44  
+[⬅️](../ppc516.md)[➡️](../ppc516.md)  
 
 #### ソフトウェアの設定を行い、使い始める
 ```

@@ -1,6 +1,8 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section5/Machine/dpm52.htm)  
 閲覧(UTC)：2026-07-05 16:06:51
 
+[⬅️](../ppc526.md)[➡️](../ppc526.md)  
+
 #### ソフトウェアの設定を行い、使い始める
 ```
 .
@@ -34,7 +36,7 @@ variable label diameter Diameter (inches)
 . Finished Step 1.1: Page Back for Output
 ```
 
-#### 装置ごとの箱ひげ図
+#### 機械ごとの箱ひげ図
 ```
 .
 . Starting Step 2.1
@@ -226,7 +228,7 @@ multiplot scale factor 1
 . Finished Step 3.3: Page Back for Output
 ```
 
-#### 効率のグラフ
+#### スループットのグラフ
 ```
 .
 . Starting Step 4.1
@@ -254,7 +256,7 @@ minor xtic mark number
 . Finished Step 4.1: Page Back for Output
 ```
 
-#### 分散分析：効率
+#### 分散分析：スループット
 ```
 .
 . Starting Step 4.2
