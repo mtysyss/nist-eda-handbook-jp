@@ -1,0 +1,125 @@
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section6/ldcll/dpm61.htm)  
+閲覧(UTC)：2026-07-26 14:03:05
+
+#### ソフトウェアを設定して、使い始める
+```
+reset data
+reset plot control
+erase
+dimension 100 variables
+tic mark offset units absolute
+tic mark offset 2 2
+ylabel offset units absolute
+ylabel offset 11
+label case asis
+title case asis
+title displacement 1.5
+char x
+lines blank
+
+skip 25
+read pontius.dat Deflection Load
+```
+
+#### 初期モデルの適合と検証
+```
+title Scatter Plot of Deflection vs. Load
+x1label Load
+y1label Deflection
+plot Deflection Load
+
+linear fit Deflection Load
+
+title Data & Predicted Values from Straight Line Fit vs. Load
+x1label Load
+y1label Deflection
+plot Deflection pred vs Load
+
+title Residuals vs. Load
+x1label Load
+y1label Residuals
+plot res Load
+
+title Residuals vs. Predicted Values from Straight Line Fit
+x1label Predicted Values
+y1label Residuals
+plot res pred
+
+labels
+title automatic
+4plot res
+
+linear fit Deflection Load
+```
+
+#### 精緻化されたモデルの適合と検証
+```
+title Residuals vs. Load
+x1label Load
+y1label Residuals
+plot res Load
+
+quadratic fit Deflection Load
+
+title Data & Predicted Values from Quadratic Fit vs. Load
+x1label Load
+y1label Deflection
+plot Deflection pred vs Load
+
+title Residuals vs. Load
+x1label Load
+y1label Residuals
+plot res Load
+
+title Residuals vs. Predicted Values from Quadratic Fit
+x1label Predicted Values
+y1label Residuals
+plot res pred
+
+labels
+title automatic
+4plot res
+```
+
+#### モデルを使用し、校正済みの測定を行う
+```
+let nd = normal random numbers for i = 1 1 1
+let nd = nd*0.0002051768 + 1.239600
+set write decimals  6
+print nd
+
+let ndp = nd(1)
+let lb = 1500000
+let ub = 2000000
+let function f = a0 + a1*load + a2*load**2 - ndp
+let nl = roots f wrt load for load = lb to ub
+set write decimals 0
+print nl
+
+skip 0
+read DPST4F.DAT junk1 junk2
+let b11 = junk2(1)
+let b21 = junk2(2)
+let b31 = junk2(3)
+let b12 = junk2(4)
+let b22 = junk2(5)
+let b32 = junk2(6)
+let b13 = junk2(7)
+let b23 = junk2(8)
+let b33 = junk2(9)
+let function f0 = b11
+let function f1 = (b12 + b21)*load
+let function f2 = (b13 + b22 + b31)*load**2
+let function f3 = (b23 + b32)*load**3
+let function f4 = b33*load**4
+let function fall = f0 + f1 + f2 + f3 + f4
+let n = size load
+let df = n - 3
+let tval = tppf(0.975,df)
+let function flb = f + tval*ressd*sqrt(1 + fall) 
+let nllb = roots flb wrt load for load = lb to ub
+let function fub = f - tval*ressd*sqrt(1 + fall) 
+let nlub = roots fub wrt load for load = lb to ub
+set write decimals 0
+print nllb nl nlub
+```
