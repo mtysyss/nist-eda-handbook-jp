@@ -58,15 +58,15 @@ RSM計画は以下の目的で使用する。
     </tr>
     <tr>
       <td align="center">2-4</td>
-      <td>[無作為化ブロック計画](pri332.md) </td>
-      <td>[完全](pri333.md)または<br>[一部実施要因計画](pri334.md) </td>
-      <td>[中心複合計画](pri3361.md)または<br>[Box-Behnken 計画](pri3362.md)</td>
+      <td><a href="pri332.md">無作為化ブロック計画</a></td>
+      <td><a href="pri333.md">完全</a>または<br><a href="pri334.md">一部実施要因計画</a></td>
+      <td><a href="pri3361.md">中心複合計画</a>または<br><a href="pri3362.md">Box-Behnken 計画</a></td>
     </tr>
     <tr>
       <td align="center">5以上</td>
-      <td>[無作為化ブロック計画](pri332.md)</td>
-      <td>[一部実施要因計画](pri334.md)または<br>[Plackett-Burman計画](pri335.md)</td>
-      <td>因子数を先ず削減する<br>[スクリーン計画](pri3346.md)</td>
+      <td><a href="pri332.md">無作為化ブロック計画</a></td>
+      <td><a href="pri334.md">一部実施要因計画</a>または<br><a href="pri335.md">Plackett-Burman計画</a></td>
+      <td>因子数を先ず削減する<br><a href="pri3346.md">スクリーン計画</a></td>
     </tr>
   </tbody>
 </table>
