@@ -41,12 +41,44 @@ RSM計画は以下の目的で使用する。
 
 **表3.1：計画選定ガイドライン**
 
-| | | | |   
-| :-----: | :-----: | :-----: | :-----: |  
-| 要因数 | 比較目的 | スクリーニング<br>目的 | 応答曲面<br>目的 |  
-| 1 | [1因子完全無作為化計画](pri331.md) | - | - |  
-| 2-4 | [無作為化ブロック計画](pri332.md) | [完全](pri333.md)または<br>[一部実施要因計画](pri334.md) | [中心複合計画](pri3361.md)または<br>[Box-Behnken 計画](pri3362.md) |  
-| 5以上 | [無作為化ブロック計画](pri332.md) | [一部実施要因計画](pri334.md)または<br>[Plackett-Burman計画](pri335.md) | 因子数を先ず削減する<br>[スクリーン計画](pri3346.md) |  
+<table>
+  <caption></caption>
+  <thead>
+    <tr>
+      <th scope="col">要因数</th>
+      <th scope="col">比較目的</th>
+      <th scope="col">スクリーニング<br>目的</th>
+      <th scope="col">応答曲面<br>目的</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>[1因子完全無作為化計画](pri331.md)</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>2-4</td>
+      <td>[無作為化ブロック計画](pri332.md) </td>
+      <td>[完全](pri333.md)または<br>[一部実施要因計画](pri334.md) </td>
+      <td>[中心複合計画](pri3361.md)または<br>[Box-Behnken 計画](pri3362.md)</td>
+    </tr>
+    <tr>
+      <td>5以上</td>
+      <td>[無作為化ブロック計画](pri332.md)</td>
+      <td>[一部実施要因計画](pri334.md)または<br>[Plackett-Burman計画](pri335.md)</td>
+      <td>因子数を先ず削減する<br>[スクリーン計画](pri3346.md)</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="2"></th>
+      <td></td>
+    </tr>
+  </tfoot>
+</table>
+
 
 
 #### 資源と誤った決定に対する管理の程度
