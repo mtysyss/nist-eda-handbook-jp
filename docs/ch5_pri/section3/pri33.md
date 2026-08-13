@@ -39,10 +39,8 @@ RSM計画は以下の目的で使用する。
 
 #### 比較試験、スクリーニング試験、および応答曲面計画のための実験計画法を選択するための概要表
 
-**表3.1：計画選定ガイドライン**
-
 <table>
-  <caption></caption>
+  <caption>**表3.1：計画選定ガイドライン**</caption>
   <thead>
     <tr>
       <th scope="col">要因数</th>
@@ -53,30 +51,24 @@ RSM計画は以下の目的で使用する。
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
+      <td align="center">1</td>
       <td>[1因子完全無作為化計画](pri331.md)</td>
-      <td>-</td>
-      <td>-</td>
+      <td align="center">-</td>
+      <td align="center">-</td>
     </tr>
     <tr>
-      <td>2-4</td>
+      <td align="center">2-4</td>
       <td>[無作為化ブロック計画](pri332.md) </td>
       <td>[完全](pri333.md)または<br>[一部実施要因計画](pri334.md) </td>
       <td>[中心複合計画](pri3361.md)または<br>[Box-Behnken 計画](pri3362.md)</td>
     </tr>
     <tr>
-      <td>5以上</td>
+      <td align="center">5以上</td>
       <td>[無作為化ブロック計画](pri332.md)</td>
       <td>[一部実施要因計画](pri334.md)または<br>[Plackett-Burman計画](pri335.md)</td>
       <td>因子数を先ず削減する<br>[スクリーン計画](pri3346.md)</td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row" colspan="2"></th>
-      <td></td>
-    </tr>
-  </tfoot>
 </table>
 
 
