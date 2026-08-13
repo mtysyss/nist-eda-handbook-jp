@@ -52,7 +52,7 @@ RSM計画は以下の目的で使用する。
   <tbody>
     <tr>
       <td align="center">1</td>
-      <td>[1因子完全無作為化計画](pri331.md)</td>
+      <td><a href="pri331.md">1因子完全無作為化計画</a></td>
       <td align="center">-</td>
       <td align="center">-</td>
     </tr>
