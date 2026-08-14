@@ -47,7 +47,7 @@ $`\text{相関係数} = 0.816`$
 
 対照的に、データの単純な以下の[散布図](../ch1_eda/section3/scatterp.md)
 
-![A scatter plot of the Anscombe data(https://www.itl.nist.gov/div898/handbook/eda/section1/gif/anscomb1.gif)
+![A scatter plot of the Anscombe data](https://www.itl.nist.gov/div898/handbook/eda/section1/gif/anscomb1.gif)
 
 は次のことを示唆している。
 
