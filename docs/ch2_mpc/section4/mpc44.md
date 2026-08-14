@@ -73,7 +73,7 @@ $$ \overline{Y}_{{\small \bullet \bullet \bullet}} = \frac{1}{L}\sum_{l=1}^{L}{\
 #### [試験対象の不確かさ](../section5/mpc56.md)との関連性
 試験対象の 1回測定における不確かさを定義する標準偏差は、次式で与えられる。
 
-$${\large s}_R = \sqrt{ {\large s}_{runs}^2 + {\large s}_{days}^2 + {\large s}_1^2}= \sqrt{{\large s}_3^2 + \frac{K-1}{K} {\large s}_2^2 + \frac{J-1}{J} {\large s}_1^2}$$
+$${\large s}_R = \sqrt{ {\large s}_{runs}^2 + {\large s}_{days}^2 + {\large s}_1^2}= srqt{ {\\large s}_3^2 + \frac{K-1}{K} {\large s}_2^2 + \frac{J-1}{J} {\large s}_1^2}$$
 
 ここで、組み入れた値 $`{\large s}_1`$ および $`{\large s}_2`$ は、通常、
 
