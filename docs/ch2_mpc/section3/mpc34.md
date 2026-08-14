@@ -103,9 +103,9 @@ $$\begin{array}{cl}
 
 は、推定値の標準偏差が以下であることを示している。
 
-$$\begin{array}
+$$\begin{array}{cl} 
 {\large s}_{R^*} = 0 \\
-{\large s}_{{test}_{1}} = 0.8661 \cdot {\large s}_1 \\
-{\large s}_{{test}_{2}} = 0.8661 \cdot {\large s}_1 \\
-{\large s}_{{test}_{1+2}} = 1.4142 \cdot {\large s}_1
+{\large s}_{{test}_{1}} & = 0.8661 \cdot {\large s}_1 \\
+{\large s}_{{test}_{2}} & =  0.8661 \cdot {\large s}_1 \\
+{\large s}_{{test}_{1+2}} & =  1.4142 \cdot {\large s}_1
 \end{array} $$
