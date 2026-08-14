@@ -86,7 +86,7 @@ $$\begin{array}{cl}
 \widehat{R^*} & = \frac{1}{3} \left \\{ 0 Y_1 + 0 Y_2 + 0 Y_3 + 3 R^* \right\\} = R^* \\
 \widehat{Test}_1 & = \frac{1}{3} \left \\{ -2 Y_1 - Y_2 + Y_3 + 3 R^* \right\\} \\
 \widehat{Test}_2 & = \frac{1}{3} \left \\{ -Y_1 - 2 Y_2 - Y_3 + 3 R^* \right\\}
-\end{array} 
+\end{array}$$
 
 #### 因子表の解釈
 この表の係数は、精度に関する情報を提供している。
@@ -108,4 +108,4 @@ $$\begin{array}
 {\large s}_{{test}_{1}} = 0.8661 \cdot {\large s}_1 \\
 {\large s}_{{test}_{2}} = 0.8661 \cdot {\large s}_1 \\
 {\large s}_{{test}_{1+2}} = 1.4142 \cdot {\large s}_1
-\end{array} 
+\end{array} $$
