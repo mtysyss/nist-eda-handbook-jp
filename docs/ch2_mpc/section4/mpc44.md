@@ -77,7 +77,7 @@ $${\large s}_R = \sqrt{ {\large s}_{runs}^2 + {\large s}_{days}^2 + {\large s}_1
 
 ここで、組み入れた値 $`{\large s}_1`$ および $`{\large s}_2`$ は、通常、
 
-$${\large s}_1 = \sqrt{\frac{\sum_{l=1}^{L}{\sum_{k=1}^{K}{{\large s}_{1lk}^{2}}}}{LK}}$$
+$${\large s}_1 = \sqrt{\frac{\sum_{l=1}^{L}{\sum_{k=1}^{K}{ {\large s}_{1lk}^{2}}}}{LK}}$$
 
 および
 
