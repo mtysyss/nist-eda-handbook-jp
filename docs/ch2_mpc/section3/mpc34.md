@@ -85,7 +85,7 @@
 $$\begin{array}{cl} 
 \widehat{R^\*} & = \frac{1}{3} \left\\{ 0 Y_1 + 0 Y_2 + 0 Y_3 + 3 R^\* \right\\} = R^* \\ 
 \widehat{Test}_1 & = \frac{1}{3} \left\\{ -2 Y_1 - Y_2 + Y_3 + 3 R^* \right\\} \\ 
-\widehat{Test}_2 & = \frac{1}{3} \left\\{ -Y_1 - 2 Y_2 - Y_3 + 3 R^* \right\}
+\widehat{Test}_2 & = \frac{1}{3} \left\\{ -Y_1 - 2 Y_2 - Y_3 + 3 R^* \right\\}
 \end{array}$$
 
 #### 因子表の解釈
