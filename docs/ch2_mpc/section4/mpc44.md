@@ -64,7 +64,7 @@ $$\overline{Y}_{l{\small \bullet \bullet}} = \frac{1}{K}\sum_{k=1}^{K}{\overline
 #### 階層3：*L* 回実行平均値から計算される1全標準偏差
 自由度 (*L*- 1) を持つ階層3の標準偏差は、*L回の*実行の平均値から次式で計算する。
 
-$$ {\large s}_{3} = \sqrt{\frac{1}{L-1} \sum_{l=1}^{L}{\left( Y_{l{\small \bullet \bullet}} - \overline{Y}_{{\small \bullet \bullet \bullet}} \right)^2}} $$
+$${\large s}_{3} = \sqrt{\frac{1}{L-1} \sum_{l=1}^{L}{\left( Y_{l{\small \bullet \bullet}} - \overline{Y}_{ {\small \bullet \bullet \bullet}} \right)^2}} $$
 
 ここで
 
