@@ -68,7 +68,7 @@ $$ {\large s}_{3} = \sqrt{\frac{1}{L-1} \sum_{l=1}^{L}{\left( Y_{l{\small \bulle
 
 ここで
 
-$$ \overline{Y}_{{\small \bullet \bullet \bullet}} = \frac{1}{L}\sum_{l=1}^{L}{\overline{Y}_{l {\small \bullet \bullet}}}$$
+$$ \overline{Y}_{ {\small \bullet \bullet \bullet}} = \frac{1}{L}\sum_{l=1}^{L}{\overline{Y}_{l {\small \bullet \bullet}}}$$
 
 #### [試験対象の不確かさ](../section5/mpc56.md)との関連性
 試験対象の 1回測定における不確かさを定義する標準偏差は、次式で与えられる。
