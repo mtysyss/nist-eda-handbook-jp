@@ -104,8 +104,8 @@ $$\begin{array}{ll}
 は、推定値の標準偏差が以下であることを示している。
 
 $$\begin{array}{ll} 
-{\large s}_{R^\*} & = & 0 \\
-{\large s}_{{test}_1} & = & 0.8661 \cdot {\large s}_1 \\
-{\large s}_{{test}_2} & =  & 0.8661 \cdot {\large s}_1 \\
-{\large s}_{{test}_{1+2}} & =  & 1.4142 \cdot {\large s}_1
-\end{array} $$
+{\large s}_{R^\*} & = & 0 \\ 
+{\large s}_{ {test}_1} & = & 0.8661 \cdot {\large s}_1 \\ 
+{\large s}_{ {test}_2} & =  & 0.8661 \cdot {\large s}_1 \\ 
+{\large s}_{ {test}_{1+2}} & =  & 1.4142 \cdot {\large s}_1 
+\end{array}$$
