@@ -85,9 +85,9 @@ $${\large s}_2 = \sqrt{\frac{1}{L} \sum_{l=1}^{L}{{\large s}_{2l}^{2}}}$$
 
 となり、時間依存成分は、以下のように個別に計算する。
 
-$${\large s}_{runs} = \sqrt{ {\large s}_3^2 - \frac{1}{K} {\large s_2^2}}$$
+$${\large s}_{runs} = \sqrt{{\large s}_3^2 - \frac{1}{K} {\large s_2^2}}$$
 
-$${\large s}_{days} = \sqrt{ {\large s}_2^2 - \frac{1}{J} {\large s_1^2}}$$
+$${\large s}_{days} = \sqrt{{\large s}_2^2 - \frac{1}{J} {\large s_1^2}}$$
 
 測定工程には他の不確かさ源が存在することがあり、それらを正式な[不確かさの解析](../section5/mpc5.md)において考慮しなければならない。
 
