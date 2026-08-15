@@ -4,13 +4,24 @@
 @import "jekyll-theme-primer";
 
 .no-border-table { 
+  display: table !important;   
+  width: auto !important;      
   margin-left: auto !important;
   margin-right: auto !important;
+  border-collapse: collapse !important;
 }
 
 .no-border-table th, 
 .no-border-table td {
   border: none !important;
+  background-color: transparent !important;
+}
+
+.no-border-table tr:nth-child(even) {
+  background-color: transparent !important;
+}
+.no-border-table tr {
+  background-color: transparent !important;
 }
 
 .formula-list {
