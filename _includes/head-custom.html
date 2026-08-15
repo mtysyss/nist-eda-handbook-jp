@@ -1,24 +1,32 @@
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [['', ''], ['\\(', '\\)'],['$`','`$'],['$','$']],
-      displayMath: [['\[', '\]'], ['\\[', '\\]'],['$$','$$']],
-      processEscapes: true
-    },
-    options: {
-      ignoreHtmlClass: 'tex2jax_ignore',
-      processHtmlClass: 'tex2jax_process'
-    },
-    startup: {
-        pageReady: () => {
-          // 1. ページ読み込み時の初回変換
-          return MathJax.startup.defaultPageReady().then(() => {
-            // 2. NIST EDA等の動的変化に対応するため、1秒後と3秒後にも強制再変換をかける
-            setTimeout(() => { MathJax.typeset(); }, 1000);
-            setTimeout(() => { MathJax.typeset(); }, 3000);
-          });
-        }
-      }
-    };
-  </script>
- 
+(function() {
+	  // すでにMathJaxが読み込まれている場合は再レンダリングのみ実行
+	  if (window.MathJax) {
+	    if (window.MathJax.typeset) {
+	      window.MathJax.typeset();
+	    } else if (window.MathJax.Hub) {
+	      window.MathJax.Hub.Queue(["Typeset", window.MathJax.Hub]);
+	    }
+	    return;
+	  }
+
+	  // MathJaxの設定（$ や $$、\(、\[ を数式区切り文字として認識させる）
+	  window.MathJax = {
+	    tex: {
+	      inlineMath: [['$`', '`$'],['$', '$'], ['\\(', '\\)']],
+	      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+	      processEscapes: true
+	    },
+	    options: {
+	      ignoreHtmlClass: 'tex2jax_ignore',
+	      processHtmlClass: 'tex2jax_process'
+	    }
+	  };
+
+	  // MathJax v3 のスクリプトをCDNから動的に読み込み
+	  var script = document.createElement('script');
+	  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
+	  script.async = true;
+	  document.head.appendChild(script);
+	})();
+</script>
