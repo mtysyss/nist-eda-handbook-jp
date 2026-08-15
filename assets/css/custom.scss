@@ -25,6 +25,23 @@
   background-color: transparent !important;
 }
 
+.grid-table {
+	display: table !important;       
+	width: auto !important;          
+	margin-left: auto !important;
+	margin-right: auto !important;	
+}
+
+.grid-table th, 
+.grid-table td{
+	background-color: transparent !important; 	
+}
+
+.grid-table tr, 
+.grid-table tr:nth-child(even) {
+	background-color: transparent !important; 	
+}
+
 .formula-list {
   margin-left: 5% !important; 
   line-height: 1.6 !important; 
