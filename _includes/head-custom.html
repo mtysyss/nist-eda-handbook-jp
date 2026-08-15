@@ -13,7 +13,7 @@
 	  // MathJaxの設定（$ や $$、\(、\[ を数式区切り文字として認識させる）
 	  window.MathJax = {
 	    tex: {
-	      inlineMath: [['$`', '`$'],['$', '$'], ['\\(', '\\)']],
+	      inlineMath: [['$`', '`$'],['$', '$'],['\(', '\)'], ['\\(', '\\)']],
 	      displayMath: [['$$', '$$'], ['\\[', '\\]']],
 	      processEscapes: true
 	    },
@@ -30,3 +30,4 @@
 	  document.head.appendChild(script);
 	})();
 </script>
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
