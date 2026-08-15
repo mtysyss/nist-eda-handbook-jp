@@ -9,7 +9,8 @@
   margin-left: auto !important;
   margin-right: auto !important;
   border-collapse: collapse !important;
-  border: none !important;           
+  border: none !important;          
+  line-height: 1.1 !important; 
 }
 
 .no-border-table th, 
@@ -24,7 +25,6 @@
   background-color: transparent !important;
 }
 
-/* 数式リスト用 */
 .formula-list {
   margin-left: 5% !important; 
   line-height: 1.6 !important; 
