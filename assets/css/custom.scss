@@ -11,3 +11,8 @@
 .no-border-table td {
   border: none;
 }
+
+.formula-list {
+  margin-left: 1.5rem; /* 左側にスペースを空けてインデントさせる */
+  line-height: 1.6;    /* 行間を少し空けて読みやすくする */
+}
