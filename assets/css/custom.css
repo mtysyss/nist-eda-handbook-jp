@@ -2,7 +2,6 @@
 ---
 @import "{{ site.theme }}";
 
-/* ↓ ここから下に、追加したい自分のCSSを自由に記述します ↓ */
 .no-border-table, 
 .no-border-table th, 
 .no-border-table td {
