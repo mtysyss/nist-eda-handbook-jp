@@ -4,26 +4,27 @@
 @import "jekyll-theme-primer";
 
 .no-border-table { 
-  display: table !important;   
-  width: auto !important;      
+  display: table !important;       
+  width: auto !important;          
   margin-left: auto !important;
   margin-right: auto !important;
   border-collapse: collapse !important;
+  border: none !important;           
 }
 
 .no-border-table th, 
 .no-border-table td {
   border: none !important;
-  background-color: transparent !important;
+  background-color: transparent !important; 
 }
 
+.no-border-table tr,
 .no-border-table tr:nth-child(even) {
-  background-color: transparent !important;
-}
-.no-border-table tr {
+  border: none !important;     
   background-color: transparent !important;
 }
 
+/* 数式リスト用 */
 .formula-list {
   margin-left: 5% !important; 
   line-height: 1.6 !important; 
