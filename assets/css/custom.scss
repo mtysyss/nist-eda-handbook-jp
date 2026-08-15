@@ -1,19 +1,19 @@
 ---
 ---
 
-@import "jekyll-theme-primer"";
+@import "jekyll-theme-primer";
 
 .no-border-table { 
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .no-border-table th, 
 .no-border-table td {
-  border: none;
+  border: none !important;
 }
 
 .formula-list {
-  margin-left: 5%; 
-  line-height: 1.6; 
+  margin-left: 5% !important; 
+  line-height: 1.6 !important; 
 }
