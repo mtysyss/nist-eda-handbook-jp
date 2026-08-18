@@ -42,6 +42,20 @@
 	background-color: transparent !important; 	
 }
 
+.grid-center-table {
+  width: 450px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  font-size: small; /* font size=-2 の代用 */
+}
+.grid-center-table th, .grid-table td {
+  border: 1px solid #000;
+  padding: 4px;
+  text-align: center; /* centerタグの代用 */
+  font-weight: bold;  /* bタグの集約 */
+}
+
 .formula-list {
   margin-left: 5% !important; 
   line-height: 1.6 !important; 
