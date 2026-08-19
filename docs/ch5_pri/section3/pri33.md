@@ -39,39 +39,17 @@ RSM計画は以下の目的で使用する。
 
 #### 比較試験、スクリーニング試験、および応答曲面計画のための実験計画法を選択するための概要表
 
-<table class="grid-table" border align=center>
-  <caption>
-     <b>表3.1：計画選定ガイドライン</b>
-  </caption>
-  <thead>
-    <tr>
-      <th scope="col">要因数</th>
-      <th scope="col">比較目的</th>
-      <th scope="col">スクリーニング<br>目的</th>
-      <th scope="col">応答曲面<br>目的</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">1</td>
-      <td><a href="pri331.md">1因子完全無作為化計画</a></td>
-      <td align="center">-</td>
-      <td align="center">-</td>
-    </tr>
-    <tr>
-      <td align="center">2-4</td>
-      <td align="center"><a href="pri332.md">無作為化ブロック計画</a></td>
-      <td align="center"><a href="pri333.md">完全</a>または<br><a href="pri334.md">一部実施要因計画</a></td>
-      <td align="center"><a href="pri3361.md">中心複合計画</a>または<br><a href="pri3362.md">Box-Behnken 計画</a></td>
-    </tr>
-    <tr>
-      <td align="center">5以上</td>
-      <td align="center"><a href="pri332.md">無作為化ブロック計画</a></td>
-      <td align="center"><a href="pri334.md">一部実施要因計画</a>または<br><a href="pri335.md">Plackett-Burman計画</a></td>
-      <td align="center">因子数を先ず削減する<br><a href="pri3346.md">スクリーン計画</a></td>
-    </tr>
-  </tbody>
-</table>
+
+**表3.1：計画選定ガイドライン**
+{: .text-center}
+
+| 要因数 | 比較目的 | スクリーニング 目的 | 応答曲面 目的 |
+| --- | --- | --- | --- |
+| 1 | [1因子完全無作為化計画](pri331.md) | - | - |
+| 2-4 | [無作為化ブロック計画](pri332.md) | [完全](pri333.md)または [一部実施要因計画](pri334.md) | [中心複合計画](pri3361.md)または [Box-Behnken 計画](pri3362.md) |
+| 5以上 | [無作為化ブロック計画](pri332.md) | [一部実施要因計画](pri334.md)または [Plackett-Burman計画](pri335.md) | 因子数を先ず削減する [スクリーン計画](pri3346.md) |
+{: .grid-table}
+
 
 #### 資源と誤った決定に対する管理の程度
 これらのさまざまな種類の中からどの計画を選ぶかは、利用可能な資源の量と、実験者が望む誤った決定（[仮説検定における第I種および第II種の誤り](../../ch1_eda/section3/eda35.md#TESTS)）に対する管理の程度によって決まる。

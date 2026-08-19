@@ -25,6 +25,30 @@
   background-color: transparent !important;
 }
 
+.no-thead-table {
+	display: table !important; 
+	thead {
+	  display: none; 
+	  }      
+	width: auto !important;          
+	margin-left: auto !important;
+	margin-right: auto !important;
+	border-collapse: collapse !important;
+	border: none !important;          
+	line-height: 1.1 !important; 	
+}
+.no-thead-table th, 
+.no-thead-table td {
+  border: none !important;
+  background-color: transparent !important; 
+}
+
+.no-thead-table tr,
+.no-thead-table tr:nth-child(even) {
+  border: none !important;     
+  background-color: transparent !important;
+}
+
 .grid-table {
 	display: table !important;       
 	width: auto !important;          
@@ -55,8 +79,4 @@
     display: inline-block;
     margin: 0 auto;
   }
-}
-
-.underline {
-  text-decoration: underline;
 }
