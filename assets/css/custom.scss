@@ -46,3 +46,13 @@
   margin-left: 5% !important; 
   line-height: 1.6 !important; 
 }
+
+.text-center {
+  text-align: center;
+
+  // 中にある画像も中央揃えにする場合
+  img {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
