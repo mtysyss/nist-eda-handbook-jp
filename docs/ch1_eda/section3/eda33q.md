@@ -18,7 +18,7 @@
 #### プロット例：変数 $`Y`$ と $`X`$ 
 ![.3.3.26.Scatter Plot](https://www.itl.nist.gov/div898/handbook/eda/gif/scatterp.gif)  
 
-この[アラスカ・パイプライン・データ](https://www.itl.nist.gov/div898/handbook/datasets/BERGER1.DAT)のプロット例は、2変数間に線形関係が存在することを示しており、[線形回帰モデル](../../pmd/section1/pmd141.md)が適切であること示唆している。 
+この[アラスカ・パイプライン・データ](https://www.itl.nist.gov/div898/handbook/datasets/BERGER1.DAT)のプロット例は、2変数間に線形関係が存在することを示しており、[線形回帰モデル](../../ch4_pmd/section1/pmd141.md)が適切であること示唆している。 
 
 #### 定義：$`Y`$ 対 $`X`$
 散布図とは、$`Y`$ の値と対応する$`X`$ の値を打点したものである。  
@@ -85,7 +85,7 @@
 [ブロック・プロット](eda333.md)  
 
 #### 事例研究
-散布図は[ロードセル校正](../../pmd/section6/pmd61.md)データの事例研究で実例が示されている。
+散布図は[ロードセル校正](../../ch4_pmd/section6/pmd61.md)データの事例研究で実例が示されている。
 
 #### ソフトウェア
 散布図は基本的な技法であり、汎用統計ソフトウェア・プログラムでは必ず利用可能であるべきである。

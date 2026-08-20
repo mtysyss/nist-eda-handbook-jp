@@ -51,7 +51,7 @@ Youdenプロットは、この種のデータを分析するための定型的�
 
 #### DOE Youden プロット
 [DOE Youden プロット](eda33v1.md) は、実験計画において用いられる特殊な Youden プロットである。
-特に、[完全実施](../../pri/section3/pri333.md)や[一部実施](../../pri/section3/pri334.md)要因計画において有用である。
+特に、[完全実施](../../ch5_pri/section3/pri333.md)や[一部実施](../../ch5_pri/section3/pri334.md)要因計画において有用である。
 
 #### 関連技法
 [散布図](eda33q.md)

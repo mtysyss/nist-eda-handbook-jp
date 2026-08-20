@@ -82,8 +82,8 @@ $$Y_i=f(X_i)+E_i$$
 適切なモデルの妥当性確認手順なしに近似を検討すべきではない。
 
 #### 関連技法
-[線形最小二乗法](../../pmd/section1/pmd141.md)  
-[非線形最小二乗法](../../pmd/section1/pmd142.md)  
+[線形最小二乗法](../../ch4_pmd/section1/pmd141.md)  
+[非線形最小二乗法](../../ch4_pmd/section1/pmd142.md)  
 [散布図](scatterp.md)  
 [実行順序プロット](eda33p.md)  
 [遅延プロット](eda33f.md)  
