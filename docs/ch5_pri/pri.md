@@ -42,7 +42,7 @@
     2. [一部実施要因の例](section4/pri472.md)
     3. [応答曲面の例](section4/pri473.md)
 
-#### 5.[応用テーマ](section5/pri5.md)
+#### 5.[応用題目](section5/pri5.md)
 1. [古典的計画法が機能しない場合](section5/pri51.md)
 2. [コンピュータ支援計画](section5/pri52.md)
     1. [D-最適計画](section5/pri521.md)
