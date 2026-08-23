@@ -58,7 +58,7 @@
     5. [混合変数と工程変数の処理](section5/pri545.md)
 5. [枝分かれの種類](section5/pri55.md)
 6. [田口設計](section5/pri56.md)
-7. [John's 3/4 実施要因計画](section5/pri57.md)
+7. [John's 3/4 一部実施要因計画](section5/pri57.md)
 8. [小規模複合計画](section5/pri58.md)
 9. [実験計画法のEDA手法](section5/pri59.md)
 
