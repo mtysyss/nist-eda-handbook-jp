@@ -48,7 +48,7 @@
     1. [D-最適計画](section5/pri521.md)
     2. [計画の修正](section5/pri522.md)　
 3. [工程の最適化](section5/pri53.md)
-    1. [単一応答の場合](section5/pri531.md)
+    1. [単応答の場合](section5/pri531.md)
     2. [多重応答の場合](section5/pri532.md)
 4. [混合計画法](section5/pri54.md)
     1. [混合スクリーニング計画](section5/pri541.md)
