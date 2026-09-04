@@ -89,7 +89,8 @@
 **表5.10：2<sup>4-1</sup> に基づく12回の2因子交互作用列すべても示す実験計画表**
 {: .text-center}
 
-| 実行 |  | | | |  | 2因子交互作用の列 | | | | | | 番号 | *X*<sub>1</sub> | *X*<sub>2</sub> | *X*<sub>3</sub> | *X*<sub>4</sub> |  | *X*<sub>1</sub> \times *X*<sub>2</sub> | *X*<sub>1</sub> × *X*<sub>3</sub> | *X*<sub>1</sub> × *X*<sub>4</sub> | *X*<sub>2</sub> \times *X*<sub>3</sub> | *X*<sub>2</sub> \times *X*<sub>4</sub> | *X*<sub>3</sub> \times *X*<sub>4</sub> |  
+| 実行 |  | | | |  | 2因子交互作用の列 | | | | | 
+| 番号 | *X*<sub>1</sub> | *X*<sub>2</sub> | *X*<sub>3</sub> | *X*<sub>4</sub> |  | *X*<sub>1</sub> × *X*<sub>2</sub> | *X*<sub>1</sub> × *X*<sub>3</sub> | *X*<sub>1</sub> × *X*<sub>4</sub> | *X*<sub>2</sub> × *X*<sub>3</sub> | *X*<sub>2</sub> × *X*<sub>4</sub> | *X*<sub>3</sub> × *X*<sub>4</sub> |  
 | :---: | :---: | :---: | :---: | :---: |  | :---: | :---: | :---: | :---: | :---: | :---: |  
 |  | --- | | | |  | --- | | | | | |  
 | 1 | -1 | -1 | -1 | -1 |  | +1 | +1 | +1 | +1 | +1 | +1 |  
