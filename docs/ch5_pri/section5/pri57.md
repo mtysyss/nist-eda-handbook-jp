@@ -90,7 +90,7 @@
 {: .text-center}
 
 | 実行 |  | | | |  | 2因子交互作用の列 | | | | | |  
-| 番号 | *X*<sub>1</sub> | *X*<sub>2</sub> | *X*<sub>3</sub> | *X*<sub>4</sub> |  | *X*<sub>1</sub> × *X*<sub>2</sub> | *X*<sub>1</sub> × *X*<sub>3</sub> | *X*<sub>1</sub> × *X*<sub>4</sub> | *X*<sub>2</sub> × *X*<sub>3</sub> | *X*<sub>2</sub> × *X*<sub>4</sub> | *X*<sub>3</sub> × *X*<sub>4</sub> |  
+| 番号 | *X*<sub>1</sub> | *X*<sub>2</sub> | *X*<sub>3</sub> | *X*<sub>4</sub> |  | *X*<sub>1</sub>\**X*<sub>2</sub> | *X*<sub>1</sub>\**X*<sub>3</sub> | *X*<sub>1</sub>\**X*<sub>4</sub> | *X*<sub>2</sub>\**X*<sub>3</sub> | *X*<sub>2</sub>\**X*<sub>4</sub> | *X*<sub>3</sub>\**X*<sub>4</sub> |  
 | :---: | :---: | :---: | :---: | :---: | :-: | :---: | :---: | :---: | :---: | :---: | :---: |  
 |  | --- | | | |  | --- | | | | | |  
 | 1 | -1 | -1 | -1 | -1 |  | +1 | +1 | +1 | +1 | +1 | +1 |  
