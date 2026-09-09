@@ -15,7 +15,7 @@
 ![.3.3.26.6.Scatter Plot: Exponential Relationship](https://www.itl.nist.gov/div898/handbook/eda/section3/gif/scatplo6.gif)  
 
 #### 議論
-単純な直線では、[CHWIRUT2.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/CHWIRUT2.DAT)のこのプロットの$`X`$と$`Y`$の関係を説明するには著しく不十分であることに注意されたい。
+単純な直線では、[CHWIRUT2.DATデータ集合](https://www.itl.nist.gov/div898/handbook/datasets/CHWIRUT2.DAT)のこのプロットの$`X`$と$`Y`$の関係を説明するには極めて不適切であることに注意されたい。
 二次モデルでは、特に$`X`$の大きな値において不十分であることが明らかである。
 この例では、$`X`$ の大きな値に対応する$`Y`$はほぼ一定値であるため、二次を超える非線形関数が必要である。
 利用可能な数多くの非線形関数の中でも、より単純なものの一つが指数モデルである。

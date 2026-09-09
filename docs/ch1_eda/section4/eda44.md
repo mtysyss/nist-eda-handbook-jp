@@ -2230,7 +2230,7 @@ USERの場合、Dataplot はプロット枠を結合しない。
 目盛線とラベルは利用者が設定した通りになる。
 * SET MATRIX PLOT FIT <NONE/LOWESS/LINEAR/QUADRATIC>  
 これは、プロット点の上に LOWESS 近似、線形近似、2次近似線、あるいは近似線の重ね書きを制御する。
-LOWESS 近似の場合、LOWESS 割合をかなり高い値に設定することが推奨される（例：LOWESS FRACTION 0.6）。
+LOWESS 近似の場合、LOWESS 割合を高い値に設定することが推奨される（例：LOWESS FRACTION 0.6）。
 
 Dataplotで、このプロットの追加オプションについては、HELP SCATTER PLOT MATRIX と入力する。 
 
