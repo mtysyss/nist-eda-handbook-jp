@@ -44,6 +44,6 @@ Dataplot をすでに[ダウンロードしてインストール](http://www.itl
 | 6. モデルの選択 ||  
 | [1. 効果の半正規確率プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/normpr.dp)<br><br>[2. 効果の Youden プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/youden.dp) | [1. 確率プロットは、モデルが因子1と因子2の主効果を含むべきであることを示している。](pri618.md#normprob)<br><br>[2. Youden プロットは、もでるが因子1と因子2の主効果を含むべきであることを示している。](pri618.md#youden) |  
 | 7. モデルの検証 ||  
-| [1. イェーツ分析によって提案された部分モデルから、残差と予測値を計算する。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/fitpart.dp)<br><br>[2. モデル妥当性確認のために残差プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/part.dp) | [1. 残差と予測値の値をリンクをクリックして確認する。](pri619.md#partmodel)[2. 残差プロットは、因子1と因子2の主効果を入れたモデルに対していかなる大きな問題も示していない。](pri619.md#resplots) |  
+| [1. イェーツ分析によって提案された部分モデルから、残差と予測値を計算する。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/fitpart.dp)<br><br>[2. モデル妥当性確認のために残差プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/part.dp) | [1. 残差と予測値の値をリンクをクリックして確認する。](pri619.md#partmodel)<br><br>[2. 残差プロットは、因子1と因子2の主効果を入れたモデルに対していかなる大きな問題も示していない。](pri619.md#resplots) |  
 | 8. DOEの等高線図 ||  
 | [1. 因子1および2を用いて、DOEの等高線図を作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/dexcon.dp) | [1. DOE等高線図は、 X1 = -1 および X2 = +1 が最適設定であることを示している](pri61a.md#dexcontour) |  
