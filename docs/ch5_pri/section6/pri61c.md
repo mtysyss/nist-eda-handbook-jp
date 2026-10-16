@@ -12,7 +12,7 @@
 
 #### [事例研究の Dataplot マクロを表示](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpm61.htm)
 
-このページでは、ここまでのページの事例研究説明で概説された分析を[Dataplot](http://www.itl.nist.gov/div898/handbook/dataplot.md) を使用して再現することができる。
+このページでは、ここまでのページの事例研究説明で概説された分析を[Dataplot](http://www.itl.nist.gov/div898/handbook/dataplot.htm) を使用して再現することができる。
 Dataplot をすでに[ダウンロードしてインストール](http://www.itl.nist.gov/div898/software/dataplot/ftp/homepage.htm)し、Dataplot を実行できるように[ブラウザを設定済み](http://www.itl.nist.gov/div898/handbook/dpbrows.htm)であることが必要である。
 以下の各解析手順での出力は、1つ以上の Dataplot ウィンドウに表示される。
 主なウィンドウは、出力ウィンドウ、グラフィックス・ウィンドウ、コマンド履歴ウィンドウ、およびデータシート・ウィンドウの4つである。
@@ -30,7 +30,7 @@ Dataplot をすでに[ダウンロードしてインストール](http://www.itl
 | データ分析の手順 | 結果と結論 |  
 | :--- | :--- |  
 | 以下のリンクをクリックして、Dataplot を起動し、この事例研究を実際に実行してください。各手順では、前の手順の結果が使用される場合がありますので、しばらくお待ちください。
-ソフトウェアが現在のステップの完了を確認するまで待ってから、次のステップをクリックしてください。 | この列のリンクをクリックすると、事例研究の説明に記載されている各分析手順のより詳細な情報に飛びます。 |  
+ソフトウェアが現在の手順の完了を確認するまで待ってから、次のステップをクリックしてください。 | この列のリンクをクリックすると、事例研究の説明に記載されている各分析手順のより詳細な情報に飛びます。 |  
 | 1. 設定し開始する。 | |  
 | [1. データを読み込む。](https://www.itl.nist.gov/div898/handbook/pri/section6/splett3/dpmacros/data.dp) | [1. 変数 Y, X1, X2, X3の4行の数値行を DataPlot に読み込む 。](pri611.md#data) |  
 | 2. 主効果をプロットする。 ||  
