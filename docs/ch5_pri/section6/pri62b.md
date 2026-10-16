@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section6/pri62b.htm)  
 閲覧(UTC)：2026-09-05 02:56:32  
-[⬅️](pri62a.md)[➡️]()  
+[⬅️](pri62a.md)[➡️](../section7/pri7.md)  
 
 5. [工程の改善](../pri.md)  
 5.6. [事例研究](pri6.md)  
