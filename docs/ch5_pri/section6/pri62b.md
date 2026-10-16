@@ -41,11 +41,11 @@ Dataplot をすでに[ダウンロードしてインストール](http://www.itl
 [1. ブロック・プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/blockp.dp) | [1. ブロック・プロットは、この事例で特に有用であるというわけではない。](pri624.md#blockplot) |  
 | 5. 重要な要因を特定するための Youden プロット ||  
 | [1. Youden プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/youden.dp) | [1. Youden プロットは、X1, X2, X3, および X7 が重要因子であることを示している。また、重要な交互作用のいくつかも特定している、(X1*X3, X1*X2, X2*X3).](pri625.md#youdenplot) |  
-| 6. |効果| プロットを作成して重要な要因を特定する ||  
-| [1. |効果| プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/effect.dp) | [1. |効果|プロットは、X2, X7, X1*X3, X1, X3, X2*X3, および X1*X2 が重要な因子および交互作用として特定している。](pri626.md#effectsplot) |  
+| 6. \|効果\| プロットを作成して重要な要因を特定する ||  
+| [1. \|効果\| プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/effect.dp) | [1. \|効果\|プロットは、X2, X7, X1*X3, X1, X3, X2*X3, および X1*X2 が重要な因子および交互作用として特定している。](pri626.md#effectsplot) |  
 | 7. 重要な要因を特定するための半正規確率プロット ||  
 | [1. 半正規確率プロットを作成する。]() | [1. 半確率プロットは、X2, X7, X1*X3, X1, X3, X2*X3, および X1*X2 を重要な因子および交互作用として特定している。](pri627.md#halfnormalplot) |  
 | 8. 累積残差標準偏差プロット ||  
-| [1. 累積残差標準偏差プロットを作成する。}() |[1. 累積残差標準偏差プロットから、4主効果および 3 2因子交互作用のモデルが得られる。](pri628.md#cumressdplot) |  
+| [1. 累積残差標準偏差プロットを作成する。}(https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/cumres.dp) |[1. 累積残差標準偏差プロットから、4主効果および 3 2因子交互作用のモデルが得られる。](pri628.md#cumressdplot) |  
 | 9. DOE等高線図 ||  
 | [1. 因子2および7を用いて、DOE等高線図を作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/dexcon.dp) | [1. DOE等高線図は、X2 = -1 および X7 = -1 が最適設定であることを示している。](pri629.md#dexcon) |  
