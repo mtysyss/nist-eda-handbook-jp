@@ -46,6 +46,6 @@ Dataplot をすでに[ダウンロードしてインストール](http://www.itl
 | 7. 重要な要因を特定するための半正規確率プロット ||  
 | [1. 半正規確率プロットを作成する。]() | [1. 半確率プロットは、X2, X7, X1*X3, X1, X3, X2*X3, および X1*X2 を重要な因子および交互作用として特定している。](pri627.md#halfnormalplot) |  
 | 8. 累積残差標準偏差プロット ||  
-| [1. 累積残差標準偏差プロットを作成する。}(https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/cumres.dp) |[1. 累積残差標準偏差プロットから、4主効果および 3 2因子交互作用のモデルが得られる。](pri628.md#cumressdplot) |  
+| [1. 累積残差標準偏差プロットを作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/cumres.dp) |[1. 累積残差標準偏差プロットから、4主効果および 3 2因子交互作用のモデルが得られる。](pri628.md#cumressdplot) |  
 | 9. DOE等高線図 ||  
 | [1. 因子2および7を用いて、DOE等高線図を作成する。](https://www.itl.nist.gov/div898/handbook/pri/section6/inn/dpmacros/dexcon.dp) | [1. DOE等高線図は、X2 = -1 および X7 = -1 が最適設定であることを示している。](pri629.md#dexcon) |  
