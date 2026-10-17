@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/pri_d.htm)  
-閲覧(UTC)：2026-08-09 15:29:56
-
+閲覧(UTC)：2026-08-09 15:29:56  
+[⬅️](pri.md)[➡️](section1/pri1.md)  
 ---
 # 工程の改善 -  - 詳細目次 [5.]
 

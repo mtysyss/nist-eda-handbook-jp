@@ -1,5 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/pmd_d.htm)  
-閲覧(UTC)：2026-07-21 12:11:33
+閲覧(UTC)：2026-07-21 12:11:33  
+[⬅️](pmd.md)[➡️](section1/pmd1.md)  
 
 ---
 # 4. 工程のモデル化 - 詳細目次 [4.]
