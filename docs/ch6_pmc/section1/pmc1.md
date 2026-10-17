@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc1.htm)  
 閲覧(UTC)：2026-10-17 02:06:04  
-[⬅️]()[➡️](pmc11.md)  
+[⬅️](../pmc.md)[➡️](pmc11.md)  
 
 6. [工程や製品の監視と制御](../pmc.md)  
 
