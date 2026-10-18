@@ -42,4 +42,4 @@ Shewhart はこの手法の改良と研究を続け、1931年には統計的品�
 これら3人の先駆者による研究は、今日の統計的品質管理理論の大部分を構成している。
 統計的品質管理の歴史についてはまだまだ語るべきことが多くあるが、関心のある読者には、参考文献の1つまたは複数を一読いただきたい。
 SQCの歴史的背景に関する非常に優れた要約は、Acheson J. Duncan著[『*Quality Control and IndustrialStatistics*』](../section7/pmc7.md#Duncan)の第1章に掲載されている。
-また、[Juran（1997）](../section7/pmc7.md#Juran, J.)も参照のこと。
+また、[Juran（1997）](../section7/pmc7.md#Juran,%20J.)も参照のこと。
