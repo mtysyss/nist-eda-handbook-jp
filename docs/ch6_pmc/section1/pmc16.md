@@ -169,20 +169,12 @@ d = (\text{USL} - \text{LSL})/\sigma \\
 すると
 
 $$ \begin{align}
-    a &= \int_0^\infty f(x) \sin x \cos x \, dx \\
-      &\quad + \int_0^\infty f(-x) \sin x \log x \, dx 
-\end{align}$$
-
-
-$$ \begin(equation}
-  \begin{split}
     Var(\hat{C}_{pk}) &= (d^2/36)(n-1)(n-3) \\
                       &\quad -(d/9\sqrt{n})(n-1)(n-3) \\{\sqrt{2\pi}\exp{(-c^2/2)} + c[1 - 2\Phi(-c)]\\} \\
                       &\quad +[(1/9)(n-1)/(n(n-3))](1+c^2) \\
                       &\quad -[(n-1)/(72n)]\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\}^2 \\
                       &\quad \*\\{d\sqrt{n} - 2\sqrt{2\pi}\exp{(-c^2/2)} - 2c[1 - 2\Phi(-c)]\\}^2 \, .
-   \end{split}
-\end{equation} $$
+\end{align}$$
 
 その近似式は次のように与えられる：
 
