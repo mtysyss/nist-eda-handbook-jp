@@ -60,15 +60,18 @@ $$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2}, \qquad 0 \le k \le 1 \, .
 推定値 $`\hat{k}`$ を決定するために、*μ* を $`\bar{x}`$ で推定する。
 なお、$`\bar{x} \le \text{USL}`$ であることに注意されたい。
 
-*k* 因子によって調整された *C*<sub>p</sub> 指数の推定量は、
+*k* 因子によって調整された *C*<sub>*p*</sub> 指数の推定量は、
 
 $$ \hat{C}_{pk} = \hat{C}_p(1 - \hat{k}) \quad . $$
 
-$` 0 \le k \le 1` $ であるため、$`\hat{C}_{pk} \le \hat{C}_{p}`$ となる。 
+$` 0 \le k \le 1` $ であるため、$` \hat{C}_{pk} \le \hat{C}_p `$ となる。 
 
 #### 工程幅の変化と *C*<sub>*p*</sub> のグラフ
-工程幅が変化した場合の $`C\_p`$統計量の値の目安を知るために、次の図を参照してください。
- 4 plots showing the value of Cp for varying process widths これは、以下の表によって数値的に表現することができます： 
+工程幅が変化した場合の *C*<sub>*p*</sub> 統計量の値の目安を知るために、次の図を参照してください。
+
+![ 4 plots showing the value of Cp for varying process widths](https://www.itl.nist.gov/div898/handbook/pmc/section1/gifs/plotcp_r.gif)
+
+ これは、以下の表によって数値的に表現することができます： 
 
 #### 能力を「不良品」に換算する
 $`\text{USL} - \text{LSL}`$$`6 \sigma`$$`8 \sigma`$$`10 \sigma`$$`12 \sigma`$$`C\_p`$1.001.331.662.00不適合0.27 %64 ppm0.6 ppm2 ppb仕様に対する使用率（%）100756050 ここで、ppm は 100 万分の 1、ppb は 10 億分の 1 を表す。
