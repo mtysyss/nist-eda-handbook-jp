@@ -246,7 +246,7 @@ $` \begin{align}
 例えば、*C*<sub>*npk*</sub> 統計量は次式で表されることがある。<br><br>
 $` \hat{C}_{npk} = \text{min}\left[\frac{\text{USL} - \text{中央値}} {p(0.995) - \text{中央値}}, \frac{\text{中央値} - \text{LSL}}{\text{中央値} - p(0.005)} \right] `$<br><br> 
 ここで、*p*(0.995) はデータの 99.5 百分位数、*p*(0.005) はデータの 0.5 百分位数である。
-非正規分布に関する詳細については、[Johnson and Kotz (1993)](../section7/pmc7.md#Kotz, S and)を参照のこと。
+非正規分布に関する詳細については、[Johnson and Kotz (1993)](../section7/pmc7.md#Kotz,%20S%20and)を参照のこと。
 
 もちろん、非正規分布の場合については、他にも多くのことが言える。
 しかし、Box-Cox変換をうまく適用できるのであれば、それを利用することが推奨される。 
