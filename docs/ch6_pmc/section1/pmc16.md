@@ -38,21 +38,35 @@ $$\begin{gather}
 \end{gather} $$ 
 
 #### 能力指数の推定値の例
-これらの指標の*推定量の例を*以下に示す。
+これらの指標の<u>推定量の例</u>を以下に示す。
 （推定量は「ハット」記号で示されている）。
- $$ \hat{C}\_{p} = \frac{\text{USL} - \text{LSL}} {6s} $$ $$ \hat{C}\_{pk} = \min{\left[ \frac{\text{USL} - \bar{x}} {3s}, \frac{\bar{x} - \text{LSL}} {3s}\right]} $$ $$ \hat{C}\_{pm} = \frac{\text{USL} - \text{LSL}} {6\sqrt{s^2 + (\bar{x} - T)^2}} $$ $`C\_{pk}`$の推定量は、$`C\_{pk} = C\_p(1-k)`$ と表すこともできる。
-ここで、$`k`$は仕様範囲の中点 $`m`$ と工程平均 $`\mu`$ との間のスケーリングされた距離である。
- 仕様範囲の中点を $`m = (\text{USL} + \text{LSL})/2`$ と表す。
-工程平均 $`\mu`$ と最適値である $`m`$ との距離は $`\mu - m`$ であり、
 
+$$ \begin{gather}
+\hat{C}_p = \frac{\text{USL} - \text{LSL}} {6s} \\
+\hat{C}_{pk} = \min{\left[ \frac{\text{USL} - \bar{x}} {3s}, \frac{\bar{x} - \text{LSL}} {3s}\right]} \\
+\hat{C}_{pm} = \frac{\text{USL} - \text{LSL}} {6\sqrt{s^2 + (\bar{x} - T)^2}} 
+\end{gather} $$
 
-ここで $`m \le \mu \le \text{LSL}`$ である。
-スケーリングされた距離は$$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2}, \;\;\;\;\;\; 0 \le k \le 1 \, .$$（絶対値記号は、$`\text{LSL} \le \mu \le m`$）の場合をカバーしている）。
-推定値 $`\hat{k}`$ を決定するために、$`\mu`$を $`\bar{x}`$ で推定する。
+*C*<sub>*pk*</sub> の推定量は、$`C_{pk} = C_p(1-k)`$ と表すこともできる。
+ここで、*k* は仕様範囲の中点 *m* と工程平均 *μ* との間の尺度調整された距離である。
+
+仕様範囲の中点を $`m = (\text{USL} + \text{LSL})/2`$ と表す。
+工程平均 *μ* と最適値である *m* との距離は $`\mu - m`$ であり、ここで $`m \le \mu \le \text{LSL}`$ である。
+尺度調整された距離は
+
+$$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2}, \qquad 0 \le k \le 1 \, .$$
+
+（絶対値記号は、$`\text{LSL} \le \mu \le m`$）の場合をカバーしている）。
+推定値 $`\hat{k}`$ を決定するために、*μ* を $`\bar{x}`$ で推定する。
 なお、$`\bar{x} \le \text{USL}`$ であることに注意されたい。
- $`k`$因子によって調整された $`C\_p`$指数の推定量は、$$ \hat{C}\_{pk} = \hat{C}\_{p}(1 - \hat{k}) \, . $$$`0 \le k \le 1`$ であるため、$`\hat{C}\_{pk} \le \hat{C}\_{p}`$ となる。 
 
-#### 工程幅の変化に伴う \(C_p\) を示すグラフ
+*k* 因子によって調整された *C*<sub>p</sub> 指数の推定量は、
+
+$$ \hat{C}_{pk} = \hat{C}_p(1 - \hat{k}) \quad . $$
+
+$` 0 \le k \le 1` $ であるため、$`\hat{C}_{pk} \le \hat{C}_{p}`$ となる。 
+
+#### 工程幅の変化と *C*<sub>*p*</sub> のグラフ
 工程幅が変化した場合の $`C\_p`$統計量の値の目安を知るために、次の図を参照してください。
  4 plots showing the value of Cp for varying process widths これは、以下の表によって数値的に表現することができます： 
 
