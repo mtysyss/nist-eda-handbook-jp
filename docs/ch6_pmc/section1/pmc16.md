@@ -71,54 +71,127 @@ $` 0 \le k \le 1 `$ であるため、$` \hat{C}_{pk} \le \hat{C}_p `$ となる
 
 ![ 4 plots showing the value of Cp for varying process widths](https://www.itl.nist.gov/div898/handbook/pmc/section1/gifs/plotcp_r.gif)
 
- これは、以下の表によって数値的に表現することができます： 
+これは以下の表に数値的に表現している。 
 
-#### 能力を「不良品」に換算する
-$`\text{USL} - \text{LSL}`$$`6 \sigma`$$`8 \sigma`$$`10 \sigma`$$`12 \sigma`$$`C\_p`$1.001.331.662.00不適合0.27 %64 ppm0.6 ppm2 ppb仕様に対する使用率（%）100756050 ここで、ppm は 100 万分の 1、ppb は 10 億分の 1 を表す。
-なお、不適合率は、分布が$`\mu`$ を中心としているという仮定に基づいていることに注意されたい。
- これまでは、2つの規格限界、すなわち $`\text{USL}`$ と $`\text{LSL}`$ がある場合について検討してきた。
-これは「*双側（bilateral）*」または「両側（two-sided）」の場合として知られている。
+#### 能力を「棄却」に変換
+
+| | | | | |  
+| :----- | :--- | :--- | :--- | :--- |    
+| USL - LSL | 6*σ* | 8*σ* | 10*σ* | 12*σ* |  
+| *C*<sub>*p*</sub> | 1.00 | 1.33 | 1.66 | 2.00 |  
+| 棄却 | 0.27 % | 64 ppm | 0.6 ppm | 2 ppb |  
+| 仕様使用率（%） | 100 | 75 | 60 | 50 |  
+{: .no-header-table} 
+
+ここで、ppm は 100 万分の 1、ppb は 10 億分の 1 を表す。
+なお、不適合率は分布が *μ* を中心としているという仮定に基づいていることに注意されたい。
+
+これまでは、2つの規格限界、すなわち USLとLSLがある場合について検討してきた。
+これは<u>双側（bilateral）</u>または両側の場合として知られている。
 下限仕様のみ、あるいは上限仕様のみが用いられるケースも多くある。
-1つの仕様限界を用いることを*「片側（unilateral）」*または「一側（one-sided）」と呼びます。
+1つの仕様限界を用いることを<u>片側</u>または一側と呼びます。
 これに対応する能力指標は以下の通りである。 
 
-#### \(\text{USL} - \text{LSL}\)
-$`6 \sigma`$
-#### \(C_p\)
-1.00
-#### 不採用
-0.27 %
-#### 仕様の使用率（％）
-100
-#### 一方的な仕様とそれに対応する能力指標
-$$ C\_{pu} = \frac{\text{許容上限スプレッド}} {\text{実際の上限スプレッド}} = \frac{\text{USL} - \mu} {3\sigma} $$および$$ C\_{pl} = \frac{\text{許容下限幅}} {\text{実際の下限幅}} = \frac{\mu - \text{LSL}} {3\sigma} \, , $$ここで、$`\mu`$および $`\sigma`$は、それぞれ工程の平均および標準偏差である。
- $`C\_{pu}`$ および $`C\_{pl}`$の推定量は、$`\mu`$と $`\sigma`$をそれぞれ $`\bar{x}`$ と $`s`$ に置き換えることで得られる。
+#### 片側仕様と対応する能力指標
+
+$$ C_{pu} = \frac{\text{許容上限ばらつき}} {\text{実際の上限ばらつき}} = \frac{\text{USL} - \mu} {3\sigma} $$
+
+および
+
+$$ C_{pl} = \frac{\text{許容下限幅}} {\text{実際の下限幅}} = \frac{\mu - \text{LSL}} {3\sigma} \, , $$
+
+ここで、*μ* および *σ* はそれぞれ工程の平均および標準偏差である。
+
+*C*<sub>*pu*</sub> および *C*<sub>*pl*</sub> の推定量は、*μ* と *σ* をそれぞれ $`\bar{x}`$ と *s* に置き換えることで得られる。
 以下の関係が成り立つ。
-$$ C\_p = \frac{C\_{pu} + C\_{pl}}{2} \, . $$これは図示すると次のようになる。
-Graph demonstrating upper actual and allowable upper spread なお、次のように書くこともできる： $$ C\_{pk} = \text{min}(C\_{pl}, \, C\_{pu}) \, . $$ 
+
+$$ C_p = \frac{C_{pu} + C_{pl}}{2} \, . $$
+
+これは図示すると次になる。
+
+![Graph demonstrating upper actual and allowable upper spread](https://www.itl.nist.gov/div898/handbook/pmc/section1/gifs/cpi3.gif){: .text-center}
+
+なお、次のように書くこともできる： 
+
+$$ C_{pk} = \text{min}(C_{pl}, C_{pu}) . $$ 
+
+**能力指数の信頼限界**
 
 #### 指数の信頼区間
-工程データが正規分布に従うと仮定すると、標本値 $`\hat{C}\_p`$の分布はカイ二乗分布に従い、$`\hat{C}\_{pu}`$および $`\hat{C}\_{pl}`$の分布は非中心 *t*分布に関連する。
+工程データが正規分布に従うと仮定すると、標本値 $`\hat{C}_p`$ の分布はカイ二乗分布に従い、$`\hat{C}_{pu}`$ および $`\hat{C}_{pl}`$ の分布は 非心 *t* 分布に関連する。
 幸いなことに、正規分布に関連する近似的な信頼限界が導出されている。
-$`\hat{C}\_{pk}`$の分布に対する様々な近似が提案されており、その中にはBissell (1990) によるものも含まれるが、ここでは正規近似を用いる。
-その結果得られる $`100(1-\alpha) \%`$ 信頼区間の式を以下に示す。
- $`C\_p`$ の信頼限界は $$ Pr\{\hat{C}\_{p}(L\_1) \le C\_p \le \hat{C}\_{p}(L\_2)\} = 1 - \alpha \, ,$$であり、ここで$$ \begin{eqnarray}L\_1 & = & \sqrt{\frac{\chi^2\_{\alpha/2, \, \nu}}{\nu}} \, , \\& & \\L\_2 & = & \sqrt{\frac{\chi^2\_{1-\alpha/2, \, \nu}}{\nu}} \, ,\end{eqnarray}$$ここで、$`\nu = `$ は自由度である。 
+$`\hat{C}_{pk}`$ の分布に対する様々な近似が提案されており、その中には Bissell (1990) によるものも含まれるが、ここでは正規近似を用いる。
 
-#### \(C_{pu}\) および \(C_{pl}\) の信頼区間
-標本サイズ $`n`$における $`C\_{pu}`$の $`100(1-\alpha)`$ %近似信頼区間は、次のとおりである：$$ C\_{pu}(lower) = \hat{C}\_{pu} - z\_{1-\beta}\sqrt{\frac{1}{9n} + \frac{\hat{C}\_{pu}^{2}}{2(n-1)}} $$また、 $$ C\_{pu}(lower) = \hat{C}\_{pu} - z\_{1-\alpha}\sqrt{\frac{1}{9n} + \frac{\hat{C}\_{pu}^{2}}{2(n-1)}} \, $$ここで、$`z`$は標準正規分布のパーセントポイント関数を表す。
-$`\beta`$が未知の場合は、$`\alpha`$ に設定する。
- $`C\_{pl}`$の極限は、$`\hat{C}\_{pu}`$を$`\hat{C}\_{pl}`$に置き換えることで得られる。 
+その結果得られる 100(1-*α*)% 信頼区間の式を以下に示す。
 
-#### \(C_{pk}\)の信頼区間
-[Zhangら（1990）は](https://www.itl.nist.gov/div898/handbook/pmc/section7/pmc7.md#Zhang1990)、$`C\_{pk}`$の推定量の正確な分散および$`n`$が大きい場合の近似値を導出した。
+*C*<sub>*p*</sub> の信頼限界は 
+
+$$ Pr\{\hat{C}_p(L_1) \le C_p \le \hat{C}_p(L_2)\} = 1 - \alpha \quad ,$$
+
+であり、ここで
+
+$$ \begin{eqnarray}
+L_1 & = & \sqrt{\frac{\chi^2_{\alpha/2, \nu}}{\nu}} \quad , \\
+    & & \\
+L_2 & = & \sqrt{\frac{\chi^2_{1-\alpha/2, \nu}}{\nu}} \quad ,
+\end{eqnarray}$$
+
+ここで、$`\nu = \text{自由度}`$ である。 
+
+#### *C*<sub>*pu*</sub> および *C*<sub>*pl*</sub> の信頼区間
+標本規模 *n* における *C*<sub>*pu*</sub> の 近似 100(1-*α*) % 信頼区間は
+
+$$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\beta}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{pu}^2}{2(n-1)}} $$
+
+また、 
+
+$$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\alpha}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{pu}^2}{2(n-1)}} \, $$
+
+ここで、*z* は標準正規分布のパーセント点関数を表す。
+*β* が未知の場合は、*α* に設定する。
+
+*C*<sub>*pl*</sub> の極限は、$`\hat{C}_{pu}`$ を $`\hat{C}_{pl}`$ に置き換えることで得られる。 
+
+#### *C*<sub>*pk*</sub> の信頼区間
+[Zhangら（1990）](../section7/pmc7.md#Zhang1990)は、$`C_{pk}`$ の推定量の正確な分散および *n* が大きい場合の近似値を導出した。
 参考文献は、Zhang、Stenback、Wardrop（1990）の「工程能力指数の区間推定（Interval Estimation of the process capability index）」、『*Communicationsin Statistics: Theory and Methods*』、19(21)、4455-4470 である。
-分散は次のように求まる。
-次のように定義する。
 
-$$ c = \sqrt{n}\left[\mu - (\text{USL} + \text{LSL})/2\right]\sigma $$$$ d = (\text{USL} - \text{LSL})/\sigma $$$$ \Phi(-c) = \int\_{-inf}^{-c}{\frac{1}{\sqrt{2\pi}}\exp{-5z^2}dz} \, .$$すると$$ Var(\hat{C}\_{pk}) $$$$ = (d^2/36)(n-1)(n-3) $$$$ -(d/9\sqrt{n})(n-1)(n-3)\{\sqrt{2\pi}\exp{(-c^2/2)} + c[1 - 2\Phi(-c)]\} $$$$ +[(1/9)(n-1)/(n(n-3))](1+c^2) $$$$ -[(n-1)/(72n)]\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\}^2 $$$$ \*\{d\sqrt{n} - 2\sqrt{2\pi}\exp{(-c^2/2)} - 2c[1 - 2\Phi(-c)]\}^2 \, .$$その近似式は次のように与えられる：
+分散は以下で求まる。
 
-$$ Var(\hat{C}\_{pk}) = \frac{n-1}{n-3} - 0.5\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\}^2 \, , $$ここで$$ n \ge 25, \,\,\,\,\,\, 0.75 \le C\_{pk} \le 4, \,\,\,\,\,\, |c| \le 100, \,\,\,\,\,\,\text{ かつ } \,\,\,\,\,\, d \le 24 \, .$$実務では、以下の近似式が一般的に用いられる$$ C\_{pk} = \hat{C}\_{pk} \pm z\_{1-\alpha/2}\sqrt{\frac{1}{9n} + \frac{\hat{C}\_{pk}^{2}}{2(n-1)}} \, . $$これらの近似式が有効となるためには、標本サイズが少なくとも25以上である必要があることに留意することが重要である。
-ただし、一般に、能力調査を行うには$`n \ge 100`$が必要となる。
+まず、以下とする。
+
+$$ \begin{gather}
+c = \sqrt{n}\left[\mu - (\text{USL} + \text{LSL})/2\right]\sigma \\
+d = (\text{USL} - \text{LSL})/\sigma $$
+\Phi(-c) = \int\_{-inf}^{-c}{\frac{1}{\sqrt{2\pi}}\exp{-5z^2}dz} \, .
+\end{gather}$$
+
+すると
+
+$$ \begin(equation}
+  \begin{split}
+    Var(\hat{C}_{pk}) &= (d^2/36)(n-1)(n-3) \\
+                      &\quad -(d/9\sqrt{n})(n-1)(n-3)\{\sqrt{2\pi}\exp{(-c^2/2)} + c[1 - 2\Phi(-c)]\} \\
+                      &\quad +[(1/9)(n-1)/(n(n-3))](1+c^2) \\
+                      &\quad -[(n-1)/(72n)]\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\}^2 \\
+                      &\quad \*\{d\sqrt{n} - 2\sqrt{2\pi}\exp{(-c^2/2)} - 2c[1 - 2\Phi(-c)]\}^2 \, .
+   \end{split}
+\end{equation} $$
+
+その近似式は次のように与えられる：
+
+$$ Var(\hat{C}_{pk}) = \frac{n-1}{n-3} - 0.5\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\}^2 \, , $$
+
+ここで
+
+$$ n \ge 25, \qquad 0.75 \le C_{pk} \le 4, \qquad |c| \le 100, \qquad \text{ かつ } \qquad d \le 24 \, .$$
+
+実務では、以下の近似式が一般的に用いられる
+
+$$ C_{pk} = \hat{C}_{pk} \pm z_{1-\alpha/2}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{pk}^2}{2(n-1)}} \, . $$
+
+これらの近似式が有効となるためには、標本サイズが少なくとも25以上である必要があることに留意することが重要である。
+ただし、一般に、能力調査を行うには $`n \ge 100`$ が必要である。
 また、能力指数の無作為性により、ばらつきが無視できない点にも注意が必要である。 
 
 #### 例
