@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm)  
 閲覧(UTC)：2026-10-17 02:06:29  
-[⬅️](pmc15.md)[➡️]()  
+[⬅️](pmc15.md)[➡️](../section2/pmc2.md)  
 
 6. [工程や製品の監視と管理](../pmc.md)  
 6.1. [はじめに](pmc1.md)  
@@ -250,3 +250,7 @@ $` \hat{C}_{npk} = \text{min}\left[\frac{\text{USL} - \text{中央値}} {p(0.995
 
 もちろん、非正規分布の場合については、他にも多くのことが言える。
 しかし、Box-Cox変換をうまく適用できるのであれば、それを利用することが推奨される。 
+
+---
+#### 訳註  
+* ページ中の図のリンク先は ソースページを維持し、NISTへのリンクになっています。 
