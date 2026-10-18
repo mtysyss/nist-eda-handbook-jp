@@ -64,7 +64,7 @@ $$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2}, \qquad 0 \le k \le 1 \, .
 
 $$ \hat{C}_{pk} = \hat{C}_p(1 - \hat{k}) \quad . $$
 
-$` 0 \le k \le 1` $ であるため、$` \hat{C}_{pk} \le \hat{C}_p `$ となる。 
+$` 0 \le k \le 1 `$ であるため、$` \hat{C}_{pk} \le \hat{C}_p `$ となる。 
 
 #### 工程幅の変化と *C*<sub>*p*</sub> のグラフ
 工程幅が変化した場合の *C*<sub>*p*</sub> 統計量の値の目安を知るために、次の図を参照してください。
