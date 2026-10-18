@@ -240,7 +240,7 @@ $$ \begin{align}
 \hat{C}_{np} &= \frac{\text{USL} - \text{LSL}} {p(0.99865) - p(0.00135)} \\
 \hat{C}_{npk} &= \frac{\text{min}\left[ \text{USL} - median, median - \text{LSL} \right]} {(p(0.99865) - p(0.00135))/2 } \\
 \hat{C}_{npm} &= \frac{\text{USL} - \text{LSL}} {6 \sqrt{\left( \frac{p(0.99865) - p(0.00135)}{6} \right) ^2     + (中央値 - \text{T})^2}} 
-\end{aglin} $$
+\end{align} $$
 <br>
 ここで、*p*(0.99855) はデータの 99.865 百分数位、*p*(0.00135) はデータの 0.135 百分位数である。
 これらの百分位数を用いるのは、正規分布における ±3標準偏差の包含を模倣するためである。
