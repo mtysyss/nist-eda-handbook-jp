@@ -53,3 +53,7 @@
 
 1. [リソグラフィ工程データ](section6/pmc61.md)
 2. [Box-Jenkins モデル化の例](section6/pmc62.md)
+
+---
+#### 訳註
+* JIS Z 8101, JIS Z 9015, JIS Z 9020 も参照。
