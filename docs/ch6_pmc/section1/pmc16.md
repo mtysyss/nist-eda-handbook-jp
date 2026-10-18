@@ -54,7 +54,7 @@ $$ \begin{gather}
 工程平均 *μ* と最適値である *m* との距離は $`\mu - m`$ であり、ここで $`m \le \mu \le \text{LSL}`$ である。
 尺度調整された距離は
 
-$$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2}, \qquad 0 \le k \le 1 \, .$$
+$$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2} , \qquad 0 \le k \le 1 \, .$$
 
 （絶対値記号は、$`\text{LSL} \le \mu \le m`$）の場合をカバーしている）。
 推定値 $`\hat{k}`$ を決定するために、*μ* を $`\bar{x}`$ で推定する。
@@ -162,7 +162,7 @@ $$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\alpha}\sqrt{\frac{1}{9n} + \frac{\hat{C}
 
 $$ \begin{gather}
 c = \sqrt{n}\left[\mu - (\text{USL} + \text{LSL})/2\right]\sigma \\
-d = (\text{USL} - \text{LSL})/\sigma $$
+d = (\text{USL} - \text{LSL})/\sigma \\
 \Phi(-c) = \int\_{-inf}^{-c}{\frac{1}{\sqrt{2\pi}}\exp{-5z^2}dz} \, .
 \end{gather}$$
 
