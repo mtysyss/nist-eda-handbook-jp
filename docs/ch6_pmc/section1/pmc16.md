@@ -167,6 +167,7 @@ d = (\text{USL} - \text{LSL})/\sigma \\
 \end{gather}$$
 
 すると
+
 $$ \begin{align}
     a &= \int_0^\infty f(x) \sin x \cos x \, dx \\
       &\quad + \int_0^\infty f(-x) \sin x \log x \, dx 
