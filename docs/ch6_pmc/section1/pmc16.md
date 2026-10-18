@@ -235,20 +235,20 @@ $$ \hat{C}_{pl} = \frac{\bar{x} - \text{LSL}} {3s} = \frac{16 - 8} {3(2)} = 1.33
 2. 非正規分布に適用可能な別の指標の組を採用または開発する。
 非パラメトリック版（[Pearn, Tai, Hsiao, and Ao (2014)](../section7/pmc7.md#Pearn) および [Chen and Ding (2001)](../section7/pmc7.md#Chen)）の *C*<sub>*p*</sub>, *C*<sub>*pk*</sub>, *C*<sub>*pm*</sub> 能力指標の非パラメトリック版は、それぞれ *C*<sub>*np*</sub>, *C*<sub>*npk*</sub>, *C*<sub>*npm*</sub> と表記される。
 これらの非パラメトリック能力指数の推定量は、以下の式によって計算される。
-<br>
+
 $$ \begin{align}
 \hat{C}_{np} &= \frac{\text{USL} - \text{LSL}} {p(0.99865) - p(0.00135)} \\
 \hat{C}_{npk} &= \frac{\text{min}\left[ \text{USL} - median, median - \text{LSL} \right]} {(p(0.99865) - p(0.00135))/2 } \\
 \hat{C}_{npm} &= \frac{\text{USL} - \text{LSL}} {6 \sqrt{\left( \frac{p(0.99865) - p(0.00135)}{6} \right) ^2     + (中央値 - \text{T})^2}} 
 \end{align} $$
-<br>
+
 ここで、*p*(0.99855) はデータの 99.865 百分数位、*p*(0.00135) はデータの 0.135 百分位数である。
 これらの百分位数を用いるのは、正規分布における ±3標準偏差の包含を模倣するためである。
 なお、99%の包含率を用いる文献もあることに留意されたい。
 例えば、*C*<sub>*npk*</sub> 統計量は次式で表されることがある。
-<br>
+
 $$ \hat{C}_{npk} = \text{min}\left[\frac{\text{USL} - \text{中央値}} {p(0.995) - \text{中央値}}, \frac{\text{中央値} - \text{LSL}}{\text{中央値} - p(0.005)} \right] $$ 
-<br><br>
+
 ここで、*p*(0.995) はデータの 99.5 百分位数、*p*(0.005) はデータの 0.5 百分位数である。
 非正規分布に関する詳細については、[Johnson and Kotz (1993)](../section7/pmc7.md#Kotz, S and)を参照のこと。
 
