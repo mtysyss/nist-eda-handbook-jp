@@ -126,7 +126,7 @@ $`\hat{C}_{pk}`$ の分布に対する様々な近似が提案されており、
 
 *C*<sub>*p*</sub> の信頼限界は 
 
-$$ Pr\{\hat{C}_p(L_1) \le C_p \le \hat{C}_p(L_2)\} = 1 - \alpha \quad ,$$
+$$ Pr\\{\hat{C}_p(L_1) \le C_p \le \hat{C}_p(L_2)\\} = 1 - \alpha \quad ,$$
 
 であり、ここで
 
