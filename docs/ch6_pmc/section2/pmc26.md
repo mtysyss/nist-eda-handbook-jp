@@ -38,7 +38,7 @@
 
 $$ \begin{eqnarray}
 x_a & = & -h_1 + s n \\
-x_r & = & h_2 + s n \, ,
+x_r & = & h_2 + s n  ,
 \end{eqnarray} $$
 
 ここで、
@@ -47,7 +47,7 @@ $$ \begin{eqnarray}
 k & = & \text{log} \left[ \frac{p_2(1-p_1)}{p_1(1-p_2)}\right] \\
 h_1 & = & \frac{1}{k} \left[ \text{log} \left(\frac{1-\alpha}{\beta}\right) \right] \\
 h_2 & = & \frac{1}{k} \left[ \text{log} \left(\frac{1-\beta}{\alpha}\right) \right] \\
-s & = & \frac{1}{k} \left[ \text{log} \left(\frac{1-p_1}{1-p_2}\right) \right] \, .
+s & = & \frac{1}{k} \left[ \text{log} \left(\frac{1-p_1}{1-p_2}\right) \right]  .
 \end{eqnarray} $$
 
 グラフを用いてロットの運命を決定する代わりに、（コンピュータ・プログラムを利用して）表を作成する方法もある。
@@ -58,7 +58,7 @@ s & = & \frac{1}{k} \left[ \text{log} \left(\frac{1-p_1}{1-p_2}\right) \right] \
 
 $$ \begin{eqnarray}
 x_a & = & -0.939 + 0.04 n \\
-x_r & = & 1.205 + 0.04 n \, .
+x_r & = & 1.205 + 0.04 n  .
 \end{eqnarray} $$
 
 合格数と不合格数はいずれも整数でなければならない。

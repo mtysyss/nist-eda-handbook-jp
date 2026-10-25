@@ -54,7 +54,7 @@ $$ \begin{gather}
 工程平均 *μ* と最適値である *m* との距離は $`\mu - m`$ であり、ここで $`m \le \mu \le \text{LSL}`$ である。
 尺度調整された距離は
 
-$$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2} , \qquad 0 \le k \le 1 \, .$$
+$$ k = \frac{|m - \mu|} {(\text{USL} - \text{LSL})/2} , \qquad 0 \le k \le 1  .$$
 
 （絶対値記号は、$`\text{LSL} \le \mu \le m`$）の場合をカバーしている）。
 推定値 $`\hat{k}`$ を決定するために、*μ* を $`\bar{x}`$ で推定する。
@@ -98,14 +98,14 @@ $$ C_{pu} = \frac{\text{許容上限ばらつき}} {\text{実際の上限ばら�
 
 および
 
-$$ C_{pl} = \frac{\text{許容下限幅}} {\text{実際の下限幅}} = \frac{\mu - \text{LSL}} {3\sigma} \, , $$
+$$ C_{pl} = \frac{\text{許容下限幅}} {\text{実際の下限幅}} = \frac{\mu - \text{LSL}} {3\sigma}  , $$
 
 ここで、*μ* および *σ* はそれぞれ工程の平均および標準偏差である。
 
 *C*<sub>*pu*</sub> および *C*<sub>*pl*</sub> の推定量は、*μ* と *σ* をそれぞれ $`\bar{x}`$ と *s* に置き換えることで得られる。
 以下の関係が成り立つ。
 
-$$ C_p = \frac{C_{pu} + C_{pl}}{2} \, . $$
+$$ C_p = \frac{C_{pu} + C_{pl}}{2}  . $$
 
 これは図示すると次になる。
 
@@ -145,7 +145,7 @@ $$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\beta}\sqrt{\frac{1}{9n} + \frac{\hat{C}_
 
 また、 
 
-$$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\alpha}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{pu}^2}{2(n-1)}} \, $$
+$$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\alpha}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{pu}^2}{2(n-1)}}  $$
 
 ここで、*z* は標準正規分布のパーセント点関数を表す。
 *β* が未知の場合は、*α* に設定する。
@@ -163,7 +163,7 @@ $$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\alpha}\sqrt{\frac{1}{9n} + \frac{\hat{C}
 $$ \begin{gather}
 c = \sqrt{n}\left[\mu - (\text{USL} + \text{LSL})/2\right]\sigma \\
 d = (\text{USL} - \text{LSL})/\sigma \\
-\Phi(-c) = \int_{-inf}^{-c}{\frac{1}{\sqrt{2\pi}}\exp{-5z^2}dz} \, .
+\Phi(-c) = \int_{-inf}^{-c}{\frac{1}{\sqrt{2\pi}}\exp{-5z^2}dz}  .
 \end{gather}$$
 
 すると
@@ -173,20 +173,20 @@ $$ \begin{align}
                   &\quad -(d/9\sqrt{n})(n-1)(n-3) \\{\sqrt{2\pi}\exp{(-c^2/2)} + c[1 - 2\Phi(-c)]\\} \\
                   &\quad +[(1/9)(n-1)/(n(n-3))](1 + c^2) \\                  
                   &\quad -[(n-1)/(72n)]\\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\\}^2 \\
-                  &\quad * \\{d\sqrt{n} - 2\sqrt{2\pi}\exp{(-c^2/2)} - 2c[1 - 2\Phi(-c)]\\}^2 \, .
+                  &\quad * \\{d\sqrt{n} - 2\sqrt{2\pi}\exp{(-c^2/2)} - 2c[1 - 2\Phi(-c)]\\}^2  .
                   \end{align}$$
 
 その近似式は以下に与えられる。
 
-$$ Var(\hat{C}_{pk}) = \frac{n-1}{n-3} - 0.5\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\}^2 \, , $$
+$$ Var(\hat{C}_{pk}) = \frac{n-1}{n-3} - 0.5\{\frac{\Gamma((n-2)/2)}{\Gamma((n-1)/2)}\}^2  , $$
 
 ここで
 
-$$ n \ge 25, \qquad 0.75 \le C_{pk} \le 4, \qquad |c| \le 100, \qquad \text{ かつ } \qquad d \le 24 \, .$$
+$$ n \ge 25, \qquad 0.75 \le C_{pk} \le 4, \qquad |c| \le 100, \qquad \text{ かつ } \qquad d \le 24  .$$
 
 実務では、以下の近似式が一般的に用いられる。
 
-$$ C_{pk} = \hat{C}_{pk} \pm z_{1-\alpha/2}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{pk}^2}{2(n-1)}} \, . $$
+$$ C_{pk} = \hat{C}_{pk} \pm z_{1-\alpha/2}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{pk}^2}{2(n-1)}}  . $$
 
 これらの近似式が有効となるためには、標本規模が少なくとも 25以上である必要があることに留意することが重要である。
 ただし、一般に、能力調査を行うには $`n \ge 100`$ が求められる。
@@ -197,7 +197,7 @@ $$ C_{pk} = \hat{C}_{pk} \pm z_{1-\alpha/2}\sqrt{\frac{1}{9n} + \frac{\hat{C}_{p
 観測された工程の平均は $`\bar{x} \ge 16`$、標準偏差は $`s = 2`$ である。
 これより、以下の式が得られる。
 
-$$ \hat{C}_p = \frac{\text{USL} - \text{LSL}} {6s} = \frac{20 - 8} {6(2)} = 1.0 \, . $$
+$$ \hat{C}_p = \frac{\text{USL} - \text{LSL}} {6s} = \frac{20 - 8} {6(2)} = 1.0  . $$
 
 これは、工程が中点 $`m = (\text{USL} + \text{LSL})/2 = 14`$ に位置している限り、その工程は網力があることを意味する。
 
@@ -208,7 +208,7 @@ $$ \hat{k} = \frac{|m - \bar{x}|} {(\text{USL} - \text{LSL})/2} = \frac{2} {6} =
 
 であり、
 
-$$ \hat{C}_{pk} = \hat{C}_{p}(1-\hat{k}) = 0.6667 \, .$$
+$$ \hat{C}_{pk} = \hat{C}_{p}(1-\hat{k}) = 0.6667  .$$
 
 $`\hat{C}_{pk}`$ は少なくとも 1.0であることが望ましいため、これは良好な工程とは言えない。
 可能であれば、変動を低減するか、あるいは工程を中心に揃えるようにする。
@@ -218,7 +218,7 @@ $$ \hat{C}_{pu} = \frac{\text{USL} - \bar{x}} {3s} = \frac{20 - 16} {3(2)} = 0.6
  
 および
  
-$$ \hat{C}_{pl} = \frac{\bar{x} - \text{LSL}} {3s} = \frac{16 - 8} {3(2)} = 1.3333 \, . $$
+$$ \hat{C}_{pl} = \frac{\bar{x} - \text{LSL}} {3s} = \frac{16 - 8} {3(2)} = 1.3333  . $$
  
 ここから、上記の指標の中で最小である $`\hat{C}_{pu}`$ が 0.6667 であることが判る。
 なお、式 $`\hat{C}_{pk} = \hat{C}_{p}(1 - \hat{k})`$ は、定義 $` \text{min}(\hat{C}_{pu}, \hat{C}_{pl})`$ と代数的に同等であることに注意されたい。 

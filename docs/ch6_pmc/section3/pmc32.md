@@ -42,7 +42,7 @@ LCL &= \mu_w - k \sigma_w
 #### 標本分散
 確率分布の未知分散を $`\sigma^2`$ とするとき、$`\sigma^2`$ の不偏推定量は<u>標本</u>分散であり、
 
-$$ s^2 = \frac{\sum_{i=1}^n \left( x_i - \overline{x} \right)^2}{n-1} \, . $$
+$$ s^2 = \frac{\sum_{i=1}^n \left( x_i - \overline{x} \right)^2}{n-1}  . $$
 
 しかし、標本標準偏差 *s* は、*σ* の無偏推定量では<u>ない</u>。
 基礎となる分布が正規である場合、*s* は実際には $`c_4 \cdot \sigma`$ を推定する。
@@ -50,19 +50,19 @@ $$ s^2 = \frac{\sum_{i=1}^n \left( x_i - \overline{x} \right)^2}{n-1} \, . $$
 この定数は統計的品質管理に関するほとんどの教科書に表として掲載され、以下の式を用いて計算する。
 
 #### *c*<sub>4</sub>因子
-$$ c_4 = \sqrt{\frac{2}{n-1}} \frac{ \left( \frac{n}{2}-1 \right)!} {\left( \frac{n-1}{2}-1 \right)!} \, . $$ 
+$$ c_4 = \sqrt{\frac{2}{n-1}} \frac{ \left( \frac{n}{2}-1 \right)!} {\left( \frac{n-1}{2}-1 \right)!}  . $$ 
 
 なお、一部の文献では、この公式が $ `\sigma = c_4 \cdot s`$ の形で与えられている場合があり、その場合は $`c_4`$ は上記の公式の逆数となる。 
 
 #### 一部実施要因計画
 これを計算するには、<u>非整数の階乗</u> が必要であるが、これは $`n/2`$ に対して以下で定義される。
 
-$$ \left( \frac{n}{2} \right) ! =\left( \frac{n}{2} \right)\left( \frac{n}{2} - 1 \right)\left( \frac{n}{2} - 2 \right)\cdots\left( \frac{1}{2} \right) \sqrt{\pi} \, . $$ 
+$$ \left( \frac{n}{2} \right) ! =\left( \frac{n}{2} \right)\left( \frac{n}{2} - 1 \right)\left( \frac{n}{2} - 2 \right)\cdots\left( \frac{1}{2} \right) \sqrt{\pi}  . $$ 
 
 例えば、$`n=7`$ とする。
 すると、$`n/2 = 7/2 = 3.5`$ となり、
 
-$$ \left( \frac{7}{2} \right) ! = (3.5)! =(3.5)(2.5)(1.5)(0.5)(1.77246) = 11.632 \, . $$ 
+$$ \left( \frac{7}{2} \right) ! = (3.5)! =(3.5)(2.5)(1.5)(0.5)(1.77246) = 11.632  . $$ 
 
 この定義を用いれば、読者も $`n=10`$ における $`c_4`$ の係数が 0.9727 であることを容易に確認できるはずである。 
 
@@ -71,7 +71,7 @@ $$ \left( \frac{7}{2} \right) ! = (3.5)! =(3.5)(2.5)(1.5)(0.5)(1.77246) = 11.632
 
 標本標準偏差の<u>標準偏差</u>は次式となる。
 
-$$ \sigma_s = \sigma \sqrt{1 - c_4^2} \, . $$ 
+$$ \sigma_s = \sigma \sqrt{1 - c_4^2}  . $$ 
 
 **管理限界と仕様限界の違い**
 
