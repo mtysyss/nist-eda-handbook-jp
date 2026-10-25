@@ -24,7 +24,7 @@
 これらはすべて、Montgomery (2000) に解説されている。
 本章では、（[第3節](../section3/pmc3.md)）管理図の手法、具体的には以下の点に焦点を当てる。
 
-* [古典的シューハート管理図](../section3/pmc321.md)
+* [古典的Shewhart 管理図](../section3/pmc321.md)
 * [累積和（CUSUM）管理図](../section3/pmc323.md)
 * [指数加重移動平均（EWMA）管理図](../section3/pmc324.md)
 * [多変量管理図](../section3/pmc34.md)

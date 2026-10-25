@@ -163,7 +163,7 @@ $$ C_{pu}(lower) = \hat{C}_{pu} - z_{1-\alpha}\sqrt{\frac{1}{9n} + \frac{\hat{C}
 $$ \begin{gather}
 c = \sqrt{n}\left[\mu - (\text{USL} + \text{LSL})/2\right]\sigma \\
 d = (\text{USL} - \text{LSL})/\sigma \\
-\Phi(-c) = \int\_{-inf}^{-c}{\frac{1}{\sqrt{2\pi}}\exp{-5z^2}dz} \, .
+\Phi(-c) = \int_{-inf}^{-c}{\frac{1}{\sqrt{2\pi}}\exp{-5z^2}dz} \, .
 \end{gather}$$
 
 すると
