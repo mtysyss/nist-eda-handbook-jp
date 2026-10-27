@@ -39,7 +39,7 @@
     3. [季節性](pmc443.md)
     4. [一般的な手法](pmc444.md)
     5. [Box-Jenkins 法](pmc445.md)
-    6. [Box-Jenkins ・モデル同定](pmc446.md)
+    6. [Box-Jenkins モデル同定](pmc446.md)
     7. [Box-Jenkins モデル推定](pmc447.md)
     8. [Box-Jenkins モデル検証](pmc448.md)
     9. [単変量 Box-Jenkins 解析の例](pmc449.md)
