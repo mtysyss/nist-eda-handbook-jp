@@ -38,7 +38,7 @@ Hotelling の *T*<sup>2</sup> および $`T_d^2`$の座標系対の例を以下�
 
 #### さらなる議論
 詳細や例については、[次ページ](pmc341.md)および 5章チュートリアル、[4.3節](../section5/pmc543.md)、4.3.1節、4.3.2節を参照のこと。
-チュートリアルには、[多変量解析の基礎](../section5/pmc54.md#Elements%20of%20Multivariate%20Analysis)』に関する概要も掲載されている。
+チュートリアルには、[多変量解析の基礎](../section5/pmc54.md#Elements%20of%20Multivariate%20Analysis)に関する概要も掲載されている。
 
 ---
 #### 訳註
