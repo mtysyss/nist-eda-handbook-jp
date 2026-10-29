@@ -10,7 +10,6 @@
 # 1.4.3 1章：探索的データ解析の参考文献
 
 <A NAME="Anscombe"></A>
-
 Anscombe, F. (1973), Graphs in Statistical Analysis, *The American Statistician*, pp. 195-199.  
 
 Anscombe, F. and Tukey, J. W. (1963), The Examination and Analysis of Residuals, *Technometrics*, pp. 141-160.
@@ -61,20 +60,19 @@ Chambers, John, William Cleveland, Beat Kleiner, and Paul Tukey, (1983), *Graphi
 
 <a NAME="Chatfield"></a>
 
-Chatfield, C. (1989). *The Analysis of 
-Time Series: An Introduction*, Fourth Edition,  Chapman &amp Hall, New York, NY.
+Chatfield, C. (1989). *The Analysis of Time Series: An Introduction*, Fourth Edition,  Chapman &amp Hall, New York, NY.
 
 <A NAME="Cleveland"></A>
 
-Cleveland, William (1985), *Elements of Graphing Data*, Wadsworth.
+Cleveland, William (1985), *Elements of Graphing Data*, Wadsworth.  
 
 <A NAME="Cleveland3"></A>
 
-Cleveland, William and Marylyn McGill, Editors (1988), *Dynamic Graphics for Statistics*, Wadsworth.
+Cleveland, William and Marylyn McGill, Editors (1988), *Dynamic Graphics for Statistics*, Wadsworth.    
 
 <A NAME="Cleveland2"></A>
 
-Cleveland, William (1993), *Visualizing Data*, Hobart Press.
+Cleveland, William (1993), *Visualizing Data*, Hobart Press.  
 
 <A NAME="Devaney"></A>
 
