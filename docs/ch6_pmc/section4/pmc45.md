@@ -65,7 +65,25 @@ $`E[a_t a_{t-k}'] = \Sigma_a,  k = 0`$ <br>
 $`n=1`$、$`p=2`$、$`q=0`$ である 2変量時系列について、次の例を考える。
 ARMAV(2,0) モデルは次式になる。
 
-$$ \left( \begin{array}{c} x_{t} \\ y_{t} \end{array} \right) =\left( \begin{array}{cc} \phi_{1.11} & \phi_{1.12} \\\phi_{1.21} & \phi_{1.22} \end{array} \right) \left( \begin{array}{c} x_{t-1} \\y_{t-1} \end{array} \right) + \left( \begin{array}{cc} \phi_{2.11} & \phi_{2.12} \\\phi_{2.21} & \phi_{2.22} \end{array} \right) \left( \begin{array}{c} x_{t-2} \\y_{t-2} \end{array} \right) + \left( \begin{array}{c} a_{1t} \\ a_{2t} \end{array} \right)  .$$
+$$ \left( \begin{array}{c}
+x_{t} \\
+ y_{t} 
+ \end{array} \right) =\left( \begin{array}{cc} 
+ \phi_{1.11} & \phi_{1.12} \\
+ \phi_{1.21} & \phi_{1.22} 
+ \end{array} \right) \left( \begin{array}{c}
+ x_{t-1} \\
+ y_{t-1} 
+ \end{array} \right) + \left( \begin{array}{cc} 
+ \phi_{2.11} & \phi_{2.12} \\
+ \phi_{2.21} & \phi_{2.22} 
+ \end{array} \right) \left( \begin{array}{c}
+ x_{t-2} \\
+ y_{t-2} 
+ \end{array} \right) + \left( \begin{array}{c} 
+ a_{1t} \\
+ a_{2t} 
+ \end{array} \right)  .$$
 
 一般性を失うことなく、*X* 系列が入力、*Y* 系列が出力であり、平均ベクトルが (0,0) であると仮定する。
 
