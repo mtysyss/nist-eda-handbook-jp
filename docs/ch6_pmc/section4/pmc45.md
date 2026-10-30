@@ -34,7 +34,38 @@ $`E[a_t a_{t-k}'] = \Sigma_a,  k = 0`$<br>
 
 例として、$`n=2`$、$`p=2`$、$`q=1`$ の二変量時系列の場合、ARMAV(2,1) モデルは以下となる。
 
-$$ \begin{eqnarray} \left( \begin{array}{c} x_{1t} \\ x_{2t} \end{array} \right) & = & \left( \begin{array}{cc} \phi_{1.11} & \phi_{1.12} \\ \phi_{1.21} & \phi_{1.22} \end{array} \right) \left( \begin{array}{c} x_{1t-1} \\ x_{2t-1} \end{array} \right) +\left( \begin{array}{cc} \phi_{2.11} & \phi_{2.12} \\ \phi_{2.21} & \phi_{2.22} \end{array} \right) \left( \begin{array}{c} x_{1t-2} \\ x_{2t-2} \end{array} \right) + \\& & \left( \begin{array}{c} a_{1t} \\ a_{2t} \end{array} \right) - \left( \begin{array}{cc} \phi_{1.11} & \phi_{1.12} \\ \phi_{1.21} & \phi_{1.22} \end{array} \right) \left( \begin{array}{c} a_{1t-1} \\ a_{2t-1} \end{array} \right)\end{eqnarray} $$
+$$ \begin{eqnarray} 
+\left( \begin{array}{c} 
+x_{1t} \\
+x_{2t} 
+\end{array} 
+\right) & = & \left( \begin{array}{cc} 
+\phi_{1.11} & \phi_{1.12} \\ 
+\phi_{1.21} & \phi_{1.22} 
+\end{array} 
+\right) \left( \begin{array}{c} 
+x_{1t-1} \\ x_{2t-1} 
+\end{array} 
+\right) +\left( \begin{array}{cc} 
+\phi_{2.11} & \phi_{2.12} \\ 
+\phi_{2.21} & \phi_{2.22} 
+\end{array} 
+\right) \left( \begin{array}{c} 
+x_{1t-2} \\ 
+x_{2t-2} 
+\end{array} \right) + \\
+& & \left( \begin{array}{c} 
+a_{1t} \\ 
+a_{2t} 
+\end{array} \right) - \left( \begin{array}{cc} 
+\phi_{1.11} & \phi_{1.12} \\ 
+\phi_{1.21} & \phi_{1.22} 
+\end{array} 
+\right) \left( \begin{array}{c} 
+a_{1t-1} \\ a_{2t-1} 
+\end{array} 
+\right)
+\end{eqnarray} $$
 
 ここで、
 
