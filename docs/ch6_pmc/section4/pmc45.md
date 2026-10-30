@@ -71,7 +71,8 @@ a_{2t-1}
 
 ここで、
 
-$$ a_t = \left( \begin{array}{c} a_{1t} \\ a_{2t} \end{array} \right)  .$$ 
+$$ a_t = \left( \begin{array}{c} a_{1t} \\
+a_{2t} \end{array} \right)  .$$ 
 
 #### 推定が難しい係数と共分散行列
 行列係数および[共分散行列](../section5/pmc541.md#Mean%20vector%20and%20Covariance)の推定は複雑であり、コンピュータ・ソフトウェアなしでは非常に困難である。
