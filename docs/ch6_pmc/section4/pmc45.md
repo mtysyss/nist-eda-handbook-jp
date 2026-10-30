@@ -44,7 +44,8 @@ x_{2t}
 \phi_{1.21} & \phi_{1.22} 
 \end{array} 
 \right) \left( \begin{array}{c} 
-x_{1t-1} \\ x_{2t-1} 
+x_{1t-1} \\ 
+x_{2t-1} 
 \end{array} 
 \right) +\left( \begin{array}{cc} 
 \phi_{2.11} & \phi_{2.12} \\ 
@@ -62,7 +63,8 @@ a_{2t}
 \phi_{1.21} & \phi_{1.22} 
 \end{array} 
 \right) \left( \begin{array}{c} 
-a_{1t-1} \\ a_{2t-1} 
+a_{1t-1} \\ 
+a_{2t-1} 
 \end{array} 
 \right)
 \end{eqnarray} $$
