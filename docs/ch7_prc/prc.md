@@ -9,7 +9,7 @@
 #### 1. [はじめに](section1/prc1.md)  
 1. [適用範囲](section1/prc11.md) 
 2. [仮定](section1/prc12.md)  
-3. [統計検定](section1/prc13.md)  
+3. [統計的検定](section1/prc13.md)  
 4. [信頼区間](section1/prc14.md)  
 5. [検定と区間の等価性](section1/prc15.md)  
 6. [外れ値](section1/prc16.md)  
