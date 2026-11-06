@@ -78,7 +78,7 @@ $$Z_i = \frac{Y_i - \bar{Y}} {s}$$
 
 [IglewiczとHoaglin](../section4/eda43.md#Iglewicz)は、以下の修正標準化得点の使用を推奨している。  
 
-$$M_{i} = \frac{0.6745(x_{i} - \tilde{x})} {\mbox{MAD}}$$  
+$$M_{i} = \frac{0.6745(x_{i} - \tilde{x})} {\text{MAD}}$$  
 
 ここで、MADは[中央絶対偏差](../section3/eda356.md#MAD)であり、$`\tilde{x}`$ は中央値である。  
 

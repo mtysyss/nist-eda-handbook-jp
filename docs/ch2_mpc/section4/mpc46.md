@@ -56,19 +56,19 @@ $${\large s}_{resolutioni} = \delta / \sqrt{3}$$
 #### [非直線性の決定](mpc452.md)
 もし、ゲージの直線性からの最大逸脱がゲージ研究により決定され、かつ、試験範囲内の任意の点においてゲージが作動する確率を等しいと仮定することが妥当であるならば、直線性の標準不確かさは次式となる。
 
-$${\large s}_{linearity} = \mbox{Max} \left| Y_{observed} - Y_{fitted} \right| / \sqrt{3}$$
+$${\large s}_{linearity} = \text{Max} \left| Y_{observed} - Y_{fitted} \right| / \sqrt{3}$$
 
 #### 履歴効果
 性能仕様としての履歴効果は、（[NCSL RP-12](../section7/mpc7.md#NCSL)）において、同じ人工物を用いた双方向全範囲走査時の尺度上昇と下降における読み値の最大差異として定義される。
 履歴効果の標準不確かさは次式となる。
 
-$${\large s}_{hysteresis} = \mbox{Max} \left| Y_{upscale} - Y_{downscale} \right|  / \sqrt{3}$$
+$${\large s}_{hysteresis} = \text{Max} \left| Y_{upscale} - Y_{downscale} \right|  / \sqrt{3}$$
 
 #### [偏位の決定](mpc453.md)
 直読式計測器の偏位は、対象とする特定の時間間隔において定義される。
 偏位の標準不確かさは
 
-$${\large s}_{drift} = \mbox{Max} \left| Y_0 - Y_t \right| / \sqrt{3}$$
+$${\large s}_{drift} = \text{Max} \left| Y_0 - Y_t \right| / \sqrt{3}$$
 
 となり、ここで、$`Y_0`$ および $`Y_t`$は、それぞれ時刻 0 および時刻 $`t`$ における測定値である。
 

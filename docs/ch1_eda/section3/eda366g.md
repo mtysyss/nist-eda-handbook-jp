@@ -157,7 +157,7 @@ $$Z(p) = -\ln(\ln(\frac{1} {1-p}))$$
  　　　　　　　　定数 0.5772はオイラー数である。  
  中央値　　　　　$`\mu - \beta\ln(\ln(2))`$  
  最頻値　　　　　$`μ`$  
- 範囲　　　　　　$`-\infty \mbox{ から } \infty`$  
+ 範囲　　　　　　$`-\infty \text{ から } \infty`$  
  標準偏差　　　　$`\frac{\beta\pi} {\sqrt{6}}`$  
  歪度　　　　　　1.13955  
  尖度　　　　　　5.4  

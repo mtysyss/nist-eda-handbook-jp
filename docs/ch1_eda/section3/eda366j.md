@@ -16,7 +16,7 @@ Poisson 分布は、特定の時間間隔内に発生する事象数をモデル
 
 Poisson 確率質量関数の式は次の通りである。
 
-$$p(x;\lambda) = \frac{e^{-\lambda}\lambda^{x}} {x!} \mbox{ただし、 } x = 0, 1, 2, \cdots$$  
+$$p(x;\lambda) = \frac{e^{-\lambda}\lambda^{x}} {x!} \text{ただし、 } x = 0, 1, 2, \cdots$$  
 
 $`λ`$ は形状母数であり、特定の時間間隔における事象の平均回数を示する。
 

@@ -25,13 +25,13 @@ Box-Coxの累乗変換は、以下で与えられる。
 
 $$ \begin{eqnarray}
 x(\lambda) & = & \frac{x^\lambda - 1}{\lambda}  & \lambda \ne 0 \\
-x(\lambda) & = & \mbox{ln}(x) & \lambda = 0  .
+x(\lambda) & = & \text{ln}(x) & \lambda = 0  .
 \end{eqnarray} $$
 
 観測データのベクトル $` x = x_1, x_2, \ldots, x_n`$ が与えられたとき、指数 *λ* を選択する一つの方法として、尤度関数の対数を最大化する *λ* を用いる。 
 
 #### 尤度関数の対数
-$$ f(x,\lambda) = -\frac{n}{2} \mbox{ln}\left[ \sum_{i=1}^{n}{\frac{(x_i(\lambda) - \bar{x}(\lambda))^2}{n}} \right] +(\lambda - 1)\sum_{i=1}^{n}{\ln(x_i)}  , $$
+$$ f(x,\lambda) = -\frac{n}{2} \text{ln}\left[ \sum_{i=1}^{n}{\frac{(x_i(\lambda) - \bar{x}(\lambda))^2}{n}} \right] +(\lambda - 1)\sum_{i=1}^{n}{\ln(x_i)}  , $$
 
 ここで、
 
