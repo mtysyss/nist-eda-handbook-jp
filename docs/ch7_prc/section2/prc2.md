@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/prc/section2/prc2.htm)  
 閲覧(UTC)：2026-11-04 10:48:44  
-[⬅️]()[➡️](prc21.md)  
+[⬅️](../section1/prc17.md)[➡️](prc21.md)  
 
 7. [製品および工程の比較](../prc.md)  
 
