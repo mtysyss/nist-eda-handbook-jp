@@ -144,7 +144,7 @@ $$\chi^2 > \chi_{1-\alpha, k-c}^2$$
 [確率プロット相関係数プロット](eda33n.md) 
 
 #### ソフトウェア
-汎用統計ソフトウェアプログラムの中には、少なくともいくつかの一般的な分布に対してカイ二乗適合度検定を提供するものがある。
+汎用統計ソフトウェア・プログラムの中には、少なくともいくつかの一般的な分布に対してカイ二乗適合度検定を提供するものがある。
 本節の分析出力には[、Dataplotコード](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35f.dp)と[Rコード](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35f.r)の両方が使用可能である。
 
 ---
