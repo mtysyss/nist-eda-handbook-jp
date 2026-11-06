@@ -17,8 +17,8 @@
 
 #### 2. [比較：単工程](section2/prc2.md)  
 1. [分布との比較](section2/prc21.md)  
-2. [名目平均との比較](section2/prc22.md)  
-3. [名目変動との比較](section2/prc23.md)  
+2. [公称平均との比較](section2/prc22.md)  
+3. [公称変動との比較](section2/prc23.md)  
 4. [欠陥率](section2/prc24.md)  
 5. [欠陥密度](section2/prc25.md)  
 6. [分布値の位置](section2/prc26.md)  
