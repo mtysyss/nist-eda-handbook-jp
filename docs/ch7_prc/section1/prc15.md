@@ -22,15 +22,15 @@
 これらの標本統計量から検定統計量が計算し、以下のいずれかが成立する場合、帰無仮説が棄却される。
 
 $$ \begin{eqnarray}
-\frac{\bar{Y}-500}{\sigma / \sqrt{N}} \le z\_{\alpha/2} \quad \text{ または } \quad \frac{\bar{Y}-500}{\sigma / \sqrt{N}} \ge z\_{1-\alpha/2} 
+\frac{\bar{Y}-500}{\sigma / \sqrt{N}} \le z_{\alpha/2} \quad \text{ または } \quad \frac{\bar{Y}-500}{\sigma / \sqrt{N}} \ge z_{1-\alpha/2} 
 \end{eqnarray} $$
 
-ここで、$`z\_{\alpha/2}`$ および $`z\_{1-\alpha/2}`$ は、[正規分布の表値](../../ch1_eda/section3/eda3671.md)である。
+ここで、$`z_{\alpha/2}`$ および $`z_{1-\alpha/2}`$ は、[正規分布の表値](../../ch1_eda/section3/eda3671.md)である。
 
 #### 等価信頼区間
 代数的計算を行うと、500μmという値が信頼区間に含まれていない場合に限り、帰無仮説が棄却されることが判る。
 
-$$ \bar{Y} \pm \frac{z\_{1-\alpha/2} \sigma}{\sqrt{N}} . $$
+$$ \bar{Y} \pm \frac{z_{1-\alpha/2} \sigma}{\sqrt{N}} . $$
 
 #### 等価信頼区間
 実際にこの区間に含まれるすべての値は、特定の試験データ集合において、NULL値として受け入れられる。
