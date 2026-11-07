@@ -50,7 +50,7 @@ $$ F = \frac{s_1^2}{s_2^2} . $$
 上記で列挙された各条件に関連する仮説は、以下の場合に棄却される。
 
 $$ \begin{align}
-\text{1.} \quad & F \le \frac{1}{F_{\alpha/2, \nu_2, \nu_1}} \text{ または } F \ge F_{\alpha/2, \nu_1, \nu_2} \\
+\text{1.} \quad & F \le \frac{1}{F_{\alpha/2, \nu_2, \nu_1}} \quad \text{ または } \quad F \ge F_{\alpha/2, \nu_1, \nu_2} \\
 & \\
 \text{2.} \quad & F \ge F_{\alpha, \nu_1, \nu_2} \\
 & \\
