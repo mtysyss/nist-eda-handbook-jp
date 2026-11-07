@@ -49,13 +49,13 @@ $$ F = \frac{s_1^2}{s_2^2} . $$
 ここで、*α* は小さく設定され、通常は 0.01、0.05 または 0.10 である。
 上記で列挙された各条件に関連する仮説は、以下の場合に棄却される。
 
-$$ \begin{array}{cl}
-1. & F \le \frac{1}{F_{\alpha/2, \nu_2, \nu_1}}\text{ または } F \ge F_{\alpha/2, \nu_1, \nu_2} \\
+$$ \begin{align}
+\text{1.} \quad & F \le \frac{1}{F_{\alpha/2, \nu_2, \nu_1}} \text{ または } F \ge F_{\alpha/2, \nu_1, \nu_2} \\
 & \\
-2. & F \ge F_{\alpha, \nu_1, \nu_2} \\
+\text{2.} \quad & F \ge F_{\alpha, \nu_1, \nu_2} \\
 & \\
-3. & F \le \frac{1}{F_{\alpha, \nu_2, \nu_1}}
-\end{array} $$
+\text{3.} \quad & F \le \frac{1}{F_{\alpha, \nu_2, \nu_1}}
+\end{align} $$
 
 #### 臨界値の説明
 *F* 表からの臨界値は、有意水準および2工程の標準偏差における自由度に依存する。
