@@ -59,19 +59,19 @@ Fisher の検定は、2群が 2つの分類に属する割合に関して差異�
 $$ \begin{eqnarray}
 p & = & \frac{\left(\begin{array}{c} 
 A+C \\ 
-A 
+A
 \end{array}\right) \left(\begin{array}{c}
 B+D \\ 
-B 
+B
 \end{array}\right)}{\left(\begin{array}{c} 
 N \\ 
 A+B \end{array}\right)} \\
 & & \\
 & & \\
-& = & \frac{\frac{(A+C)!}{A! \ C!} \frac{(B+D)!}{B! \ D!}}{\frac{N!}{(A+B)! (C+D)!}} \\
+& = & \frac{\frac{(A+C)!}{A! \ C!} \frac{(B+D)!}{B! \ D!}}{\frac{N!}{(A+B)! \ (C+D)!}} \\
 & & \\
 & & \\
-& = & \frac{(A+B)! (C+D)! (A+C)! (B+D)!}{N! A! B! C! D!} .
+& = & \frac{(A+B)! \ (C+D)! (A+C)! \ (B+D)!}{N! \ A! \ B! \ C! \ D!} .
 \end{eqnarray} $$
 
 しかし、この検定は観測された事例だけを検討するわけではない。
