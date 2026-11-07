@@ -34,7 +34,7 @@ $$ Y_1, \ldots, Y_N \quad \text{ および } \quad,Z_1, \ldots, Z_N $$
 $$ \begin{align}
 s_1^2 & = \frac{1}{N_1 - 1} \sum_{i=1}^{N_1} (Y_i - \bar{Y})^2 \\
 & \\
-s_2^2 = \frac{1}{N_2 - 1} \sum_{i=1}^{N_2} (Z_i - \bar{Z})^2 
+s_2^2 & = \frac{1}{N_2 - 1} \sum_{i=1}^{N_2} (Z_i - \bar{Z})^2 
 \end{align} $$
 
 であり、自由度はそれぞれ $`\nu_1 = N_1 - 1`$ および $`\nu_2 = N_2 - 1`$ である。
