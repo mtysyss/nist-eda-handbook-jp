@@ -41,7 +41,6 @@ $$ \bar{Y} = \frac{1}{N_1} \sum_{i=1}^{N_1} Y_i ,\quad \bar{Z} = \frac{1}{N_2} \
 
 $$ \begin{align}
 s_1 & = \sqrt{\frac{\sum_{i=1}^{N_1} (Y_i - \bar{Y})^2}{N_1-1}} \\ 
-& \\
 s_2 & = \sqrt{\frac{\sum_{i=1}^{N_2} (Z_i - \bar{Z})^2}{N_2-1}} 
 \end{align} $$
 
