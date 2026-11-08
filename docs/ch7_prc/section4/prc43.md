@@ -12,7 +12,7 @@
 #### 平均値の等しさの検定
 <u>分散分析</u>（*ANOVA*）と知られる手法は、複数の母集団が存在する場合に、平均値に関する仮説を検定するために用いられる。
 
-***分散分析（ANOVA）**
+**分散分析（ANOVA）**
 
 #### 最も強力な統計的技法 ANOVA手順
 ANOVAは、標本抽出された母集団が正規分布に従うという仮定の下で、2つ以上の群間の平均が等しいという仮説を検定するために用いられる一般的な技法である。
@@ -73,7 +73,15 @@ ANOVAは、標本抽出された母集団が正規分布に従うという仮定
 #### *n*元要因分散分析
 一般に、主効果および交互作用の数は、次の式によって求める。
 
-$$ N = \left( \begin{array}{c} n \\ 0 \end{array} \right) +\left( \begin{array}{c} n \\ 1 \end{array} \right) +\left( \begin{array}{c} n \\ 2 \end{array} \right) + \ldots +\left( \begin{array}{c} n \\ n \end{array} \right) \, . $$
+$$ N = \left( \begin{array}{c} 
+n \\ 
+0 \end{array} \right) +\left( \begin{array}{c} 
+n \\ 
+1 \end{array} \right) +\left( \begin{array}{c} 
+n \\ 
+2 \end{array} \right) + \ldots +\left( \begin{array}{c} 
+n \\ 
+n \end{array} \right) . $$
 
 最初の項は全体平均を表し、常に 1である。
 2番目の項は主効果の数を表し、3番目の項は 2因子間交互作用数を表し、以下同様である。
