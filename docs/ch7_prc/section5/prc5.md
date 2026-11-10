@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/prc/section5/prc5.htm)  
 閲覧(UTC)：2026-11-04 11:00:00  
-[⬅️](../section4/prc474.md)[➡️](../../README.md)  
+[⬅️](../section4/prc474.md)[➡️](../../../README.md)  
 
 7. [製品および工程の比較](../prc.md)  
 
