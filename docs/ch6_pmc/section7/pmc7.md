@@ -108,7 +108,7 @@ Pearn, W. L., Tai, Y. T., Hsiao, F. and Ao, Y. P. (2014). "Approximately Unbiase
 
 <p>
 <a NAME="Quesenberry"></a>
-Quesenberry, C. P. (1993).  "The effect of sample size on estimated limits for <img SRC="../section5/eqns/xbar.gif" height=17 width=14> and <b>X</b> control charts",<i>Journal of Quality Technology</i>, 25(4) 237-247.
+Quesenberry, C. P. (1993).  "The effect of sample size on estimated limits for $`\bar{X}`$ and <b>X</b> control charts",<i>Journal of Quality Technology</i>, 25(4) 237-247.
 
 <p>
 <a NAME="Ryan,"></a>
