@@ -13,7 +13,7 @@
 
 #### 2節の詳細な内容
 
-2. [仮定・前提条件](https://www.itl.nist.gov/div898/handbook/apr/section2/apr2.md)
+2. [前提条件／適用条件](https://www.itl.nist.gov/div898/handbook/apr/section2/apr2.md)
     1. [適切な寿命分布モデルの選択方法](apr21.md)
         1. [故障モードに基づく](apr211.md)
         2. [極値論](apr212.md)
