@@ -21,7 +21,7 @@
 * [指数関数的電圧モデル](../section1/apr153.md#The%20Exponential%20Voltage)
 * [2つの温度／電圧モデル](../section1/apr153.md#Two%20Temperature/Voltage)
 * [エレクトロマイグレーション・モデル](../section1/apr153.md#The%20Electromigration)
-* [3つの負荷モデル（温度、電圧、湿度）](../section1/apr153.md#Three%20Stress%20Models%20(Temperature,%20Voltage%20and)
+* [3つの負荷モデル（温度、電圧、湿度）](../section1/apr153.md#Three%20Stress%20Models%20%28Temperature,%20Voltage%20and)
 * [Eyring モデル](../section1/apr152.md)(3つ以上の負荷が作用する場合、または上記のモデルが不十分な場合）
 * [Coffin-Manson 機械的亀裂進展モデル](../section1/apr153.md#The%20Coffin-Manson%20Mechanical%20Crack%20Fatigue)
 
