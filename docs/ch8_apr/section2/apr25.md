@@ -98,3 +98,7 @@ $`RT`$ は600/250 = 2.4となる。
 この例におけるガンマ分布の母数推定値は、[Rコード](https://www.itl.nist.gov/div898/handbook/apr/section2/apr25.r)を用いて計算することができる。
 
 この例は[3節で](../section3/apr315.md#Example:Calculating%20a%20Bayesian%20Test%20Time)続き、そこでは 80％の信頼度で 500時間のMTBFを確認するために必要なベイズ検定時間を導出する。 
+
+---
+#### 訳註
+* ページ中のRコードはソースページを維持し、NISTへのリンクになっています。
