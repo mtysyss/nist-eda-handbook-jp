@@ -15,6 +15,7 @@
 #### 4節の詳細な概要
 
 4節の詳細な概要は以下の通り。 
+
 4. [信頼性データの分析](https://www.itl.nist.gov/div898/handbook/apr/section4/apr4.md)
     1. [打切りデータから寿命分布母数の推定方法](https://www.itl.nist.gov/div898/handbook/apr/section4/apr41.md)
         1. [グラフを用いた推定](https://www.itl.nist.gov/div898/handbook/apr/section4/apr411.md)
