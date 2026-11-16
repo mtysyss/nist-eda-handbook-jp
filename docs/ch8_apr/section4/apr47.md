@@ -2,11 +2,12 @@
 閲覧(UTC)：2026-11-05 06:41:13  
 [⬅️](apr46.md)[➡️](../../../README.md)  
 
-8. [製品の信頼性の評価](../apr.md)  8.4. [信頼性データの分析](apr4.md)  
+8. [製品の信頼性の評価](../apr.md)  
+8.4. [信頼性データの分析](apr4.md)  
 
 ---
 
-# 8.4.7. 第8章「製品の信頼性の評価」の参考文献
+# 8.4.7. 第8章の参考文献: 製品の信頼性の評価
 <p>
 <a NAME="Aitchison,J. and Brown, J. A. C.,(1957), The"></a>Aitchison,J. and Brown, J. A. C.,(1957), <i>The Log-normal distribution</i>,Cambridge University Press, New York and London.
 
