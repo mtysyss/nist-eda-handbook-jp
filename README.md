@@ -11,5 +11,10 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 7. [製品および工程の比較](docs/ch7_prc/prc.md)
 8. [信頼性の評価](docs/ch8_apr/apr.md)
 
---
+---
+
+[ハンドブックの使い方](howto.md)
+[ツールとお役立ち](docs/toolaids/index.md)
+
+---
 * 翻訳対象のページは、ページ表示上部のリンクBack/Nextと本文中のリンクで表示されるページです。
