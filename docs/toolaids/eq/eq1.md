@@ -23,4 +23,3 @@
     6. [Duane プロット](../../ch8_apr/section1/apr192.md)
     7. [冪乗則(Duane)モデル適合と試験終了時改善MTBF推定](../../ch8_apr/section4/apr452.md)
     8. [MTBF推定と信頼境界計算のためのHPP（指数）モデルの利用](../../ch8_apr/section4/apr451.md)
-
