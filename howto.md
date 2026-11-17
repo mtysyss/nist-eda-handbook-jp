@@ -93,3 +93,7 @@ Dataplot が実行されると、事例研究の各手順のハイパーリン�
 #### 特定のトピックについて	
 
 ホームページのツールとお役立ちの下にある「[Search Handbook](https://www.itl.nist.gov/div898/handbook/search.htm)」をクリックしてください。
+
+---
+#### 訳註
+
