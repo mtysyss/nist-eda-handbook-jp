@@ -13,7 +13,7 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 
 ---
 
-[ハンドブックの使い方](howto.md)
+[ハンドブックの使い方](howto.md)  
 [ツールとお役立ち](docs/toolaids/toolaids.md)
 
 ---
