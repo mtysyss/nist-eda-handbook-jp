@@ -5,7 +5,7 @@
 # 2. 測定工程の特徴付け
 ## 1. [特徴付け](section1/mpc1.md)
 1. [課題](section1/mpc11.md)  
-2. [検査標準](section1/mpc12.md)  
+2. [チェック標準](section1/mpc12.md)  
 
 
 ## 2. [管理](section2/mpc2.md)
@@ -47,7 +47,7 @@
 ## 6. [事例研究](section6/mpc6.md)
 
 1. [ゲージ調査](section6/mpc61.md)  
-2. [検査標準](section6/mpc62.md)  
+2. [チェック標準](section6/mpc62.md)  
 3. [タイプAの不確かさ](section6/mpc63.md)  
 4. [タイプBの不確かさ](section6/mpc64.md)  
 
