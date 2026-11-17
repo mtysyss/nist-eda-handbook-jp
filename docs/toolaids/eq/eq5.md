@@ -1,8 +1,8 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/toolaids/eq/eq5.htm)  
 閲覧(UTC)：2026-11-17 00:00:00    
-[⬅️️](eq4.md)[➡️](../../toolaids.md)  
+[⬅️️](eq4.md)[➡️](../../../toolaids.md) 
 
-[ツールとお役立ち](../../toolaids.md)  
+[ツールとお役立ち](../../../toolaids.md)  
 [工学に関する質問](index.md)
 
 ---

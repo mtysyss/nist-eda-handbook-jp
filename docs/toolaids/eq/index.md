@@ -1,7 +1,9 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/toolaids/eq/index.htm)  
-閲覧(UTC)：2026-11-16 12:41:49
+閲覧(UTC)：2026-11-16 12:41:49  
+[⬅️](../../../howto.md)[⬆️](../../../README.md)
 
-[ツールと補助具](../../toolaids.md)
+
+[ツールとお役立ち](../../../toolaids.md) 
 
 ---
 
