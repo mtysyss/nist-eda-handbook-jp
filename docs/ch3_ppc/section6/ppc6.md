@@ -8,7 +8,7 @@
 
 # 3.6. 参考文献
 
-<a name="Box, Hunter and Hunter" />
+<a name="Box, Hunter and Hunter" ></a>
 
 Box, G.E.P., Hunter, W.G., and Hunter, J.S. (1978), Statistics for Experimenters, John Wiley and Sons, New York.
 
