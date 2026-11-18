@@ -8,21 +8,21 @@
 
 # 3.6. 参考文献
 
-<a name="Box, Hunter and Hunter" ></a>
+<a name="Box, Hunter and Hunter"></a>
 
 Box, G.E.P., Hunter, W.G., and Hunter, J.S. (1978), Statistics for Experimenters, John Wiley and Sons, New York.
 
 
-<a name="Cleveland" />
+<a name="Cleveland"></a>
 
 Cleveland, W.S. (1993), Visualizing Data, Hobart Press, New Jersey.
 
 
-<a name="Hoaglin, Mosteller and Tukey (1985)" />
+<a name="Hoaglin, Mosteller and Tukey (1985)"></a>
 
 Hoaglin, D.C., Mosteller, F., and Tukey, J.W. (1985), Exploring Data Tables, Trends, and Shapes, John Wiley and Sons, New York.
 
 
-<a name="Hoaglin, Mosteller and Tukey (1991)" />
+<a name="Hoaglin, Mosteller and Tukey (1991)"></a>
 
 Hoaglin, D.C., Mosteller, F., and Tukey, J.W. (1991), Fundamentals of Exploratory Analysis of Variance, John Wiley and Sons, New York.
