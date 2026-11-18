@@ -9,92 +9,92 @@
 # 7.5. 参考文献
 
 #### 主な参考文献
-<a NAME="Agresti"></a>
+<div id="Agresti"></div>
 Agresti, A. and Coull, B. A. (1998). <i>Approximate is better than "exact" for interval estimation of binomial proportions</i>", The American Statistician, 52(2), 119-126.
 
 <p>
-<a NAME="Berenson M.L. and Levine D.M. (1996) Basic"></a>
+<div id="Berenson M.L. and Levine D.M. (1996) Basic"></div>
 Berenson M.L. and Levine D.M. (1996) <i>Basic Business Statistics,</i> Prentice-Hall, Englewood Cliffs, New Jersey.
 
 <p>
-<a NAME="Bhattacharyya, G.K, R.A. Johnson, 1997,"></a>
+<div id="Bhattacharyya, G.K, R.A. Johnson, 1997,"></div>
 Bhattacharyya, G. K., and R. A. Johnson, (1997). <i>Statistical Concepts and Methods</i>, John Wiley and Sons, New York.
 <p>
-<a NAME="Birnbaum, Z. W. (1952). Numerical tabulation of"></a>
+<div id="Birnbaum, Z. W. (1952). Numerical tabulation of"></div>
 Birnbaum, Z. W. (1952). " <i>Numerical tabulation of the distribution of Kolmogorov's statistic for finite sample size</i>", Journal of the American Statistical Association, 47, page 425.
 
 <p>
-<a NAME="Brown"></a>
+<div id="Brown"></div>
 Brown, L. D. Cai, T. T. and DasGupta, A. (2001). <i>Interval estimation for a binomial proportion</i>", Statistical
 Science, 16(2), 101-133.
 
 <p>
-<a NAME="Diamond, W.J. (1989). Practical Experiment"></a>
+<div id="Diamond, W.J. (1989). Practical Experiment"></div>
 Diamond, W. J. (1989). <i>Practical Experiment Designs, </i> Van-Nostrand Reinhold, New York.
 
 <p>
-<a NAME="Dixon, W.J and Massey, F.J (1969).  Introduction"></a>
+<div id="Dixon, W.J and Massey, F.J (1969).  Introduction"></div>
 Dixon, W. J. and Massey, F.J. (1969). <i>Introduction to Statistical Analysis</i>, McGraw-Hill, New York.
 
 <p>
-<a NAME="Draper, N and Smith, H, (1981). Applied Regression"></a>
+<div id="Draper, N and Smith, H, (1981). Applied Regression"></div>
 Draper, N. and Smith, H., (1981). <i>Applied Regression</i> <i>Analysis</i>, John Wiley &amp; Sons, New York.
 
 <p>
-<a NAME="Fleiss"></a>
+<div id="Fleiss"></div>
 Fleiss, J. L., Levin, B. and Paik, M. C. (2003). <i>Statistical Methods for Rates and Proportions</i>, Third Edition, John Wiley &amp; Sons, New York.
 
 <p>
-<a NAME="Guenther"></a>
+<div id="Guenther"></div>
 Guenther, W. C. (1977). <i>"Sampling Inspection in Statistical Quality Control",</i>, Griffin's Statistical Monographs, Number 37, London.
 
 <p>
-<a NAME="Hahn"></a>
+<div id="Hahn"></div>
 Hahn, G. J. and Meeker, W. Q. (1991). <i>Statistical Intervals: A Guide for Practitioners</i> ,  John Wiley &amp; Sons, New York.
 <p>
-<a NAME="Hicks, C. R. (1973). Fundamental Concepts in the"></a>
+<div id="Hicks, C. R. (1973). Fundamental Concepts in the"></div>
 Hicks, C. R. (1973).  <i>Fundamental Concepts in the Design of Experiments</i> , Holt, Rinehart and Winston, New York.
 <p>
-<a NAME="Hollander,M and Wolfe,D.A. (1973) Nonparametric"></a>
+<div id="Hollander,M and Wolfe,D.A. (1973) Nonparametric"></div>
 Hollander, M. and Wolfe, D. A. (1973).  <i>Nonparametric Statistical Methods</i> , John Wiley &amp; Sons, New York.
 <p>
-<a NAME="Howe, W. G."></a>
+<div id="Howe, W. G."></div>
 Howe, W. G. (1969).  <i>"Two-sided Tolerance Limits for Normal Populations - Some Improvements",</i> Journal of the American Statistical Association, 64 , pages 610-620.
 <p>
-<a NAME="Kendall, M. and Stuart, A. (1979). The Advanced"></a>
+<div id="Kendall, M. and Stuart, A. (1979). The Advanced"></div>
 Kendall, M. and Stuart, A. (1979).  <i>The Advanced Theory of Statistics</i> , Volume 2: Inference and Relationship. Charles Griffin &amp; Co. Limited, London.
 <p>
-<a NAME="Mendenhall, M. , Reinmuth, J.E. and Beaver, R.J."></a>
+<div id="Mendenhall, M. , Reinmuth, J.E. and Beaver, R.J."></div>
 Mendenhall, W., Reinmuth, J. E. and Beaver, R. J.  <i>Statistics for Management and Economics</i> , Duxbury Press, Belmont, CA.
 <p>
-<a NAME="Montgomery, D.C. (1991). Design and Analysis of"></a>
+<div id="Montgomery, D.C. (1991). Design and Analysis of"></div>
 Montgomery, D. C. (1991).  <i>Design and Analysis of Experiments</i> , John Wiley &amp; Sons, New York.
 <p>
-<a NAME="Moore, D. S. (1986). Tests of Chi-Square Type."></a>
+<div id="Moore, D. S. (1986). Tests of Chi-Square Type."></div>
 Moore, D. S. (1986). " <i>Tests of Chi-Square Type</i> ". From Goodness-of-Fit Techniques (D'Agostino &amp; Stephens eds.).
 <p>
-<a NAME="Myers, R.H, (1990). Classical and Modern"></a>
+<div id="Myers, R.H, (1990). Classical and Modern"></div>
 Myers, R. H., (1990).  <i>Classical and Modern Regression with Applications,</i> PWS-Kent, Boston, MA.
 <p>
-<a NAME="Neter,J, Wasserman,W and Neter, J (1990) Applied"></a>
+<div id="Neter,J, Wasserman,W and Neter, J (1990) Applied"></div>
 Neter, J., Wasserman, W. and Kutner, M. H. (1990).  <i>Applied Linear Statistical Models,</i> 3rd Edition, Irwin, Boston, MA.
 <p>
-<a NAME="Lawless, J.F., (1982) Statistical Models and"></a>
+<div id="Lawless, J.F., (1982) Statistical Models and"></div>
 Lawless, J. F., (1982).  <i>Statistical Models and Methods for Lifetime Data</i> , John Wiley &amp; Sons, New York.
 <p>
-<a NAME="Pearson, A. V., and Hartley, H. O."></a>
+<div id="Pearson, A. V., and Hartley, H. O."></div>
 Pearson, A. V., and Hartley, H. O. (1972).  <i>Biometrica Tables for Statisticians, Vol 2</i> , Cambridge, England, Cambridge University Press.
 <p>
-<a NAME="Sarhan, A. E. and Greenberg, B. G. (1956)."></a>
+<div id="Sarhan, A. E. and Greenberg, B. G. (1956)."></div>
 Sarhan, A. E. and Greenberg, B. G. (1956). " <i>Estimation of location and scale parameters by order statistics from singly and double censored samples,</i> " Part I, Annals of Mathematical Statistics, 27, 427-451.
 <p>
-<a NAME="Searle, S.S. , Casella, G and McCulloch, C.E."></a>
+<div id="Searle, S.S. , Casella, G and McCulloch, C.E."></div>
 Searle, S. S., Casella, G. and McCulloch, C. E. (2006).  <i>Variance Components</i> , John Wiley &amp; Sons, New York.
 <p>
-<a NAME="Siegel, S (1956) Nonparametric Statistics"></a>
+<div id="Siegel, S (1956) Nonparametric Statistics"></div>
 Siegel, S. (1956).  <i>Nonparametric Statistics</i> , McGraw-Hill, New York.
 <p>
-<a NAME="Shapiro, S. S.and Wilk M. B. (1965), An analysis"></a>
+<div id="Shapiro, S. S.and Wilk M. B. (1965), An analysis"></div>
 Shapiro, S. S. and Wilk, M. B. (1965). " <i>An analysis of variance test for normality (complete samples)</i> ", Biometrika, 52, 3 and 4, pages 591-611.
 
 #### 書籍

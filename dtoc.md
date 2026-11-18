@@ -1,4 +1,4 @@
-<a name="top" />
+<div id="top"></div>
 
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/dtoc.htm)  
 閲覧(UTC)：2026-11-16 12:42:11  
@@ -10,7 +10,7 @@
 
 章　[1](#ch1) [2](#ch2) [3](#ch3) [4](#ch4) [5](#ch5) [6](#ch6) [7](#ch7) [8](#ch8)
 
-<a name="ch1" />
+<div id="ch1"></div>
 
 [1. 探索的データ解析](docs/ch1_eda/eda.md)
 
@@ -234,7 +234,7 @@
 
 ---
 
-<a name="ch2" />
+<div id="ch2"></div>
 
 [2. 測定工程の特徴付け](docs/ch2_mpc/mpc.md)
 
@@ -437,7 +437,7 @@
 
 ---
 
-<a name="ch3" />
+<div id="ch3"></div>
 
 [3. 生産工程の特徴付け](docs/ch3_ppc/ppc.md)
 
@@ -507,7 +507,7 @@
 
 ---
 
-<a name="ch4" />
+<div id="ch4"></div>
 
 [4. 工程のモデル化](docs/ch4_pmd/pmd.md)
 
@@ -625,7 +625,7 @@
 
 ---
 
-<a name="ch5" />
+<div id="ch5"></div>
 
 [5. 工程の改善](docs/ch5_pri/pri.md)
 
@@ -776,7 +776,7 @@
 
 ---
 
-<a name="ch6" />
+<div id="ch6"></div>
 
 [6. 工程や製品の監視と管理](docs/ch6_pmc/pmc.md)
 
@@ -889,7 +889,7 @@
 
 ---
 
-<a name="ch7" />
+<div id="ch7"></div>
 
 [7. 製品および工程の比較](docs/ch7_prc/prc.md)
 
@@ -960,7 +960,7 @@
 
 ---
 
-<a name="ch8" />
+<div id="ch8"></div>
 
 [8. 製品の信頼性の評価](docs/ch8_apr/apr.md)
 
