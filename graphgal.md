@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/graphgal.md)  
 閲覧(UTC)：2026-11-17 14:00:00  
-[⬆](http://toolaids.md)
+[⬆️](toolaids.md)
 
 ---
 
@@ -15,7 +15,7 @@
 <a href="docs/ch1_eda/section3/eda33p.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif">
 <center>
-Run Sequence Plot
+実行シーケンス・プロット
 </center>
 </a>
 </td>
@@ -23,7 +23,7 @@ Run Sequence Plot
 <a href="docs/ch1_eda/section3/eda33f.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/lagplot.gif">
 <center>
-Lag Plot
+遅延プロット
 </center>
 </a>
 </td>
@@ -31,7 +31,7 @@ Lag Plot
 <a href="docs/ch1_eda/section3/eda33e.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/histogra.gif">
 <center>
-Histogram
+ヒストグラム
 </center>
 </a>
 </td>
@@ -42,23 +42,23 @@ Histogram
 <a href="docs/ch1_eda/section3/eda33l.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/normprpl.gif">
 <center>
-Normal Probability Plot
+正規確率プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda331.md">
+<a href="docs/ch1_eda/section3/eda33w.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/4plot.gif">
 <center>
-4-Plot
+4-プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33m.md">
+<a href="docs/ch1_eda/section3/eda33n.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/ppccplot.gif">
 <center>
-PPCC Plot
+PPCC プロット
 </center>
 </a>
 </td>
@@ -66,18 +66,18 @@ PPCC Plot
 
 <tr>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33t.md">
+<a href="docs/ch1_eda/section3/eda33u.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif">
 <center>
-Weibull Plot
+Weibull プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33n.md">
+<a href="docs/ch1_eda/section3/eda33m.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/probplot.gif">
 <center>
-Probability Plot
+確率プロット
 </center>
 </a>
 </td>
@@ -85,7 +85,7 @@ Probability Plot
 <a href="docs/ch1_eda/section3/eda335.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/boxcoxli.gif">
 <center>
-Box-Cox Linearity Plot
+Box-Cox 線形性プロット
 </center>
 </a>
 </td>
@@ -96,7 +96,7 @@ Box-Cox Linearity Plot
 <a href="docs/ch1_eda/section3/eda336.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/boxcox.gif">
 <center>
-Box-Cox Normality Plot
+Box-Cox 正規性プロット
 </center>
 </a>
 </td>
@@ -104,15 +104,15 @@ Box-Cox Normality Plot
 <a href="docs/ch1_eda/section3/eda334.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/bootstra.gif">
 <center>
-Bootstrap Plot
+ブートストラップ・プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="pmc/section3/pmc31.md">
+<a href="docs/ch6_pmc/section3/pmc31.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/xbarplot.gif">
 <center>
-Control Charts
+管理図
 </center>
 </a>
 </td>
@@ -125,26 +125,26 @@ Control Charts
 <table>
 <tr>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33n.md">
+<a href="docs/ch1_eda/section3/eda33m.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/probplot.gif">
 <center>
-Probability Plot
+確率プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33m.md">
+<a href="docs/ch1_eda/section3/eda33n.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/ppccplot.gif">
 <center>
-PPCC Plot
+PPCC プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33t.md">
+<a href="docs/ch1_eda/section3/eda33u.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/weibullp.gif">
 <center>
-Weibull Plot
+Weibull プロット
 </center>
 </a>
 </td>
@@ -152,18 +152,18 @@ Weibull Plot
 
 <tr>
 <td width=100 valign=top>
-<a href="apr/section2/apr222.md">
+<a href="docs/ch8_apr/section2/apr222.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/hazard.gif">
 <center>
-Hazard Plot
+ハザード・プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="apr/section1/apr192.md">
+<a href="docs/ch8_apr/section1/apr192.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/duane.gif">
 <center>
-Duane Plot
+Duane プロット
 </center>
 </a>
 </td>
@@ -181,15 +181,15 @@ Duane Plot
 <a href="docs/ch1_eda/section3/eda33p.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/runseqpl.gif">
 <center>
-Run Sequence Plot
+実行シーケンス・プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4431.md">
+<a href="docs/ch6_pmc/section4/pmc4431.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/pmc/section4/gif100/co2seas.gif">
 <center>
-Seasonal Subseries Plot
+季節別副系列プロット
 </center>
 </a>
 </td>
@@ -197,7 +197,7 @@ Seasonal Subseries Plot
 <a href="docs/ch1_eda/section3/eda33r.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/spectrum.gif">
 <center>
-Spectrum
+スペクトル図
 </center>
 </a>
 </td>
@@ -205,18 +205,18 @@ Spectrum
 
 <tr>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda333.md">
+<a href="docs/ch1_eda/section3/eda331.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/autocopl.gif">
 <center>
-Autocorrelation Plot
+自己相関プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.md">
+<a href="docs/ch6_pmc/section4/pmc4463.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/pmc/section4/gif100/co2spart.gif">
 <center>
-Partial Autocorrelation Plot
+偏自己相関プロット
 </center>
 </a>
 </td>
@@ -227,7 +227,7 @@ Partial Autocorrelation Plot
 <a href="docs/ch1_eda/section3/eda338.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/cdampplo.gif">
 <center>
-Complex Demodulation Amplitude Plot
+複素復調振幅プロット
 </center>
 </a>
 </td>
@@ -235,7 +235,7 @@ Complex Demodulation Amplitude Plot
 <a href="docs/ch1_eda/section3/eda339.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/cdphasep.gif">
 <center>
-Complex Demodulation Phase Plot
+副素復調位相プロット
 </center>
 </a>
 </td>
@@ -252,7 +252,7 @@ Complex Demodulation Phase Plot
 <a href="docs/ch1_eda/section3/eda332.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/bihistog.gif">
 <center>
-Bihistogram
+対比ヒストグラム
 </center>
 </a>
 </td>
@@ -260,7 +260,7 @@ Bihistogram
 <a href="docs/ch1_eda/section3/eda33o.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/qqplot.gif">
 <center>
-Quantile-Quantile Plot
+分位数ー分位数プロット
 </center>
 </a>
 </td>
@@ -277,7 +277,7 @@ Quantile-Quantile Plot
 <a href="docs/ch1_eda/section3/eda33q.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif">
 <center>
-Scatter Plot
+散布図
 </center>
 </a>
 </td>
@@ -285,7 +285,7 @@ Scatter Plot
 <a href="docs/ch1_eda/section3/eda337.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/boxplot.gif">
 <center>
-Box Plot
+ボックス・プロット
 </center>
 </a>
 </td>
@@ -296,7 +296,7 @@ Box Plot
 <a href="docs/ch1_eda/section3/eda33k.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/meanplot.gif">
 <center>
-Mean Plot
+平均プロット
 </center>
 </a>
 </td>
@@ -304,7 +304,7 @@ Mean Plot
 <a href="docs/ch1_eda/section3/eda33s.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/sdplot.gif">
 <center>
-Standard Deviation Plot
+標準偏差プロット
 </center>
 </a>
 </td>
@@ -318,10 +318,10 @@ Standard Deviation Plot
 
 <tr>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33b.md">
+<a href="docs/ch1_eda/section3/eda333.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/blockplo.gif">
 <center>
-Block Plot
+箱ひげ図
 </center>
 </a>
 </td>
@@ -335,10 +335,10 @@ Block Plot
 
 <tr>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33d.md">
+<a href="docs/ch1_eda/section3/eda33b.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/dexscatp.gif">
 <center>
-DEX Scatter Plot
+DOE 散布図
 </center>
 </a>
 </td>
@@ -346,15 +346,15 @@ DEX Scatter Plot
 <a href="docs/ch1_eda/section3/eda33c.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/dexmeanp.gif">
 <center>
-DEX Mean Plot
+DOE 平均プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33d1.md">
+<a href="docs/ch1_eda/section3/eda33d.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/dexsdplo.gif">
 <center>
-DEX Standard Deviation Plot
+DOE 標準偏差プロット
 </center>
 </a>
 </td>
@@ -362,10 +362,10 @@ DEX Standard Deviation Plot
 
 <tr>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33c.md">
+<a href="docs/ch1_eda/section3/eda33c.md#DOE交互作用効果プロット">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/dexint1.gif">
 <center>
-Dex Interaction Effects Plot
+DOE 交互作用効果プロット
 </center>
 </a>
 </td>
@@ -373,7 +373,7 @@ Dex Interaction Effects Plot
 <a href="docs/ch1_eda/section3/eda33a.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/contourp.gif">
 <center>
-Contour Plot
+等高線図
 </center>
 </a>
 </td>
@@ -390,15 +390,15 @@ Contour Plot
 <a href="docs/ch1_eda/section3/eda33q.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/scatterp.gif">
 <center>
-Scatter Plot
+散布図
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda330.md">
+<a href="docs/ch1_eda/section3/eda33x.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/6plot.gif">
 <center>
-6-Plot
+6-プロット
 </center>
 </a>
 </td>
@@ -406,7 +406,7 @@ Scatter Plot
 <a href="docs/ch1_eda/section3/eda33g.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/lincorrp.gif">
 <center>
-Linear Correlation Plot
+線形相関プロット
 </center>
 </a>
 </td>
@@ -417,23 +417,23 @@ Linear Correlation Plot
 <a href="docs/ch1_eda/section3/eda33h.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/linintpl.gif">
 <center>
-Linear Intercept Plot
-</center>
-</a>
-</td>
-<td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33j.md">
-<IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/linslopl.gif">
-<center>
-Linear Slope Plot
+線形切片プロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
 <a href="docs/ch1_eda/section3/eda33i.md">
+<IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/linslopl.gif">
+<center>
+線形傾きプロット
+</center>
+</a>
+</td>
+<td width=100 valign=top>
+<a href="docs/ch1_eda/section3/eda33j.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/linrsdpl.gif">
 <center>
-Linear Residual Standard Deviation Plot
+線形残差標準偏差プロット
 </center>
 </a>
 </td>
@@ -447,10 +447,10 @@ Linear Residual Standard Deviation Plot
 
 <tr>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33u.md">
+<a href="docs/ch1_eda/section3/eda33v.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/youdenpl.gif">
 <center>
-Youden Plot
+Youden プロット
 </center>
 </a>
 </td>
@@ -468,7 +468,7 @@ Youden Plot
 <a href="docs/ch1_eda/section3/eda33qb.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/spmatr2.gif">
 <center>
-Scatter Plot Matrix
+散布図行列
 </center>
 </a>
 </td>
@@ -476,15 +476,15 @@ Scatter Plot Matrix
 <a href="docs/ch1_eda/section3/eda33qc.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/condplot.gif">
 <center>
-Conditioning Plot
+条件つきプロット
 </center>
 </a>
 </td>
 <td width=100 valign=top>
-<a href="docs/ch1_eda/section3/eda33s1.md">
+<a href="docs/ch1_eda/section3/eda33t.md">
 <IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/starplot.gif">
 <center>
-Star Plot
+星図
 </center>
 </a>
 </td>
