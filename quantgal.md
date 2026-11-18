@@ -4,7 +4,7 @@
 
 ---
 
-#### 単変量 $`y = c + e`$
+#### 単変量<br>$`y = c + e`$
 * 推定
     1. [位置の指標](docs/ch1_eda/section3/eda351.md)
     2. [幅の指標](docs/ch1_eda/section3/eda356.md)
