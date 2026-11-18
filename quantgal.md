@@ -36,11 +36,11 @@
     3. [比率の標本規模](docs/ch7_prc/section2/prc242.md)
     4. [欠陥密度の標本規模](docs/ch7_prc/section2/prc25.md)
 
-#### 時系列 $`y = f(t) + e`$
+#### 時系列<br>$`y = f(t) + e`$
 * [指数平滑法](docs/ch6_pmc/section4/pmc43.md)
 * [ARIMA](docs/ch6_pmc/section4/pmc44.md)（Box-Jenkins）モデル化
 
-#### 1因子 $`y = f(x) + e`$
+#### 1因子<br>$`y = f(x) + e`$
 * [平均値が等しい場合の2標本t検定](docs/ch7_prc/section3/prc32.md)
 * [平均値が等しいかのMann-Whitney 検定](docs/ch7_prc/section3/prc35.md)
 * [2工程の欠陥率が同じであるかの検定](docs/ch7_prc/section3/prc33.md)
@@ -50,13 +50,13 @@
 * [一元配置分散分析](docs/ch3_ppc/section2/ppc231.md)
 * [Kruskal-Wallis ノンパラメトリック分散分析](docs/ch7_prc/section4/prc41.md)
 
-#### 多因子 $`y = f(x_p, x_1, x_2, \ldots, x_k) + e`$
+#### 多因子<br>$`y = f(x_p, x_1, x_2, \ldots, x_k) + e`$
 * 二元分散分析[^1]
     * [交差二元分散分析](docs/ch3_ppc/section2/ppc232.md) [^1]
     * [枝分れ二元分散分析](docs/ch3_ppc/section2/ppc233.md)[^1]
 * [独立性のカイ二乗検定](docs/ch7_prc/section4/prc45.md)
 
-#### 回帰式 $`y = f(x_1, x_2, x_3, \ldots, x_k) + e`$
+#### 回帰式<br>$`y = f(x_1, x_2, x_3, \ldots, x_k) + e`$
 * [線形最小二乗回帰](docs/ch4_pmd/section1/pmd141.md)
 * [非線形最小二乗回帰](docs/ch4_pmd/section1/pmd142.md)
 * [重み付き最小二乗回帰](docs/ch4_pmd/section1/pmd143.md)
