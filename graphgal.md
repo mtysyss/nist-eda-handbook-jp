@@ -258,7 +258,7 @@ Bihistogram
 </td>
 <td width=100 valign=top>
 <a href="docs/ch1_eda/section3/eda33o.md">
-<IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/gif100/qqplot.gif">
+<IMG SRC="https://www.itl.nist.gov/div898/handbook/eda/section3/gif100/qqplot.gif">
 <center>
 Quantile-Quantile Plot
 </center>
