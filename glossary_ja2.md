@@ -33,6 +33,7 @@
   <td class="headword" style="width: 15%; vertical-align: top;">
 
    <span id="accuracy" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">accuracy</span>
+   
    <span id="精確さ" class="term-jp">精確さ</span>
  
   </td>
@@ -48,6 +49,7 @@
   <td class="headword" style="width: 15%; vertical-align: top;">
 
    <span id="additive-effect" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">additive effect</span>
+   
    <span id="加法効果" class="term-jp">加法効果</span>
 
   </td>
@@ -64,6 +66,7 @@
   <td class="headword" style="width: 15%; vertical-align: top;">
 
    <span id="affine-callibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">affine calibration</span>
+   
    <span id="アフィン校正" class="term-jp">アフィン校正</span>
 
   </td>
@@ -78,7 +81,8 @@
 <tr>
   <td class="headword" style="width: 15%; vertical-align: top;">
     <span id="AMV" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">analysis of manufacturing variance (AMV)</span>
-    <span id="製造分散の分析" class="term-jp">製造分散の分析</span>
+    
+   <span id="製造分散の分析" class="term-jp">製造分散の分析</span>
   </td>
   <td class="definition">
 
@@ -420,7 +424,7 @@ AMDの技術報告書326を参照のこと。</p>
 </td>
 <td class="definition">
 
-[工程](#process)の[共通原因](#common1)変動に関するあらゆる研究。
+[工程](#process)の[共通原因](#common-cause)変動に関するあらゆる研究。
 
 </td>
 </tr>
