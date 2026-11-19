@@ -97,6 +97,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
   <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="ANOVA" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">analysis of variance</span>
+
 <span id="分散分析" class="term-jp">分散分析<sup> [2]</sup></span>
 
   </td>
@@ -114,6 +115,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
   <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="assignable-cause" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">assignable cause</span>
+
 <span id="突き止められる原因" class="term-jp">突き止められる原因<sup> [1]</sup></span>
 
   </td>
@@ -128,6 +130,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
   <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="attenuation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">attenuation</span>
+
 <span id="減衰" class="term-jp">減衰<sup>[1]</sup></span>
 
   </td>
@@ -142,6 +145,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 <span id="audit" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">audit</span>
+
 <span id="監査" class="term-jp">監査</span>
 </td>
 <td class="definition">
@@ -151,6 +155,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 <span id="AOQ" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">average outgoing quality  (AOQ)</span>
+
 <span id="平均出検品質" class="term-jp">平均出検品質</span>
 </td>
 <td class="definition">
@@ -181,6 +186,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="bar-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">bar chart</span>
+
 <span id="棒グラフ" class="term-jp">棒グラフ</span>
 
 </td>
@@ -203,8 +209,11 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
+
 <span id="bias" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">bias</span>
+
 <span id="偏り" class="term-jp">偏り<br>バイアス</span>
+
 </td>
 <td class="definition">
 
@@ -220,6 +229,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 [binomial distribution](docs/ch1_eda/section3/eda366i.md)
 
 </span>
+
 <span id="二項分布" class="term-jp">
 
 [二項分布](docs/ch1_eda/section3/eda366i.md)
@@ -257,6 +267,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="Box-Benkhen" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Box-Benkhen experiment</span>
+
 <span id="ボックス・ベンヘン実験" class="term-jp">ボックス・ベンヘン実験</span>
 
 </td>
@@ -285,6 +296,7 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 [box plot](docs/ch1_eda/section3/eda337.md)
 
 </span>
+
 <span id="箱ひげ図" class="term-jp">
 
 [箱ひげ図](docs/ch1_eda/section3/eda337.md)
@@ -307,6 +319,7 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="brushing" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">brushing</span>
+
 <span id="ブラッシング" class="term-jp">ブラッシング</span>
 
 </td>
@@ -339,6 +352,7 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="calibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">calibration</span>
+
 <span id="校正" class="term-jp">較正</span>
 
 </td>
@@ -365,6 +379,7 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="capability" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capability</span>
+
 <span id="能力" class="term-jp">能力</span>
 
 </td>
@@ -379,6 +394,7 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="Cpk" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capability index, Cpk</span>
+
 <span id="能力指数、Cpk" class="term-jp">能力指数、Cpk</span>
 
 </td>
@@ -401,6 +417,7 @@ AVG を[分布](#distribution)の平均またはそれに類似した典型値�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="Cpk25" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capability index, Cpk with 25 percent precision and 95 percent confidence</span>
+
 <span id="能力指数、25%の精度と95%の信頼性を持つCpk" class="term-jp">能力指数、25%の精度と95%の信頼性を持つCpk</span>
 
 </td>
@@ -419,6 +436,7 @@ AMDの技術報告書326を参照のこと。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="capability-study" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capability study</span>
+
 <span id="能力調査" class="term-jp">能力調査</span>
 
 </td>
@@ -433,6 +451,7 @@ AMDの技術報告書326を参照のこと。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="capable-process" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capable process</span>
+
 <span id="工程能力のある工程" class="term-jp">工程能力のある工程</span>
 
 </td>
@@ -449,6 +468,7 @@ AMDの技術報告書326を参照のこと。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="CEdiagram" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">cause-effect diagram</span>
+
 <span id="特性要因図" class="term-jp">特性要因図</span>
 
 </td>
@@ -467,6 +487,7 @@ CE図、石川図、魚骨図とも呼ばれる。
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="census" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">census</span>
+
 <span id="全数調査" class="term-jp">全数調査</span>
 </td>
 <td class="definition">
@@ -497,6 +518,7 @@ CE図、石川図、魚骨図とも呼ばれる。
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="CCD" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">CCD</span>
+
 <span id="中心複合設計" class="term-jp">中心複合設計</span>
 
 </td>
@@ -522,6 +544,7 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="characteristic" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">characteristic</span>
+
 <span id="特徴" class="term-jp">特徴</span>
 
 </td>
@@ -537,6 +560,7 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="characterization" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">characterization</span>
+
 <span id="特徴付け" class="term-jp">特徴付け</span>
 
 </td>
@@ -551,6 +575,7 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="checklist" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">checklist</span>
+
 <span id="チェックリスト" class="term-jp">チェックリスト</span>
 
 </td>
@@ -567,6 +592,7 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="Clifford" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Clifford's method</span>
+
 <span id="クリフォードの方法" class="term-jp">クリフォードの方法</span>
 
 </td>
@@ -584,6 +610,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="close-ended-question" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">close-ended question</span>
+
 <span id="制限回答式質問" class="term-jp">制限回答式質問</span>
 
 </td>
@@ -598,6 +625,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="common-cause" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">common cause</span>
+
 <span id="共通原因" class="term-jp">共通原因</span>
 
 </td>
@@ -613,6 +641,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="computer-experiment" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">computer experiment</span>
+
 <span id="コンピュータ実験" class="term-jp">コンピュータ実験</span>
 
 </td>
@@ -637,6 +666,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 [confidence interval](docs/ch1_eda/section3/eda352.md)
 
 </span>
+
 <span id="信頼区間" class="term-jp">
 
 [信頼区間](eda/section3/eda352.md)
@@ -658,6 +688,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="confidentiality" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">confidentiality</span>
+
 <span id="機密性" class="term-jp">機密性</span>
 
 </td>
@@ -672,6 +703,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control</span>
+
 <span id="制御" class="term-jp">制御</span>
 
 </td>
@@ -686,6 +718,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control chart</span>
+
 <span id="管理図" class="term-jp">管理図</span>
 
 </td>
@@ -702,6 +735,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-factor" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control factor</span>
+
 <span id="制御因子" class="term-jp">制御因子</span>
 
 </td>
@@ -716,6 +750,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-group" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control group</span>
+
 <span id="対照群" class="term-jp">対照群</span>
 
 </td>
@@ -731,6 +766,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-limits" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control limits</span>
+
 <span id="管理限界" class="term-jp">管理限界</span>
 
 </td>
@@ -746,6 +782,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="convenience-sample" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">convenience sample</span>
+
 <span id="便宜標本" class="term-jp">便宜標本</span>
 
 </td>
@@ -761,6 +798,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="correlation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">correlation</span>
+
 <span id="相関" class="term-jp">相関</span>
 
 </td>
@@ -778,6 +816,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="coverage-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">coverage error</span>
+
 <span id="網羅誤差" class="term-jp">網羅誤差</span>
 
 </td>
@@ -792,6 +831,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="critical-parameters" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">critical parameters</span>
+
 <span id="重要係数" class="term-jp">重要係数</span>
 
 </td>
@@ -806,6 +846,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="critical-process-module" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">critical process module</span>
+
 <span id="重要工程モジュール" class="term-jp">重要工程モジュール</span>
 
 </td>
@@ -819,6 +860,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="cross-validation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">cross-validation</span>
+
 <span id="交差検証" class="term-jp">交差検証</span>
 
 </td>
@@ -834,6 +876,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="cusum" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">cusum chart</span>
+
 <span id="累積和管理図" class="term-jp">累積和管理図</span>
 
 </td>
@@ -853,6 +896,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 <span id="customers" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">customers</span>
+
 <span id="顧客" class="term-jp">顧客</span>
 </td>
 <td class="definition">
