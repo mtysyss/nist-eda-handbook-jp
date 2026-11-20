@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/referenc.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/glossary.htm)  
 閲覧(UTC)：2026-11-18 03:28:00  
 [⬆️️](toolaids.md)
 
@@ -33,7 +33,6 @@
   <td class="headword" style="width: 15%; vertical-align: top;">
 
    <span id="accuracy" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">accuracy</span>
-   
    <span id="精確さ" class="term-jp">精確さ</span>
  
   </td>
@@ -49,7 +48,6 @@
   <td class="headword" style="width: 15%; vertical-align: top;">
 
    <span id="additive-effect" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">additive effect</span>
-   
    <span id="加法効果" class="term-jp">加法効果</span>
 
   </td>
@@ -66,7 +64,6 @@
   <td class="headword" style="width: 15%; vertical-align: top;">
 
    <span id="affine-callibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">affine calibration</span>
-   
    <span id="アフィン校正" class="term-jp">アフィン校正</span>
 
   </td>
@@ -97,7 +94,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
   <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="ANOVA" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">analysis of variance</span>
-
 <span id="分散分析" class="term-jp">分散分析<sup> [2]</sup></span>
 
   </td>
@@ -115,7 +111,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
   <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="assignable-cause" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">assignable cause</span>
-
 <span id="突き止められる原因" class="term-jp">突き止められる原因<sup> [1]</sup></span>
 
   </td>
@@ -130,7 +125,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
   <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="attenuation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">attenuation</span>
-
 <span id="減衰" class="term-jp">減衰<sup>[1]</sup></span>
 
   </td>
@@ -145,7 +139,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 <span id="audit" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">audit</span>
-
 <span id="監査" class="term-jp">監査</span>
 </td>
 <td class="definition">
@@ -155,7 +148,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 <span id="AOQ" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">average outgoing quality  (AOQ)</span>
-
 <span id="平均出検品質" class="term-jp">平均出検品質</span>
 </td>
 <td class="definition">
@@ -186,7 +178,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="bar-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">bar chart</span>
-
 <span id="棒グラフ" class="term-jp">棒グラフ</span>
 
 </td>
@@ -211,7 +202,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="bias" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">bias</span>
-
 <span id="偏り" class="term-jp">偏り<br>バイアス</span>
 
 </td>
@@ -229,7 +219,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 [binomial distribution](docs/ch1_eda/section3/eda366i.md)
 
 </span>
-
 <span id="二項分布" class="term-jp">
 
 [二項分布](docs/ch1_eda/section3/eda366i.md)
@@ -267,7 +256,6 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="Box-Benkhen" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Box-Benkhen experiment</span>
-
 <span id="ボックス・ベンヘン実験" class="term-jp">ボックス・ベンヘン実験</span>
 
 </td>
@@ -296,7 +284,6 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 [box plot](docs/ch1_eda/section3/eda337.md)
 
 </span>
-
 <span id="箱ひげ図" class="term-jp">
 
 [箱ひげ図](docs/ch1_eda/section3/eda337.md)
@@ -319,7 +306,6 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="brushing" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">brushing</span>
-
 <span id="ブラッシング" class="term-jp">ブラッシング</span>
 
 </td>
@@ -352,7 +338,6 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="calibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">calibration</span>
-
 <span id="校正" class="term-jp">較正</span>
 
 </td>
@@ -365,6 +350,7 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="constraint" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">constraint</span>
+
 <span id="制約" class="term-jp">制約</span>
 
 </td>
@@ -379,7 +365,6 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="capability" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capability</span>
-
 <span id="能力" class="term-jp">能力</span>
 
 </td>
@@ -417,7 +402,6 @@ AVG を[分布](#distribution)の平均またはそれに類似した典型値�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="Cpk25" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capability index, Cpk with 25 percent precision and 95 percent confidence</span>
-
 <span id="能力指数、25%の精度と95%の信頼性を持つCpk" class="term-jp">能力指数、25%の精度と95%の信頼性を持つCpk</span>
 
 </td>
@@ -436,7 +420,6 @@ AMDの技術報告書326を参照のこと。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="capability-study" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capability study</span>
-
 <span id="能力調査" class="term-jp">能力調査</span>
 
 </td>
@@ -451,7 +434,6 @@ AMDの技術報告書326を参照のこと。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="capable-process" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">capable process</span>
-
 <span id="工程能力のある工程" class="term-jp">工程能力のある工程</span>
 
 </td>
@@ -468,7 +450,6 @@ AMDの技術報告書326を参照のこと。</p>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="CEdiagram" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">cause-effect diagram</span>
-
 <span id="特性要因図" class="term-jp">特性要因図</span>
 
 </td>
@@ -487,7 +468,6 @@ CE図、石川図、魚骨図とも呼ばれる。
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="census" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">census</span>
-
 <span id="全数調査" class="term-jp">全数調査</span>
 </td>
 <td class="definition">
@@ -518,7 +498,6 @@ CE図、石川図、魚骨図とも呼ばれる。
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="CCD" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">CCD</span>
-
 <span id="中心複合設計" class="term-jp">中心複合設計</span>
 
 </td>
@@ -544,7 +523,6 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="characteristic" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">characteristic</span>
-
 <span id="特徴" class="term-jp">特徴</span>
 
 </td>
@@ -560,7 +538,6 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="characterization" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">characterization</span>
-
 <span id="特徴付け" class="term-jp">特徴付け</span>
 
 </td>
@@ -575,7 +552,6 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="checklist" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">checklist</span>
-
 <span id="チェックリスト" class="term-jp">チェックリスト</span>
 
 </td>
@@ -592,7 +568,6 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="Clifford" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Clifford's method</span>
-
 <span id="クリフォードの方法" class="term-jp">クリフォードの方法</span>
 
 </td>
@@ -610,7 +585,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="close-ended-question" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">close-ended question</span>
-
 <span id="制限回答式質問" class="term-jp">制限回答式質問</span>
 
 </td>
@@ -625,7 +599,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="common-cause" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">common cause</span>
-
 <span id="共通原因" class="term-jp">共通原因</span>
 
 </td>
@@ -641,7 +614,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="computer-experiment" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">computer experiment</span>
-
 <span id="コンピュータ実験" class="term-jp">コンピュータ実験</span>
 
 </td>
@@ -666,7 +638,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 [confidence interval](docs/ch1_eda/section3/eda352.md)
 
 </span>
-
 <span id="信頼区間" class="term-jp">
 
 [信頼区間](eda/section3/eda352.md)
@@ -688,7 +659,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="confidentiality" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">confidentiality</span>
-
 <span id="機密性" class="term-jp">機密性</span>
 
 </td>
@@ -718,7 +688,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control chart</span>
-
 <span id="管理図" class="term-jp">管理図</span>
 
 </td>
@@ -735,7 +704,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-factor" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control factor</span>
-
 <span id="制御因子" class="term-jp">制御因子</span>
 
 </td>
@@ -750,7 +718,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-group" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control group</span>
-
 <span id="対照群" class="term-jp">対照群</span>
 
 </td>
@@ -766,7 +733,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="control-limits" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">control limits</span>
-
 <span id="管理限界" class="term-jp">管理限界</span>
 
 </td>
@@ -782,7 +748,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="convenience-sample" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">convenience sample</span>
-
 <span id="便宜標本" class="term-jp">便宜標本</span>
 
 </td>
@@ -798,7 +763,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="correlation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">correlation</span>
-
 <span id="相関" class="term-jp">相関</span>
 
 </td>
@@ -816,7 +780,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="coverage-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">coverage error</span>
-
 <span id="網羅誤差" class="term-jp">網羅誤差</span>
 
 </td>
@@ -831,7 +794,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="critical-parameters" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">critical parameters</span>
-
 <span id="重要係数" class="term-jp">重要係数</span>
 
 </td>
@@ -846,7 +808,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="critical-process-module" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">critical process module</span>
-
 <span id="重要工程モジュール" class="term-jp">重要工程モジュール</span>
 
 </td>
@@ -860,7 +821,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="cross-validation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">cross-validation</span>
-
 <span id="交差検証" class="term-jp">交差検証</span>
 
 </td>
@@ -876,7 +836,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="cusum" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">cusum chart</span>
-
 <span id="累積和管理図" class="term-jp">累積和管理図</span>
 
 </td>
@@ -896,7 +855,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 <span id="customers" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">customers</span>
-
 <span id="顧客" class="term-jp">顧客</span>
 </td>
 <td class="definition">
@@ -913,12 +871,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </td>
 </tr>
 
-
-<tr>
-<td colspan="2">
-<hr size="4">
-</td>
-</tr></tbody></table>
+</tbody></table>
 
 ---
 
@@ -927,79 +880,285 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 ## [D]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="data-driven" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[data-driven](docs/ch1_eda/section1/eda12.md)
+
+</span>
+<span id="データ駆動型" class="term-jp">
+
+[データ駆動型](docs/ch1_eda/section1/eda12.md)
+
+</span>
+</td>
+
+<td class="definition">
+
+データや事実を要求する性質だが、主観的な意見は要求しない。
+[意見駆動型](#opinion-driven)の対義語。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="data-reduction" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">data reduction</span>
+<span id="データ削減" class="term-jp">データ削減</span>
+
+</td>
+<td class="definition">
+
+複数の数から1つ以下の数を計算する過程。
+例として、ウェハ上で9つの読取りを行う場合がある。
+一般的なデータ削減として、平均と[標準偏差](#sigma)（2つのみの数）を使用する。
+データ削減の利点は、通常、単純さ、解釈の容易さ、関心のある課題へのより大きな焦点、そして小さなデータ・ファイルである。
+
+</td>
+</tr>
 
 
-
-  </td>
-  <td class="definition">
-
-
-  
-  </td>
-</tr>  
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="demographics" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">demographics</span>
+<span id="人口統計" class="term-jp">人口統計</span>
+
+</td>
+<td class="definition">
+
+調査では、年齢、性別、居住地、年収などの情報を特に回答者を特定のグループの一員として特定することで、回答を明らかにするために使用する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="detection" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">detection</span>
+<span id="検出" class="term-jp">検出
+
+</span>
+</td>
+<td class="definition">
+
+製造品が仕様に適合しているかを判定するために設計された工程是正監視の区分。
+[処分](#disposition)もご参照のこと。[予防](#prevention)の対義語。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="deterministic" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">deterministic</span>
+<span id="決定論的" class="term-jp">決定論的</span>
+
+</td>
+<td class="definition">
+
+完全に再現可能で、実験的または観測的誤差がない性質。
+通常、[コンピュータ実験](#computer-experiment)でのみ実現可能。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="diagnostic" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[diagnostic](docs/ch1_eda/section2/eda23.md)
+
+</span>
+<span id="診断" class="term-jp">
+
+[診断](docs/ch1_eda/section2/eda23.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+[モデル](#model)に関する1つ以上の前提を検証するための計算またはグラフ。
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="digidot-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">digidot chart</span>
+<span id="幹葉図付き時系列プロット" class="term-jp">幹葉図付き時系列プロット</span>
+
+</td>
+<td class="definition">
+
+葉が左側を向き、右側が時間傾向プロットとなっている、Y軸に茎と葉のチャートからなる複合チャート。
+どちらの場合も、プロットされた値は観測値の最下位桁である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="disposition" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">disposition</span>
+<span id="処分" class="term-jp">処分</span>
+
+</td>
+<td class="definition">
+
+仕様外で製造された生産品に対して何をすべきかを評価する製品決定の区分。
+[検出](#detection)も参照のこと。
+[予防](#prevention)の対義語。
+
+</td>
+</tr>
 
 
 
-  </td>
-  <td class="definition">
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
-  
-  </td>
+<span id="distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[distribution](docs/ch1_eda/section3/eda366.md) 
+
+</span>
+<span id="分布" class="term-jp">
+
+[分布](docs/ch1_eda/section3/eda366.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+変数、特に[応答](#response)値の出現頻度を表す表現。
+
+</td>
+</tr>
+
+
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="dot-plot" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">dot plot</span>
+<span id="点図" class="term-jp">点図</span>
+
+</td>
+<td class="definition">
+
+特定の範囲内の値を持つ観測を同じ範囲内の前の点より固定間隔の点としてプロットする[ヒストグラム](#histogram)の形態。
+観測回数が少ない場合に有用である。<p>
+
+</td>
 </tr>
 
 <tr><td></td><td>
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td>
+</tr>
 
-</table>
-
+</tbody></table>
 
 ---
 
 <div id="E"></div>
 
-## [E]
+## [E]  
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="effect" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">effect</span>
+<span id="効果" class="term-jp">効果/影響</span>
+
+</td>
+<td class="definition">
+
+与えられた[応答](#response)の平均値または期待値が、特定の[因子](#factor)の変化によって変化すること。
+与えられた[因子](#factor)の変化は、通常、実験的に試された値の最小値から最大値へと変化し、効果の単位は通常、[応答](#response)と同じ単位である。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="efficiency" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">efficiency</span>
+<span id="効率" class="term-jp">効率</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+与えられた推定手法と[標本規模](#sample-size)によって実現できる[精度](#precision)に関する[曖昧な概念](#fuzzy-concepts)。
+効率的な手法は、最も短い[信頼区間](#confidence-interval)で[母集団](#population)を推定する。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="EVOP" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">EVOP, Evolutionary Operation</span>
+<span id="EVOP、進化的操作" class="term-jp">EVOP、進化的操作</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+「進化的操作」の略称。
+EVOPは、いくつかの特徴的な機能を備えた特別な種類の稼働中[実験](#SDE)である。</p>
 
-  
-  </td>
-</tr>  
+1. 実験品は、[顧客](#customers)に納品されることを目的とした生産品である。
+2. 各[実験](#SDE)サイクルにおいて、標準の生産処方が変更される。
+3. 実験因子水準は、従来の稼働中[実験](#SDE)に比べて極端ではない。
+4. この[実験](#SDE)は、従来の稼働中[実験](#SDE)よりも多くの材料を用い、長期的に実施される。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="EWMA" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">EWMA chart</span>
+<span id="EWMA管理図" class="term-jp">EWMA管理図</span>
+
+</td>
+<td class="definition">
+
+1. 指数加重移動平均に基づく任意の[管理図](#control-chart)。
+EWMA管理図は、現在の観測値と以前にプロットされた点の加重平均をプロットし、現在の観測値の重みは<i>λ</i>で表される。
+<i>λ</i>の値は一般的に0.3から0.7が推奨される；0.7の値は「ばらつきが多い」工程に適している。
+<i>λ</i> = 0.4は、すべての8[Western Electric 規則](#Western-Electric-rules)が有効な状態で約1の<i>λ</i>と等しい挙動を示す。
+<p>EWMA管理図は偏位に敏感であり、系統的に中心値がズレている時に実行される工程にも敏感である。
+対象が多数実行されている工程が1つだけである場合に最も有用である。
+これらの機能は[累積和管理図](#cusum-chart)と共通である。</p>
+2. AMDでは、EWMA管理図でも最適な<i>λ</i>値の計算が可能である。
+AMDの実装は、現在の監視点の平均をプロットし、この平均を指定された[管理限界](#control-limits)と比較する。
+この点に関しては、[個別管理図](#individuals-chart)に似ている。
+EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに使用される傾向パターンの組として実装されている。</p>
+3. J Stuart Hunter が最初に提案したように、EWMA 管理図は、以前にプロットされた点とともに現在の観測値の指数加重平均をプロットする。
+これらは適切な[管理限界](#control-limits)と比較される。
+さらに、現在の観測値もプロットされ、適切な（例：[個別管理図](#individuals-chart)）[管理限界](#control-limits)と比較される。
+
+</tr>
 
 <tr><td></td><td>
 
-[ページの先頭へ戻る](#top)
+[ページの先頭へ戻る](glossary.htm)
 
-</td></td></tr>  
-
-</table>
+</td>
+</tr></tbody></table>
 
 ---
 
@@ -1008,38 +1167,128 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 ## [F]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="facetoface" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">facetoface</span>
+<span id="対面調査" class="term-jp">対面調査</span>
+
+</td>
+<td class="definition">
+
+回答者が実際に現場にいる者によってインタビューされる[調査](#survey)の実施方法。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="factor" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">factor</span>
+<span id="要因" class="term-jp">要因/因子</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[工程](#process)、特に[実験](#SDE)の入力変数。
+実験因子とは、特に[実験](#SDE)中に意図的に操作される変数のこと。
+実験因子はさらに[制御因子](#control-factor)と[誤差因子](#noise-factor)に分類できる。
+制御因子とは、制御しやすく、通常、[応答](#response)に強い影響を与える要因のこと。
+（典型的な例として、証言録取[手続き](#process)に要する時間がある。）
+誤差因子は、制御が困難であるか、し辛い因子のこと。
+制御が難しい[誤差因子](#noise-factor)は、炉管周囲の空気流が相当する。
+制御しにくい[誤差因子](#noise-factor)として、最近の濡れた清潔なシンクの使用履歴が挙げられる。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="factor-level" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">factor level</span>
+<span id="因子水準" class="term-jp">因子水準</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+実験計画において、入力変数または[因子](#factor)が取り得る値。
 
-  
-  </td>
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="factor-range" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">factor range</span>
+<span id="因子範囲" class="term-jp">因子範囲</span>
+
+</td>
+<td class="definition">
+
+実験計画の、特に定量的[因子](#factor)においては、[因子](#factor)が取る最高値と最低値との差。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="factorial-experiment" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">factorial experiment</span>
+<span id="要因実験" class="term-jp">要因実験</span>
+
+</td>
+<td class="definition">
+
+各[因子](#factor)の値を他のすべての因子の値と組み合わせて使用する[実験](#SDE)。
+一部実施要因実験は、組合せすべての適切な部分集合を以下の目的を念頭に置いて実施する。</p>
+1. 実験の総が少ない。
+2. 実験空間が十分に網羅されている。
+3. 因子の部分集合（例えば規模が2、3、もしくは 4）については、実験組合総数を大きくしておく。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="focus-groups" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">focus groups</span>
+<span id="フォーカス・グループ" class="term-jp">フォーカス・グループ</span>
+
+</td>
+<td class="definition">
+
+個別にではなく、少人数のグループで人々にインタビューする方法。
+この方法は、正式なアンケート[調査](#survey)の前段階としてしばしば好まれる。
+グループは通常、何らかの形で比較できるよう構成されている（収入、年齢など）。
+欠点には、費やした労力に対し[標本規模](#sample-size)が小さいこと、他の回答者の見解を聞くことによる潜在的な[偏り](#bias)、そして結果を統合する構造が欠如していることが挙げられる。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="fuzzy-concepts" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">fuzzy concepts</span>
+<span id="曖昧な概念" class="term-jp">曖昧な概念</span>
+
+</td>
+<td class="definition">
+
+抽象度が高いことにより、一般化と代替手法の両方を認める概念。
+例えば、平均は通常、数値集合の典型的な値を推定するために計算される。
+平均は特定の概念であり、一方「典型値」は曖昧な概念である。
+
+</td>
 </tr>
 
 <tr><td></td><td>
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
-  
-</table>
+</td>
+</tr></tbody></table>
+
 
 ---
 
