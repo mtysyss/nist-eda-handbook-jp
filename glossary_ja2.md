@@ -13,7 +13,7 @@
 
 ハイパーテキスト辞書へようこそ。
 これは工学統計から選択された用語を含んでいる。
-現在のテーマ領域には、[実験計画](#SDE)、[計測学](#metrology)、[調査](#survey)、アンケート、[統計的工程管理](#SPC)、そして[コンピュータ実験](#computerexpreiment)が含まれている。
+現在のテーマ領域には、[実験計画](#SDE)、[計測学](#metrology)、[調査](#survey)、アンケート、[統計的工程管理](#SPC)、そして[コンピュータ実験](#computer-expreiment)が含まれている。
 
 ---
 
@@ -54,7 +54,7 @@
   <td class="definition">
 
 特定の入力[因子](#factor)の変更による平均または期待される変化が、他の入力[因子](#factor)の値に依存しない物理[過程](#process)を記述する[モデル](#model)の性質。
-加法[効果](#effect)には関連する[相互作用](#interaction)がない。
+加法[効果](#effect)には関連する[交互作用](#interaction)がない。
 
   </td>
 </tr>
@@ -63,7 +63,7 @@
 <tr>
   <td class="headword" style="width: 15%; vertical-align: top;">
 
-   <span id="affine-callibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">affine calibration</span>
+   <span id="affine-calibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">affine calibration</span>
    <span id="アフィン校正" class="term-jp">アフィン校正</span>
 
   </td>
@@ -83,7 +83,7 @@
   </td>
   <td class="definition">
 
-特に[コンピュータ実験](#computer-experiment)の分析において、製造における工程の予測分布を複数の[要因](#factor)それぞれに起因する構成要素、あるいは因子[交互作用](#interactions)の組合せに分解すること。
+特に[コンピュータ実験](#computer-experiment)の分析において、製造における工程の予測分布を複数の[要因](#factor)それぞれに起因する構成要素、あるいは因子[交互作用](#interaction)の組合せに分解すること。
 <p>AMV が各[因子](#factor)について（通常は[ガウス](#Gaussian)分布）を仮定することに依存しているため、[分散分析](#ANOVA)と区別される。
 AMV は、通常[コンピュータ実験](#computer-experiment)に適用されるため、分散成分とは区別される。</p>
   
@@ -154,7 +154,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 [検査](#inspection)および是正による利益を考慮した結果、[顧客](#customers)に納品される不良品の平均水準。
 通常、ppmで報告される。
-[ハーン推定器](#HahnEstimate)も参照。
+[ハーン推定器](#Hahn-Estimate)も参照。
 
 </td></tr>
 
@@ -208,7 +208,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <td class="definition">
 
 [分布](#distribution)の平均値（期待値）と真の値との差。
-[計量学](#metrology)において、[精度](#precision)と[精確さ](#accuracy)の違いは、[精度](#precision)の測定は偏りの影響を受けないのに対し、[精度の](#accuracy)測定は偏りが大きくなると低下する点である。
+[計量学](#metrology)において、[精度](#precision)と[精確さ](#accuracy)の違いは、[精度](#precision)の測定は偏りの影響を受けないのに対し、[精度](#accuracy)の測定は偏りが大きくなると低下する点である。
 </td>
 </tr>
 
@@ -231,8 +231,8 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 二項分布は *n* と *p* の二つの母数に依存する。
 *n* は試行の総回数であり、各試行において、対象事象を観測できる確率は *p*、観測しない確率は 1‐*p* である。
 二項分布は、各試行の結果が他の試行と独立していると仮定し、観測された事象の総和を[モデル](#model)にしている。
-[Poisson(ポアソン)](#Poisson) 分布とは異なり、二項分布は観測可能な[標本規模](#samplesize)である事象（イベント）の最大数 *n* を設定する。
-[超幾何](#hypergeometric)分布とは異なり、二項分布は計数事象が独立であると仮定する。
+[Poisson(ポアソン)分布](#Poisson-distribution) とは異なり、二項分布は観測可能な[標本規模](#samplesize)である事象（イベント）の最大数 *n* を設定する。
+[超幾何](#hypergeometric-distribution)分布とは異なり、二項分布は計数事象が独立であると仮定する。
 
 </td>
 </tr>
@@ -247,7 +247,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 <td class="definition">
 
 [実験](#SDE)を規模、時間、または空間が制限された副群に分割すること。
-優れた[実験計画](#DOE)の実践では、すべての[因子](#factors)がブロック内で変化し、ブロック内の単位割当てが[無作為化](#randomization)され、ブロックの順序と割当てが[無作為化](#randomization)される。
+優れた[実験計画](#SDE)の実践では、すべての[因子](#factor)がブロック内で変化し、ブロック内の単位割当てが[無作為化](#randomization)され、ブロックの順序と割当てが[無作為化](#randomization)される。
 
 </td>
 </tr>
@@ -624,7 +624,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 実証的実験とは異なり、シミュレータの[応答](#response)は[決定論的](#deterministic)であり、影響がある。
 コンピュータ実験は適切に中間水準の因子を持つことができ、特に実行回数の範囲はより野心的になることがある。
 さらに、[補間器](#interpolator)（特に[クリギング](#kriging")）に基づく[モデル化](#model)手法は、実行可能な手法として挙げられる。
-適切な実践として、コンピュータ実験に[ラテン超方格](#LHC)を使用し、データ解析段階では[クリギング](#kriging)、[ニューラルネット・ワーク](#neuralnetwork)、多変量適応回帰スプライン（MARS）などの高度なノンパラメトリック[モデル化](#model)手法を用いることが推奨される。
+適切な実践として、コンピュータ実験に[ラテン超方格](#LHC)を使用し、データ解析段階では[クリギング](#kriging)、[ニューラルネットワーク](#neural-network)、多変量適応回帰スプライン（MARS）などの高度なノンパラメトリック[モデル](#model)化手法を用いることが推奨される。
 コンピュータ実験手法の重要な応用は、[工程](#process)最適性を決定することと、[工程](#process)許容差を評価することである。
 
 </td>
@@ -738,7 +738,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </td>
 <td class="definition">
 
-[共通原因](#common-cause)のみによる[工程](#process)特性の許容可能な最大[変動](#variation)管理限界を超える変動は、[異常原因](#special-cause)が[プロセス](#process)に影響を与えている可能性があることの証拠である。
+[共通原因](#common-cause)のみによる[工程](#process)特性の許容可能な最大[変動](#variation)管理限界を超える変動は、[異常原因](#special-cause)が[工程](#process)に影響を与えている可能性があることの証拠である。
 管理限界は[工程](#process)データから計算される。
 
 </td>
@@ -1297,55 +1297,83 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 ## [G]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody>
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="gauge-study" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">gauge study</span>
+<span id="ゲージ研究" class="term-jp">ゲージ研究</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[計測学](#metrology)の研究の同義語。
 
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
-  </td>
-</tr>  
-</table><table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
-  </td>
+</td>
 </tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="Gaussiandistribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[Gaussian distribution](docs/ch1_eda/section3/eda3661.md)
+
+</span>
+<span id="ガウス分布" class="term-jp">
+
+[ガウス分布](docs/ch1_eda/section3/eda3661.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+[正規](#normal)分布を参照。
+
+</td>
+</tr>
+
+
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="global-calibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">global calibration</span>
+<span id="全体校正" class="term-jp">全体校正</span>
+
+</td>
+<td class="definition">
+
+[コンピュータ実験](#computer-experiment)において、シミュレーション結果と経験値の読取りの間で良好な一致を達成するために、生のシミュレーション[応答](#response)を変換する関数を開発する作業。
+[アフィン校正](#affine-calibration)と区別される。
+[校正](#calibration)を参照。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="goodness-of-fit" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[goodness of fit](docs/ch1_eda/section3/eda35f.md)
+
+</span>
+<span id="適合性" class="term-jp">
+
+[適合性](docs/ch1_eda/section3/eda35f.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+1. [曖昧な概念](#fuzzy-concepts)として、[適合の欠如](#lack-of-fit)の対義。
+2. 観測された[分布](#distribution)の頻度を確率[モデル](#model)がどれほど近く再現するかを示すすべての指標。
+3. [R二乗](#R-squared)などの指標で、統計[モデル](#model)が観測値をどれだけ正確に予測するかを示す指標。
+
+</tr>  
 
 <tr><td></td><td>
 
@@ -1362,29 +1390,58 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 ## [H]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="Hahn-Estimator" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Hahn Estimator</span>
+<span id="ハーン推定量" class="term-jp">ハーン推定量</span>
+
+</td>
+<td class="definition">
+
+[二項分布](#binomial-distribution)に基づく[平均出検品質](#AOQ)のノンパラメトリック推定と、[二項分布](#binomial-distribution)の母数 <i>p </i>に対する観測されていない[分布](#distribution)の仮定。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="histogram" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
+[histogram](docs/ch1_eda/section3/eda33e.md)
 
-  </td>
-  <td class="definition">
+</span>
+<span id="ヒストグラム" class="term-jp">
 
+[ヒストグラム](docs/ch1_eda/section3/eda33e.md)
 
-  
-  </td>
-</tr>  
+</span>
+
+</td>
+<td class="definition">
+
+統計[分布](#distribution)のグラフ表示；棒グラフの形態。
+1軸（通常は x）は観測された値の尺度であり、2軸（通常はy）はその値とともに観測が行われる頻度である。
+
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="hypergeometric-distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">hypergeometric distribution</span>
+<span id="超幾何分布" class="term-jp">超幾何分布</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+離散事象を[モデル](#model)化するために使用される重要な[分布](#distribution)であり、特に置換なしで標本抽出する時の不良品数は特に重要である。
+超幾何分布は、<i>N</i>、<i>n</i>、<i>D </i>の3つの母数に依存する。
+<i>N </i>は既知の有限[母集団](#population)規模、<i>n </i>は既知の[標本規模](#sample-size)（<i>N </i>以下に制限された）、<i>D </i>は不明な欠陥数である。
+[二項分布](#binomial-distribution)とは異なり、超幾何分布は標本化が置換されないと仮定し、その母数はすべて整数値であるとする。
 
-  
-  </td>
+</td>
 </tr>
 
 <tr><td></td><td>
@@ -1402,28 +1459,138 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 ## [I]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="imputation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">imputation</span>
+<span id="代入" class="term-jp">代入</span>
+
+</td>
+<td class="definition">
+
+未知で測定されていない、または欠損データを特定の値に置き換えること。
+代入の最も簡単な形態は、欠損しているすべての値をその変数の平均に置き換えることである。
+より高度な代入手法は、観測された変数間の[相関](#correlation)構造を使用する。
+代入は人間集団の[調査](#survey)で最も一般的である。
+特定の[コンピュータ実験](#computer-experiment)の用途でも使用される。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="in-control" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">in control</span>
+<span id="管理下" class="term-jp">管理下</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[管理外れ](#out-of-control)になることの反対
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="individuals-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">individuals chart</span>
+<span id="個別管理図" class="term-jp">個別管理図</span>
+</td>
+<td class="definition">
 
+1. [合理的群](#rational-subgroup)の規模が1である変数データの[管理図](#control-chart)。
+[X管理図](#X-chart)の同義語。</p>
+2. [合理的群](#rational-subgroup)の複数測定値を単一の数値（通常は平均）に縮小し、さらに[合理的群](#rational-subgroup)の規模が1であるかのように極限を算出する変数データ[管理図](#control-chart)のアルゴリズムである。
+3. [Clifford の手法](#Clifford)も参照のこと。
+   
+   </td>
+</tr>
 
-  </td>
-  <td class="definition">
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
-  
+<span id="inspection" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">inspection</span>
+<span id="検査" class="term-jp">検査</span>
+
+</td>
+<td class="definition">
+
+特性の[測定](#MCA)と標準との比較。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="interaction" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">interaction</span>
+<span id="交互作用" class="term-jp">交互作用</span>
+
+</td>
+<td class="definition">
+
+物理的[過程](#process)（そのような[過程](#process)を記述する[モデル](#model)）の性質において、特定の入力[因子](#factor)を変更することによる[応答](#response)の平均（または予測平均）の変化が、他の入力因子の値に依存すること。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="interpolator" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">interpolator</span>
+<span id="補間器" class="term-jp">補間器</span>
+
+</td>
+<td class="definition">
+
+[モデル](#model)構築に使用される観測を常に完全に再現する予測アルゴリズム。
+[コンピュータ実験](#computer-experiment)に有用である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="interview-survey" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">interview survey</span>
+<span id="面接調査" class="term-jp">面接調査</span>
+
+</td>
+<td class="definition">
+
+回答者に口頭でインタビューを行い、回答を回答者が記録する[調査](#survey)の実施方法。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="interviewererror" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">interviewererror</span>
+<span id="調査員誤差" class="term-jp">面接官のエラー</span>
+
+</td>
+<td class="definition">
+
+調査において、回答者がインタビュアーの行動、非言語的手がかり、または口頭の発言に応じて回答を修正することによって生じる[測定誤差](#measurement-error)の構成要素。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="item-stem-and-leaf-plot" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">item stem and leaf plot</span>
+<span id="幹葉図" class="term-jp">幹葉図</span>
+
+</td>
+<td class="definition">
+
+アンケートでは、共通の[リッカート尺度](#Likert-scale)を用いて複数の質問の平均結果を示す方法。
+各質問は概ね平均値でプロットされ、質問番号でラベル付けされている。
+この形式は質問平均の[ヒストグラム](#histogram)に似ており、質問ラベルは観測された平均の相対頻度を示すために使用される。 
+ 
   </td>
 </tr>
 
@@ -1441,39 +1608,6 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 ## [J]
 
-<table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
-  </td>
-</tr>
-
-<tr><td></td><td>
-
-[ページの先頭へ戻る](#top)
-
-</td></td></tr>  
-
-</table>
 
 ---
 
@@ -1482,29 +1616,22 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 ## [K]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="kriging" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">kriging</span>
+<span id="クリギング" class="term-jp">クリギング</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+観測点の任意の配置や複数の次元に容易に一般化できる[補完器](#interpolator)。
+それでも、クリギングは最小二乗に類似している。
+クリギング予測が求められる点は、観測空間においてより近い観測点とより「相関」していると考えられている。
+さらに、この点が実際に観測されている別の点に近づくにつれて、[相関](#correlation)は1.0に近づく。
+これらの考えから、予測手法であるクリギングを形式化することができる。
+n 個の観測の実験では、クリギングは n × n 行列の逆行列を必要とし、n を大まかに使用するのは扱いにくい。
 
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
-  </td>
 </tr>
 
 <tr><td></td><td>
@@ -1522,29 +1649,118 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 ## [L]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="lack-of-fit" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">lack of fit</span>
+<span id="不適合性" class="term-jp">不適合性</span>
+
+</td>
+<td class="definition">
+
+観測の集合に関する[モデル](#model)の性質。
+不適合性（適合の欠如）とは、[モデル](#model)が観測結果を予測または適合しない程度を指す。
+適合性の欠如は、観測結果を取得する[過程](#process)における[実験](#SDE)誤差や[不確かさ](#uncertainty)が原因である可能性があるか、あるいは[モデル](#model)の欠陥が原因である可能性がある。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="LHC" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Latin hypercube design</span>
+<span id="ラテン超方格計画" class="term-jp">ラテン超方格計画</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+n 回の試行から構成される実験計画で、各[因子](#factor)は n 個の異なる水準を持つ。
+通常、因子水準は等間隔で配置されている。
+最高のラテン超方格計画は[直交配列](#orthogonal-array)に基づく。
+ラテン超方格計画は、特に[コンピュータ実験](#computer-experiment)に有用である。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="LHS" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Latin hypercube sampling</span>
+<span id="ラテン超方格抜取り" class="term-jp">ラテン超方格抜取り</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[ラテン超方格](#LHC)計画を用いてシミュレータ出力の[分布](#distribution)を推定する[コンピュータ実験](#computer-experiment)手法。
+[ラテン超方格](#LHC)計画の使用により、ラテン超方格抜取りは[モンテカルロ](#Monte-Carlo-sampling)法よりもはるかに精度が高くなることが可能である。
+入力[因子](#factor)の[分布](#distribution)は、[因子水準](#factor-level)の間隔で表される。
 
-  
-  </td>
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="LDL" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">LDL, lower detection limit</span>
+<span id="LDL、下側検出限界" class="term-jp">LDL、下側検出限界</span>
+
+</td>
+<td class="definition">
+
+[測定](#metrology)システムが背景[標準偏差](#sigma)を効果的に区別しなくなる水準。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="Likert-scale" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Likert scale</span>
+<span id="リッカート尺度" class="term-jp">リッカート尺度</span>
+
+</td>
+<td class="definition">
+
+アンケートでの回答形式として、回答者が尺度に沿っていくつかの値のうちの一つを選ぶことが求められることがある。
+5点と9点は一般的なリッカート尺度である。
+リッカート尺度の両端は対向であり、中央の値はその間の度を表す。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="linearity" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">linearity</span>
+<span id="線形性" class="term-jp">線形性</span>
+
+</td>
+<td class="definition">
+
+[計測学](#metrology)において、測定対象機器の範囲全体にわたる[偏り](#bias)の差。
+この定義は、y軸の測定結果とx軸の真の値との関係を観測すれば、最もよく理解できる。
+理想的な線形性は、傾きが1.0の直線である。
+（純粋な[偏り](#bias)は切片=0.0に相当する。）
+線形性はやや誤称である。
+これは、傾きが1.0の直線との差を指すためであり、非線形関係がある場合と、傾きが1.0以外の線形関係を持つ場合の両方で起こり得る。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="logistic-function" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">logistic function</span>
+<span id="ロジスティック関数" class="term-jp">ロジスティック関数</span>
+
+</td>
+<td class="definition">
+
+関数 1/(1+exp(-x))。
+ロジスティック関数は、logistic(x)=0.5-logistic(-x) であるため、約ゼロで歪対称である。
+応用例として、処理量応答曲線のモデル化、裾が厚い分布、そして[ニューラルネットワーク・モデル化](#neural-network)における「スカッシュ」関数としての活用が挙げられる。
+
+</td>
 </tr>
 
 <tr><td></td><td>
@@ -1562,29 +1778,209 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 ## [M]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="mail-survey" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">mail survey</span>
+<span id="メール調査" class="term-jp">メール調査</span>
+
+</td>
+<td class="definition">
+
+回答者にメールで連絡する調査の実施方法。
+Salant と Dillman（1994）は、メール調査の回答率を向上させるための一連の戦略を提示している。
+これらには、興味深いカバー・デザイン、加速するリマインダーのポストカードや手紙、そして最終連絡（認証書留郵便）が含まれる。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="matching" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">matching</span>
+<span id="マッチング" class="term-jp">マッチング</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[後ろ向き](#retrospective)研究において、比較対象群を特定する方法。
+観測単位のマッチング・ペア：関心特性Aと迷惑効果B、C、...の両方を有する各ユニットと、関心特性Aを欠く別のユニットがあるが、B、C、...を共有する。低利回りのロット（関心対象は[収量](#yield)です）は、ほぼ同時期に開始された同じ製品の収量のあるロットと比較して、このようになっている。
+このようにマッチは、すべての利用可能なロットから「マッチ」を取る場合よりも、主要な因果差異（例えば、使用された特定の装備セットにおいて）に対してより[敏感](#sensitive)である。
+マッチングは、共通性研究を実施する方法である。
+マッチングは、遡及的研究における一種の[ブロック](#block)化である。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="MCA" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">MCA</span>
+<span id="MCA" class="term-jp">MCA</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+測定能力の評価、あるいは測定能力の分析。[メトロロジー](#metrology)の[特性評価](#characterization)。
+Sematech での定義は (a) [繰り返し性](#repeatability)、(b) [再現性](#reproducibility)に焦点を当てている。
+より広い定義では、（c）測定対象の現象の変化に対する[感度](#sensitivity)（そのような[感度](#sensitivity)が望ましい）と（d）測定対象の現象以外の特徴に対する[感度](#sensitivity)（そのような[感度](#sensitivity)は好ましくない）を評価する。
 
-  
-  </td>
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="MTBF" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">mean time between failures (MTBF)</span>
+<span id="平均故障間隔時間（MTBF）" class="term-jp">平均故障間隔時間（MTBF）</span>
+
+</td>
+<td class="definition">
+
+システムの1つまたは集合について、システムの1つの障害と次の障害との間の平均時間。
+この平均時間は、修理待ち時間、修理に費やした時間、再認定に費やした時間などを除外しており、システムが利用可能で稼働している時間のみを測定することを意図している。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="measurement-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">measurement error</span>
+<span id="測定誤差" class="term-jp">測定誤差</span>
+
+</td>
+<td class="definition">
+
+1. [計測学](#metrology)または[測定](#MCA)システムに起因すると看做される観測された変動。
+測定誤差は、[感度](#sensitivity)、[繰り返し性](#repeatability)、[再現性](#reproducibility)にさらに分解できる。</p>
+2.[調査](#survey)において、回答者の回答が不正確、不正確、または他の回答者と比較して容易でない場合に生じる誤差。
+Salant と Dillman（1994）は、そのような測定誤差を手法、質問票、インタビュアー、および回答者の誤差に分けている。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="meta-analysis" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">meta analysis</span>
+<span id="メタ分析" class="term-jp">メタ分析</span>
+
+</td>
+<td class="definition">
+
+個々の調査結果を定量的に統合し、全体的な有意性の単一の記述にまとめた統計手法群。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="metamodel-calibration" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">metamodel calibration</span>
+<span id="メタモデルの校正" class="term-jp">メタモデルの校正</span>
+
+</td>
+<td class="definition">
+
+モデルの未知の係数を以下の手順で決定する方法：</p>
+1. 未知の係数を変化させ、期待される[応答](#response)を記録して[コンピュータ実験](#computer-experiment)を実行する。
+2. [コンピュータ実験](#computer-experiment)の[応答](#response)を入力、[因子](#factor)を出力として、特に[ニューラルネットワーク](neural-network)の一般的な形態の[モデル](#model)を適合させる。
+3. 入力を経験的に観測された値とした場合、この[モデル](#model)から得られる未知係数を出力として抽出する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="method-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">method error</span>
+<span id="方法誤差" class="term-jp">方法誤差</span>
+
+</td>
+<td class="definition">
+
+[測定誤差](#measurement-error)のうち、[測定](#MCA)[工程](#process)の詳細に起因する部分。
+[調査](#survey)では、例えば、[対面](#face-to-face)、郵送、[電話](#telephone)などでアンケートを実施する。
+これらの異なる手法は異なる結果をもたらすと認識されており、その程度において、これは方法誤差の例である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="metrology" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">metrology study</span>
+<span id="計測学研究" class="term-jp">計測学研究</span>
+
+</td>
+<td class="definition">
+
+時には、[ゲージ](#gauge-study)能力調査、または[測定](#MCA)能力評価と呼ばれる。
+このような研究は、[測定](#MCA)機器の能力と限界を定量化し、しばしばその[繰り返し性性](#repeatability)、[再現性](#reproducibility)、そして時には[感度](#sensitivity)を推定する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="mixture-experiment" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">mixture experiment</span>
+<span id="配合計画" class="term-jp">配合計画</span>
+
+</td>
+<td class="definition">
+
+各実験の実行が制約され、[因子](#factor)を横断的に合計した際に[因子水準](#factor-level)が一定に総和されるように制約される[実験計画](#SDE)。
+典型的な応用は、[要素](#factor)が液体、あるいは時には気体である化学実験を含む。
+そのような場合、重要なのは各液体成分の比率であり、重量や体積ではない。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="model" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">model</span>
+<span id="モデル" class="term-jp">モデル</span>
+
+</td>
+<td class="definition">
+
+変数間の関係に関する数学的記述。
+モデルは2つの基本的な種類に分けられるか、2つの基本部分から構成される：統計モデルは測定された量を予測し、確率モデルは異なる無作為な結果の相対頻度を予測する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="monitor-variable" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">monitor variable</span>
+<span id="監視変数" class="term-jp">監視変数</span>
+
+</td>
+<td class="definition">
+
+[工程](#process)の測定可能な特性で、[工程管理](#SPC)の目的に特に関連性が高く、情報量も有する。
+[製品受入](#SQC)のより関連性の高い[重要係数](#critical-parameters)とは区別される。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="Monte-Carlo-sampling" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Monte Carlo sampling</span>
+<span id="モンテカルロ標本抽出法" class="term-jp">モンテカルロ標本抽出法</span>
+
+</td>
+<td class="definition">
+
+シミュレータの出力の[分布](#distribution)を推定するために、[乱](#randomization)数を使用する[コンピュータ実験](#computer-experiment)手法。
+
+</td>
 </tr>
 
 <tr><td></td><td>
