@@ -159,7 +159,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 [検査](#inspection)および是正による利益を考慮した結果、[顧客](#customers)に納品される不良品の平均水準。
 通常、ppmで報告される。
-[ハーン推定器](#Hahn-Estimate)も参照。
+[ハーン推定量](#Hahn-Estimate)も参照のこと。
 
 </td></tr>
 
@@ -953,7 +953,8 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="definition">
 
 製造品が仕様に適合しているかを判定するために設計された工程是正監視の区分。
-[処分](#disposition)もご参照のこと。[予防](#prevention)の対義語。
+[処分](#disposition)もご参照のこと。
+[予防](#prevention)の対義語。
 
 </td>
 </tr>
@@ -1201,7 +1202,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 実験因子はさらに[制御因子](#control-factor)と[誤差因子](#noise-factor)に分類できる。
 制御因子とは、制御しやすく、通常、[応答](#response)に強い影響を与える要因のこと。
 （典型的な例として、証言録取[手続き](#process)に要する時間がある。）
-誤差因子は、制御が困難であるか、し辛い因子のこと。
+誤差因子は、制御が困難であるか、しづらい因子のこと。
 制御が難しい[誤差因子](#noise-factor)は、炉管周囲の空気流が相当する。
 制御しにくい[誤差因子](#noise-factor)として、最近の濡れた清潔なシンクの使用履歴が挙げられる。
 
@@ -1334,7 +1335,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 </td>
 <td class="definition">
 
-[正規](#normal)分布を参照。
+[正規](#normal)分布を参照のこと。
 
 </td>
 </tr>
@@ -1352,7 +1353,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 [コンピュータ実験](#computer-experiment)において、シミュレーション結果と経験値の読取りの間で良好な一致を達成するために、生のシミュレーション[応答](#response)を変換する関数を開発する作業。
 [アフィン校正](#affine-calibration)と区別される。
-[校正](#calibration)を参照。
+[校正](#calibration)を参照のこと。
 
 </td>
 </tr>
@@ -2003,28 +2004,123 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 ## [N]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="neural-nets" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">neural nets</span>
+<span id="ニューラルネット" class="term-jp">ニューラルネット</span>
+
+</td>
+<td class="definition">
+
+[ニューラルネットワーク](#neural-network)モデルを参照のこと。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="neural-network" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">neural network model</span>
+<span id="ニューラル・ネットワーク・モデル" class="term-jp">ニューラル ネットワーク モデル</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+観測されていない変数の層を1つ以上仮定する、
+非常に柔軟な[モデル](#model)化手法である。
+各観測されていない変数は、前層の変数の線形関数であり（第一層は因子、すなわちモデル入力である）。
+次層への出力として、観測されていない各変数の出力は、ほぼ常に非線形関数、すなわち[ロジスティック関数](#logistic)によって変換される。
+ニューラル・ネットワークは、特に[実験](#SDE)規模が[クリギング](#kriging")を実務上不可能にする場合に、[コンピュータ実験](#computer-experiment)の解析に時折使用される。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="noise-factor" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">noise factor</span>
+<span id="誤差因子" class="term-jp">誤差因子</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+特に[実験](#SDE)においては、制御が困難であるか、しづらい[因子](#factor)や工程入力。
+誤差因子には、製品の使用条件（温度、試験条件、環境）も含まれる。
+通常、[制御因子](#controlfactor)とは区別される。
 
-  
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="NSRratio" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">noise-to-signal ratio</span>
+<span id="ノイズ対信号比" class="term-jp">ノイズ対信号比</span>
+
+</td>
+<td class="definition">
+
+[測定](#metrology)システムの[精度](#precision)と平均測定値の比率；信号対雑音比の逆数。
+ノイズ対信号比は、測定精度の大きさを百分率尺度で表現する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="nonresponse" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">nonresponse</span>
+<span id="無回答" class="term-jp">無回答</span>
+
+</td>
+<td class="definition">
+
+[実験](#SDE)、[調査](#survey)、または観察研究のときに、[応答](#response)（関心のある結果）が測定できず、完全に記録できない事象。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="nonresponseerror" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">nonresponseerror</span>
+<span id="無回答誤差" class="term-jp">無回答誤差</span>
+
+</td>
+<td class="definition">
+
+[調査](#survey)において、標本回答者が質問票への回答を拒否した場合に生じる誤差は、特に全体としての回答者が、研究にとって重要な回答の仕方で回答する回答者と異なるように見える場合である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="normal-distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[normal distribution](docs/ch1_eda/section3/eda3661.htm)
+
+</span>
+<span id="正規分布" class="term-jp">
+
+[正規分布](docs/ch1_eda/section3/eda3661.htm)
+
+</span>
+
+</td>
+<td class="definition">
+
+高い点またはモードが1つある対称[分布](#distribution)で、時には釣鐘型曲線とも呼ばれる。
+平均は、たとえごく少量のデータであっても、正規分布に類似した[分布](#distribution)を持つことが多い多くの統計計算の一つ。
+産業において、正規分布には4つの重要な特性がある。</p>
+
+1. それは対称である。
+2. ±1 の[標準偏差](#sigma)の範囲内では、分布の約68パーセントが囲まれている。
+3. ±2標準偏差範囲内は、95%である。
+4. ±3標準偏差範囲内は、99.7%である。
+
   </td>
 </tr>
 
@@ -2043,28 +2139,147 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 ## [O]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="objective-methods" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">objective methods</span>
+<span id="客観的手法" class="term-jp">客観的手法</span>
+
+</td>
+<td class="definition">
+
+データ収集の手法、特にデータ分析の手法は、個人固有の意見や知識に依存しないという点が特徴である。
+客観的手法は、科学的観点から再現可能であり、原則としてソフトウェア・アルゴリズムに変換可能である。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="off-line-SPC" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">off-line SPC</span>
+<span id="オフライン SPC" class="term-jp">オフライン SPC</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[ヒストグラム](#histogram)、[チェックリスト](#checklist)、[パレート](#Pareto-analysis")図、[能力](#capability)指標、および[実験計画](#SDE)など、[工程](#process)の選択された特性を特徴付けることを目的とした手法で、[異常原因](#special-cause)を調査または補正するために制御アルゴリズムの起動すべき時期を必ずしも決定しない。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="on-line-SPC" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">on-line SPC</span>
+<span id="オンラインSPC" class="term-jp">オンラインSPC</span>
+</td>
+<td class="definition">
 
+[管理図](#control-chart)のような手法で、[工程](#process)を自然[変動](#variation)に対して監視し、[異常原因](#special-cause)を調査または補正するために制御アルゴリズムの呼び出し時期を特定しようとする。
+[EVOP](#EVOP)などの特定の統計手法は、[工程](#process)の動的最適化を追求する。
+これらはオンラインの SPC 手法でもある。
 
+</td>
+</tr>
 
-  </td>
-  <td class="definition">
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
-  
+<span id="open-ended-question" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">open-ended question</span>
+<span id="自由解答式質問" class="term-jp">自由解答式質問</span>
+
+</td>
+<td class="definition">
+
+[調査](#survey)において、質問を提示するが、回答を構成（はい・いいえ、1から10までの尺度など）しようとしない質問形式。
+むしろ、回答者は口頭または書面で、本人の言葉で回答することが求められる。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="opinion-driven" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">opinion driven</span>
+<span id="意見駆動型" class="term-jp">意見駆動型</span>
+
+</td>
+<td class="definition">
+
+個人的な意見や恣意的な補正[要因](#factor)、あるいは客観的根拠のないその他の選択に依存する性質。
+[データ駆動型](#data-driven)の対義語。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="optimal-design" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">optimal design</span>
+<span id="最適設計" class="term-jp">最適設計</span>
+</td>
+<td class="definition">
+
+目的関数を最大化するコンピュータ・アルゴリズムを用いて[実験計画](#SDE)を作成する手法。
+最も一般的な目的関数は係数の分散‐共分散行列の行列式であり、このような設計は D‐optimum と呼ばれる。
+最適設計手法とは対照的に、[直交配列](#orthogonal-array)に基づく。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="optimum" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">optimum</span>
+<span id="最適" class="term-jp">最適</span>
+</td>
+<td class="definition">
+
+1. 特に[実験](#SDE)により決定された場合、関心のある[応答](#response)の最適均衡を実現する[因子](#factor)設定点の組合せ。
+2. そのような[因子](#factor)設定点の集合において達成された平均[応答](#response)値。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="orthogonal-array" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">orthogonal array</span>
+<span id="直交配列" class="term-jp">直交配列</span>
+</td>
+<td class="definition">
+
+行と列から構成される表で、任意の列（[要因](#factor)）の対に対してすべての値（[水準](#factorlevel)）の組合せがあり、さらにすべての組合せが同じ回数出現するという特性を持つ。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="outliers" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">outliers</span>
+<span id="外れ値" class="term-jp">外れ値</span>
+
+</td>
+<td class="definition">
+
+値が極めて極端で、データ集合の他の部分と一致していないように見える観測。
+工程監視では、外れ値が[突き止められる原因](#assignable)や[異常原因](#special-cause)が存在することを示す。
+データ分析から特定の外れ値を削除することは、そうした一般的な原因が特定されたときに最も正当化しやすい。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="out-of-control" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">out of control</span>
+<span id="管理外れ" class="term-jp">管理外れ</span>
+</td>
+<td class="definition">
+
+平均や範囲などの[統計](#statistic)が[管理限界](#control-limits)を超える場合、または[管理限界](#control-limits)内であってもその[統計](#statistic)に有意な傾向やパターンが現れる場合、[工程](#process)は管理外れとなる。
+管理外れであることは、[工程](#process)の本質的な性質ではなく、時間で範囲が設定された状態で定義される。
+類推により、任意の時点で、作業者が事故（管理外れ）に巻き込まれることも、関与しないこともある。
+[プロセスの](#process)本質的な性質は、作業者が安全な作業者であるか（管理外れ状態の頻度が過剰か）である。
+後者を決定するには、本質的な安全性（[安定性](#stability)）は通常、長期間にわたる観察が必要であり。
+
   </td>
 </tr>
 
@@ -2083,30 +2298,265 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 ## [P]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="Pareto" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Pareto analysis</span>
+<span id="パレート解析" class="term-jp">パレート解析</span>
+
+</td>
+<td class="definition">
+
+すべての潜在的な問題領域や[変動](#variation)要因をそれぞれの寄与度に基づいて順位付けする問題解決手法。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="partially-open-question" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">partially open question</span>
+<span id="部分的に開かれた質問" class="term-jp">部分的に開かれた質問</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[調査](#survey)において、質問形式は回答をある程度構成するだけでなく、回答者が口頭で回答することも認める。
+[閉じた質問](#closeended)と[開かれた](#openended)質問のハイブリッドである。
 
+</td>
+</tr>
 
-  
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="PDC" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">PDC, Passive data collection</span>
+<span id="PDC" class="term-jp">受動的データ収集</span>
+
+</td>
+<td class="definition">
+
+受動的データ収集は、時に「[前向き](#prospective)観察研究」と呼ばれる。
+[工程](#process)を繰り返し測定し測定する技術[特性付け](#characterization)の初期段階であり、介入（調整、変更、処方変更）は回避される。
+Sematech資格計画に関連している。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="Poisson-distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[Poisson distribution](docs/ch1_eda/section3/eda366i.md)
+
+</span>
+<span id="ポアソン分布" class="term-jp">
+
+[ポアソン分布](docs/ch1_eda/section3/eda366i.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+離散的な事象を[モデル](#model)化するために用いられる重要な理論[分布](#distribution)であり、特に領域における欠陥の数をモデルにする。
+ポアソン分布は、観測領域（または体積、時間間隔など）あたりの平均欠陥密度を表す変数である<i>λ</i>に依存する。
+ポアソン分布は、重複しない二つの観測単位における欠陥の数が独立であると仮定している。
+さらに、ポアソン分布は、欠陥数の分布が観測される領域のみに依存すると仮定している。
+[二項分布](#binomial-distribution)とは異なり、原則としてポアソン分布は任意の領域で観測できる欠陥の数に上限を設けない。
+半導体産業において特に注目すべきは、面積<i>A</i>の領域で欠陥がゼロであるポアソン確率（exp{-lambda<i> A</i>}）であり、これは[収量](#yield)[モデル](#model)化に有用である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="population" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[population](docs/ech1_da/section3/eda35.md)
+
+</span>
+<span id="母集団" class="term-jp">
+
+[母集団](docs/ech1_da/section3/eda35.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+ウェハや人物などの知りたい性質に関する潜在的な観測の全集合。
+[サンプル](#sample)の対義語。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="precision" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">precision</span>
+<span id="精度" class="term-jp">精度</span>
+
+</td>
+<td class="definition">
+
+1. [計測学](#metrology)において、[測定](#MCA)[工程](#process)の平均値に関する変動性。
+精度は通常、[精確さ](#accuracy)と区別される。
+精確性とは、測定[工程](#process)の真の値に対する変動性である。
+精度は、短期的な[変動](#variation)（[繰り返し性](#repeatability)）と長期的な[変動](#variation)（[再現性）](#reproducibility)にさらに分解することができる。</p>
+2. データが多いほど、知識がより多く、あるいは信頼区間が短くなるという一般的な概念を指す[曖昧な概念](#fuzzy-concepts)用語であり、すなわち、データが多いほど、回答や意思決定の精度が高くなる。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="prevention" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">prevention</span>
+<span id="予防" class="term-jp">予防</span>
+
+</td>
+<td class="definition">
+
+生産資材が危険にさらされる前に実施される工程監視と是正措置の種類。</td>
+
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="probability-plot" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+probability plot
+
+</span>
+<span id="確率プロット" class="term-jp">
+
+[確率プロット](docs/ch1_eda/section3/probplot.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+観測された分布が理論的分布、特に[正規分布](#normal-distribution)と一致する形状を持つかどうかを評価するために設計されたプロット。
+観測された値は、理論分布から期待される順序統計量に対してプロットされる。
+直線が見かけ上の場合、観測された分布と理論上の分布は同じ形であると言われる。
+確率プロットは、観測された分布が多数の観測値で構成されている場合に特に有用であり、比較対象がごく少数の群に限られる場合に有用である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="process" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">process</span>
+<span id="工程" class="term-jp">工程/過程/プロセス</span>
+
+</td>
+<td class="definition">
+
+特定の作業活動における人員、手順、機械、材料、[測定](#MCA)装置、および環境条件の組合せ。
+測定可能な入力と出力を備えた、繰り返し可能な活動の一連の流れ。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="process-signature" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">process signature</span>
+<span id="工程指紋" class="term-jp">工程指紋/工程固有の挙動パターン</span>
+
+</td>
+<td class="definition">
+
+[工程](#process)[特性付け](#characterization)には、入力変数に対する[感度](#sensitivity)、自然[変動](#variation)の大きさ、流入材料の[変動](#variation)に対する[感度](#sensitivity)、そして動的および出力プロファイルを自然に動作する場合と異常に振る舞う場合の両方が含まれる。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="process-capability-study" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">process capability study</span>
+<span id="工程能力調査" class="term-jp">工程能力調査</span>
+
+</td>
+<td class="definition">
+
+[工程](#process)の[共通原因](#common-cause)変動を定量化する研究。
+[能力調査](#capability-study)も参照のこと。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="proctor-survey" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">proctor survey</span>
+<span id="監督付き調査" class="term-jp">監督付き調査</span>
+
+</td>
+<td class="definition">
+
+[調査](#survey)を実施する方法として、回答者を監督者が出席する部屋に配置する。
+監督者付き調査は回答者の回答の[機密性](#confidentiality)を保持しつつ、十分な行政体制を提供し、高い回答率を確保できるようにする。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="prospective" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">prospective</span>
+<span id="前向き研究" class="term-jp">前向き研究</span>
+
+</td>
+<td class="definition">
+
+[標本](#sample)選択および調査対象のすべての現象が、研究開始後に行われる非実験的研究の一種。
+[PDC](#PDC)も参照のこと。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="proxy" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">proxy</span>
+<span id="代理" class="term-jp">代理</span>
+
+</td>
+<td class="definition">
+
+[特徴付け](#characterization)において、別の変数を置き換えるために使用される変数は、[応答](#response)の場合は[測定](#metrology)が容易であり、あるいは[因子](#factor)の場合は操作しやすい。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="PTratio" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">PT-ratio</span>
+<span id="P/T比率" class="term-jp">P/T比率</span>
+
+</td>
+<td class="definition">
+
+[計測学](#metrology)において、製造状況に適用した場合の「精度‐許容」比。[精度](#precision)要素は通常、[測定誤差](#measurement-error)（[精度](#precision)、[再現性](#reproducibility)）の3[標準偏差](#sigma)の大きさであり、許容要素は通常、対応する半許容値であるUSL-(USL+LSL)/2で、USL（L）はそれぞれ上限（下限）の仕様限界を示す。
+新しい[計測学](#metrology)または工程開発プロジェクトの共通の目標は、P/T比を0.1にすることである。
+
   </td>
 </tr>  
+<tr><td></td><t
+d>
 
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+[ページの先頭へ戻る](#top)
 
+</td></td></tr>  
 
-
-  </td>
-  <td class="definition">
-
-  
-  </td>
-</tr>  
 </table>
 
 ---
