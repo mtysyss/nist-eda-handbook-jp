@@ -1,6 +1,7 @@
 import html as html_lib
 import re
 import shutil
+import unicodedata
 from pathlib import Path
 import markdown
 
@@ -24,6 +25,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     th {{ background-color: #f6f8fa; }}
     img {{ display: block; max-width: min(600px, 100%); height: auto; margin: 16px auto; }}
     pre {{ background-color: #f6f8fa; padding: 12px; border-radius: 6px; overflow-x: auto; }}
+    h1, h2, h3, h4, h5 {{ scroll-margin-top: 16px; }}
   </style>
   <script>
     window.MathJax = {{
@@ -83,6 +85,15 @@ R_SCRIPT_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+def heading_slugify(value: str, separator: str = "-") -> str:
+    """日本語・英数字を保持しつつ、見出し用の安全なアンカーIDを生成する"""
+    value = unicodedata.normalize("NFKC", value)
+    # 記号類（句読点・括弧・スラッシュ等）を除去（英数字・日本語・ハイフン・アンダースコア・空白は残す）
+    value = re.sub(r"[^\w\s-]", "", value)
+    # 連続する空白やハイフンを separator に統一
+    value = re.sub(r"[-\s]+", separator, value).strip(separator)
+    return value.lower()
+
 def md_url_to_html(url: str) -> str:
     if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:', url):
         return url
@@ -129,8 +140,17 @@ def convert_md_to_html(md_text: str) -> str:
     protected = re.sub(r'\$\$.*?\$\$', lambda m: push_math(m.group(0)), md_text, flags=re.DOTALL)
     protected = re.sub(r'\$`([^`]+)`\$', lambda m: push_math(f"${m.group(1)}$"), protected)
 
-    # 2. Markdown → HTML 変換
-    html = markdown.markdown(protected, extensions=['tables', 'fenced_code'])
+    # 2. Markdown → HTML 変換（見出し1〜5階層に自動IDを付与）
+    html = markdown.markdown(
+        protected,
+        extensions=['tables', 'fenced_code', 'toc'],
+        extension_configs={
+            'toc': {
+                'toc_depth': '1-5',
+                'slugify': heading_slugify,
+            }
+        }
+    )
 
     # 3. 退避した数式を復元
     for idx, math_str in enumerate(math_blocks):
