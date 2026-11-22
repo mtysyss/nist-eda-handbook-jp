@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/howto.htm)  
 閲覧(UTC)：2026-11-17 00:00:00  
-[⬆️️️](README.md.md)
+[⬆️️️](index.md)
 
 ---
 
