@@ -23,7 +23,15 @@
 
 ---
 
+[計測学](#metrology)において、総[測定](MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
+
+[binomial distribution](docs/ch1_eda/section3/eda366i.md)
+
 <div id="A"></div>
+
+[計測学](#metrology)において、総[測定](MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
+
+[binomial distribution](docs/ch1_eda/section3/eda366i.md)
 
 ## [A]
 
@@ -220,6 +228,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
+
 <span id="binomial-distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
 [binomial distribution](docs/ch1_eda/section3/eda366i.md)
