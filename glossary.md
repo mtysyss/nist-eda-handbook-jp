@@ -1,3 +1,6 @@
+
+<div class="tex2jax_ignore" markdown="1">
+
 <div id="top"></div>  
 
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/glossary.htm)  
@@ -19,7 +22,7 @@
 
 ---
 
-[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [W](#W) [X](#X) [Y](#Y) [Z](#Z)
+[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [W](#W) [X](#X) [Y](#Y) [Z](: #Z)
 
 ---
 
@@ -3795,3 +3798,5 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 JIS Z 8110
 <span id="1">[1]: JIS Z 8101-2</span>
 <span id="2">[2]: JIS Z 8101-3</span>
+
+</div>
