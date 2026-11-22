@@ -19,10 +19,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <title>{title}</title>
   <style>
     body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.7; max-width: 1100px; margin: 0 auto; padding: 24px; color: #24292f; }}
-    table {{ border-collapse: collapse; width: auto; max-width: 100%; margin: 16px auto; }}
+    table {{ border-collapse: collapse; width: auto; margin: 16px 0; }}
     th, td {{ border: 1px solid #d0d7de; padding: 8px 12px; text-align: left; }}
     th {{ background-color: #f6f8fa; }}
-    img {{ display: block; max-width: 600px; height: auto; margin: 16px auto; }}
+    img {{ display: block; max-width: 100%; height: auto; margin: 16px auto; }}
     pre {{ background-color: #f6f8fa; padding: 12px; border-radius: 6px; overflow-x: auto; }}
   </style>
   <script>
