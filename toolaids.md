@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/toolaids/toolaids.htm)  
 閲覧(UTC)：2026-11-16 12:41:57  
-[⬆️️]{index.md)
+[⬆️️](index.md)
 
 ---
 
