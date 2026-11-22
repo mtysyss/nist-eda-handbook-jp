@@ -1,7 +1,3 @@
----
-mathjax: false
----
-
 <div id="top"></div>  
 
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/glossary.htm)  
@@ -3387,7 +3383,7 @@ Salant と Dillman（1994）に従い、これらの誤差は[網羅誤差](#cov
 
 </td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
