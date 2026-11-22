@@ -10,6 +10,9 @@ permissions:
 
 jobs:
   build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +21,10 @@ jobs:
           python-version: '3.11'
       - run: pip install markdown
       - run: python scripts/build_site.py
-      - uses: actions/upload-pages-artifact@v3
+      - name: Check generated files
+        run: ls -la _site
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: '_site'
-      - uses: actions/deploy-pages@v4
+      - id: deployment
+        uses: actions/deploy-pages@v4
