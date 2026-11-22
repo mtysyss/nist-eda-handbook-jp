@@ -6,8 +6,10 @@ import markdown
 ROOT_DIR = Path(".")
 OUT_DIR = Path("_site")
 
-# ビルド対象とするルート直下のフォルダ（存在するものだけ処理）
-TARGET_DIRS = ["docs", "R_Fisures", "R_Sripts"]
+# ビルド対象とするルート直下のフォルダ（綴り揺れも含めて対応）
+TARGET_DIRS = ["docs", "R_Figures", "R_Scripts", "R_Fisures", "R_Sripts"]
+
+GITHUB_BLOB_BASE = "https://github.com/mtysyss/nist-eda-handbook-jp/blob/main"
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
@@ -41,6 +43,36 @@ def md_url_to_html(url: str) -> str:
         return url
     return re.sub(r'\.md(?=$|[?#])', '.html', url)
 
+def rewrite_yakuchu_links(html_after_yakuchu: str) -> str:
+    """#### 訳註 以降のHTML内にある R_Figures / R_Scripts リンクを GitHub blob URL へ変換"""
+    def replace_href(match):
+        prefix = match.group(1)   # <a ... href="
+        url = match.group(2)      # リンク先URL
+        quote = match.group(3)    # " または '
+
+        # すでに http(s):// で始まる場合、github.io の R_Scripts / R_Figures なら置換
+        gh_pages_match = re.match(
+            r'^https?://mtysyss\.github\.io/nist-eda-handbook-jp/(R_Fig(?:ures|sures)|R_Sc?ripts)(/.*)?$',
+            url
+        )
+        if gh_pages_match:
+            folder = "R_Figures" if gh_pages_match.group(1).startswith("R_Fi") else "R_Scripts"
+            rest = gh_pages_match.group(2) or ""
+            new_url = f"{GITHUB_BLOB_BASE}/{folder}{rest}"
+            return f'{prefix}{new_url}{quote} target="_blank" rel="noopener"'
+
+        # 相対パス（../R_Figures/... や ../../R_Scripts/... など）を検出
+        rel_match = re.match(r'^(?:\.\./)+?(R_Fig(?:ures|sures)|R_Sc?ripts)(/.*)?$', url)
+        if rel_match:
+            folder = "R_Figures" if rel_match.group(1).startswith("R_Fi") else "R_Scripts"
+            rest = rel_match.group(2) or ""
+            new_url = f"{GITHUB_BLOB_BASE}/{folder}{rest}"
+            return f'{prefix}{new_url}{quote} target="_blank" rel="noopener"'
+
+        return match.group(0)
+
+    return re.sub(r'(<a\s+[^>]*href=["\'])([^"\']+)(["\'])', replace_href, html_after_yakuchu)
+
 def convert_md_to_html(md_text: str) -> str:
     math_blocks = []
 
@@ -70,8 +102,17 @@ def convert_md_to_html(md_text: str) -> str:
         return re.sub(r'(?<!!)\[([^\]]+)\]\(([^)\s]+)\)', replace_md_link, t_html)
 
     html = re.sub(r'<table.*?>.*?</table>', fix_table_links, html, flags=re.DOTALL)
-    # 通常の <a> タグ内の相対 .md リンクも .html に統一
+
+    # 5. 通常の <a> タグ内の相対 .md リンクも .html に統一
     html = re.sub(r'(<a\s+[^>]*href=["\'])(?![a-zA-Z]+:)([^"\']+?)\.md([#?\'"])', r'\1\2.html\3', html)
+
+    # 6. <h4>訳註</h4> 以降のセクションに限定して R_Figures / R_Scripts リンクを GitHub blob へ変換
+    yakuchu_match = re.search(r'<h4[^>]*>\s*訳註\s*</h4>', html)
+    if yakuchu_match:
+        split_pos = yakuchu_match.start()
+        before = html[:split_pos]
+        after = html[split_pos:]
+        html = before + rewrite_yakuchu_links(after)
 
     return html
 
@@ -91,11 +132,10 @@ def build():
     for md_file in ROOT_DIR.glob("*.md"):
         dst_path = OUT_DIR / md_file.with_suffix(".html").name
         render_md_file(md_file, dst_path)
-        # README.md はトップページ index.html としても出力
         if md_file.name.lower() == "readme.md":
             render_md_file(md_file, OUT_DIR / "index.html")
 
-    # 2. docs, R_Fisures, R_Sripts フォルダ配下を構造維持したまま処理
+    # 2. docs, R_Figures, R_Scripts フォルダ配下を構造維持したまま処理
     for dir_name in TARGET_DIRS:
         src_dir = ROOT_DIR / dir_name
         if not src_dir.exists():
