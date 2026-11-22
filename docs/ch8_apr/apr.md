@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/apr/apr.htm)  
 閲覧(UTC)：2026-11-05 06:29:53  
-[⬅️](../../README.md)[➡️](section1/apr1.md)  
+[⬅️](../../index.md)[➡️](section1/apr1.md)  
 
 ---
 # 8. 製品の信頼性評価

@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/apr/section4/apr47.htm)  
 閲覧(UTC)：2026-11-05 06:41:13  
-[⬅️](apr46.md)[➡️](../../../README.md)  
+[⬅️](apr46.md)[➡️](../../../index.md)  
 
 8. [製品の信頼性の評価](../apr.md)  
 8.4. [信頼性データの分析](apr4.md)  

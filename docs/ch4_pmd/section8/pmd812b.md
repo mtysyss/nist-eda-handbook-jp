@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section8/pmd812b.htm)  
 閲覧(UTC)：2026-07-26 14:08:44  
-[⬅️](pmd812a.md)[➡️](../../../README.md)  
+[⬅️](pmd812a.md)[➡️](../../../index.md)  
 
 4. [工程のモデル化](../pmd.md)  
 4.8. [工程のモデル化に役立ついくつかの関数](pmd8.md)  

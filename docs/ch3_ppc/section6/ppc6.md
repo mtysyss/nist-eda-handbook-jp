@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/section6/ppc6.htm)  
 閲覧(UTC)：2026-07-05 16:09:04  
-[⬅️](../section5/ppc526.md)[➡️](../../../README.md)  
+[⬅️](../section5/ppc526.md)[➡️](../../../index.md)  
 
 3. [生産工程の特徴付け](../ppc.md)  
 

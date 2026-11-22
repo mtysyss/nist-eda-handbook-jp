@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm)  
 閲覧(UTC)：2026-10-17 02:06:00  
-[⬅️](../../README.md)[➡️](section1/pmc1.md)  
+[⬅️](../../index.md)[➡️](section1/pmc1.md)  
 
 ---
 # 6. 工程や製品の監視と管理

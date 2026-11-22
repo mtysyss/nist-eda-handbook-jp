@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ppc/ppc.htm)  
 閲覧(UTC)：2026-07-05 15:57:34  
-[⬅️](../../README.md)[➡️](section1/ppc1.md)  
+[⬅️](../../index.md)[➡️](section1/ppc1.md)  
 
 # 3. 生産工程の特徴付け
 本章の目的は、製造工程に関する<u>生産工程の特性付け研究</u>（PPC）を計画し、実施する方法を学ぶことである。

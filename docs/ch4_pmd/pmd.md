@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm)  
 閲覧(UTC)：2026-07-21 12:11:34  
-[⬅️](../../README.md)[➡️](section1/pmd1.md)  
+[⬅️](../../index.md)[➡️](section1/pmd1.md)  
 
 # 4. 工程のモデル化
 本章の目的は、特定の科学的もしくは工学的工程を記述する統計モデルの構築に必要な背景と具体的分析技法を示すことである。
