@@ -578,7 +578,7 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 </td>
 <td class="definition">
 
-[個別管理図](#individuals-chart)に対する[管理限界](#control-limits)の[頑健](#robust)な計算。
+[個別管理図](#individuals-chart)に対する[管理限界](#control-limits)の[頑健](#robust-methods)な計算。
 中心線は中央値で計算され、上限（下限）の[管理限界](#control-limits)は中心線の ±3.15倍の中央値移動範囲にある。
 Clifford は、手計算を削減するためにこの手法を最初に提案した。
 また、自動制御限界再計算にも優れた特性を有する。
