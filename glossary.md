@@ -23,15 +23,8 @@
 
 ---
 
-[計測学](#metrology)において、総[測定](MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
-
-[binomial distribution](docs/ch1_eda/section3/eda366i.md)
-
 <div id="A"></div>
 
-[計測学](#metrology)において、総[測定](MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
-
-[binomial distribution](docs/ch1_eda/section3/eda366i.md)
 
 ## [A]
 
@@ -47,6 +40,8 @@
   </td>
  
   <td class="definition">
+
+<a href="./glossary.md#metrology">計測学</a>において、総<a href="#MCA">測定</a><a href="#variation">変動</a>には、<a href="#precision">精度</a>（<a href="#reproducibility">再現性</a>）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。</p>
 
 [計測学](#metrology)において、総[測定](MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
 
