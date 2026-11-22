@@ -76,7 +76,7 @@ $$m_i=0.5^{(1/n)} \qquad i=n\ の場合$$
 #### 関連技法  
 [ヒストグラム](eda33e.md)  
 [確率プロット相関係数プロット（PPCC）](eda33n.md)   
-[ハザード・プロット](../../apr/section2/apr222.md)  
+[ハザード・プロット](../../ch8_apr/section2/apr222.md)  
 [分位数-分位数プロット](eda33o.md)  
 [Anderson-Darling 適合度検定](eda35e.md)   
 [カイ二乗適合度検定](eda35f.md)  

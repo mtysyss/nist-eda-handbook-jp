@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc24.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section2/pmc24.htm)  
 閲覧(UTC)：2026-10-17 02:08:03  
 [⬅️](pmc232.md)[➡️](pmc25.md)  
 
@@ -144,7 +144,7 @@ $$ \text{ASN} = n_1 P_1 + (n_1 + n_2)(1-P_1) = n_1 + n_2(1-P_1)  . $$
 下のグラフは、ASNと *p'* の関係を示したものである。 
 
 #### 2回抜取計画におけるASN曲線
-![Plot of Average Sample Number versus Lot Fraction Defective](https://www.itl.nist.gov/div898/handbook/pmc/section2/gifs/asn.gif)  
+![Plot of Average Sample Number versus Lot Fraction Defective](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section2/gifs/asn.gif)  
 
 ---
 #### 訳註

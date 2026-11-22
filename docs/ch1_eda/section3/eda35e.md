@@ -105,7 +105,7 @@ Anderson-Darling 検定は、以下の問いに答える。
 #### 関連技術
 [カイ二乗適合度検定](eda35f.md)  
 [Kolmogorov-Smirnov 検定](eda35g.md)  
-[Shapiro-Wilk 正規性検定](../../prc/section2/prc213.md)  
+[Shapiro-Wilk 正規性検定](../../ch7_prc/section2/prc213.md)  
 [確率プロット](probplot.md)  
 [相関係数プロット](ppccplot.md)  
 

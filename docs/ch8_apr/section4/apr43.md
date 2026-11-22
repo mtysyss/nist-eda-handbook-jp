@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/apr/section4/apr43.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch8_apr/section4/apr43.htm)  
 閲覧(UTC)：2026-11-05 06:39:41  
 [⬅️](apr423.md)[➡️](apr44.md)  
 
@@ -82,7 +82,7 @@ $$ \text{累積分布関数 } = W\left( 100000/(A \cdot A_{負荷}), \gamma, 1 \
 
 ここで、$`W(q, \gamma, \alpha)`$は、形状母数 $`\gamma`$およびスケール母数 $`\alpha`$ を持つ Weibull 分布関数である。
 
-本節の解析は、[Dataplotコード](https://www.itl.nist.gov/div898/handbook/apr/section4/apr43.dp)および[Rコード](https://www.itl.nist.gov/div898/handbook/apr/section4/apr43.r)の両方を使用して実装することができる。 
+本節の解析は、[Dataplotコード](https://www.itl.nist.gov/div898/handbook/ch8_apr/section4/apr43.dp)および[Rコード](https://www.itl.nist.gov/div898/handbook/ch8_apr/section4/apr43.r)の両方を使用して実装することができる。 
 
 ---
 #### 訳註

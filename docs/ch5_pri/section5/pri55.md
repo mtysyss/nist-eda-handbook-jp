@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section5/pri55.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri55.htm)  
 閲覧(UTC)：2026-08-09 15:57:24  
 [⬅️](pri545.md)[➡️](pri56.md)  
 
@@ -25,7 +25,7 @@
 
 #### 例の図解
 
-![Diagram illustrating the hierarchical structure of this example ](https://www.itl.nist.gov/div898/handbook/pri/section5/gifs/simplex8.gif)
+![Diagram illustrating the hierarchical structure of this example ](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/gifs/simplex8.gif)
 {: .text-center}
 
 **図5.15：階層型データ構造の例** 
@@ -298,7 +298,7 @@ Error (Subplot)                4
 
 #### 分割区画計画の図
 
-![Diagram of the strip-plot design for two process steps andthree factor variables](https://www.itl.nist.gov/div898/handbook/pri/section5/gifs/simplex9.gif)
+![Diagram of the strip-plot design for two process steps andthree factor variables](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/gifs/simplex9.gif)
 {: .text-center}
  
 **図5.16：2工程順、各工程に3要因がある帯区計画の図**

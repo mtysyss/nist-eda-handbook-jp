@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc26.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section2/pmc26.htm)  
 閲覧(UTC)：2026-10-17 02:08:45  
 [⬅️](pmc25.md)[➡️](pmc27.md)  
 
@@ -22,7 +22,7 @@
 
 #### 個ごと抜取りの図解
 
-![Diagram demonstrating item-by-item sequential sampling plan](https://www.itl.nist.gov/div898/handbook/pmc/section2/gifs/seqplan.gif) 
+![Diagram demonstrating item-by-item sequential sampling plan](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section2/gifs/seqplan.gif) 
 
 #### 逐次抜取りグラフの説明
 グラフには累積で観察された不良品数がプロットされている。

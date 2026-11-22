@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/pmc.htm)  
 閲覧(UTC)：2026-10-17 02:06:00  
 [⬅️](../../index.md)[➡️](section1/pmc1.md)  
 

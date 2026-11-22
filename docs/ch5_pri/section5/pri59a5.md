@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section5/pri59a5.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri59a5.htm)  
 閲覧(UTC)：2026-09-05 02:53:46  
 [⬅️](pri59a4.md)[➡️](pri59a6.md)  
 

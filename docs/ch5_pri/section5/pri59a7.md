@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section5/pri59a7.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri59a7.htm)  
 閲覧(UTC)：2026-09-05 02:53:55  
 [⬅️](pri59a6.md)[➡️](../section6/pri6.md)  
 
@@ -66,7 +66,7 @@ $$ X_1 = 1.5, X_3 = 1.3) $$
 （*X*<sub>1</sub> = 1.5、*X*<sub>3</sub> = 1.3）に対応する設定を決定するために以下の図を参照する。
 この図は、平均応答の散布図を模したもので、横軸に炉内温度（OT）、縦軸に急冷温度（QT）が示されている。 
 
-![diagram representing response averages at optimal contour]( https://www.itl.nist.gov/div898/handbook/pri/section5/dpmacros/2x2des7.gif)
+![diagram representing response averages at optimal contour]( https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/dpmacros/2x2des7.gif)
 {: .text-center}
 
 グラフ上の「X」は、最近接点」設定を表している。 

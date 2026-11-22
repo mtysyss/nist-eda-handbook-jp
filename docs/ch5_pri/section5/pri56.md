@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section5/pri56.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri56.htm)  
 閲覧(UTC)：2026-08-09 15:58:17  
 [⬅️](pri55.md)[➡️](pri57.md)  
 
@@ -39,7 +39,7 @@
 I1 = 「巻数」、I2 = 「線径」、I3 = 「鉄含有（％）」、E1 = 「温度」、E2 = 「電圧」とする。
 そして、I 用の 2<sup>3</sup> 計画「箱」を構築し、8角のそれぞれに、図 5.17 に示すように、E 用の 2<sup>2</sup> 計画「箱」を配置する。
  
-![Diagram of inner and outer arrays for robust design ](https://www.itl.nist.gov/div898/handbook/pri/section5/gifs/arnonf15.gif)
+![Diagram of inner and outer arrays for robust design ](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/gifs/arnonf15.gif)
 {: .text-center}
  
  **図5.17：ロバスト設計の内側 2<sup>3</sup> および外側 2<sup>2</sup> 配列<br>`I'は内側配列、`E'は外側配列** 
@@ -196,5 +196,5 @@ $4 \begin{align}
 ---
 #### 訳註  
 * ページ中のデータのリンク先は ソースページを維持し、NISTへのリンクになっています。
-* 原典7番目の「[Use contour plots to see inside the box](https://www.itl.nist.gov/div898/handbook/pri/section5/pri56.htm)」中、リンク「[example](https://www.itl.nist.gov/div898/handbook/pri/section4/pri453.htm)」は、NISTのサイトにはなく、リンクが間違っているようです。翻訳では、「[応答曲面モデルの例](../section4/pri473.md)」に変更しています。
+* 原典7番目の「[Use contour plots to see inside the box](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri56.htm)」中、リンク「[example](https://www.itl.nist.gov/div898/handbook/ch5_pri/section4/pri453.htm)」は、NISTのサイトにはなく、リンクが間違っているようです。翻訳では、「[応答曲面モデルの例](../section4/pri473.md)」に変更しています。
 [^1]: 見出しが長文のため、本文に移動しています。

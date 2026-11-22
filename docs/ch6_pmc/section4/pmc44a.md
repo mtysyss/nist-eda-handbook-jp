@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a.htm)  
 閲覧(UTC)：2026-10-17 02:19:27  
 [⬅️](pmc449.md)[➡️](pmc45.md)  
 
@@ -14,21 +14,21 @@
 この例では、[Box, Jenkins, and Reinsel (1994)](../section7/pmc7.md#Box,%20G.E.P.;%20G.M.) に掲載されている[系列G データ集合](https://www.itl.nist.gov/div898/handbook/datasets/G_SERIES.DAT)を用いた、季節性データに対する Box-Jenkins時系列分析を示している。
 144個の観測値のプロットを以下に示す。
 
-![Plot of Series G Data](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a_r01.gif)
+![Plot of Series G Data](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a_r01.gif)
 
 分散の変動は、自然対数変換を行うことで除去できる。
 
-![Plot of natural log of series G](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a_r02.gif)
+![Plot of natural log of series G](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a_r02.gif)
 
 次に、1次差分をとることで、時系列からトレンドを除去する。
 その結果得られた時系列を以下に示す。
 
-![Plot of first differences of the natural log of series G](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a_r03.gif)
+![Plot of first differences of the natural log of series G](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a_r03.gif)
 
 #### 季節性の自己相関プロットの分析
 適切なモデルを同定するために、時系列のACFをプロットする。
 
-![ACF plot of first differenced natural log series G](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a_r04.gif)
+![ACF plot of first differenced natural log series G](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a_r04.gif)
 
 もし、*n* 期間間隔のラグ、例えばラグ12 や 24で非常に大きな自己相関が観測される場合、それは周期性の証拠である。
 識別段階の目的は全体を通して自己相関を低減することであるため、その影響は除去する必要がある。
@@ -37,7 +37,7 @@
 
 自然対数変換、1次差分、および季節差分処理を施した系列Gのプロットを以下に示す。
 
-![Seasonal and first differenced natural log of series G](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a_r05.gif)
+![Seasonal and first differenced natural log of series G](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a_r05.gif)
 
 季節項の数が 1を超えることはめったにない。
 予測関数の形状が分かっている場合、あるいは予測関数に特定の形状を割り当てたい場合は、季節ARモデルまたは季節MAモデルに適した項の数を選択する。
@@ -47,7 +47,7 @@ BoxとJenkinsの著書『*Time Series Analysis Forecastingand Control*』（改�
 
 時系列Gの自然対数値に対する季節成分および1次差分後のACFプロットを以下に示す。
 
-![Autocorrelation plot after taking seasonal difference](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a_r06.gif)
+![Autocorrelation plot after taking seasonal difference](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a_r06.gif)
 
 プロットにはいくつかのスパイクが見られるが、ほとんどの自己相関はゼロ近くであり、季節MA(1)モデルが適切であることを示している。 
 
@@ -108,9 +108,9 @@ Box-Ljung検定の帰無仮説は棄却されなかったため、推定モデ�
       156    417.3149    477.5643    545.7760
 ```
 
-![Plot of forecasted values with 90 % confidence limits](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a_r07.gif)
+![Plot of forecasted values with 90 % confidence limits](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a_r07.gif)
 
-このページに掲載されているすべての分析結果は、[Rコード](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc44a.r)を使用して作成することができる。
+このページに掲載されているすべての分析結果は、[Rコード](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc44a.r)を使用して作成することができる。
 
 ---
 #### 訳註

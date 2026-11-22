@@ -58,7 +58,7 @@ Weibull プロットは、以下の質問に答えるために用いる。
 #### 関連技術
 Weibull [確率プロット](eda33m.md)  
 Weibull [PPCCプロット](eda33n.md)  
-[Weibull ハザードプロット](../../apr/section2/apr22.md)  
+[Weibull ハザードプロット](../../ch8_apr/section2/apr22.md)  
 
 Weibull 確率プロット（Weibull PPCCプロットと併用）、Weibull ・ハザード・プロットおよびWeibull プロットは、いずれもデータモデルとしてのWeibull 分布の妥当性を評価し、さらに形状、尺度または位置母数の推定を提供する類似の手法である。 
 Weibull ・ハザード・プロットとWeibull プロットは打切りデータ（Weibull 確率プロットでは扱えない）を扱うように設計されている。 

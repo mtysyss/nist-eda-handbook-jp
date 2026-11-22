@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section4/pri44.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section4/pri44.htm)  
 閲覧(UTC)：2026-08-09 15:49:57  
 [⬅️](pri43.md)[➡️](pri45.md)  
 
@@ -43,4 +43,4 @@
 
 ---
 #### 訳註
-* [原典](https://www.itl.nist.gov/div898/handbook/pri/section4/pri44.htm)では、「分散分析」に関するリンク（3章: section2/ppc222、7章: section4/prc42）は、リンク先がないかもしくは違うページにリンクされています。(2026-08-20確認)該当ページ節と考えられるリンクに変更しています。
+* [原典](https://www.itl.nist.gov/div898/handbook/ch5_pri/section4/pri44.htm)では、「分散分析」に関するリンク（3章: section2/ppc222、7章: section4/prc42）は、リンク先がないかもしくは違うページにリンクされています。(2026-08-20確認)該当ページ節と考えられるリンクに変更しています。

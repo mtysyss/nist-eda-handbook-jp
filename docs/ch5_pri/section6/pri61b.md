@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section6/pri61b.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section6/pri61b.htm)  
 閲覧(UTC)：2026-09-05 02:55:24  
 [⬅️](pri61a.md)[➡️](pri61c.md)  
 

@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd11.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section1/pmd11.htm)  
 閲覧(UTC)：2026-07-21 12:12:02  
 [⬅️](pmd1.md)[➡️](pmd12.md)  
 
@@ -26,7 +26,7 @@
 上記の例を用いて、工程のモデル化の定義を図示すると、次のようになる。
 
 #### 拡大画像は図をクリック
-![graphical depiction of process modeling](https://www.itl.nist.gov/div898/handbook/pmd/section1/plots/gipm1.gif)
+![graphical depiction of process modeling](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section1/plots/gipm1.gif)
 
 図の上段左のプロットは、わずかな偶然誤差を除いた決定論的温度でバラついている圧力データを示している。
 圧力と温度の関係は直線であるが、完全な直線とはなっていない。
@@ -43,14 +43,14 @@
 （図の右上にある2つのプロットの縦軸尺度の違いに、改めて注意する。）
 確率分布は、残りの無作為なばらつきを記述している。
 
-![](https://www.itl.nist.gov/div898/handbook/pmd/section1/plots/gipm2.r.gif)
+![](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section1/plots/gipm2.r.gif)
 
 #### 説明変数が複数ある例
 上記に示した工程のモデル化の例には説明変数が1つだけであるが、この概念は、説明変数が複数ある場合にも容易に拡張できる。
 以下の3次元透過図は、説明変数が2つある例を示している。
 説明変数が3つ以上の例も、これとまったく同様であるが、図示するのは困難である。
  
-![](https://www.itl.nist.gov/div898/handbook/pmd/section1/plots/gipm3.r.gif)
+![](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section1/plots/gipm3.r.gif)
 
 
 ---

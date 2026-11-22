@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section5/pri59a.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri59a.htm)  
 閲覧(UTC)：2026-09-05 02:52:53  
 [⬅️](pri599b.md)[➡️](pri59a1.md)  
 
@@ -94,7 +94,7 @@ DOE等高線図の作成に関して、以下の3点に留意する必要があ�
 #### 欠陥ばねのデータ・プロット
 欠陥ばねのデータ集合にDOE等高線図を適用すると、以下のプロットが得られる。
 
-![DOE contour plot for the defective springs data](https://www.itl.nist.gov/div898/handbook/pri/section5/gifs/contour.gif) {: .text-center}
+![DOE contour plot for the defective springs data](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/gifs/contour.gif) {: .text-center}
 
 #### 解釈の方法
 欠陥ばねデータに関するDOEの等高線図から、枠組み問題7つについて以下の点を示す。

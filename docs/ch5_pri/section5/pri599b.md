@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section5/pri599b.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri599b.htm)  
 閲覧(UTC)：2026-09-05 02:52:48  
 [⬅️](pri599a.md)[➡️](pri59a.md)  
 
@@ -15,7 +15,7 @@
 外挿は、[内挿](pri599b.md)と同様の方法で行われる。
 例えば、温度 *T* = 375、時間 *t* = 28 における予測値は、「X」で示される。
 
-![Graphical representation of the design with an extrapolated point](https://www.itl.nist.gov/div898/handbook/pri/section5/dpmacros/2x2des5.gif){: .text-center}
+![Graphical representation of the design with an extrapolated point](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/dpmacros/2x2des5.gif){: .text-center}
 
 これは、*X*<sub>1</sub> = +2.0 (T=375) および *X*<sub>2</sub> = +0.8 (t=28) の値を予測式
 
@@ -24,7 +24,7 @@ $$ \hat{Y} = 5 + 2 X_2 + X_1 $$
 により、予測値は 8.6 となる。
 したがって、次のようになる。
 
-![Graphical representation of the design with the predicted value for an extrapolated point](https://www.itl.nist.gov/div898/handbook/pri/section5/dpmacros/2x2des6.gif){: .text-center}
+![Graphical representation of the design with the predicted value for an extrapolated point](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/dpmacros/2x2des6.gif){: .text-center}
 
 #### 疑似データ
 モデル化によって得られた予測値は、実験を行わずに得られたデータ、すなわち疑似データと見なすことができる。

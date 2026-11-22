@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/apr/section2/apr25.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch8_apr/section2/apr25.htm)  
 閲覧(UTC)：2026-11-05 06:37:01  
 [⬅️](apr24.md)[➡️](../section3/apr3.md)  
 
@@ -95,7 +95,7 @@ $`RT`$ は600/250 = 2.4となる。
 これらの母数を用いると、*l* が 1/600 = 0.001667 未満となる確率は（おおよそ）50％、*λ* が 1/250 = 0.004 未満となる確率は 95％となる。
 （これらの確率は、形状係数 $`a= 2.863`$、尺度係数 $`b= 1522.46`$ を持つガンマ分布の 0.001667 および 0.004 の分位数に基づいている）。
 
-この例におけるガンマ分布の母数推定値は、[Rコード](https://www.itl.nist.gov/div898/handbook/apr/section2/apr25.r)を用いて計算することができる。
+この例におけるガンマ分布の母数推定値は、[Rコード](https://www.itl.nist.gov/div898/handbook/ch8_apr/section2/apr25.r)を用いて計算することができる。
 
 この例は[3節で](../section3/apr315.md#Example:Calculating%20a%20Bayesian%20Test%20Time)続き、そこでは 80％の信頼度で 500時間のMTBFを確認するために必要なベイズ検定時間を導出する。 
 

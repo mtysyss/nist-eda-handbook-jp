@@ -43,7 +43,7 @@
 #### EWMA管理図の例
 以下のEWMA管理図において、赤い点は測定値を表している。
 管理は、指数加重移動平均（曲線として示されている）によって行われ、この例では上側管理限界に近づいている。
-![EWMA control chart](https://www.itl.nist.gov/div898/handbook/pmc/section3/gifs/ewma.gif)  
+![EWMA control chart](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section3/gifs/ewma.gif)  
 
 #### 安定し、利用可能出なければならない工程管理用の人工物
 工程の偏りや長期変動を管理するための標準試験片は、測定対象となる作業負荷での測定対象物と同じ種類および形状でなければならない。

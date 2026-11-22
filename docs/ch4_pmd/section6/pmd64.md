@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section6/pmd64.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section6/pmd64.htm)  
 閲覧(UTC)：2026-07-26 14:06:42  
 [⬅️](pmd636.md)[➡️](pmd641.md)  
 
@@ -25,4 +25,4 @@
 
 ---
 #### 訳註
-* 見出しが [4.6 工程モデル化の事例研究](https://www.itl.nist.gov/div898/handbook/pmd/section6/pmd6.htm)と微妙に異なります。
+* 見出しが [4.6 工程モデル化の事例研究](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section6/pmd6.htm)と微妙に異なります。

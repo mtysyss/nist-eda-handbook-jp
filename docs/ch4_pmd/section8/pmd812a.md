@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section8/pmd812a.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/pmd812a.htm)  
 閲覧(UTC)：2026-07-26 14:08:41  
 [⬅️](pmd8129.md)[➡️](pmd812b.md)  
 
@@ -11,7 +11,7 @@
 
 # 4.8.1.2.10. 3次／3次有理関数
 
-![examples of cubic/cubic rational functions](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/r33p1.r.gif)
+![examples of cubic/cubic rational functions](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/r33p1.r.gif)
 
 |||  
 | :--- | :--------- |  
@@ -23,9 +23,9 @@
 | **特別な特徴** | 水平漸近線: <br>$`\displaystyle y = \beta_3 / \beta_6`$<br>垂直漸近線は次式の平方根にある。<br><br>$`\displaystyle 1 + \beta_4x + \beta_5x^2 + \beta_6x^3`$<br><br>特定の係数値に応じて、1、2、3 の根が存在する。3次多項式の根に対する明示的な解は複雑であり、ここでは示されていない。多くの数学および統計学のソフトウェア・プログラムは、多項式方程式の根を数値的に求めることができ、これらの根がどこにあるかを知る必要がある場合は、これらのプログラムのいずれかを使用することを推奨する。|  
 | **追加例** | |  
 
-![cubic/cubic rational function example 1](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/r33p2.r.gif)
+![cubic/cubic rational function example 1](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/r33p2.r.gif)
 
-![cubic/cubic rational function example 2](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/r33p3.r.gif)
+![cubic/cubic rational function example 2](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/r33p3.r.gif)
 
 ---
 #### 訳註

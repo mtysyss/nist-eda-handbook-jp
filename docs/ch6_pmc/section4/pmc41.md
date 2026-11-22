@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc41.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc41.htm)  
 閲覧(UTC)：2026-10-17 02:14:12  
 [⬅️](pmc4.md)[➡️](pmc42.md)  
 

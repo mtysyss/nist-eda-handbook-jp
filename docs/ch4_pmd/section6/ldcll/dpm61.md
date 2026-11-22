@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section6/ldcll/dpm61.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section6/ldcll/dpm61.htm)  
 閲覧(UTC)：2026-07-26 14:03:05
 
 #### ソフトウェアを設定して、使い始める

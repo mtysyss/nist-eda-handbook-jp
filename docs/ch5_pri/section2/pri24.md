@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section2/pri24.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/pri24.htm)  
 閲覧(UTC)：2026-08-09 15:30:53  
 [⬅️](pri23.md)[➡️](../section3/pri3.md)  
 
@@ -45,7 +45,7 @@
 3. 点図表である。
 
 #### ヒストグラム
-![Sample histogram of residuals from a semiconductor process ](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/reshist.gif)
+![Sample histogram of residuals from a semiconductor process ](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/reshist.gif)
 
 ヒストグラムは、データを等間隔のセルに配置し、各セルの頻度をセルの中心に対してプロットして得られる頻度図である。
 図2.2は、校正工程のモデルで作成した残差の近似的な正規分布を示している。
@@ -71,7 +71,7 @@ $$P(i\text{番目の残差}) = i/(N+1)$$
 #### 点図表を重ね合わせた正規確率プロットの例
 以下の図2.3は、図2.2で使用したものと同じ残差の群から作成した正規確率グラフを示している。
 
-![Sample normal probability plot](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/normprob.gif)
+![Sample normal probability plot](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/normprob.gif)
 
 このグラフには、点図表を追加している。
 点図表とは、左側のy軸に沿って配置された点の集合のことである。
@@ -92,10 +92,10 @@ $$P(i\text{番目の残差}) = i/(N+1)$$
 これは[実行シーケンス・プロット](../../ch1_eda/section3/eda33p.md)と呼ばれる。
 
 #### 経時傾向を示す実行シーケンス・プロットの例
-![Run sequence plot that exhibits a time trend](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/restime1.gif)
+![Run sequence plot that exhibits a time trend](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/restime1.gif)
 
 #### 経時傾向を示さない実行シーケンス・プロットの例
-![Run sequence plot that exhibits no time trend](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/restime2.gif)
+![Run sequence plot that exhibits no time trend](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/restime2.gif)
 
 #### 実行シーケンス・プロット例の解釈
 図2.4の残差は時間傾向を示唆しているのに対し、図2.5には見られない。
@@ -115,10 +115,10 @@ $$P(i\text{番目の残差}) = i/(N+1)$$
 符号付き値の代わりに残差の絶対値をプロットすると、「くさび形」の分布が得られ、各グラフには傾向を示すのに役立つ平滑化関数が追加されている。
 
 #### 残差の増加を示す残差と値の散布図
-![Residuals versus fitted values plot showing increasing residuals](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/respred1.gif)
+![Residuals versus fitted values plot showing increasing residuals](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/respred1.gif)
 
 #### 残差の増加を示さない残差と適合値の散布図
-![Residuals versus fitted values plot that does not show increasing residuals](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/restime2.gif)
+![Residuals versus fitted values plot that does not show increasing residuals](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/restime2.gif)
 
 #### 残差対適合値プロットの解釈
 図2.6のような応答値が大きくなるにつれて絶対残差が大きくなる傾向を示す残差分布は、応答を変換すべきであることを示唆し、対数や平方根などでモデル化する（収縮変換）。
@@ -130,10 +130,10 @@ $$P(i\text{番目の残差}) = i/(N+1)$$
 **要因設定条件に依存しない残差**
 
 #### 残差と要因設定の散布図
-![Sample residuals versus factor setting plot](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/resx1.gif)
+![Sample residuals versus factor setting plot](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/resx1.gif)
 
 #### 2次項を追加した残差と因子設定のプロット
-![Sample residuals versus factor setting plot after adding quadratic term](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/resx2.gif)
+![Sample residuals versus factor setting plot after adding quadratic term](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/resx2.gif)
 
 #### 残差と因子設定プロットの解釈
 図2.8は、残差の大きさが予測の設定関数に応じて変化したことを示している。
@@ -145,7 +145,7 @@ $$P(i\text{番目の残差}) = i/(N+1)$$
 曲率の存在を示す兆候として、これらのグラフには「しかめっ面」や「笑顔」に似た痕跡が見られる。
 
 #### 1つまたは複数の高次項を省いた、標本残差と因子設定の関係を示すプロット
-![Sample residuals versus factor setting plot lacking one or more higher-order terms](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/resx3.gif)
+![Sample residuals versus factor setting plot lacking one or more higher-order terms](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/resx3.gif)
 
 #### プロットの解釈
 図2.8および図2.9に示された例では、明らかに5水準の予測子が含まれている。

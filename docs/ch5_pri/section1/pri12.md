@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section1/pri12.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section1/pri12.htm)  
 閲覧(UTC)：2026-08-09 15:30:13  
 [⬅️](pri11.md)[➡️](pri13.md)  
 
@@ -95,7 +95,7 @@ DOEは、さまざまな状況で役立つ多目的ツールである。
 しかし、多くの場合、より良い出力を得るためには、複数の入力を試行錯誤しなければならない。
 [5.3.3.6節](../section3/pri336.md)の2次計画および[5.5.3節](../section5/pri53.md)の内容はこの種の用途に役立つ。
 
-![3-d graph of a response surface](https://www.itl.nist.gov/div898/handbook/pri/section1/gifs/image8dt.gif)
+![3-d graph of a response surface](https://www.itl.nist.gov/div898/handbook/ch5_pri/section1/gifs/image8dt.gif)
 
  **図1.1 工程応答曲面上の「最適点」への経路** 
 
@@ -114,14 +114,14 @@ DOEは、さまざまな状況で役立つ多目的ツールである。
 [5.5.3.1.4](../section5/pri5314.md)も参照のこと。 
 
 #### 変動が低減される前のデータのグラフ
-![Graph of data before variation reduced](https://www.itl.nist.gov/div898/handbook/pri/section1/gifs/contro2.gif)
+![Graph of data before variation reduced](https://www.itl.nist.gov/div898/handbook/ch5_pri/section1/gifs/contro2.gif)
 
 **図1.2 変動が低減される前の工程**
 
 工程の設定値（処方）を変更し、より「安定した」領域で稼働させ、ばらつきを低減できる可能性がある。 
 
 #### 工程のばらつきが低減された後のデータのグラフ
-![Graph of data after process variation reduced](https://www.itl.nist.gov/div898/handbook/pri/section1/gifs/control.gif)
+![Graph of data after process variation reduced](https://www.itl.nist.gov/div898/handbook/ch5_pri/section1/gifs/control.gif)
 
 **図1.3 変動が低減された後の工程**
 
@@ -157,7 +157,7 @@ DOEは、さまざまな状況で役立つ多目的ツールである。
 これを行うには、何らかの重み付けされた目的関数（「<u>望ましさ関数</u>」）を構築して最適化するか、あるいは以下に示すように、コンピュータ・プログラムによって生成された応答の等高線図を検討する。 
 
 #### 堆積速度と能力の等高線プロットの例
-![Contour plot of Deposition Rate and Capability (Cp)](https://www.itl.nist.gov/div898/handbook/pri/section1/gifs/fig514.gif)
+![Contour plot of Deposition Rate and Capability (Cp)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section1/gifs/fig514.gif)
 
 **図1.4　堆積速度と能力（Cp）の重ね合わせ等高線図**
 

@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc34.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section3/pmc34.htm)  
 閲覧(UTC)：2026-10-17 02:12:04  
 [⬅️](pmc332.md)[➡️](pmc341.md)  
 
@@ -27,7 +27,7 @@
 #### Hotelling 平均および分散管理図
 Hotelling の *T*<sup>2</sup> および $`T_d^2`$の座標系対の例を以下に示す。
 
-![Plots of Hotelling mean and dispersion control charts](https://www.itl.nist.gov/div898/handbook/pmc/section3/gifs/tsquare.gif) 
+![Plots of Hotelling mean and dispersion control charts](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section3/gifs/tsquare.gif) 
 
 #### Hotelling 管理図例の解釈
 各グラフは、4変数の平均値に関する 14回の連続測定結果を表している。

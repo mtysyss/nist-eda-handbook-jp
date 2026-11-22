@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section2/pmc27.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section2/pmc27.htm)  
 閲覧(UTC)：2026-10-17 02:09:10  
 [⬅️](pmc26.md)[➡️](../section3/pmc3.md)  
 
@@ -44,7 +44,7 @@ $$ \begin{align}
 #### スキップロット抜取計画の図解
 スキップロット抜取計画の図を以下に示す。
 
-![Plot illustrating a skip-lot sampling plan for f=0.25 and I=5](https://www.itl.nist.gov/div898/handbook/pmc/section2/gifs/skiplot.gif)
+![Plot illustrating a skip-lot sampling plan for f=0.25 and I=5](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section2/gifs/skiplot.gif)
 
 #### スキップロット抜取計画のASN
 スキップロット抜取計画の重要な特性の一つは、平均検査数（[ASN](pmc22.md#平均検査数)）である。
