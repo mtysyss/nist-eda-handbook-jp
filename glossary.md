@@ -41,9 +41,7 @@
  
   <td class="definition">
 
-<a href="./glossary.md#metrology">計測学</a>において、総<a href="#MCA">測定</a><a href="#variation">変動</a>には、<a href="#precision">精度</a>（<a href="#reproducibility">再現性</a>）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。</p>
-
-[計測学](#metrology)において、総[測定](MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
+[計測学](#metrology)において、総[測定](#MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
 
   </td>
 </tr>
@@ -167,13 +165,9 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 </td></tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -328,13 +322,9 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-</td></tr>
-
-
-</tbody></table>
 
 ---
 
@@ -874,14 +864,9 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td>
-</tr>
-
-</tbody></table>
 
 ---
 
@@ -930,7 +915,6 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 
 </td>
 </tr>
-
 
 
 <tr>
@@ -1072,14 +1056,9 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td>
-</tr>
-
-</tbody></table>
 
 ---
 
@@ -1164,13 +1143,9 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td>
-</tr></tbody></table>
 
 ---
 
@@ -1293,14 +1268,9 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td>
-</tr></tbody></table>
-
 
 ---
 
@@ -1388,13 +1358,9 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 </td>
 </tr>  
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -1457,13 +1423,9 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -1607,13 +1569,9 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
   </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -1626,7 +1584,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 <div id="K"></div>
 
-## [K]
+## [K]  
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
 <tbody><tr>
@@ -1647,14 +1605,9 @@ n 個の観測の実験では、クリギングは n × n 行列の逆行列を�
 
 </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -1777,13 +1730,9 @@ n 回の試行から構成される実験計画で、各[因子](#factor)は n �
 </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -1997,13 +1946,9 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -2131,14 +2076,9 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -2294,14 +2234,9 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -2562,13 +2497,9 @@ probability plot
 
   </td>
 </tr>  
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -2592,12 +2523,10 @@ probability plot
   </td>
 </tr>
 
-<tr><td></td><td>
+</tbody></table>
+
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-</tbody></table>
 
 ---
 
@@ -2855,14 +2784,9 @@ R管理図のRグラフにおいて、[合理的部分群](#rational-subgroup)�
   
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3380,14 +3304,9 @@ Salant と Dillman（1994）に従い、これらの誤差は[網羅誤差](#cov
 
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3546,14 +3465,9 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
 </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3578,14 +3492,9 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3642,14 +3551,9 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3671,14 +3575,9 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3738,14 +3637,9 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 
   </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3767,14 +3661,9 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 
 </td>
 </tr>
-
-<tr><td></td><td>
+</tbody></table>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>  
-
-</tbody></table>
 
 ---
 
@@ -3782,15 +3671,8 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 
 ## [Z]
 
-<table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tbody>
-<tr><td></td><td>
 
 [ページの先頭へ戻る](#top)
-
-</td></tr>
-
-</tbody></table>
 
 ---
 
