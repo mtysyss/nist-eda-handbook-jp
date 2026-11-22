@@ -1,6 +1,7 @@
+<div id="top"></div>
 閲覧(UTC)：2026-11-18 03:28:00  
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/#top)  
-[⬆️️](toolaids.md)
+[⬆](toolaids.md)
 
 ---
 
@@ -13,7 +14,7 @@
 
 ハイパーテキスト辞書へようこそ。
 これは工学統計から選択された用語を含んでいる。
-現在のテーマ領域には、[実験計画](#SDE)、[計測学](#metrology)、[調査](#survey)、アンケート、[統計的工程管理](#SPC)、そして[コンピュータ実験](#computer-expreiment)が含まれている。
+現在のテーマ領域には、[実験計画](#SDE)、[計測学](#metrology)、[調査](#survey)、アンケート、[統計的工程管理](#SPC)、そして[コンピュータ実験](#computer-experiment)が含まれている。
 
 ---
 
@@ -84,7 +85,7 @@
   <td class="definition">
 
 特に[コンピュータ実験](#computer-experiment)の分析において、製造における工程の予測分布を複数の[要因](#factor)それぞれに起因する構成要素、あるいは因子[交互作用](#interaction)の組合せに分解すること。</p>
-AMV が各[因子](#factor)について（通常は[ガウス](#Gaussian)分布）を仮定することに依存しているため、[分散分析](#ANOVA)と区別される。
+AMV が各[因子](#factor)について（通常は[ガウス](#Gaussian-distribution)分布）を仮定することに依存しているため、[分散分析](#ANOVA)と区別される。
 AMV は、通常[コンピュータ実験](#computer-experiment)に適用されるため、分散成分とは区別される。
   
   </td>
@@ -121,7 +122,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
   </td>
   <td class="definition">
 
-[特別な原因](#special-cause)の同義語である。</td>
+[特別な原因](#special-cause)の同義語である。
   
   </td>
 </tr>  
@@ -159,7 +160,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 [検査](#inspection)および是正による利益を考慮した結果、[顧客](#customers)に納品される不良品の平均水準。
 通常、ppmで報告される。
-[ハーン推定量](#Hahn-Estimate)も参照のこと。
+[ハーン推定量](#Hahn-Estimator)も参照のこと。
 
 </td></tr>
 
@@ -167,7 +168,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -197,7 +198,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 水平棒グラフでは、ラベルは自然に横向きに配置され、縦棒グラフよりも読みやすくなることにご留意する。
 最後に、推奨される実践として、軸を意味のある順序に配置することが推奨される。
 ラベル内の自然配列を使用するか、プロットされた値を順位付けするかのいずれかである。
-[パレート図](#Pareto)も参照。
+[パレート](#Pareto)図も参照。
 
 </td>
 
@@ -236,7 +237,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 二項分布は *n* と *p* の二つの母数に依存する。
 *n* は試行の総回数であり、各試行において、対象事象を観測できる確率は *p*、観測しない確率は 1‐*p* である。
 二項分布は、各試行の結果が他の試行と独立していると仮定し、観測された事象の総和を[モデル](#model)にしている。
-[Poisson(ポアソン)分布](#Poisson-distribution) とは異なり、二項分布は観測可能な[標本規模](#samplesize)である事象（イベント）の最大数 *n* を設定する。
+[Poisson(ポアソン)分布](#Poisson-distribution) とは異なり、二項分布は観測可能な[標本規模](#sample-size)である事象（イベント）の最大数 *n* を設定する。
 [超幾何](#hypergeometric-distribution)分布とは異なり、二項分布は計数事象が独立であると仮定する。
 
 </td>
@@ -316,8 +317,8 @@ Box-Benkhen 計画は 2つの部分から構成されている。</p>
 </td>
 <td class="definition">
 
-観測の小群に焦点を当てる手法で、特に[散布図行列](#scatter-plot-matrix)において、時には[ヒストグラム](#histogram)やその他のグラフ表示でも行われる。
-[散布図行列](#scatter-plot-matrix)において、ブラッシングは多変量データの可視化に役立つ。
+観測の小群に焦点を当てる手法で、特に[散布図行列](#scatterplot-matrix)において、時には[ヒストグラム](#histogram)やその他のグラフ表示でも行われる。
+[散布図行列](#scatterplot-matrix)において、ブラッシングは多変量データの可視化に役立つ。
 典型的なコンピュータ実装では、利用者がリアルタイムで小群を再定義できるようになります。
 
 </td>
@@ -415,7 +416,7 @@ AVG を[分布](#distribution)の平均またはそれに類似した典型値�
 [工程](#process)が少なくとも33回の異なる反復で繰り返される場合、[USL-LSL]/6 \* SIGMA と定義される Cp は、推定 Cp 値の約 ± 25% の 95% 信頼区間を持つ。
 この同じ原理は、Cpk の信頼区間について概ね成り立つ。
 <p>AMD技術報告書320に詳細が記載されている。</p>
-<p>代替手法は、特定の条件下で[標本規模](#samplesize)を小さくし、同等の[精度](#precision)を実現するために利用可能である。
+<p>代替手法は、特定の条件下で[標本規模](#sample-size)を小さくし、同等の[精度](#precision)を実現するために利用可能である。
 AMDの技術報告書326を参照のこと。</p>
 
 </td>
@@ -510,7 +511,7 @@ CE図、石川図、魚骨図とも呼ばれる。
 
 Box-Wilson または 星型複合計画としても知られています。3部構成の[実験計画](#SDE)：</p>
 
-1. [2水準完全または一部実施要因計画](#twol-evel-designs);</p>
+1. [2水準完全または一部実施要因計画](#two-level-designs);</p>
 2. 「星型」または各[因子](#factor)が高低[水準](#factor-level)に変動し、他のすべての因子が一定に保たれる軸点；</p>
 3. [中心点](#centerpoint)。</p>
 
@@ -519,7 +520,7 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 [回転性](#rotatable)を確保するために、正確な値が選択される。
 別の代替案として、星点を ±1 に制限することが考えられる。
 <p>中心複合計画は、反復実験や[ブロック化](#blocking)に対応できる点で、さらに魅力がある。
-[Box-Benkhen 計画](#Box-Benkhen-experiment)と比較のこと。</p>
+[Box-Benkhen 計画](#Box-Benkhen)と比較のこと。</p>
 
 </td>
 </tr>
@@ -628,7 +629,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 経験的実験と同様に、入力変数（[因子](#factor)）はシミュレータの出力（[応答](#response)）への影響を評価するために体系的に変更される。
 実証的実験とは異なり、シミュレータの[応答](#response)は[決定論的](#deterministic)であり、影響がある。
 コンピュータ実験は適切に中間水準の因子を持つことができ、特に実行回数の範囲はより野心的になることがある。
-さらに、[補間器](#interpolator)（特に[クリギング](#kriging")）に基づく[モデル化](#model)手法は、実行可能な手法として挙げられる。
+さらに、[補間器](#interpolator)（特に[クリギング](#kriging)）に基づく[モデル化](#model)手法は、実行可能な手法として挙げられる。
 適切な実践として、コンピュータ実験に[ラテン超方格](#LHC)を使用し、データ解析段階では[クリギング](#kriging)、[ニューラルネットワーク](#neural-network)、多変量適応回帰スプライン（MARS）などの高度なノンパラメトリック[モデル](#model)化手法を用いることが推奨される。
 コンピュータ実験手法の重要な応用は、[工程](#process)最適性を決定することと、[工程](#process)許容差を評価することである。
 
@@ -645,7 +646,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </span>
 <span id="信頼区間" class="term-jp">
 
-[信頼区間](eda/section3/eda352.md)
+[信頼区間](docs/ch1_eda/section3/eda352.md)
 
 </span>
 
@@ -847,7 +848,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="definition">
 
 累積和に基づく[管理図](#control-chart)で、時には「累積和」管理図とも呼ばれる。
-時刻 <i>t</i> に測定された値が <i>X</i>(<i>t</i>) の場合、累積和管理図では値 SUM{ <i>X</i>(<i>u</i>)</i>-target:<i>u</i>=1,2,...,<i>t </i>} をプロットする。
+時刻 <i>t</i> に測定された値が <i>X</i>(<i>t</i>) の場合、累積和管理図では値 SUM{ <i>X</i>(<i>u</i>)-target:<i>u</i>=1,2,...,<i>t </i>} をプロットする。
 累積和管理図は偏位に敏感であり、目標の上または下で系統的に実行される過程にも敏感である。
 これらは調整可能な過程に最も適しており、実際に大量に実行されている処方が1つだけの場合などである。
 これらの特性により、[EWMA管理図](#EWMA)に似ている。
@@ -864,7 +865,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </td>
 <td class="definition">
 
-事業の製品、情報、またはサービスを利用する組織。<p>
+事業の製品、情報、またはサービスを利用する組織。
 
 </td>
 </tr>
@@ -1062,7 +1063,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 <td class="definition">
 
 特定の範囲内の値を持つ観測を同じ範囲内の前の点より固定間隔の点としてプロットする[ヒストグラム](#histogram)の形態。
-観測回数が少ない場合に有用である。<p>
+観測回数が少ない場合に有用である。
 
 </td>
 </tr>
@@ -1148,7 +1149,7 @@ EWMA管理図は、現在の観測値と以前にプロットされた点の加�
 <i>λ</i> = 0.4は、すべての8[Western Electric 規則](#Western-Electric-rules)が有効な状態で約1の<i>λ</i>と等しい挙動を示す。
 <p>EWMA管理図は偏位に敏感であり、系統的に中心値がズレている時に実行される工程にも敏感である。
 対象が多数実行されている工程が1つだけである場合に最も有用である。
-これらの機能は[累積和管理図](#cusum-chart)と共通である。</p>
+これらの機能は[累積和管理図](#cusum)と共通である。</p>
 2. AMDでは、EWMA管理図でも最適な<i>λ</i>値の計算が可能である。
 AMDの実装は、現在の監視点の平均をプロットし、この平均を指定された[管理限界](#control-limits)と比較する。
 この点に関しては、[個別管理図](#individuals-chart)に似ている。
@@ -1157,6 +1158,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 これらは適切な[管理限界](#control-limits)と比較される。
 さらに、現在の観測値もプロットされ、適切な（例：[個別管理図](#individuals-chart)）[管理限界](#control-limits)と比較される。
 
+</td>
 </tr>
 
 <tr><td></td><td>
@@ -1177,7 +1179,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 <tbody><tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="facetoface" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">facetoface</span>
+<span id="face-to-face" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">face-to-face</span>
 <span id="対面調査" class="term-jp">対面調査</span>
 
 </td>
@@ -1321,7 +1323,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="Gaussiandistribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+<span id="Gaussian-distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
 [Gaussian distribution](docs/ch1_eda/section3/eda3661.md)
 
@@ -1335,7 +1337,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 </td>
 <td class="definition">
 
-[正規](#normal)分布を参照のこと。
+[正規](#normal-distribution)分布を参照のこと。
 
 </td>
 </tr>
@@ -1379,13 +1381,14 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 2. 観測された[分布](#distribution)の頻度を確率[モデル](#model)がどれほど近く再現するかを示すすべての指標。
 3. [R二乗](#R-squared)などの指標で、統計[モデル](#model)が観測値をどれだけ正確に予測するかを示す指標。
 
+</td>
 </tr>  
 
 <tr><td></td><td>
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -1454,7 +1457,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -1604,7 +1607,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -1638,13 +1641,14 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 これらの考えから、予測手法であるクリギングを形式化することができる。
 n 個の観測の実験では、クリギングは n × n 行列の逆行列を必要とし、n を大まかに使用するのは扱いにくい。
 
+</td>
 </tr>
 
 <tr><td></td><td>
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -1773,7 +1777,7 @@ n 回の試行から構成される実験計画で、各[因子](#factor)は n �
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -1810,11 +1814,11 @@ Salant と Dillman（1994）は、メール調査の回答率を向上させる�
 </td>
 <td class="definition">
 
-[後ろ向き](#retrospective)研究において、比較対象群を特定する方法。
+[後ろ向き](#retrospective-study)研究において、比較対象群を特定する方法。
 観測単位のマッチング・ペア：関心特性Aと迷惑効果B、C、...の両方を有する各ユニットと、関心特性Aを欠く別のユニットがあるが、B、C、...を共有する。低利回りのロット（関心対象は[収量](#yield)です）は、ほぼ同時期に開始された同じ製品の収量のあるロットと比較して、このようになっている。
-このようにマッチは、すべての利用可能なロットから「マッチ」を取る場合よりも、主要な因果差異（例えば、使用された特定の装備セットにおいて）に対してより[敏感](#sensitive)である。
+このようにマッチは、すべての利用可能なロットから「マッチ」を取る場合よりも、主要な因果差異（例えば、使用された特定の装備セットにおいて）に対してより[敏感](#sensitive-methods)である。
 マッチングは、共通性研究を実施する方法である。
-マッチングは、遡及的研究における一種の[ブロック](#block)化である。
+マッチングは、遡及的研究における一種の[ブロック](#blocking)化である。
 
 </td>
 </tr>
@@ -1892,7 +1896,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 モデルの未知の係数を以下の手順で決定する方法：</p>
 1. 未知の係数を変化させ、期待される[応答](#response)を記録して[コンピュータ実験](#computer-experiment)を実行する。
-2. [コンピュータ実験](#computer-experiment)の[応答](#response)を入力、[因子](#factor)を出力として、特に[ニューラルネットワーク](neural-network)の一般的な形態の[モデル](#model)を適合させる。
+2. [コンピュータ実験](#computer-experiment)の[応答](#response)を入力、[因子](#factor)を出力として、特に[ニューラルネットワーク](#neural-network)の一般的な形態の[モデル](#model)を適合させる。
 3. 入力を経験的に観測された値とした場合、この[モデル](#model)から得られる未知係数を出力として抽出する。
 
 </td>
@@ -1908,7 +1912,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 <td class="definition">
 
 [測定誤差](#measurement-error)のうち、[測定](#MCA)[工程](#process)の詳細に起因する部分。
-[調査](#survey)では、例えば、[対面](#face-to-face)、郵送、[電話](#telephone)などでアンケートを実施する。
+[調査](#survey)では、例えば、[対面](#face-to-face)、郵送、[電話](#telephone-survey)などでアンケートを実施する。
 これらの異なる手法は異なる結果をもたらすと認識されており、その程度において、これは方法誤差の例である。
 
 </td>
@@ -1993,7 +1997,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -2030,8 +2034,8 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 観測されていない変数の層を1つ以上仮定する、
 非常に柔軟な[モデル](#model)化手法である。
 各観測されていない変数は、前層の変数の線形関数であり（第一層は因子、すなわちモデル入力である）。
-次層への出力として、観測されていない各変数の出力は、ほぼ常に非線形関数、すなわち[ロジスティック関数](#logistic)によって変換される。
-ニューラル・ネットワークは、特に[実験](#SDE)規模が[クリギング](#kriging")を実務上不可能にする場合に、[コンピュータ実験](#computer-experiment)の解析に時折使用される。
+次層への出力として、観測されていない各変数の出力は、ほぼ常に非線形関数、すなわち[ロジスティック関数](#logistic-function)によって変換される。
+ニューラル・ネットワークは、特に[実験](#SDE)規模が[クリギング](#kriging)を実務上不可能にする場合に、[コンピュータ実験](#computer-experiment)の解析に時折使用される。
 
 </td>
 </tr>
@@ -2047,7 +2051,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 特に[実験](#SDE)においては、制御が困難であるか、しづらい[因子](#factor)や工程入力。
 誤差因子には、製品の使用条件（温度、試験条件、環境）も含まれる。
-通常、[制御因子](#controlfactor)とは区別される。
+通常、[制御因子](#control-factor)とは区別される。
 
 </td>
 </tr>
@@ -2100,12 +2104,12 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 <span id="normal-distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
-[normal distribution](docs/ch1_eda/section3/eda3661.htm)
+[normal distribution](docs/ch1_eda/section3/eda3661.md)
 
 </span>
 <span id="正規分布" class="term-jp">
 
-[正規分布](docs/ch1_eda/section3/eda3661.htm)
+[正規分布](docs/ch1_eda/section3/eda3661.md)
 
 </span>
 
@@ -2128,7 +2132,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -2163,7 +2167,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 </td>
 <td class="definition">
 
-[ヒストグラム](#histogram)、[チェックリスト](#checklist)、[パレート](#Pareto-analysis")図、[能力](#capability)指標、および[実験計画](#SDE)など、[工程](#process)の選択された特性を特徴付けることを目的とした手法で、[異常原因](#special-cause)を調査または補正するために制御アルゴリズムの起動すべき時期を必ずしも決定しない。
+[ヒストグラム](#histogram)、[チェックリスト](#checklist)、[パレート](#Pareto)図、[能力](#capability)指標、および[実験計画](#SDE)など、[工程](#process)の選択された特性を特徴付けることを目的とした手法で、[異常原因](#special-cause)を調査または補正するために制御アルゴリズムの起動すべき時期を必ずしも決定しない。
 
 </td>
 </tr>
@@ -2214,6 +2218,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
+
 <span id="optimal-design" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">optimal design</span>
 <span id="最適設計" class="term-jp">最適設計</span>
 </td>
@@ -2228,6 +2233,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
+
 <span id="optimum" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">optimum</span>
 <span id="最適" class="term-jp">最適</span>
 </td>
@@ -2241,6 +2247,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
+
 <span id="orthogonal-array" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">orthogonal array</span>
 <span id="直交配列" class="term-jp">直交配列</span>
 </td>
@@ -2261,7 +2268,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 <td class="definition">
 
 値が極めて極端で、データ集合の他の部分と一致していないように見える観測。
-工程監視では、外れ値が[突き止められる原因](#assignable)や[異常原因](#special-cause)が存在することを示す。
+工程監視では、外れ値が[突き止められる原因](#assignable-cause)や[異常原因](#special-cause)が存在することを示す。
 データ分析から特定の外れ値を削除することは、そうした一般的な原因が特定されたときに最も正当化しやすい。
 
 </td>
@@ -2269,6 +2276,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
+
 <span id="out-of-control" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">out of control</span>
 <span id="管理外れ" class="term-jp">管理外れ</span>
 </td>
@@ -2287,7 +2295,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -2322,7 +2330,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 <td class="definition">
 
 [調査](#survey)において、質問形式は回答をある程度構成するだけでなく、回答者が口頭で回答することも認める。
-[閉じた質問](#closeended)と[開かれた](#openended)質問のハイブリッドである。
+[閉じた質問](#close-ended-question)と[開かれた](#open-ended-question)質問のハイブリッドである。
 
 </td>
 </tr>
@@ -2375,12 +2383,12 @@ Sematech資格計画に関連している。
 
 <span id="population" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
-[population](docs/ech1_da/section3/eda35.md)
+[population](docs/ch1_eda/section3/eda35.md)
 
 </span>
 <span id="母集団" class="term-jp">
 
-[母集団](docs/ech1_da/section3/eda35.md)
+[母集団](docs/ch1_eda/section3/eda35.md)
 
 </span>
 
@@ -2405,7 +2413,7 @@ Sematech資格計画に関連している。
 1. [計測学](#metrology)において、[測定](#MCA)[工程](#process)の平均値に関する変動性。
 精度は通常、[精確さ](#accuracy)と区別される。
 精確性とは、測定[工程](#process)の真の値に対する変動性である。
-精度は、短期的な[変動](#variation)（[繰り返し性](#repeatability)）と長期的な[変動](#variation)（[再現性）](#reproducibility)にさらに分解することができる。</p>
+精度は、短期的な[変動](#variation)（[繰り返し性](#repeatability)）と長期的な[変動](#variation)（[再現性](#reproducibility)）にさらに分解することができる。</p>
 2. データが多いほど、知識がより多く、あるいは信頼区間が短くなるという一般的な概念を指す[曖昧な概念](#fuzzy-concepts)用語であり、すなわち、データが多いほど、回答や意思決定の精度が高くなる。
 
 </td>
@@ -2550,12 +2558,11 @@ probability plot
 
   </td>
 </tr>  
-<tr><td></td><t
-d>
+<tr><td></td><td>
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -2569,7 +2576,7 @@ d>
 <tbody><tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="questionnair-eerror" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">questionnaire error</span>
+<span id="questionnaire-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">questionnaire error</span>
 <span id="質問表の誤差" class="term-jp">質問表の誤差</span>
 
 </td>
@@ -2585,7 +2592,7 @@ d>
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 </tbody></table>
 
 ---
@@ -2595,7 +2602,6 @@ d>
 ## [R]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<table width="540" cellspacing="20">
 <tbody><tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
@@ -2617,12 +2623,12 @@ d>
 
 <span id="range" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
-[range](doc/ch1_eda/section3/eda356.md)
+[range](docs/ch1_eda/section3/eda356.md)
 
 </span>
 <span id="範囲" class="term-jp">
 
-[範囲](doc/ch1_eda/section3/eda356.md)
+[範囲](docs/ch1_eda/section3/eda356.md)
 
 </span>
 </td>
@@ -2643,7 +2649,7 @@ d>
 
 [工程](#process)を監視するために実施された複数の測定値、短期[変動](#variation)の大きさを含む。
 規模が2から6の合理的部分群が最も一般的。
-よく構成された合理的部分群は、SPC の最も[繊細な](#sensitive) Shewhart 管理図である X-bar-R（X-bar-S）管理図の基礎である。
+よく構成された合理的部分群は、SPC の最も[繊細な](#sensitive-methods) Shewhart 管理図である X-bar-R（X-bar-S）管理図の基礎である。
 
 </td>
 </tr>
@@ -2658,10 +2664,10 @@ d>
 <td class="definition">
 
 [範囲](#range)をプロットする[管理図](#control-chart)。
-[S管理図](#Schart)と同様に、R管理図は通常、工程の均一性や[測定精度](#precision)を[監視](#monitor-variable)するために使用される。
+[S管理図](#S-chart)と同様に、R管理図は通常、工程の均一性や[測定精度](#precision)を[監視](#monitor-variable)するために使用される。
 [合理的部分群](#rational-subgroup)での固定[標本規模](#sample-size)が強く推奨される。
 R管理図のRグラフにおいて、[合理的部分群](#rational-subgroup)の規模が2であるときの特別な[Western Electric規則](#Western-Electric-rules)のパターンがある。
-[合理的部分群](#rational-subgroup)の規模が9を超える場合、[効率](#efficiency)の観点から[S管理図](#Schart)はR管理図よりも優先される。
+[合理的部分群](#rational-subgroup)の規模が9を超える場合、[効率](#efficiency)の観点から[S管理図](#S-chart)はR管理図よりも優先される。
 
 </td>
 </tr>
@@ -2830,7 +2836,7 @@ R管理図のRグラフにおいて、[合理的部分群](#rational-subgroup)�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="Rsquared" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Rsquared</span>
+<span id="R-squared" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">R squared</span>
 <span id="R二乗" class="term-jp">R二乗</span>
 
 </td>
@@ -2838,7 +2844,7 @@ R管理図のRグラフにおいて、[合理的部分群](#rational-subgroup)�
 
 [モデル](#model)が導出されたデータを用いた予測[モデル](#model)の[不適合性](#lack-of-fit)の[統計](#statistic)。</p>
 1. R二乗は、1から以下の比率を引いたものとして計算される。
-<pre>総和\[ [モデル](#model)の二乗[残差](#residual) ]/<br>総和[ 平均の二乗偏差 ]</pre>
+<pre>総和[ [モデル](#model)の二乗[残差](#residual) ]/<br>総和[ 平均の二乗偏差 ]</pre>
 完全に適合した[モデルは](#model)、R二乗が1となる。</p>
 2. 後者の定義は、複雑な[モデル](#model)に対して適切以上の評価を与える欠陥がある。
 [モデル](#model)に価値がない場合の平均値をゼロにするために、R二乗調整がしばしば提案される。
@@ -2850,7 +2856,7 @@ R管理図のRグラフにおいて、[合理的部分群](#rational-subgroup)�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -3022,7 +3028,7 @@ x軸に第1変数を、y軸に第2変数をプロットした2つの変数のグ
 雑音が存在する場合や、標本が小さい場合でも現象の存在を検出できるデータ分析手法。
 機密手法は利用可能なデータを最も効率的に活用し、特に実験から得られるような小規模なデータ集合を分析する場合に有用である。
 感度の高い手法の古典的な例は平均である。
-基礎データが単一の[正規分布](#normal)またはガウス[分布](#distribution)から得られる場合、平均は[分布](#distribution)の中心を推定する最も感度の高い手法である。
+基礎データが単一の[正規分布](#normal-distribution)またはガウス[分布](#distribution)から得られる場合、平均は[分布](#distribution)の中心を推定する最も感度の高い手法である。
 
 </td>
 </tr>
@@ -3253,12 +3259,12 @@ x軸に第1変数を、y軸に第2変数をプロットした2つの変数のグ
 <td class="definition">
 
 石川薫による、以下の使いやすいツールの教材リスト：</p>
-1. [パレート図](#Pareto)と[棒グラフ](#bar-chart)
+1. [パレート](#Pareto)図と[棒グラフ](#bar-chart)
 2. [因果関係](#CEdiagram)および工程フロー図
 3. [層別化](#stratification),
 4. [チェックリスト](#checklist)、[幹葉図](#slplot)、そして[幹葉図付き時系列チャート](#digidot-chart)
 5. [ヒストグラム](#histogram)と[点図](#dot-plot)、
-6. 散布図](#scatter-plot)、および[散布図行列](#scatter-plot-matrix)、
+6. [散布図](#scatter-plot)、および[散布図行列](#scatterplot-matrix)、
 7. [傾向チャート](#trend-chart)と[管理図](#control-chart)。</p>
 
 石川は時間の経過とともにこのリストにわずかな変化を導入してきた。
@@ -3375,7 +3381,7 @@ Salant と Dillman（1994）に従い、これらの誤差は[網羅誤差](#cov
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </table>
 
@@ -3541,7 +3547,7 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -3573,7 +3579,7 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -3637,7 +3643,7 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -3666,7 +3672,7 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -3733,7 +3739,7 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -3762,7 +3768,7 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>  
+</td></tr>  
 
 </tbody></table>
 
@@ -3777,7 +3783,7 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 
 [ページの先頭へ戻る](#top)
 
-</td></td></tr>
+</td></tr>
 
 </tbody></table>
 
