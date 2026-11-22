@@ -1,5 +1,6 @@
-
-<div class="tex2jax_ignore" markdown="1">
+---
+mathjax: false
+---
 
 <div id="top"></div>  
 
@@ -3798,5 +3799,3 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 JIS Z 8110
 <span id="1">[1]: JIS Z 8101-2</span>
 <span id="2">[2]: JIS Z 8101-3</span>
-
-</div>
