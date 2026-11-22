@@ -3709,7 +3709,7 @@ y軸上の値を、x軸上で発生した時点または測定された時点に
 <td class="definition">
 
 [合理的部分群](#rational-subgroup)の平均（「Xバー」）と[標準偏差](#sigma)の両方をプロットする[管理図](#control-chart)。
-XバーS管理図は[X-bar-R管理図](#XbarRcharts)と完全に類似しているが、[範囲](#range)の役割は[標準偏差](#sigma)に置き換えられる。
+XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似しているが、[範囲](#range)の役割は[標準偏差](#sigma)に置き換えられる。
 [R管理図](#R-chart)が[S管理図](#S-chart)と比較すると、XバーS管理図は[XバーR管理図](#X-bar-R-chart)よりも[効率](#efficiency)的である。
 
 </td>
