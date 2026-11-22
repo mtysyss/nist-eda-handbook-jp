@@ -26,8 +26,8 @@
 14. [CD版電子ハンドブック](https://www.itl.nist.gov/div898/handbook/toolaids/cd.htm)
 15. [変更履歴（2003年6月のCD初回発行時点からの変更）](https://www.itl.nist.gov/div898/handbook/changes.htm)
   
-  ---
+---
   
-  #### 訳註
+#### 訳註
   
-  * 翻訳対象外ページは NISTの該当ページに飛びます。
+* 翻訳対象外ページは NISTの該当ページに飛びます。
