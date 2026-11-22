@@ -32,9 +32,8 @@
 
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-
+<tbody>
 <tr>
-
   <td class="headword" style="width: 15%; vertical-align: top;">
 
    <span id="accuracy" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">accuracy</span>
@@ -3783,6 +3782,7 @@ XバーS管理図は[XバーR管理図](#X-bar-R-chart)と完全に類似して�
 ## [Z]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody>
 <tr><td></td><td>
 
 [ページの先頭へ戻る](#top)
