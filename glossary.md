@@ -1,7 +1,8 @@
-<div id="top"></div>
+<div id="top"></div>  
+
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/glossary.htm)  
 閲覧(UTC)：2026-11-18 03:28:00  
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/#top)  
-[⬆](toolaids.md)
+[⬆️](toolaids.md)
 
 ---
 
