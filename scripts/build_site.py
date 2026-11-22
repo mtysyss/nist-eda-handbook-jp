@@ -22,7 +22,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     table {{ border-collapse: collapse; width: auto; max-width: 100%; margin: 16px auto; }}
     th, td {{ border: 1px solid #d0d7de; padding: 8px 12px; text-align: left; }}
     th {{ background-color: #f6f8fa; }}
-    img {{ display: block; max-width: 600px; height: auto; margin: 16px auto; }}
+    img {{ display: block; max-width: min(600px, 100%); height: auto; margin: 16px auto; }}
     pre {{ background-color: #f6f8fa; padding: 12px; border-radius: 6px; overflow-x: auto; }}
   </style>
   <script>
