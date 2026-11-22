@@ -3,8 +3,11 @@ import shutil
 from pathlib import Path
 import markdown
 
-SRC_DIR = Path("docs")
+ROOT_DIR = Path(".")
 OUT_DIR = Path("_site")
+
+# ビルド対象とするルート直下のフォルダ（存在するものだけ処理）
+TARGET_DIRS = ["docs", "R_Fisures", "R_Sripts"]
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
@@ -18,6 +21,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     th, td {{ border: 1px solid #d0d7de; padding: 8px 12px; text-align: left; }}
     th {{ background-color: #f6f8fa; }}
     img {{ max-width: 100%; height: auto; }}
+    pre {{ background-color: #f6f8fa; padding: 12px; border-radius: 6px; overflow-x: auto; }}
   </style>
   <script>
     window.MathJax = {{
@@ -71,26 +75,45 @@ def convert_md_to_html(md_text: str) -> str:
 
     return html
 
+def render_md_file(src_path: Path, dst_path: Path):
+    dst_path.parent.mkdir(parents=True, exist_ok=True)
+    md_text = src_path.read_text(encoding="utf-8")
+    body_html = convert_md_to_html(md_text)
+    full_html = HTML_TEMPLATE.format(title=src_path.stem, body=body_html)
+    dst_path.write_text(full_html, encoding="utf-8")
+
 def build():
     if OUT_DIR.exists():
         shutil.rmtree(OUT_DIR)
     OUT_DIR.mkdir(parents=True)
 
-    for src_path in SRC_DIR.rglob("*"):
-        rel_path = src_path.relative_to(SRC_DIR)
-        if src_path.is_dir():
-            (OUT_DIR / rel_path).mkdir(parents=True, exist_ok=True)
-        elif src_path.suffix.lower() == ".md":
-            dst_path = (OUT_DIR / rel_path).with_suffix(".html")
-            dst_path.parent.mkdir(parents=True, exist_ok=True)
-            md_text = src_path.read_text(encoding="utf-8")
-            body_html = convert_md_to_html(md_text)
-            full_html = HTML_TEMPLATE.format(title=src_path.stem, body=body_html)
-            dst_path.write_text(full_html, encoding="utf-8")
-        else:
-            dst_path = OUT_DIR / rel_path
-            dst_path.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(src_path, dst_path)
+    # 1. ルート直下の .md ファイルを変換
+    for md_file in ROOT_DIR.glob("*.md"):
+        dst_path = OUT_DIR / md_file.with_suffix(".html").name
+        render_md_file(md_file, dst_path)
+        # README.md はトップページ index.html としても出力
+        if md_file.name.lower() == "readme.md":
+            render_md_file(md_file, OUT_DIR / "index.html")
+
+    # 2. docs, R_Fisures, R_Sripts フォルダ配下を構造維持したまま処理
+    for dir_name in TARGET_DIRS:
+        src_dir = ROOT_DIR / dir_name
+        if not src_dir.exists():
+            continue
+
+        for src_path in src_dir.rglob("*"):
+            rel_path = src_path.relative_to(ROOT_DIR)
+            if src_path.is_dir():
+                (OUT_DIR / rel_path).mkdir(parents=True, exist_ok=True)
+            elif src_path.suffix.lower() == ".md":
+                dst_path = (OUT_DIR / rel_path).with_suffix(".html")
+                render_md_file(src_path, dst_path)
+                if src_path.name.lower() == "readme.md":
+                    render_md_file(src_path, dst_path.parent / "index.html")
+            else:
+                dst_path = OUT_DIR / rel_path
+                dst_path.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(src_path, dst_path)
 
 if __name__ == "__main__":
     build()
