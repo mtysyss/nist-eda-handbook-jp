@@ -20,3 +20,4 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 
 ---
 * 翻訳対象のページは、ページ表示上部のリンクBack/Nextと本文中のリンクで表示されるページです。
+* 
