@@ -1,5 +1,5 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/glossary.htm)  
 閲覧(UTC)：2026-11-18 03:28:00  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/#top)  
 [⬆️️](toolaids.md)
 
 ---
@@ -169,7 +169,7 @@ AMV は、通常[コンピュータ実験](#computer-experiment)に適用され�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -502,7 +502,7 @@ CE図、石川図、魚骨図とも呼ばれる。
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="CCD" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">CCD</span>
+<span id="CCD" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">central composite design</span>
 <span id="中心複合設計" class="term-jp">中心複合設計</span>
 
 </td>
@@ -519,7 +519,7 @@ Box-Wilson または 星型複合計画としても知られています。3部�
 [回転性](#rotatable)を確保するために、正確な値が選択される。
 別の代替案として、星点を ±1 に制限することが考えられる。
 <p>中心複合計画は、反復実験や[ブロック化](#blocking)に対応できる点で、さらに魅力がある。
-[Box-Benkhen 計画](#Box-Benkhen-design)と比較のこと。</p>
+[Box-Benkhen 計画](#Box-Benkhen-experiment)と比較のこと。</p>
 
 </td>
 </tr>
@@ -728,7 +728,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </td>
 <td class="definition">
 
-[実験](#SDE)または[前向き](#prospective)研究における観測の集合で、[実験](#SDE)の処理を受けないもの。
+[実験](#SDE)または[前向き研究](#prospective)における観測の集合で、[実験](#SDE)の処理を受けないもの。
 これらの観測は、（a）各実験処理の規模と重要性を評価する比較点として、（b）現在の観測と過去の観測履歴を比較するための現実確認として、（c）自然実験誤差を確立するためのデータ源として機能する。
 
 </td>
@@ -846,7 +846,7 @@ Clifford は、手計算を削減するためにこの手法を最初に提案�
 </td>
 <td class="definition">
 
-累積和に基づく[管理図](#control-chart)で、時には「cumsum」チャートとも呼ばれる。
+累積和に基づく[管理図](#control-chart)で、時には「累積和」管理図とも呼ばれる。
 時刻 <i>t</i> に測定された値が <i>X</i>(<i>t</i>) の場合、累積和管理図では値 SUM{ <i>X</i>(<i>u</i>)</i>-target:<i>u</i>=1,2,...,<i>t </i>} をプロットする。
 累積和管理図は偏位に敏感であり、目標の上または下で系統的に実行される過程にも敏感である。
 これらは調整可能な過程に最も適しており、実際に大量に実行されている処方が1つだけの場合などである。
@@ -1161,7 +1161,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 <tr><td></td><td>
 
-[ページの先頭へ戻る](glossary.htm)
+[ページの先頭へ戻る](#top)
 
 </td>
 </tr></tbody></table>
@@ -1387,7 +1387,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -1456,7 +1456,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -1606,7 +1606,7 @@ EWMA 部は、[Western Electric 規則](#Western-Electric-rules)の代わりに�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -1646,7 +1646,7 @@ n 個の観測の実験では、クリギングは n × n 行列の逆行列を�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -1775,7 +1775,7 @@ n 回の試行から構成される実験計画で、各[因子](#factor)は n �
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -1805,7 +1805,7 @@ Salant と Dillman（1994）は、メール調査の回答率を向上させる�
 <td class="headword" style="width: 15%; vertical-align: top;">
 
 <span id="matching" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">matching</span>
-<span id="マッチング" class="term-jp">マッチング</span>
+<span id="マッチング" class="term-jp">マッチング/対応付け</span>
 
 </td>
 <td class="definition">
@@ -1828,7 +1828,7 @@ Salant と Dillman（1994）は、メール調査の回答率を向上させる�
 </td>
 <td class="definition">
 
-測定能力の評価、あるいは測定能力の分析。[メトロロジー](#metrology)の[特性評価](#characterization)。
+測定能力の評価、あるいは測定能力の分析。[計測学](#metrology)の[特性評価](#characterization)。
 Sematech での定義は (a) [繰り返し性](#repeatability)、(b) [再現性](#reproducibility)に焦点を当てている。
 より広い定義では、（c）測定対象の現象の変化に対する[感度](#sensitivity)（そのような[感度](#sensitivity)が望ましい）と（d）測定対象の現象以外の特徴に対する[感度](#sensitivity)（そのような[感度](#sensitivity)は好ましくない）を評価する。
 
@@ -1995,7 +1995,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2070,7 +2070,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="nonresponse" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">nonresponse</span>
+<span id="non-response" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">non response</span>
 <span id="無回答" class="term-jp">無回答</span>
 
 </td>
@@ -2084,7 +2084,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="nonresponseerror" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">nonresponseerror</span>
+<span id="non-response-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">non response error</span>
 <span id="無回答誤差" class="term-jp">無回答誤差</span>
 
 </td>
@@ -2130,7 +2130,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2246,7 +2246,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 </td>
 <td class="definition">
 
-行と列から構成される表で、任意の列（[要因](#factor)）の対に対してすべての値（[水準](#factorlevel)）の組合せがあり、さらにすべての組合せが同じ回数出現するという特性を持つ。
+行と列から構成される表で、任意の列（[要因](#factor)）の対に対してすべての値（[水準](#factor-level)）の組合せがあり、さらにすべての組合せが同じ回数出現するという特性を持つ。
 
 </td>
 </tr>
@@ -2277,7 +2277,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 平均や範囲などの[統計](#statistic)が[管理限界](#control-limits)を超える場合、または[管理限界](#control-limits)内であってもその[統計](#statistic)に有意な傾向やパターンが現れる場合、[工程](#process)は管理外れとなる。
 管理外れであることは、[工程](#process)の本質的な性質ではなく、時間で範囲が設定された状態で定義される。
 類推により、任意の時点で、作業者が事故（管理外れ）に巻き込まれることも、関与しないこともある。
-[プロセスの](#process)本質的な性質は、作業者が安全な作業者であるか（管理外れ状態の頻度が過剰か）である。
+[工程](#process)の本質的な性質は、作業者が安全な作業者であるか（管理外れ状態の頻度が過剰か）である。
 後者を決定するには、本質的な安全性（[安定性](#stability)）は通常、長期間にわたる観察が必要であり。
 
   </td>
@@ -2289,7 +2289,7 @@ Salant と Dillman（1994）は、そのような測定誤差を手法、質問�
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2539,7 +2539,7 @@ probability plot
 <tr>
 <td class="headword" style="width: 15%; vertical-align: top;">
 
-<span id="PTratio" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">PT-ratio</span>
+<span id="PTratio" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">P/T ratio</span>
 <span id="P/T比率" class="term-jp">P/T比率</span>
 
 </td>
@@ -2557,7 +2557,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2566,28 +2566,18 @@ d>
 ## [Q]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="questionnair-eerror" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">questionnaire error</span>
+<span id="質問表の誤差" class="term-jp">質問表の誤差</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+調査において、[測定誤差](#measurement-error)のうち、アンケートの形式、構造、文言に起因する部分。
+[妥当性](#validity)にも詳細。
 
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
   </td>
 </tr>
 
@@ -2596,8 +2586,7 @@ d>
 [ページの先頭へ戻る](#top)
 
 </td></td></tr>  
-
-</table>
+</tbody></table>
 
 ---
 
@@ -2606,27 +2595,253 @@ d>
 ## [R]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<table width="540" cellspacing="20">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="randomization" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">randomization, scientific</span>
+<span id="無作為化、科学的" class="term-jp">無作為化、科学的</span>
+
+</td>
+<td class="definition">
+
+1. 実験材料を乱数表を用いて処置および処置順序に割り当てること。
+2. 乱数表の使用による観測単位の選択。
+科学的無作為化は、任意の割当てや選択、そして系統的な割当て（例：1〜12のウェハは処理A、13〜24は処理Bを受ける）とは区別される。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="range" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
+[range](doc/ch1_eda/section3/eda356.md)
 
-  </td>
-  <td class="definition">
+</span>
+<span id="範囲" class="term-jp">
 
+[範囲](doc/ch1_eda/section3/eda356.md)
 
-  
-  </td>
-</tr>  
+</span>
+</td>
+<td class="definition">
+
+特定の観測値の集合において、最高値と最低値の差。
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="rational-subgroup" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">rational subgroup</span>
+<span id="合理的部分群" class="term-jp">合理的部分群</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[工程](#process)を監視するために実施された複数の測定値、短期[変動](#variation)の大きさを含む。
+規模が2から6の合理的部分群が最も一般的。
+よく構成された合理的部分群は、SPC の最も[繊細な](#sensitive) Shewhart 管理図である X-bar-R（X-bar-S）管理図の基礎である。
 
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="R-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">R chart</span>
+<span id="R管理図" class="term-jp">R管理図</span>
+
+</td>
+<td class="definition">
+
+[範囲](#range)をプロットする[管理図](#control-chart)。
+[S管理図](#Schart)と同様に、R管理図は通常、工程の均一性や[測定精度](#precision)を[監視](#monitor-variable)するために使用される。
+[合理的部分群](#rational-subgroup)での固定[標本規模](#sample-size)が強く推奨される。
+R管理図のRグラフにおいて、[合理的部分群](#rational-subgroup)の規模が2であるときの特別な[Western Electric規則](#Western-Electric-rules)のパターンがある。
+[合理的部分群](#rational-subgroup)の規模が9を超える場合、[効率](#efficiency)の観点から[S管理図](#Schart)はR管理図よりも優先される。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="referencegroup" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">reference group</span>
+<span id="基準群" class="term-jp">基準群</span>
+
+</td>
+<td class="definition">
+研究において比較点として機能する、観測の集合、または観測可能な集合。
+基準群は[対照群](#control-group)と同様の機能を持つが、対照群とは異なり、意図的に無作為に構築されたという含意はない。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="repeatability" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">repeatability</span>
+<span id="繰り返し性" class="term-jp">繰り返し性</span>
+
+</td>
+<td class="definition">
+
+[計測学](#metrology)において、測定[精度](#precision)の要素は短期的な変動性であり、高度に制御された状況（例：同一の計測機器、同一の作業者、同一の設定、同一の環境環境など）で見出される。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="reproducibility" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">reproducibility</span>
+<span id="再現性" class="term-jp">再現性</span>
+
+</td>
+<td class="definition">
+
+[計測学](#metrology)において、総測定[精度](#precision)は、特に長期的に発生する変動性の要素や、測定機器間、実験室間などにおける変動性を含む。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="residual" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">residual</span>
+<span id="残差" class="term-jp">残差/残余</span>
+
+</td>
+<td class="definition">
+
+実際に観測された値と、[モデル](#model)から導出された予測または適合値との差。
+残差は、[モデル](#model)の[適合性の欠如](#lack-of-fit)に関する情報と、[測定](#MCA)[工程](#process)の実験誤差に関する情報の両方を提供する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="resolution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">resolution</span>
+<span id="分解能" class="term-jp">分解能</span>
+
+</td>
+<td class="definition">
+
+1. [実験計画](#SDE)において、特に[2水準計画](#two-level-designs)の場合、記号列<sup>[]</sup>の長さは最も短い交絡関係である。
+幾何学的に、計画分解能は1に[強度](#strength)を加えたものに相当する。</p>
+2. [計測学](#metrology)において、意味のある解釈が可能な[測定システム](#MCA)の有効数字の数。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="respondent-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">respondent error</span>
+<span id="回答者誤差" class="term-jp">回答者誤差</span>
+</td>
+<td class="definition">
+
+[調査](#survey)において、回答者が意図的または無意識に誤って回答することから生じる[測定誤差](#measurement-error)の構成要素。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="response" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">response</span>
+<span id="応答" class="term-jp">応答</span>
+
+</td>
+<td class="definition">
+
+[工程](#process)または[実験](#SDE)の測定された出力。
+回答は通常、計測ツールの選択に依存する。
+[実験](#SDE)計画においては、いくつかの回答が通常関心の対象となり、その選択は研究全体の目的と密接に結びついている。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="RSM" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">response surface model (RSM)</span>
+<span id="応答曲面モデル" class="term-jp">応答曲面モデル</span>
+
+</td>
+<td class="definition">
+
+複数の[因子](#factor)からなる多項式[モデル](#model)で、特に線形、二次、二次の交差積の項を含む。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="retrospective-study" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">retrospective study</span>
+<span id="後ろ向き研究" class="term-jp">後ろ向き研究</span>
+
+</td>
+<td class="definition">
+
+調査対象となったすべての現象が研究開始前に起こる、非実験的研究の一種。
+さらに、後ろ向き研究の[標本](#sample)は、通常、回答が取る価値に基づいて選択される。
+この後者の点は因果関係に関する特別な概念的課題を生み出し、比較標本（[対応付け](#matching)を参照）の構成は特に重要である。
+後ろ向き標本の利点は、将来起こりにくい、あるいは望ましくない現象を調査できる点にある。
+さらに、すべての主要な出来事が過去に起こるため、後ろ向き研究は経済的に実施できることが多い。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="robust-methods" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">robust methods</span>
+<span id="頑健な手法" class="term-jp">頑健な手法/ロバスト手法</span>
+
+</td>
+<td class="definition">
+
+頑健なデータ分析手法は、データのごく一部に対する極端な変化によって強く影響を受けず、[外れ値](#outliers)の存在によってその答えは大きく変わらない。
+頑健な手法の古典的な例は中央値である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+<span id="rotatable" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">rotatable</span>
+<span id="回転可能性" class="term-jp">回転可能性</span>
+</td>
+<td class="definition">
+
+[実験計画](#SDE)の特質は、全2次[モデル](#model)（[交互作用](#interaction)を含む）の項間の[相関](#correlation)を最小化し、他の項の重要性を考慮せずにいくつかの項を選択できるようにする。
+[応答曲面計画](#RSM)への[直交性](#orthogonal-array)の一般化。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="Rsquared" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Rsquared</span>
+<span id="R二乗" class="term-jp">R二乗</span>
+
+</td>
+<td class="definition">
+
+[モデル](#model)が導出されたデータを用いた予測[モデル](#model)の[不適合性](#lack-of-fit)の[統計](#statistic)。</p>
+1. R二乗は、1から以下の比率を引いたものとして計算される。
+<pre>総和\[ [モデル](#model)の二乗[残差](#residual) ]/<br>総和[ 平均の二乗偏差 ]</pre>
+完全に適合した[モデルは](#model)、R二乗が1となる。</p>
+2. 後者の定義は、複雑な[モデル](#model)に対して適切以上の評価を与える欠陥がある。
+[モデル](#model)に価値がない場合の平均値をゼロにするために、R二乗調整がしばしば提案される。
   
   </td>
 </tr>
@@ -2637,7 +2852,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2646,28 +2861,513 @@ d>
 ## [S]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-
-  
-  </td>
-</tr>  
+<tbody>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="sample" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
 
+[sample](docs/ch1_eda/section3/eda35.md)
 
-  </td>
-  <td class="definition">
+</span>
+<span id="標本" class="term-jp">
 
-  
+[標本](docs/ch1_eda/section3/eda35.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+1. 研究が観測対象とする観測単位（ウェハ、人物等）の集合。
+科学的[無作為](#randomization)化により標本を選択すると、対象となる[母集団](#population)に対して結論を一般化しやすくなる。[母集団](#population)の対義語。</p>
+2. 特定の特性に対して、実際に観測される測定値の集合。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sample-size" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sample size</span>
+<span id="標本規模" class="term-jp">標本規模</span>
+
+</td>
+<td class="definition">
+
+研究やその他の調査における、または予定されている観測の数。
+特定の標本規模を選択する時の主な考慮事項は</p>
+1. 特定の[精度](#precision)[水準](#factor-level)に関連付けられた値、
+2. 観測値を取得する費用、そして
+3. 利用可能な資源。</p>
+
+一般的な助言としての標本規模は、</p>
+1. 16、[分布](#distribution)の中心を平均からの推定
+2. 20、二つの測定間の[相関](#correlation)の推定
+3. 各グループあたり32、2グループ間の平均差の推定
+4. 50、[分布](#distribution)の[標準偏差](#sigma)の推定
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sample-frame" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sample frame</span>
+<span id="標本枠" class="term-jp">標本枠</span>
+
+</td>
+<td class="definition">
+
+標本抽出理論において、[標本](#sample)が抽出されるすべての単位の集合。
+標本枠は統計[母集団](#population)と同義ですが、特定の[母集団](#population)要素の列挙に関して、より技術的かつ正確な意味合いを持つ。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sampling-distribution" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sampling distribution</span>
+<span id="標本分布" class="term-jp">標本分布</span>
+
+</td>
+<td class="definition">
+
+要約量または[統計](#statistic)の分布。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sampling-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sampling error</span>
+<span id="標本抽出誤差" class="term-jp">標本抽出誤差</span>
+
+</td>
+<td class="definition">
+
+調査において、回答者（[標本](#sample)）の選定が[偏り](#bias)、結論を導くべき対象[集団](#population)が正確に表現されない場合に生じる誤差が生じる。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="scatter-plot" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[scatter plot](docs/ch1_eda/section3/eda33q.md)
+
+</span>
+<span id="散布図" class="term-jp">
+
+[散布図](docs/ch1_eda/section3/eda33q.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+x軸に第1変数を、y軸に第2変数をプロットした2つの変数のグラフ。
+散布図において、連続する対の点は連結していない。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="scatterplot-matrix" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">scatterplot matrix</span>
+<span id="散布図行列" class="term-jp">散布図行列</span>
+
+</td>
+<td class="definition">
+
+複数の変数のグラフで、対応する[散布図](#scatter-plot)に変数のすべての組をプロットする。
+その結果、これらの[散布図](#scatter-plot)は上三角行列の形で配置されている。
+この行列の任意の行において、すべてのプロットの y軸は常に同じ変数であり、任意の列では x軸も同じ変数である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="S-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">S chart</span>
+<span id="S管理図" class="term-jp">S管理図</span>
+
+</td>
+<td class="definition">
+
+[標準偏差](#sigma)をプロットする[管理図](#control-chart)。[R管理図](#R-chart)と同様に、S管理図は通常、工程の均一性や[測定精度](#precision)を[監視](#monitor-variable)するために使用される。
+[合理的部分群](#rational-subgroup)の[標本規模](#sample-size)を一定にすることが強く推奨される。
+[合理的部分群](#rational-subgroup)の規模が2のとき、S管理図に対する[Western Electric規則](#Western-Electric-rules)の特別な組がある。
+[合理的部分群](#rational-subgroup)の規模に関係なく、[効率](#efficiency)の観点から[S管理図](#S-chart)はR管理図よりも好まれるが、特に規模が9を超える場合は重要である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sensitive-methods" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sensitive methods</span>
+<span id="高感度法" class="term-jp">高感度法</span>
+
+</td>
+<td class="definition">
+
+雑音が存在する場合や、標本が小さい場合でも現象の存在を検出できるデータ分析手法。
+機密手法は利用可能なデータを最も効率的に活用し、特に実験から得られるような小規模なデータ集合を分析する場合に有用である。
+感度の高い手法の古典的な例は平均である。
+基礎データが単一の[正規分布](#normal)またはガウス[分布](#distribution)から得られる場合、平均は[分布](#distribution)の中心を推定する最も感度の高い手法である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sensitivity" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sensitivity</span>
+<span id="感度" class="term-jp">感度</span>
+
+</td>
+<td class="definition">
+
+[計測学](#metrology)において、平均測定値が真の値の変化に変わる比率。
+しばしば、変化率の単位として報告される。
+この用語は、[応答曲面](#RSM)モデルの解釈においても使用される。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sensitivity-study" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sensitivity study</span>
+<span id="感度研究" class="term-jp">感度研究</span>
+
+</td>
+<td class="definition">
+
+入力係数が1つ以上の望ましい出力特性にどれほど強く影響するかを特定する[工程](#process)の調査。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sequential-studies" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">sequential studies</span>
+<span id="逐次研究" class="term-jp">逐次研究</span>
+
+</td>
+<td class="definition">
+
+調査様式、特に[実験](#SDE)において、研究を複数の異なる段階に分割し、各段階の結果がその後の段階に影響を与えることが許容される調査様式。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="special-cause" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">special cause</span>
+<span id="異常原因" class="term-jp">異常原因</span>
+
+</td>
+<td class="definition">
+
+[変異](#variation)の要因が大きく、断続的または予測不可能であり、研究対象の[工程](#process)出力の個々の値の一部にのみ影響する。
+[突き止められる原因](#assignable-cause)とも呼ばれる。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="specification-limits" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">specification limits</span>
+<span id="仕様限界" class="term-jp">仕様限界</span>
+
+</td>
+<td class="definition">
+
+特定の特性に対する受入区間を定義する数値値。</td>
+
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="split" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">split</span>
+<span id="分割" class="term-jp">分割</span>
+
+</td>
+<td class="definition">
+
+同一の方法で処理された実験単位の群。
+例えば、2×2[要因実験](#factorial-experiment)では、4つの分割が行われる。
+24枚のウェハのロットに適用した場合、各「分割」に6枚のウェハが割り当てられる。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="stability" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">stability</span>
+<span id="安定性" class="term-jp">安定性</span>
+
+</td>
+<td class="definition">
+
+[工程](#process)の観測が単一の無作為な「白色雑音」[分布](#distribution)で表現できる程度であり、その分布では次の値の予測が[工程](#process)履歴を知ることによってでは改善されない。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="stable-process" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">stable process</span>
+<span id="安定したプロセス" class="term-jp">安定したプロセス</span>
+
+</td>
+<td class="definition">
+
+統計的に[管理](#in-control)状態にある[工程](#process)。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="sigma" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">
+
+[standard deviation](docs/ch1_eda/section3/eda356.md)
+
+</span>
+<span id="標準偏差" class="term-jp">
+
+[標準偏差](docs/ch1_eda/section3/eda356.md)
+
+</span>
+
+</td>
+<td class="definition">
+
+[分布](#distribution)の拡散または分散の尺度。
+それは、[分布](#distribution)平均からの平均二乗偏差の平方根を推定し、時には根平均平方根と呼ばれる。
+分散の測定項目すべての中で、標準偏差は正規分布データにおいて最も効率的である。
+また、[範囲](#range)とは異なり、[分布](#distribution)からデータが収集されるにつれて単一の値に収束する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="standard-error" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">standard error</span>
+<span id="標準誤差" class="term-jp">標準誤差</span>
+
+</td>
+<td class="definition">
+
+[統計](#statistic)量の[標本分布](#sampling-distribution)の[標準偏差](#sigma)。
+多くは[標本分布](#sampling-distribution)がほぼ[正規分布](#normal-distribution)であるため、±2標準誤差は通常、約95%の[信頼区間](#confidence-interval)である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="statistic" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">statistic</span>
+<span id="統計" class="term-jp">統計</span>
+
+</td>
+<td class="definition">
+
+[サンプル](#sample)データから算出された値。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="statistical-control" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">statistical control</span>
+<span id="統計的管理" class="term-jp">統計的管理</span>
+
+</td>
+<td class="definition">
+
+[共通原因](#common-cause)のみによって影響を受ける工程の状態。
+[管理下](#in-control)を参照のこと。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="SDE" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">statistical design of experiments (SDE)</span>
+<span id="実験の統計的計画（SDE）" class="term-jp">実験の統計的計画（SDE）</span>
+
+</td>
+<td class="definition">
+
+実験計画（DoE、DoX）とも呼ばれる。</p>
+1. 因子および分数因子設計、[応答曲面](#RSM)モデル化、分散分析手法を強調する実験設計理論。</p>
+2. この理論に基づく特定の実験。</p>
+3. 製品および[工程](#process)の効率的かつ徹底的な[特性付け](#characterization)や最適化を実現するための、科学的原理、実験設計戦略、[モデル](#model)構築および評価手法。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="SPC" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">statistical process control (SPC)</span>
+<span id="統計的工程管理（SPC）" class="term-jp">統計的工程管理（SPC）</span>
+
+</td>
+<td class="definition">
+
+統計的手法を用いてデータを情報に変換し、[工程](#process)の効率を文書化し、修正し、向上させること。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="SPC-tools" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">SPC tools</span>
+<span id="SPCツール" class="term-jp">SPCツール</span>
+
+</td>
+<td class="definition">
+
+石川薫による、以下の使いやすいツールの教材リスト：</p>
+1. [パレート図](#Pareto)と[棒グラフ](#bar-chart)
+2. [因果関係](#CEdiagram)および工程フロー図
+3. [層別化](#stratification),
+4. [チェックリスト](#checklist)、[幹葉図](#slplot)、そして[幹葉図付き時系列チャート](#digidot-chart)
+5. [ヒストグラム](#histogram)と[点図](#dot-plot)、
+6. 散布図](#scatter-plot)、および[散布図行列](#scatter-plot-matrix)、
+7. [傾向チャート](#trend-chart)と[管理図](#control-chart)。</p>
+
+石川は時間の経過とともにこのリストにわずかな変化を導入してきた。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="SQC" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">statistical quality control (SQC)</span>
+<span id="統計的品質管理（SQC）" class="term-jp">統計的品質管理（SQC）</span>
+
+</td>
+<td class="definition">
+
+要件の遵守を測定、監視、保証、文書化するために使用される統計的手法および手順。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="slplot" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">stem and leaf plot</span>
+<span id="幹葉図" class="term-jp">幹葉図</span>
+
+</td>
+<td class="definition">
+
+[チェックリスト](#checklist)の変種で、値を長さではなく、最も重要な桁の1つまたは複数の桁で区切りとして標示される。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="strata" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">strata</span>
+<span id="層" class="term-jp">層</span>
+
+</td>
+<td class="definition">
+
+階層の複数形。
+特に[調査](#survey)作業においては、対象となる[集団](#population)を定義する複数の小群。
+しばしば、標本計画は異なる層に合わせて変更される。
+特に、小規模で重要な層では、すべての要素を測定することが一般的である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="stratification" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">stratification</span>
+<span id="層別化" class="term-jp">層別化</span>
+
+</td>
+<td class="definition">
+
+1. SPC標本抽出において、[標本](#sample)が偶然に予想されるよりも体系的に広範である性質。
+2. 調査において、[標本](#sample)の体系的性質であり、一つまたは複数の[人口統計](#demographics)が[応答](#response)と関連付ける。
+3. 2 と同じ特性であるが、その特性は[標本枠](#sample-frame)（すなわち[母集団](#population)）に関連付けられている。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="strength" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">strength</span>
+<span id="強さ" class="term-jp">強さ</span>
+
+</td>
+<td class="definition">
+
+[直交配列](#orthogonal-array)に対して、<i>t </i>[因子](#factor)の任意部分集合が[完全実施要因](#factorial-experiment)設計であるような最大次元。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="survey" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">survey</span>
+<span id="調査" class="term-jp">調査</span>
+
+</td>
+<td class="definition">
+
+選択された個人に対して、固定された質問集を尋ねるデータ収集手法。
+主要な課題は、アンケートの作成、（理想的には[無作為](#randomization)に）[標本](#sample)選択、そして[無回答](#non-response)管理である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="survey-errors" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">survey errors</span>
+<span id="調査誤差" class="term-jp">調査誤差</span>
+
+</td>
+<td class="definition">
+
+[調査](#survey)における変動要因。
+Salant と Dillman（1994）に従い、これらの誤差は[網羅誤差](#coverage-error)、[標本誤差](#sampling-error)、[測定誤差](#measurement-error)、そして[無応答](#non-response-error)に分類できる。
+
   </td>
 </tr>
 
@@ -2686,29 +3386,155 @@ d>
 ## [T]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="target-value" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">target value</span>
+<span id="目標値" class="term-jp">目標値</span>
+
+</td>
+<td class="definition">
+
+母数または特性の理想的な値。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="telephone-survey" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">telephone survey</span>
+<span id="電話調査" class="term-jp">電話調査</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+回答者に電話で連絡を取る調査の実施方法。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="transformation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">transformation</span>
+<span id="変換" class="term-jp">変換</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[応答](#response)や[因子](#factor)を修正する関数で、通常は特定の[モデル](#model)をより適合させたり、解釈しやすくしたりすることを目的としている。
+最も一般的な変換は、変数を対数に置き換えること。
 
-  
-  </td>
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="trend-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">trend chart</span>
+<span id="傾向チャート" class="term-jp">傾向チャート</span>
+
+</td>
+<td class="definition">
+
+y軸上の値を、x軸上で発生した時点または測定された時点に対してプロットするグラフ。
+通常、プロットされた点は、時間順序を強調するために線で結ばれている。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="TSG" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">trouble shooting guide</span>
+<span id="不具合対応指針" class="term-jp">不具合対応指針</span>
+
+</td>
+<td class="definition">
+
+管理外れ状況が発生した時に適切な是正措置を定義する、事前に定義された行動計画。
+不具合対応指針は、[チェックリスト](#checklist)や意思決定フローチャートの形態を取ることがあり、紙媒体やコンピュータ・アプリケーションとして実装されることがある。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="TSGdetailed" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">troubleshooting guide, detailed</span>
+<span id="不具合対応指針、詳細" class="term-jp">不具合対応指針、詳細</span>
+
+</td>
+<td class="definition">
+
+不具合対応指針は、以下のときに詳細に記述化される</p>
+1. それ自体は自明ではない。
+2. それは、生産、技術、保守の節を含む。そして
+3. それは、その監視で指定された各[SPC規則](#Western-Electric-rules)の違反に対処する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="TSGnontrivial" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">troubleshooting guide, non-trivial</span>
+<span id="不具合対応指針、非自明" class="term-jp">不具合対応指針、非自明</span>
+
+</td>
+<td class="definition">
+
+不具合対応指針は、測定の品質以外の問題を確認する（a）場合、（b）支援を求める以外の対応を提供する場合、非自明である。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="TSGpreliminary" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">troubleshooting guide, preliminary</span>
+<span id="不具合対応指針、予備" class="term-jp">不具合対応指針、予備</span>
+
+</td>
+<td class="definition">
+
+予備的な不具合対応指針は、しばしば些細である。</p>
+1. それは測定の品質を確認することに重点を置いている。
+2. 支援を呼び出すことで問題を解決する。</p>
+
+さらに、予備的な不具合対応指針には、通常、[工程](#process)の監視や観測結果の記録、制御不能な点への対応に関する指針が含まれている。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="tweaking" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">tweaking</span>
+<span id="調整" class="term-jp">調整</span>
+
+</td>
+<td class="definition">
+
+[工程](#process)において、目標からの逸脱を補正するための日常的な調整の実践。
+[管理下](#in-control)にある[工程](#process)では、調整は実際に工程[変動](#variation)を増大させるため、推奨されない。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="two-level-designs" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">two level designs</span>
+<span id="2水準計画" class="term-jp">2水準計画</span>
+
+</td>
+<td class="definition">
+
+入力[因子](#factor)が2つの異なる値（2つの異なる[水準](#factor-level)）のみを取る[実験](#SDE)計画の種類。
+
+</td>
 </tr>
 
 <tr><td></td><td>
@@ -2717,7 +3543,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2726,28 +3552,20 @@ d>
 ## [U]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="uncertainty" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">uncertainty</span>
+<span id="不確かさ" class="term-jp">不確かさ</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+既知であるか、確率の定量的命題で結論付けられる、あるいはその定義の[曖昧な概念](#fuzzy-concepts)を指す用語。
+不確実性は通常、二つの側面から成る。</p>
+1. 観測に伴う実験的（すなわち観測的）誤差によって生じたもの、そして
+2. それは不完全なモデルの使用によって示唆される。
 
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
   </td>
 </tr>
 
@@ -2757,7 +3575,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2766,15 +3584,52 @@ d>
 ## [V]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="validity" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">validity</span>
+<span id="妥当性" class="term-jp">妥当性</span>
+
+</td>
+<td class="definition">
+
+アンケート開発理論において、妥当性とは、アンケートが測定対象と主張する内容をどれだけ正確に測定しているかの指標である。
+<u>内容妥当性</u>とは、質問が分野の専門家によってレビューされた際に適切かつ関連性があると判断される声明です。<u>同時妥当性</u>とは、アンケート結果がほぼ同時に実施された他の関連指標とどの程度関連しているかを指す。
+<u>内容妥当性</u>とは、測定が実際の内容をどの程度含むか、あるいは反映しているかを示す程度を指す（例）。
+測定された変数の英語文法試験における英語文法<u>予測妥当性</u>とは、測定が将来の挙動や予測対象となった結果をどの程度予測するかの程度である。
+[アンケート誤差](#questionnaire-error)も参照のこと。
+
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-  <span id="variation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">variation</span>
-  <span id="変動" class="term-jp">変動</span>
-  </td>
-  <td class="definition">
-  
-  [工程](#accuracy)の個々の出力間の違い。変異の原因は、<a href="#common1">共通原因</a>と<a href="#specialcause">特殊原因</a>という二つの主要なクラスに分類できます。<a href="3D&quot;#common1&quot;">共通原因</a>の変動は、しばしば<a href="#variancecomponents">分散要素</a>に分解されます。
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="variance-components" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">variance components</span>
+<span id="分散成分" class="term-jp">分散成分</span>
+
+</td>
+<td class="definition">
+
+分散成分は、異なる因果または標本母数に起因する総[共通原因](#common-cause)[変動](#variation)への寄与の推定値である。
+例として、総厚さの[変動](#variation)をガス、温度、電力などの変動からの寄与の合計として記述する。
+別の例として、電気係数の総[変動](#variation)をロット間変動、ウェハ間変動、ウェハ内変動、[測定誤差](#measurement-error)の合計として記述する。
+
+</td>
+</tr>
+
+<tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="variation" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">variation</span>
+<span id="ばらつき" class="term-jp">ばらつき</span>
+
+</td>
+<td class="definition">
+
+[工程](#process)の個々の出力間の違い。変異の原因は、[共通原因](#common-cause)と[異常原因](#special-cause)という二つの主な区分に分類できる。
+[共通原因](#common-cause)の変動は、しばしば[分散要素](#variance-components)に分解される。
+
   </td>
 </tr>
 
@@ -2784,7 +3639,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2793,28 +3648,17 @@ d>
 ## [W]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="Western-Electric-rules" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">Western Electric rules</span>
+<span id="ウェスタン・エレクトリック規則" class="term-jp">ウェスタン・エレクトリック規則</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+ほとんどの Shewhart管理図に適用できる一連の規則で、プロットされた点が、たとえそれが[管理限界](#control-limits)内であっても管理外れ状態を示す時点を定義する。
 
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
   </td>
 </tr>
 
@@ -2824,7 +3668,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2833,28 +3677,55 @@ d>
 ## [X]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
+
+<span id="X-bar-R-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">X-bar-R chart</span>
+<span id="XバーR管理図" class="term-jp">XバーR管理図</span>
+
+</td>
+<td class="definition">
+
+1. 平均（「Xバー」）と[合理的部分群](#rational-subgroup)の[範囲](#range)の両方をプロットする任意の[管理図](#control-chart)の組。
+慣例として、平均のプロットは[範囲](#range)のプロット上にあり、2つの x軸は[合理的部分群](#rational-subgroup)の順序を示し、整列している。</p>
+2. さらに、[範囲](#range)の中心線のみを基に平均の[管理限界](#control-limits)の幅を算出するアルゴリズム。
+このような手法は適切である
+    * 単一ウェハ工程,
+    * [合理的部分群](#rational-subgroup)が複数のウェハで構成される場合、そして
+    * [範囲](#range)がウェハ平均のみから計算される場合。
+    
+[XバーS管理図](#X-bar-S-chart)も参照のこと。
+
+</td>
+</tr>
+
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="X-bar-S-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">X-bar-S chart</span>
+<span id="XバーS管理図" class="term-jp">XバーS管理図</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[合理的部分群](#rational-subgroup)の平均（「Xバー」）と[標準偏差](#sigma)の両方をプロットする[管理図](#control-chart)。
+XバーS管理図は[X-bar-R管理図](#XbarRcharts)と完全に類似しているが、[範囲](#range)の役割は[標準偏差](#sigma)に置き換えられる。
+[R管理図](#R-chart)が[S管理図](#S-chart)と比較すると、XバーS管理図は[XバーR管理図](#X-bar-R-chart)よりも[効率](#efficiency)的である。
 
-
-  
-  </td>
-</tr>  
+</td>
+</tr>
 
 <tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="X-chart" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">X chart</span>
+<span id="X管理図" class="term-jp">X管理図</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[個別管理図](#individuals-chart)の同義語。
 
-  
   </td>
 </tr>
 
@@ -2864,7 +3735,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2873,29 +3744,18 @@ d>
 ## [Y]
 
 <table class="glossary" style="width: 540px; border-collapse: separate; border-spacing: 20px;">
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
+<tbody><tr>
+<td class="headword" style="width: 15%; vertical-align: top;">
 
+<span id="yield" class="term-en" style="display: block; margin-bottom: 6px; font-style: italic;">yield</span>
+<span id="収率" class="term-jp">収率</span>
 
+</td>
+<td class="definition">
 
-  </td>
-  <td class="definition">
+[検査](#inspection)基準を満たす部品数を提出された数で割ったもの。  
 
-
-  
-  </td>
-</tr>  
-
-<tr>
-  <td class="headword" style="width: 15%; vertical-align: top;">
-
-
-
-  </td>
-  <td class="definition">
-
-  
-  </td>
+</td>
 </tr>
 
 <tr><td></td><td>
@@ -2904,7 +3764,7 @@ d>
 
 </td></td></tr>  
 
-</table>
+</tbody></table>
 
 ---
 
@@ -2919,7 +3779,7 @@ d>
 
 </td></td></tr>
 
-</table>
+</tbody></table>
 
 ---
 
