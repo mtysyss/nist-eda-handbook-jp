@@ -6,7 +6,6 @@ import markdown
 SRC_DIR = Path("docs")
 OUT_DIR = Path("_site")
 
-# HTMLテンプレート（見やすいテーブルCSSとMathJaxを組み込み）
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -33,17 +32,21 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+def md_url_to_html(url: str) -> str:
+    if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:', url):
+        return url
+    return re.sub(r'\.md(?=$|[?#])', '.html', url)
+
 def convert_md_to_html(md_text: str) -> str:
     math_blocks = []
 
-    # 1. 数式（$$...$$ と $`...`$）をHTML変換前に退避して保護する
-    def save_math(match):
-        math_blocks.append(match.group(0))
+    def push_math(tex_str: str) -> str:
+        math_blocks.append(tex_str)
         return f"@@MATH_{len(math_blocks)-1}@@"
 
-    # ブロック数式 $$...$$ とインライン数式 $`...`$ を退避
-    protected = re.sub(r'\$\$.*?\$\$', save_math, md_text, flags=re.DOTALL)
-    protected = re.sub(r'\$`([^`]+)`\$', lambda m: save_math(re.match(r'.*', f"${m.group(1)}$")), protected)
+    # 1. ブロック数式 $$...$$ とインライン数式 $`...`$ をHTML変換前に退避
+    protected = re.sub(r'\$\$.*?\$\$', lambda m: push_math(m.group(0)), md_text, flags=re.DOTALL)
+    protected = re.sub(r'\$`([^`]+)`\$', lambda m: push_math(f"${m.group(1)}$"), protected)
 
     # 2. Markdown → HTML 変換
     html = markdown.markdown(protected, extensions=['tables', 'fenced_code'])
@@ -53,14 +56,14 @@ def convert_md_to_html(md_text: str) -> str:
         html = html.replace(f"@@MATH_{idx}@@", math_str)
 
     # 4. <table>内の [text](url) や .md リンクを <a> タグ & .html に変換
+    def replace_md_link(match):
+        text = match.group(1)
+        url = md_url_to_html(match.group(2))
+        return f'<a href="{url}">{text}</a>'
+
     def fix_table_links(table_match):
         t_html = table_match.group(0)
-        t_html = re.sub(
-            r'(?<!!)\[([^\]]+)\]\(([^)\s]+)\)',
-            lambda m: f'<a href="{re.sub(r"\.md(?=$|[?#])", ".html", m.group(2))}">{m.group(1)}</a>',
-            t_html
-        )
-        return t_html
+        return re.sub(r'(?<!!)\[([^\]]+)\]\(([^)\s]+)\)', replace_md_link, t_html)
 
     html = re.sub(r'<table.*?>.*?</table>', fix_table_links, html, flags=re.DOTALL)
     # 通常の <a> タグ内の相対 .md リンクも .html に統一
@@ -85,7 +88,6 @@ def build():
             full_html = HTML_TEMPLATE.format(title=src_path.stem, body=body_html)
             dst_path.write_text(full_html, encoding="utf-8")
         else:
-            # 画像やCSSなどはそのままコピー
             dst_path = OUT_DIR / rel_path
             dst_path.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src_path, dst_path)
