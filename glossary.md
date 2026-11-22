@@ -17,13 +17,13 @@ mathjax: false
 
 ---
 
-ハイパーテキスト辞書へようこそ。
+ハイパーテキスト辞書へようこそ。	
 これは工学統計から選択された用語を含んでいる。
 現在のテーマ領域には、[実験計画](#SDE)、[計測学](#metrology)、[調査](#survey)、アンケート、[統計的工程管理](#SPC)、そして[コンピュータ実験](#computer-experiment)が含まれている。
 
 ---
 
-[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [W](#W) [X](#X) [Y](#Y) [Z](: #Z)
+[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [W](#W) [X](#X) [Y](#Y) [Z](./glossary.md#Z)
 
 ---
 
@@ -44,7 +44,7 @@ mathjax: false
  
   <td class="definition">
 
-[計測学](#metrology)において、総[測定](#MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
+[計測学](./glossary.md#metrology)において、総[測定](./glossary.md#MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
 
   </td>
 </tr>
