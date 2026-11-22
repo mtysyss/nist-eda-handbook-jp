@@ -1,6 +1,6 @@
 <script>
 (function() {
-	  // すでにMathJaxが読み込まれている場合は再レンダリングのみ実行
+	  // 縺吶〒縺ｫMathJax縺瑚ｪｭ縺ｿ霎ｼ縺ｾ繧後※縺�繧句�ｴ蜷医�ｯ蜀阪Ξ繝ｳ繝�繝ｪ繝ｳ繧ｰ縺ｮ縺ｿ螳溯｡�
 	  if (window.MathJax) {
 	    if (window.MathJax.typeset) {
 	      window.MathJax.typeset();
@@ -10,11 +10,11 @@
 	    return;
 	  }
 
-	  // MathJaxの設定（$ や $$、\(、\[ を数式区切り文字として認識させる）
+	  // MathJax縺ｮ險ｭ螳夲ｼ�$ 繧� $$縲—(縲—[ 繧呈焚蠑丞玄蛻�繧頑枚蟄励→縺励※隱崎ｭ倥＆縺帙ｋ�ｼ�
 	  window.MathJax = {
 	    tex: {
-	      inlineMath: [['$`', '`$'],['$', '$'],['\(', '\)'], ['\\(', '\\)']],
-	      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+	      inlineMath: ['$`', '`$'],
+	      displayMath: ['$$', '$$'],
 	      processEscapes: true
 	    },
 	    options: {
@@ -23,7 +23,7 @@
 	    }
 	  };
 
-	  // MathJax v4 のスクリプトをCDNから動的に読み込み
+	  // MathJax v4 縺ｮ繧ｹ繧ｯ繝ｪ繝励ヨ繧辰DN縺九ｉ蜍慕噪縺ｫ隱ｭ縺ｿ霎ｼ縺ｿ
 	  var script = document.createElement('script');
 	  script.src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js";
 	  script.async = true;
