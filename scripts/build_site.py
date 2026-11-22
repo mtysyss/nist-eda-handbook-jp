@@ -1,3 +1,4 @@
+import html as html_lib
 import re
 import shutil
 from pathlib import Path
@@ -9,8 +10,7 @@ OUT_DIR = Path("_site")
 # ビルド対象とするルート直下のフォルダ（綴り揺れも含めて対応）
 TARGET_DIRS = ["docs", "R_Figures", "R_Scripts", "R_Fisures", "R_Sripts"]
 
-GITHUB_BLOB_BASE = "https://github.com/mtysyss/nist-eda-handbook-jp/blob/main"
-
+# メイン記事用のHTMLテンプレート
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -38,36 +38,81 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+# .R スクリプト閲覧用のHTMLテンプレート（シンタックスハイライト・コピーボタン付き）
+R_SCRIPT_TEMPLATE = """<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{filename}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/r.min.js"></script>
+  <style>
+    body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 1100px; margin: 0 auto; padding: 24px; color: #24292f; background-color: #ffffff; }}
+    .toolbar {{ display: flex; justify-content: space-between; align-items: center; background: #f6f8fa; border: 1px solid #d0d7de; border-bottom: none; border-radius: 6px 6px 0 0; padding: 10px 16px; }}
+    .filename {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-weight: 600; font-size: 14px; }}
+    .actions {{ display: flex; gap: 8px; }}
+    .btn {{ font-size: 13px; padding: 5px 12px; border: 1px solid #d0d7de; border-radius: 6px; background: #ffffff; color: #24292f; cursor: pointer; text-decoration: none; }}
+    .btn:hover {{ background: #f3f4f6; }}
+    pre {{ margin: 0; border: 1px solid #d0d7de; border-radius: 0 0 6px 6px; overflow-x: auto; }}
+    code.hljs {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13.5px; line-height: 1.55; padding: 16px; }}
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <span class="filename">{filename}</span>
+    <div class="actions">
+      <button class="btn" id="copy-btn" onclick="copyCode()">コードをコピー</button>
+      <a class="btn" href="{raw_filename}" download>ダウンロード (.R)</a>
+    </div>
+  </div>
+  <pre><code class="language-r" id="r-code">{escaped_code}</code></pre>
+  <script>
+    hljs.highlightAll();
+    function copyCode() {{
+      const code = document.getElementById('r-code').innerText;
+      navigator.clipboard.writeText(code).then(() => {{
+        const btn = document.getElementById('copy-btn');
+        btn.textContent = 'コピーしました';
+        setTimeout(() => {{ btn.textContent = 'コードをコピー'; }}, 2000);
+      }});
+    }}
+  </script>
+</body>
+</html>
+"""
+
 def md_url_to_html(url: str) -> str:
     if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:', url):
         return url
     return re.sub(r'\.md(?=$|[?#])', '.html', url)
 
 def rewrite_yakuchu_links(html_after_yakuchu: str) -> str:
-    """#### 訳註 以降のHTML内にある R_Figures / R_Scripts リンクを GitHub blob URL へ変換"""
+    """#### 訳註 以降のHTML内にある R_Figures / R_Scripts リンクを変換"""
     def replace_href(match):
         prefix = match.group(1)   # <a ... href="
         url = match.group(2)      # リンク先URL
         quote = match.group(3)    # " または '
 
-        # すでに http(s):// で始まる場合、github.io の R_Scripts / R_Figures なら置換
-        gh_pages_match = re.match(
-            r'^https?://mtysyss\.github\.io/nist-eda-handbook-jp/(R_Fig(?:ures|sures)|R_Sc?ripts)(/.*)?$',
+        # すでにGitHubのblob URLで書かれている R_Figures / R_Scripts を github.io の相対・直接リンクへ正規化
+        gh_blob_match = re.match(
+            r'^https?://github\.com/mtysyss/nist-eda-handbook-jp/blob/main/(R_Fig(?:ures|sures)|R_Sc?ripts)(/.*)$',
             url
         )
-        if gh_pages_match:
-            folder = "R_Figures" if gh_pages_match.group(1).startswith("R_Fi") else "R_Scripts"
-            rest = gh_pages_match.group(2) or ""
-            new_url = f"{GITHUB_BLOB_BASE}/{folder}{rest}"
+        if gh_blob_match:
+            folder = gh_blob_match.group(1)
+            rest = gh_blob_match.group(2)
+            url = f"https://mtysyss.github.io/nist-eda-handbook-jp/{folder}{rest}"
+
+        # R_Scripts 内の .R リンクは閲覧用HTML (.R.html) へ向け、別タブで開く
+        if re.search(r'(?:^|/)(?:R_Sc?ripts)/[^"\'#?]+\.R(?:$|[?#])', url, flags=re.IGNORECASE):
+            new_url = re.sub(r'(\.R)(?=$|[?#])', r'\1.html', url, flags=re.IGNORECASE)
             return f'{prefix}{new_url}{quote} target="_blank" rel="noopener"'
 
-        # 相対パス（../R_Figures/... や ../../R_Scripts/... など）を検出
-        rel_match = re.match(r'^(?:\.\./)+?(R_Fig(?:ures|sures)|R_Sc?ripts)(/.*)?$', url)
-        if rel_match:
-            folder = "R_Figures" if rel_match.group(1).startswith("R_Fi") else "R_Scripts"
-            rest = rel_match.group(2) or ""
-            new_url = f"{GITHUB_BLOB_BASE}/{folder}{rest}"
-            return f'{prefix}{new_url}{quote} target="_blank" rel="noopener"'
+        # R_Figures 内のファイルリンクは画像ファイルそのものを別タブで開く
+        if re.search(r'(?:^|/)(?:R_Fig(?:ures|sures))/', url, flags=re.IGNORECASE):
+            return f'{prefix}{url}{quote} target="_blank" rel="noopener"'
 
         return match.group(0)
 
@@ -106,7 +151,7 @@ def convert_md_to_html(md_text: str) -> str:
     # 5. 通常の <a> タグ内の相対 .md リンクも .html に統一
     html = re.sub(r'(<a\s+[^>]*href=["\'])(?![a-zA-Z]+:)([^"\']+?)\.md([#?\'"])', r'\1\2.html\3', html)
 
-    # 6. <h4>訳註</h4> 以降のセクションに限定して R_Figures / R_Scripts リンクを GitHub blob へ変換
+    # 6. <h4>訳註</h4> 以降のセクションに限定して R_Figures / R_Scripts リンクを変換
     yakuchu_match = re.search(r'<h4[^>]*>\s*訳註\s*</h4>', html)
     if yakuchu_match:
         split_pos = yakuchu_match.start()
@@ -122,6 +167,20 @@ def render_md_file(src_path: Path, dst_path: Path):
     body_html = convert_md_to_html(md_text)
     full_html = HTML_TEMPLATE.format(title=src_path.stem, body=body_html)
     dst_path.write_text(full_html, encoding="utf-8")
+
+def render_r_script_file(src_path: Path, dst_raw_path: Path):
+    """元の .R ファイルをコピーしつつ、閲覧用の .R.html を生成する"""
+    dst_raw_path.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src_path, dst_raw_path)
+
+    code_text = src_path.read_text(encoding="utf-8", errors="replace")
+    viewer_html = R_SCRIPT_TEMPLATE.format(
+        filename=src_path.name,
+        raw_filename=src_path.name,
+        escaped_code=html_lib.escape(code_text)
+    )
+    viewer_path = dst_raw_path.with_name(dst_raw_path.name + ".html")
+    viewer_path.write_text(viewer_html, encoding="utf-8")
 
 def build():
     if OUT_DIR.exists():
@@ -150,6 +209,8 @@ def build():
                 render_md_file(src_path, dst_path)
                 if src_path.name.lower() == "readme.md":
                     render_md_file(src_path, dst_path.parent / "index.html")
+            elif src_path.suffix.lower() == ".r" and dir_name in ("R_Scripts", "R_Sripts"):
+                render_r_script_file(src_path, OUT_DIR / rel_path)
             else:
                 dst_path = OUT_DIR / rel_path
                 dst_path.parent.mkdir(parents=True, exist_ok=True)
