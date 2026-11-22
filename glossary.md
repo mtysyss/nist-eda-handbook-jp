@@ -19,7 +19,7 @@
 
 ---
 
-[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [W](#W) [X](#X) [Y](#Y) [Z](./glossary.md#Z)
+[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [W](#W) [X](#X) [Y](#Y) [Z](#Z)
 
 ---
 
@@ -40,7 +40,7 @@
  
   <td class="definition">
 
-[計測学](./glossary.md#metrology)において、総[測定](./glossary.md#MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
+[計測学](#metrology)において、総[測定](MCA)[変動](#variation)には、[精度](#precision)（[再現性](#reproducibility)）だけでなく、測定値の平均と真値との系統的なオフセットも含まれる。
 
   </td>
 </tr>
