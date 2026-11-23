@@ -4,8 +4,8 @@
 
 ## 1. 原典について (Original Source)
 - **名称**: NIST/SEMATECH e-Handbook of Statistical Methods
-- **URL**: [https://www.itl.nist.gov](https://www.itl.nist.gov/div898/handbook/index.htm)
-- **クレジット**: Republished courtesy of the National Institute of Standards and Technology (NIST).
+- **URL**: [https://doi.org/10.18434/M32189](https://doi.org/10.18434/M32189)
+- **クレジット**: Translated and republished courtesy of the National Institute of Standards and Technology (NIST).
 
 ## 2. ライセンスと改変について (Licensing and Modifications)
 - 本プロジェクトの内容は、NISTのパブリックドメイン・ポリシーおよび二次利用許諾に基づき、日本語への翻訳および構成の調整を行っています。
@@ -13,7 +13,7 @@
 - 本プロジェクトは、NISTによって承認、推薦、または保証されたものではありません。
 
 ## 3. 非公式の明示 (Unofficial Status)
-- 本サイトは mtysyss が独自に運営するものであり、NISTの公式な日本語版ではありません。
+- 本サイトは PCC開発 代表 松吉 靖 が独自に運営するものであり、NISTの公式な日本語版ではありません。
 - 翻訳の正確性については細心の注意を払っていますが、解釈の相違がある場合は常に原文（英語）が優先されます。
 
 ## 4. 免責事項 (Disclaimer)

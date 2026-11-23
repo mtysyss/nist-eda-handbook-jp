@@ -260,11 +260,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }}
     .toc-list li.toc-h5 a.active {{ color: var(--accent); }}
 
-    /* 原典リンク・閲覧日時メタ情報 */
+    /* 原典リンク・閲覧日時・著作権表示メタ情報 */
     .source-meta {{
       font-size: 11.5px;
       color: var(--muted);
-      line-height: 1.5;
+      line-height: 1.65;
     }}
     .source-meta a {{
       color: var(--accent);
@@ -343,7 +343,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       border-collapse: collapse;
       width: auto;
       max-width: 100%;
-      margin: 0 auto; /* 中央揃え */
+      margin: 0 auto;
     }}
     th, td {{
       border: 1px solid var(--border);
@@ -352,7 +352,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       word-break: normal;
       overflow-wrap: break-word;
     }}
-    /* align属性が明示されていないセルのデフォルト左寄せ */
     th:not([align]), td:not([align]) {{
       text-align: left;
     }}
@@ -633,14 +632,7 @@ def rewrite_yakuchu_links(html_after_yakuchu: str) -> str:
     return re.sub(r'(<a\s+[^>]*href=["\'])([^"\']+)(["\'])', replace_href, html_after_yakuchu)
 
 def preprocess_markdown_tables(md_text: str) -> str:
-    """
-    Markdown変換前にテーブル関連の記述を正規化し、変換崩れを防ぐ:
-      1. Markdown表の直後（空行あり・なし両方）に続く {; .no-border-table} / {:. no-header-table} を
-         表行として誤パースされないよう空行を挟み、専用のマーカーコメントへ変換する
-      2. 生 <table>...</table> タグの前後に空行を補い、前後のMarkdown段落やリストと癒着して崩れるのを防ぐ
-    """
-    # 1. {; .no-border-table} や {:. no-header-table} の行を空行付きマーカーへ変換
-    #    （表の最終行の直後に空行なしで書かれていても、Python-Markdownが表のセルとして取り込まないようにする）
+    """Markdown変換前にテーブル関連の記述を正規化し、変換崩れを防ぐ"""
     md_text = re.sub(
         r'\n[ \t]*\{\s*[;:]\s*\.(no-border-table|no-header-table)\s*\}[ \t]*(?=\n|$)',
         lambda m: f'\n\n<!-- TABLE_ATTR:{m.group(1).lower()} -->\n',
@@ -648,7 +640,6 @@ def preprocess_markdown_tables(md_text: str) -> str:
         flags=re.IGNORECASE
     )
 
-    # 2. 生 <table>...</table> ブロックの前後に空行を保証（入れ子テーブルにも対応）
     def pad_raw_table(m):
         return f"\n\n{m.group(0).strip()}\n\n"
 
@@ -689,14 +680,7 @@ def count_table_columns(table_html: str) -> int:
     return len(cells)
 
 def process_body_tables(body_html: str) -> str:
-    """
-    本文内の全テーブルに対して以下を適用する:
-      1. 直後に続く <!-- TABLE_ATTR:... --> や {; .no-border-table} / {:. no-header-table} を検出してクラス付与
-      2. 子見出し(h4)にリンクがあり、かつ本文中に2つ目の <hr> がある場合、
-         その2つ目の <hr> 以降にある2列のテーブルへ equal-two-col クラスを付与
-      3. 全テーブルを中央揃え・横スクロール対応の <div class="table-wrap"> でラップ
-    """
-    # 1. マーカーコメントおよび万一残った属性文字列を直前の <table> に適用
+    """本文内の全テーブルに対して属性付与・2列等幅化・中央揃えラッパーを適用する"""
     attr_pattern = re.compile(
         r'(<table\b[^>]*>.*?</table>)\s*(?:<p>\s*)?(?:<!--\s*TABLE_ATTR:(no-border-table|no-header-table)\s*-->|\{\s*[;:]\s*\.(no-border-table|no-header-table)\s*\})(?:\s*</p>)?',
         flags=re.DOTALL | re.IGNORECASE
@@ -709,7 +693,6 @@ def process_body_tables(body_html: str) -> str:
 
     body_html = attr_pattern.sub(apply_table_attr, body_html)
 
-    # 2. 事例研究節内の「最初のページ子見出し(h4)にリンクがあり、2つ目の---(hr)以下にある2列の表」判定
     first_h4 = re.search(r'<h4\b[^>]*>(.*?)</h4>', body_html, flags=re.DOTALL | re.IGNORECASE)
     has_linked_h4 = bool(first_h4 and re.search(r'<a\b[^>]*href=', first_h4.group(1), flags=re.IGNORECASE))
 
@@ -728,7 +711,6 @@ def process_body_tables(body_html: str) -> str:
         after_hr = re.sub(r'<table\b[^>]*>.*?</table>', make_two_col_equal, after_hr, flags=re.DOTALL | re.IGNORECASE)
         body_html = before_hr + after_hr
 
-    # 3. 全テーブルを <div class="table-wrap"> で囲む（中央揃え + モバイル横スクロール両立）
     body_html = re.sub(
         r'(<table\b[^>]*>.*?</table>)',
         r'<div class="table-wrap">\1</div>',
@@ -784,6 +766,7 @@ def parse_top_navigation(nav_raw: str, nav_items_raw: list[tuple[str, str, str]]
     header_prev_next_html = "\n".join(v for v in arrow_slots.values() if v)
     drawer_prev_next_html = "\n".join(v for v in drawer_slots.values() if v)
 
+    # 原典リンク・閲覧(UTC)日時・著作権表示および免責事項リンクの組み立て
     orig_link_match = re.search(
         r'<a\s+[^>]*href=["\']https?://[^"\']+["\'][^>]*>.*?</a>',
         nav_raw,
@@ -800,13 +783,16 @@ def parse_top_navigation(nav_raw: str, nav_items_raw: list[tuple[str, str, str]]
     if utc_match:
         meta_lines.append(f"閲覧(UTC)：{html_lib.escape(utc_match.group(1).strip())}")
 
-    source_meta_block = ""
-    if meta_lines:
-        source_meta_block = (
-            '<div class="drawer-section source-meta">'
-            f'{"<br>".join(meta_lines)}'
-            '</div>'
-        )
+    # 原典・閲覧の次の行に「著作権表示および免責事項」へのリンクを追加
+    meta_lines.append(
+        '<a href="https://mtysyss.github.io/nist-eda-handbook-jp/NOTICE.html" target="_blank" rel="noopener">著作権表示および免責事項</a>'
+    )
+
+    source_meta_block = (
+        '<div class="drawer-section source-meta">'
+        f'{"<br>".join(meta_lines)}'
+        '</div>'
+    )
 
     chapter_tree_block = ""
     if nav_items_raw:
@@ -941,14 +927,14 @@ def convert_md_to_html(md_text: str, fallback_title: str, has_nav: bool = True) 
     else:
         working_md = md_text
 
-    # 2) #### 訳註 の直前にある --- をMarkdown段階で除去（HTML変換では不要なため）
+    # #### 訳註 の直前にある --- をMarkdown段階で除去
     working_md = re.sub(
         r'\n[ \t]*---+[ \t]*\n+(?=\s*####\s*訳註\b)',
         '\n\n',
         working_md
     )
 
-    # 1) テーブル直後の属性記法・生<table>前後の空行を正規化
+    # テーブル直後の属性記法・生<table>前後の空行を正規化
     working_md = preprocess_markdown_tables(working_md)
 
     # ブロック数式 $$...$$ とインライン数式 $`...`$ をHTML変換前に退避
@@ -970,7 +956,7 @@ def convert_md_to_html(md_text: str, fallback_title: str, has_nav: bool = True) 
     for idx, math_str in enumerate(math_blocks):
         html = html.replace(f"@@MATH_{idx}@@", math_str)
 
-    # 念のためHTML変換後も <h4>訳註</h4> 直前に <hr> が残っていれば除去
+    # HTML変換後も <h4>訳註</h4> 直前に <hr> が残っていれば除去
     html = re.sub(r'<hr\s*/?>\s*(?=<h4[^>]*>\s*訳註\s*</h4>)', '', html, flags=re.IGNORECASE)
 
     # <table>内の [text](url) や .md リンクを <a> タグ & .html に変換
