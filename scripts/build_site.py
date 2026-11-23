@@ -1,6 +1,7 @@
 import argparse
 import html as html_lib
 import http.server
+import os
 import re
 import shutil
 import socketserver
@@ -93,7 +94,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       min-width: 0;
     }}
 
-    /* 右寄せ：⬅️ ⬆️ ➡️ リンク */
+    /* 右寄せ：🏠 ⬅️ ⬆️ ➡️ リンク */
     .header-right {{
       display: flex;
       align-items: center;
@@ -165,13 +166,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       margin: 0 0 6px;
     }}
 
-    /* モバイル時のみダイアログ内に表示する「前へ・上へ・次へ」ナビ */
+    /* モバイル時のみダイアログ内に表示する「ホーム・前へ・上へ・次へ」ナビ */
     .drawer-prev-next {{
       display: flex;
+      flex-wrap: wrap;
       gap: 6px;
     }}
     .drawer-prev-next a {{
-      flex: 1;
+      flex: 1 1 auto;
       text-align: center;
       padding: 6px 6px;
       border: 1px solid var(--border);
@@ -179,7 +181,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       background: #ffffff;
       color: var(--accent);
       text-decoration: none;
-      font-size: 12.5px;
+      font-size: 12px;
       font-weight: 600;
       white-space: nowrap;
     }}
@@ -410,7 +412,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }}
     .back-to-top:hover {{ background: var(--surface); }}
 
-    /* === 幅が狭い時（860px以下）：戻る・上へ・進むリンクを隠し、目次ダイアログへ格納 === */
+    /* === 幅が狭い時（860px以下）：ホーム・戻る・上へ・進むリンクを隠し、目次ダイアログへ格納 === */
     @media (max-width: 860px) {{
       .header-right {{ display: none; }}
       html:not([data-no-sidebar="true"]) .mobile-toc-btn {{ display: inline-block; }}
@@ -742,14 +744,25 @@ def wrap_h4_sections(body_html: str) -> str:
 
     return "\n".join(parts)
 
-def parse_top_navigation(nav_raw: str, nav_items_raw: list[tuple[str, str, str]], page_title: str) -> tuple[str, str, str, str]:
+def parse_top_navigation(
+    nav_raw: str,
+    nav_items_raw: list[tuple[str, str, str]],
+    page_title: str,
+    home_rel_url: str | None = None
+) -> tuple[str, str, str, str]:
     """1つ目の <hr> より上のナビゲーション情報を解析する"""
-    if not nav_raw and not nav_items_raw:
+    if not nav_raw and not nav_items_raw and not home_rel_url:
         return "", "", "", ""
 
     all_links = re.findall(r'<a\s+[^>]*href=["\'][^"\']+["\'][^>]*>.*?</a>', nav_raw, flags=re.DOTALL)
-    arrow_slots = {"prev": None, "up": None, "next": None}
-    drawer_slots = {"prev": None, "up": None, "next": None}
+    arrow_slots = {"home": None, "prev": None, "up": None, "next": None}
+    drawer_slots = {"home": None, "prev": None, "up": None, "next": None}
+
+    # 一番左側にホームアイコン（index.html への相対リンク）を設置
+    if home_rel_url:
+        esc_home = html_lib.escape(home_rel_url)
+        arrow_slots["home"] = f'<a href="{esc_home}" title="ホーム (index.html)">🏠</a>'
+        drawer_slots["home"] = f'<a href="{esc_home}">🏠 ホーム</a>'
 
     for a_tag in all_links:
         label = re.sub(r'<[^>]+>', '', a_tag).strip()
@@ -765,6 +778,9 @@ def parse_top_navigation(nav_raw: str, nav_items_raw: list[tuple[str, str, str]]
 
     header_prev_next_html = "\n".join(v for v in arrow_slots.values() if v)
     drawer_prev_next_html = "\n".join(v for v in drawer_slots.values() if v)
+
+    if not nav_raw and not nav_items_raw:
+        return header_prev_next_html, drawer_prev_next_html, "", ""
 
     # 原典リンク・閲覧(UTC)日時・著作権表示および免責事項リンクの組み立て
     orig_link_match = re.search(
@@ -783,7 +799,6 @@ def parse_top_navigation(nav_raw: str, nav_items_raw: list[tuple[str, str, str]]
     if utc_match:
         meta_lines.append(f"閲覧(UTC)：{html_lib.escape(utc_match.group(1).strip())}")
 
-    # 原典・閲覧の次の行に「著作権表示および免責事項」へのリンクを追加
     meta_lines.append(
         '<a href="https://mtysyss.github.io/nist-eda-handbook-jp/NOTICE.html" target="_blank" rel="noopener">著作権表示および免責事項</a>'
     )
@@ -831,7 +846,8 @@ def build_layout_parts(
     html: str,
     has_nav: bool,
     nav_items_raw: list[tuple[str, str, str]],
-    fallback_title: str
+    fallback_title: str,
+    home_rel_url: str | None = None
 ) -> tuple[str, str, str, str, str, str, bool]:
     """index.md 以外のページは最初の <hr> で上部ナビゲーションと本文を分離する"""
     if has_nav:
@@ -853,7 +869,7 @@ def build_layout_parts(
         page_title = fallback_title
 
     header_prev_next, drawer_prev_next, chapter_tree_block, source_meta_block = parse_top_navigation(
-        nav_raw, nav_items_raw, page_title
+        nav_raw, nav_items_raw, page_title, home_rel_url=home_rel_url
     )
 
     has_h4 = bool(re.search(r'<h4\b', body_raw))
@@ -894,7 +910,12 @@ def build_layout_parts(
     body_html = wrap_h4_sections(body_html)
     return page_title, header_html, drawer_prev_next_block, chapter_tree_block, source_meta_block, body_html, has_sidebar
 
-def convert_md_to_html(md_text: str, fallback_title: str, has_nav: bool = True) -> tuple[str, str, str, str, str, str, bool]:
+def convert_md_to_html(
+    md_text: str,
+    fallback_title: str,
+    has_nav: bool = True,
+    home_rel_url: str | None = None
+) -> tuple[str, str, str, str, str, str, bool]:
     math_blocks = []
     nav_items_raw: list[tuple[str, str, str]] = []
 
@@ -979,7 +1000,7 @@ def convert_md_to_html(md_text: str, fallback_title: str, has_nav: bool = True) 
         after = html[split_pos:]
         html = before + rewrite_yakuchu_links(after)
 
-    return build_layout_parts(html, has_nav, nav_items_raw, fallback_title)
+    return build_layout_parts(html, has_nav, nav_items_raw, fallback_title, home_rel_url=home_rel_url)
 
 def render_r_script_file(src_path: Path, dst_raw_path: Path):
     """元の .R ファイルをコピーしつつ、閲覧用の .R.html を生成する"""
@@ -1055,8 +1076,14 @@ def render_md_file(src_path: Path, dst_path: Path, root_dir: Path) -> set[Path]:
         and src_path.name.lower() in ("index.md", "readme.md")
     )
 
+    # ルート直下の index.html への相対パスを計算（トップページ自身ではホームアイコン不要のため None）
+    if is_root_index:
+        home_rel_url = None
+    else:
+        home_rel_url = Path(os.path.relpath(root_dir.resolve() / "index.html", src_path.resolve().parent)).as_posix()
+
     page_title, header_nav, drawer_prev_next, chapter_tree, source_meta, body_html, has_sidebar = convert_md_to_html(
-        md_text, fallback_title=src_path.stem, has_nav=not is_root_index
+        md_text, fallback_title=src_path.stem, has_nav=not is_root_index, home_rel_url=home_rel_url
     )
     no_sidebar_attr = '' if has_sidebar else ' data-no-sidebar="true"'
     full_html = HTML_TEMPLATE.format(
