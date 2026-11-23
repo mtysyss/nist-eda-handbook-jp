@@ -17,18 +17,18 @@
 
 |||
 |:---|:---|
-|単量変<br><br>データ：<br>&emsp;単一列の数字、Y</br>モデル：</br>&emsp;$y = 定数 + 誤差$<br>出力:<br> &emsp; 1 .数（モデル内の推定定数）<br>&emsp; 2. 定数に対する不確かさの推定値<br>&emsp; 3. 誤差の分布の推定値<br>技法:<br>&emsp;• [4-プロット](../section3/eda33w.md)<br>&emsp;• [確率プロット](../section3/eda33m.md) <br>&emsp;• [PPCC プロット]()|管理<br><br>データ：<br>&emsp;単一列数値、Y<br>モデル:<br>&emsp;$y = 定数 + 誤差$<br>出力:<br>&emsp;「システムは管理外れか？」という質問に対する「はい」または「いいえ」の回答。<br>技法:<br>&emsp;・ [管理図](../../ch6_pmc/section3/pmc3.md) 
+|単量変<br><br>データ：<br>&emsp;単一列の数字、Y</br>モデル：</br>&emsp;$y = 定数 + 誤差$<br>出力:<br> &emsp; 1 .数（モデル内の推定定数）<br>&emsp; 2. 定数に対する不確かさの推定値<br>&emsp; 3. 誤差の分布の推定値<br>技法:<br>&emsp;• [4-プロット](../section3/eda33w.md)<br>&emsp;• [確率プロット](../section3/eda33m.md) <br>&emsp;• [PPCC プロット]()|管理<br><br>データ：<br>&emsp;単一列数値、Y<br>モデル:<br>&emsp;$y = 定数 + 誤差$<br>出力:<br>&emsp;「システムは管理外れか？」という質問に対する「はい」または「いいえ」の回答。<br>技法:<br>&emsp;・ [管理図](../../ch6_pmc/section3/pmc3.md) |  
 
 #### 比較とスクリーニング
 
 |||
 |:---|:---|
-|比較<br><br> データ:<br>&emsp;単一の応答変数とk個の独立変数 $(Y,X_1,X_2,...,X_k)$ 、主たる焦点はこれらの独立変数の一つ（主因子）に置かれる。<br>モデル:<br>&emsp;y = f(x_1,x_2,...,x_k) + 誤差<br>出力:<br>&emsp;「主因子は有意か？」という問いに対する「はい」または「いいえ」の判定。<br>技法:<br>&emsp;・[ブロック・プロット](../section3/eda333.md)<br>&emsp;・[散布図](../section3/eda33q.md)<br>&emsp;・[箱ひげ図](../section3/eda337.md) |スクリーニング<br><br>データ:<br>&emsp;単一の応答変数と k 個の独立変数$(Y,X_1,X_2,...,X_k)$。<br>モデル:<br>&emsp;$y = f(x_1,x_2,...,x_k) + 誤差$<br>出力:<br>&emsp;1. 因子群の重要度順リスト（最も重要から最も重要でない順）。<br>&emsp;2. 各要因の最適設定値。<br>&emsp;3. Yと因子を関連付ける適切なモデル/予測式。<br>技法:<br>&emsp;・[ブロック・プロット](../section3/eda333.md)<br>&emsp;・[確率プロット](../section3/eda33m.md)<br>&emsp;・[二元ヒストグラム](../section3/eda332.md)| 
+|比較<br><br> データ:<br>&emsp;単一の応答変数とk個の独立変数 $(Y,X_1,X_2,...,X_k)$ 、主たる焦点はこれらの独立変数の一つ（主因子）に置かれる。<br>モデル:<br>&emsp;y = f(x_1,x_2,...,x_k) + 誤差<br>出力:<br>&emsp;「主因子は有意か？」という問いに対する「はい」または「いいえ」の判定。<br>技法:<br>&emsp;・[ブロック・プロット](../section3/eda333.md)<br>&emsp;・[散布図](../section3/eda33q.md)<br>&emsp;・[箱ひげ図](../section3/eda337.md) |スクリーニング<br><br>データ:<br>&emsp;単一の応答変数と k 個の独立変数$(Y,X_1,X_2,...,X_k)$。<br>モデル:<br>&emsp;$y = f(x_1,x_2,...,x_k) + 誤差$<br>出力:<br>&emsp;1. 因子群の重要度順リスト（最も重要から最も重要でない順）。<br>&emsp;2. 各要因の最適設定値。<br>&emsp;3. Yと因子を関連付ける適切なモデル/予測式。<br>技法:<br>&emsp;・[ブロック・プロット](../section3/eda333.md)<br>&emsp;・[確率プロット](../section3/eda33m.md)<br>&emsp;・[二元ヒストグラム](../section3/eda332.md) | 
 
 #### 最適化と回帰
 |||
 |:---|:---|
-|最適化<br><br>データ:<br>&emsp;単一の応答変数と k 個の独立変数$(Y,X_1,X_2,...,X_k)$。<br>モデル:<br>&emsp;$y = f(x_1,x_2,...,x_k) + 誤差$<br>出力:<br>&emsp;因子変数に対する最適設定。<br>技法:<br>&emsp;・[ブロック・プロット](../section3/eda333.md)<br>&emsp;・[最小二乗法近似](../../ch4_pmd/section1/pmd141.md)<br>&emsp;・[等高線図](../section3/eda33a.md)|回帰<br><br>データ:<br>&emsp;単一の応答変数と k 個の独立変数$(Y,X_1, X_2,...,X_k)$。独立変数は連続変数でもよい。<br>モデル:<br>&emsp;$y = f(x_1,x_2,...,x_k) + 誤差$<br>出力:<br>&emsp;Yと因子を関連付ける適切なモデル/予測式。<br>技法:<br>&emsp;・[最小二乗法近似](../../ch4_pmd/section1/pmd141.md)<br>&emsp;・[散布図](../section3/eda33q.md)<br>&emsp;・[6-プロット](../section3/eda33x.md)| 
+|最適化<br><br>データ:<br>&emsp;単一の応答変数と k 個の独立変数$(Y,X_1,X_2,...,X_k)$。<br>モデル:<br>&emsp;$y = f(x_1,x_2,...,x_k) + 誤差$<br>出力:<br>&emsp;因子変数に対する最適設定。<br>技法:<br>&emsp;・[ブロック・プロット](../section3/eda333.md)<br>&emsp;・[最小二乗法近似](../../ch4_pmd/section1/pmd141.md)<br>&emsp;・[等高線図](../section3/eda33a.md)|回帰<br><br>データ:<br>&emsp;単一の応答変数と k 個の独立変数$(Y,X_1, X_2,...,X_k)$。独立変数は連続変数でもよい。<br>モデル:<br>&emsp;$y = f(x_1,x_2,...,x_k) + 誤差$<br>出力:<br>&emsp;Yと因子を関連付ける適切なモデル/予測式。<br>技法:<br>&emsp;・[最小二乗法近似](../../ch4_pmd/section1/pmd141.md)<br>&emsp;・[散布図](../section3/eda33q.md)<br>&emsp;・[6-プロット](../section3/eda33x.md) |   
 
 #### 時系列と多変量
 

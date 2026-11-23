@@ -12,6 +12,7 @@
 # 1.3.3.14.3. ヒストグラムの解釈：対称、非正規分布、長い裾
 
 #### 対称的で長い裾のヒストグラム
+
 ![1.3.3.14.3.Histogram Interpretation: Symmetric, Non-Normal, Long-Tailed](http://www.itl.nist.gov/div898/handbook/eda/gif/histogr3.gif)  
 
 ### 長い裾の解説
