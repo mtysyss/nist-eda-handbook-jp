@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch7_prc/section3/prc32.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/prc/section3/prc32.htm)  
 閲覧(UTC)：2026-11-04 10:53:02  
 [⬅️](prc312.md)[➡️](prc33.md)  
 

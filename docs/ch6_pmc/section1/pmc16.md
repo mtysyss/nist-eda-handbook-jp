@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section1/pmc16.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm)  
 閲覧(UTC)：2026-10-17 02:06:29  
 [⬅️](pmc15.md)[➡️](../section2/pmc2.md)  
 
@@ -20,7 +20,7 @@
 測定値のほぼすべてが仕様限界内に収まっている工程は、<u>能力</u>のある工程である。
 これは、以下に図示することができる。
 
-![Diagram demonstrating a capable process](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section1/gifs/cpi1.gif)
+![Diagram demonstrating a capable process](https://www.itl.nist.gov/div898/handbook/pmc/section1/gifs/cpi1.gif)
 
 工程の能力を測定するために使用できる統計量には、*C*<sub>*p*</sub>、*C*<sub>*pk*</sub>、および *C*<sub>*pm*</sub> などがある。
 
@@ -69,7 +69,7 @@ $` 0 \le k \le 1 `$ であるため、$` \hat{C}_{pk} \le \hat{C}_p `$ となる
 #### 工程幅の変化と *C*<sub>*p*</sub> のグラフ
 工程幅が変化した場合の *C*<sub>*p*</sub> 統計量の値の目安を知るために、次の図を参照してください。
 
-![ 4 plots showing the value of Cp for varying process widths](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section1/gifs/plotcp_r.gif)
+![ 4 plots showing the value of Cp for varying process widths](https://www.itl.nist.gov/div898/handbook/pmc/section1/gifs/plotcp_r.gif)
 
 これは以下の表に数値的に表現している。 
 
@@ -109,7 +109,7 @@ $$ C_p = \frac{C_{pu} + C_{pl}}{2}  . $$
 
 これは図示すると次になる。
 
-![Graph demonstrating upper actual and allowable upper spread](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section1/gifs/cpi3.gif){: .text-center}
+![Graph demonstrating upper actual and allowable upper spread](https://www.itl.nist.gov/div898/handbook/pmc/section1/gifs/cpi3.gif){: .text-center}
 
 なお、次のように書くこともできる： 
 

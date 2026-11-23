@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section5/pmc51.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section5/pmc51.htm)  
 閲覧(UTC)：2026-10-17 02:19:50  
 [⬅️](pmc5.md)[➡️](pmc52.md)  
 
@@ -31,7 +31,7 @@ $$ X \sim N(\mu, \sigma) \text{ または }  X \sim N(\mu, \sigma^2)  . $$
 
 外観を以下に示す。
 
-![Sample plot of the normal distribution](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section5/gifs/normal.gif)
+![Sample plot of the normal distribution](https://www.itl.nist.gov/div898/handbook/pmc/section5/gifs/normal.gif)
 
 #### 曲線下の面積が1に等しくなる確率分布の性質
 確率分布と呼ばれる、非負関数の特別な類の性質として、曲線下の面積が 1に等しくなることが挙げられる。

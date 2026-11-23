@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch7_prc/section2/prc26.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/prc/section2/prc26.htm)  
 閲覧(UTC)：2026-11-04 10:51:32  
 [⬅️](prc25.md)[➡️](prc261.md)  
 

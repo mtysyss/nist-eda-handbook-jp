@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section4/pri47.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section4/pri47.htm)  
 閲覧(UTC)：2026-08-09 15:50:16  
 [⬅️](pri46.md)[➡️](pri471.md)  
 

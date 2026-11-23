@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section8/pri8.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section8/pri8.htm)  
 閲覧(UTC)：2026-10-16 13:51:46  
 [⬅️](../section7/pri7.md)[➡️](../../../index.md)  
 

@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/pmc42.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc42.htm)  
 閲覧(UTC)：2026-10-17 02:14:17  
 [⬅️](pmc41.md)[➡️](pmc421.md)  
 
@@ -114,7 +114,7 @@ MSEが最小となる推定量が最良である。
 <u>トレンドがあると思われる場合、平均値を用いて収入を予測することはできるのか</u>。
 下のグラフを見れば、そうすべきではないことがはっきりと判る。
 
-![Plot demonstrating the mean is not a good estimator in thr prescence of trend](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section4/gifs/tseries1.gif) 
+![Plot demonstrating the mean is not a good estimator in thr prescence of trend](https://www.itl.nist.gov/div898/handbook/pmc/section4/gifs/tseries1.gif) 
 
 #### 平均は、過去のすべての観測値を均等に重み付けする
 要約すると以下のことが言える。

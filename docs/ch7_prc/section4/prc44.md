@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch7_prc/section4/prc44.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/prc/section4/prc44.htm)  
 閲覧(UTC)：2026-11-04 10:57:24  
 [⬅️](prc438.md)[➡️](prc45.md)  
 
@@ -92,7 +92,7 @@ $$\begin{aligned}
 分散成分の制限付き最尤法（REML）による推定値は、一般に、モーメント法による推定値よりも好ましい。
 [Searle (2006)](../section5/prc5.md#Searle)は、この問題について詳細に論じている。
 
-付属の[Rコード](https://www.itl.nist.gov/div898/handbook/ch7_prc/section4/prc44.r)は、これらの推定値をどのように計算するかを示している。
+付属の[Rコード](https://www.itl.nist.gov/div898/handbook/prc/section4/prc44.r)は、これらの推定値をどのように計算するかを示している。
 この場合、$`\sigma_{\tau}^{2}`$ および $`\sigma_{\epsilon}^{2}`$ のREML推定値は、モーメント法を用いて得られるものと一致する。
 またREML法では、分散成分の信頼区間も得られる。
 $`\sigma_{\tau}^{2}`$ の95％信頼区間は、約1から 34の範囲にあり、これはバッチ効果の有意性を裏付ける一方で、この分散成分の真の値については大きな不確実性があることも示している。 

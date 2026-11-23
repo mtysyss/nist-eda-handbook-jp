@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/pri52.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pri/section5/pri52.htm)  
 閲覧(UTC)：2026-08-09 15:51:57  
 [⬅️](pri51.md)[➡️](pri521.md)  
 

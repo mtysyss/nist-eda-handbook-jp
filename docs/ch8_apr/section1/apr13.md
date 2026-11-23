@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch8_apr/section1/apr13.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/apr/section1/apr13.htm)  
 閲覧(UTC)：2026-11-05 06:30:45  
 [⬅️](apr125.md)[➡️](apr131.md)  
 

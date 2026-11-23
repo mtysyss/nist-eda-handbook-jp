@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch7_prc/prc_d.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/prc/prc_d.htm)  
 閲覧(UTC)：2026-11-04 10:47:43
 [⬅️](prc.md)[➡️](section1/prc1.md)  
 

@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section5/pmc55.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section5/pmc55.htm)  
 閲覧(UTC)：2026-10-17 02:21:57  
 [⬅️](pmc544.md)[➡️](pmc551.md)  
 

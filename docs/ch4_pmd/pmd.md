@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/pmd.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm)  
 閲覧(UTC)：2026-07-21 12:11:34  
 [⬅️](../../index.md)[➡️](section1/pmd1.md)  
 

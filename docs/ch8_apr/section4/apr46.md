@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch8_apr/section4/apr46.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/apr/section4/apr46.htm)  
 閲覧(UTC)：2026-11-05 06:41:03  
 [⬅️](apr453.md)[➡️](apr47.md)  
 
@@ -16,7 +16,7 @@
 ベイズ信頼性解析手法の目的は、可能な限り正確な事後分布を導き出し、その分布を用いて信頼区間（ベイズ派では**信用区間**と呼ばれる）を伴う故障率（またはMTBF）の推定値を計算することである。
 以下の図は、この過程の手順をまとめたものである。
 
-![Diagram illustrating the steps in Bayesian analysis](https://www.itl.nist.gov/div898/handbook/ch8_apr/section4/gifs/bayesum.gif) 
+![Diagram illustrating the steps in Bayesian analysis](https://www.itl.nist.gov/div898/handbook/apr/section4/gifs/bayesum.gif) 
 
 #### 事後分布に基づくMTBFの境界を推定する方法
 
@@ -60,7 +60,7 @@ $$ \left[ \frac{1}{G^{-1}(1-\alpha/2, a', 1/b')}, \frac{1}{G^{-1}(\alpha/2, a', 
 下の図は、$`y`$ 軸にCDF値、$`x`$ 軸に $`1/\lambda = \text{MTBF}`$ をプロットしたものである。
 $`y`$ 軸上の確率から、曲線を横切ってMTBFの位置まで下りていくことで、任意のMTBF百分位点を推定できる。
 
-![Plot of posterior (after test) gamma distribution](https://www.itl.nist.gov/div898/handbook/ch8_apr/section4/apr46_r01.gif)
+![Plot of posterior (after test) gamma distribution](https://www.itl.nist.gov/div898/handbook/apr/section4/apr46_r01.gif)
 
 MTBFの値は以下の通り。
 
@@ -76,7 +76,7 @@ $$ \begin{align}
 あるいは、事後分布の平均の逆数 $`(b'/a')= 3309/4 = 827`$ 時間を単一の推定値として用いることもできる。
 平均の逆数はより保守的な推定値であり、この場合は 57％の下側境界 $`(G(4/3309, 4, 1/3309))`$ となる。
 
-本節の解析は、[Rコード](https://www.itl.nist.gov/div898/handbook/ch8_apr/section4/apr46.r)を用いて実装することができる。 
+本節の解析は、[Rコード](https://www.itl.nist.gov/div898/handbook/apr/section4/apr46.r)を用いて実装することができる。 
 
 ---
 #### 訳註

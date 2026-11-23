@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section3/pmc31.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc31.htm)  
 閲覧(UTC)：2026-10-17 02:09:19  
 [⬅️](pmc3.md)[➡️](pmc32.md)  
 
@@ -24,7 +24,7 @@
 
 #### 管理図の基礎を示す図
 
-![Chart showing theoretical basis for a control chart](https://www.itl.nist.gov/div898/handbook/ch6_pmc/section3/gifs/shewhart.gif)
+![Chart showing theoretical basis for a control chart](https://www.itl.nist.gov/div898/handbook/pmc/section3/gifs/shewhart.gif)
 
 #### 管理図が「機能する」理由
 グラフに示されている管理限界は、0.001 *確率*限界のことがある。

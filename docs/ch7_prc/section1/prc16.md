@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch7_prc/section1/prc16.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm)  
 閲覧(UTC)：2026-11-04 10:48:26  
 [⬅️](prc15.md)[➡️](prc17.md)  
 
@@ -73,7 +73,7 @@
 #### ヒストグラムと箱ひげ図
 以下に、ヒストグラムとそれに重ねて表示された箱ひげ図を示す。
 
-![Histogram and boxplot](https://www.itl.nist.gov/div898/handbook/ch7_prc/section1/prc16_r01.gif)
+![Histogram and boxplot](https://www.itl.nist.gov/div898/handbook/prc/section1/prc16_r01.gif)
 
 外れ値は、データ集合の中で最大の値である 1441として特定され、箱ひげ図の右側に丸印として表示されている。
 
