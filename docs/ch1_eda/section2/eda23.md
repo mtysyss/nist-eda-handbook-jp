@@ -31,11 +31,11 @@
 #### プロット例：仮定が成立
 ![](https://www.itl.nist.gov/div898/handbook/eda/gif/randn4p.gif) 
 
-[500個の正規乱数列](https://www.itl.nist.gov/div898/handbook/datasets/RANDN.DAT)のこの[4-プロット](../section3/4plot.md)は、位置が固定され、ばらつきが固定され、無作為であり、明らかに固定された正規分布に近似され、外れ値が存在しない過程を示している。 
+[500個の正規乱数列](https://www.itl.nist.gov/div898/handbook/datasets/RANDN.DAT)のこの[4-プロット](../section3/eda33w.md)は、位置が固定され、ばらつきが固定され、無作為であり、明らかに固定された正規分布に近似され、外れ値が存在しない過程を示している。 
 
 #### プロット例：仮定が成立しない
 4つの基礎的な仮定のうち1つ以上が成立しないとき、[以下の例](https://www.itl.nist.gov/div898/handbook/datasets/LEW.DAT)に示す様々なプロットにその状態が現れる。
 
 ![](https://www.itl.nist.gov/div898/handbook/eda/gif/lew4p.gif)  
 
-この[4-プロット](../section3/4plot.md)は、固定された位置、固定されたばらつき、非無作為性（振動的）、正規分布ではないU字型分布、そして複数の外れ値を持つ過程を明らかにしている。 
+この[4-プロット](../section3/eda33w.md)は、固定された位置、固定されたばらつき、非無作為性（振動的）、正規分布ではないU字型分布、そして複数の外れ値を持つ過程を明らかにしている。 

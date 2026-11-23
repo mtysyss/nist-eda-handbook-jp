@@ -106,8 +106,8 @@ Anderson-Darling 検定は、以下の問いに答える。
 [カイ二乗適合度検定](eda35f.md)  
 [Kolmogorov-Smirnov 検定](eda35g.md)  
 [Shapiro-Wilk 正規性検定](../../ch7_prc/section2/prc213.md)  
-[確率プロット](probplot.md)  
-[相関係数プロット](ppccplot.md)  
+[確率プロット](eda33m.md)  
+[相関係数プロット](eda33n.md)  
 
 #### 事例研究
 [ジョセフソン接合低温熱測定法](../section4/eda424.md)の事例研究
