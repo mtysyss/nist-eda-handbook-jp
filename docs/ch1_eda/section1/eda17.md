@@ -17,7 +17,7 @@
 
 |||
 |:---|:---|
-|単量変<br><br>データ：<br>&emsp;単一列の数字、Y</br>モデル：</br>&emsp;$y = 定数 + 誤差$<br>出力:<br> &emsp; 1 .数（モデル内の推定定数）<br>&emsp; 2. 定数に対する不確かさの推定値<br>&emsp; 3. 誤差の分布の推定値<br>技法:<br>&emsp;• [4-プロット](../section3/4plot.htm)<br>&emsp;• [確率プロット](../section3/probplot.htm) <br>&emsp;• [PPCC プロット]()|管理<br><br>データ：<br>&emsp;単一列数値、Y<br>モデル:<br>&emsp;$y = 定数 + 誤差$<br>出力:<br>&emsp;「システムは管理外れか？」という質問に対する「はい」または「いいえ」の回答。<br>技法:<br>&emsp;・ [管理図](../../ch6_pmc/section3/pmc3.md) 
+|単量変<br><br>データ：<br>&emsp;単一列の数字、Y</br>モデル：</br>&emsp;$y = 定数 + 誤差$<br>出力:<br> &emsp; 1 .数（モデル内の推定定数）<br>&emsp; 2. 定数に対する不確かさの推定値<br>&emsp; 3. 誤差の分布の推定値<br>技法:<br>&emsp;• [4-プロット](../section3/eda33w.md)<br>&emsp;• [確率プロット](../section3/eda33m.md) <br>&emsp;• [PPCC プロット]()|管理<br><br>データ：<br>&emsp;単一列数値、Y<br>モデル:<br>&emsp;$y = 定数 + 誤差$<br>出力:<br>&emsp;「システムは管理外れか？」という質問に対する「はい」または「いいえ」の回答。<br>技法:<br>&emsp;・ [管理図](../../ch6_pmc/section3/pmc3.md) 
 
 #### 比較とスクリーニング
 
@@ -34,4 +34,4 @@
 
 |||
 |:---|:---|
-|時系列<br><br>データ:<br>&emsp;時間依存の数値列、Y。加えて、時間は独立変数である。時間変数は明示的または暗黙的のいずれかである。データが等間隔でない場合、時間変数は明示的に提供されるべきである。<br>モデル:<br>&emsp;$y = f(t) + 誤差$<br>&emsp;モデルは時間領域ベースまたは周波数領域ベースのいずれかである。<br>出力:<br>&emsp;Y と過去の Y 値を関連付ける適切なモデル／予測式。<br>技法:<br>&emsp;・[自己相関プロット](../section3/eda331.md)<br>&emsp;・[スペクトル](../section3/eda33r.md)<br>&emsp;・[複素復調振幅プロット](../section3/eda338.md)<br>&emsp;・[複素復調位相プロット](../section3/eda339.md)<br>&emsp;・[ARIMAモデル](../../ch6_pmc/section4/pmc4.md)|多変量<br><br>データ:<br>&emsp;k個の因子変数$(X_1,X_2,...,X_k)$。<br>モデル:<br>&emsp;モデルは明示されていない。<br>出力:<br>&emsp;データ内の潜在的な相関構造を特定する。<br>技法:<br>&emsp;・[スタープロット](../section3/eda33t.md)<br>&emsp;・[散布図行列](..//section3/scatterb.md)<br>&emsp;・[条件化プロット](..//section3/scatterc.md)<br>&emsp;・プロファイル・プロット<br>&emsp;・[主成分分析](../../ch6_pmc/section5/pmc55.md)<br>&emsp;・層別<br>&emsp;・判別/分類<br><br>なお、多変量解析については本ハンドブックでは軽く触れる。 |
+|時系列<br><br>データ:<br>&emsp;時間依存の数値列、Y。加えて、時間は独立変数である。時間変数は明示的または暗黙的のいずれかである。データが等間隔でない場合、時間変数は明示的に提供されるべきである。<br>モデル:<br>&emsp;$y = f(t) + 誤差$<br>&emsp;モデルは時間領域ベースまたは周波数領域ベースのいずれかである。<br>出力:<br>&emsp;Y と過去の Y 値を関連付ける適切なモデル／予測式。<br>技法:<br>&emsp;・[自己相関プロット](../section3/eda331.md)<br>&emsp;・[スペクトル](../section3/eda33r.md)<br>&emsp;・[複素復調振幅プロット](../section3/eda338.md)<br>&emsp;・[複素復調位相プロット](../section3/eda339.md)<br>&emsp;・[ARIMAモデル](../../ch6_pmc/section4/pmc4.md)|多変量<br><br>データ:<br>&emsp;k個の因子変数$(X_1,X_2,...,X_k)$。<br>モデル:<br>&emsp;モデルは明示されていない。<br>出力:<br>&emsp;データ内の潜在的な相関構造を特定する。<br>技法:<br>&emsp;・[スタープロット](../section3/eda33t.md)<br>&emsp;・[散布図行列](..//section3/eda33qb.md)<br>&emsp;・[条件化プロット](..//section3/eda33qc.md)<br>&emsp;・プロファイル・プロット<br>&emsp;・[主成分分析](../../ch6_pmc/section5/pmc55.md)<br>&emsp;・層別<br>&emsp;・判別/分類<br><br>なお、多変量解析については本ハンドブックでは軽く触れる。 |
