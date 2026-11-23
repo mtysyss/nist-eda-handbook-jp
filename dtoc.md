@@ -12,7 +12,7 @@
 
 <div id="ch1"></div>
 
-[1. 探索的データ解析](docs/ch1_eda/eda.md)
+### [1. 探索的データ解析](docs/ch1_eda/eda.md)
 
 [[最上段]](#top) [[次章へ]](#ch2)
 
@@ -236,7 +236,7 @@
 
 <div id="ch2"></div>
 
-[2. 測定工程の特徴付け](docs/ch2_mpc/mpc.md)
+### [2. 測定工程の特徴付け](docs/ch2_mpc/mpc.md)
 
 [[最上段へ]](#top) [[前章へ]](#ch1) [[次章へ]](#ch3)
 
@@ -439,7 +439,7 @@
 
 <div id="ch3"></div>
 
-[3. 生産工程の特徴付け](docs/ch3_ppc/ppc.md)
+### [3. 生産工程の特徴付け](docs/ch3_ppc/ppc.md)
 
 [[最上段へ]](#top) [[前章へ]](#ch2) [[次章へ]](#ch4)
 
@@ -509,7 +509,7 @@
 
 <div id="ch4"></div>
 
-[4. 工程のモデル化](docs/ch4_pmd/pmd.md)
+### [4. 工程のモデル化](docs/ch4_pmd/pmd.md)
 
 [[最上段へ]](#top) [[前章へ]](#ch3) [[次章へ]](#ch5)
 
@@ -627,7 +627,7 @@
 
 <div id="ch5"></div>
 
-[5. 工程の改善](docs/ch5_pri/pri.md)
+### [5. 工程の改善](docs/ch5_pri/pri.md)
 
 [[最上段へ]](#top) [[前章へ]](#ch4) [[次章へ]](#ch6)
 
@@ -736,7 +736,7 @@
             9. [動機：補間を行う最適な確認点の決め方](docs/ch5_pri/section5/pri5999.md) [5.5.9.9.9.]
             10. [動機：モデルを用いた補間方法](docs/ch5_pri/section5/pri599a.md) [5.5.9.9.10.]
             11. [動機：モデルを用いた外挿方法](docs/ch5_pri/section5/pri599b.md) [5.5.9.9.11.]
-            12. [Motivation: How do we Use the Model for Extrapolation?](docs/ch5_pri/section5/pri599c.md) [5.5.9.9.12.]
+            12. [Motivation: How do we Use the Model for Extrapolation?](docs/ch5_pri/section5/
         10. [DOE等高線図](docs/ch5_pri/section5/pri59a.md) [5.5.9.10.]
             1. [解釈方法：軸](docs/ch5_pri/section5/pri59a1.md) [5.5.9.10.1.]
             2. [解釈方法：等高線](docs/ch5_pri/section5/pri59a2.md) [5.5.9.10.2.]
@@ -778,7 +778,7 @@
 
 <div id="ch6"></div>
 
-[6. 工程や製品の監視と管理](docs/ch6_pmc/pmc.md)
+### [6. 工程や製品の監視と管理](docs/ch6_pmc/pmc.md)
 
 [[最上段へ]](#top) [[前章へ]](#ch5) [[次章へ]](#ch7)
 
@@ -891,7 +891,7 @@
 
 <div id="ch7"></div>
 
-[7. 製品および工程の比較](docs/ch7_prc/prc.md)
+### [7. 製品および工程の比較](docs/ch7_prc/prc.md)
 
 [[最上段へ]](#top) [[前章へ]](#ch6) [[次章へ]](#ch8)
 
@@ -962,7 +962,7 @@
 
 <div id="ch8"></div>
 
-[8. 製品の信頼性の評価](docs/ch8_apr/apr.md)
+### [8. 製品の信頼性の評価](docs/ch8_apr/apr.md)
 
 [[最上段へ]](#top) [[前章へ]](#ch7) 
 
@@ -1051,3 +1051,9 @@
         3. [指数関数モデル](docs/ch8_apr/section4/apr453.md) [8.4.5.3.]
     6. [ベイズ・ガンマ事前分布モデルを用いた信頼性の推定方法](docs/ch8_apr/section4/apr46.md) [8.4.6.]
     7. [第8章の参考文献: 製品の信頼性の評価](docs/ch8_apr/section4/apr47.md) [8.4.7.]
+    
+---
+
+#### 訳註
+
+* 5.5.9.9.6.~5.5.9.9.12.間に、ページと目次の不整合があります。[原細詳細目次](https://www.itl.nist.gov/div898/handbook/pri/pri_d.htm)と実際の目次がズレており、原典目次の「6. Motivation: Why is the 1/2 in the Model?  [5.5.9.9.6.]」は存在しないようです。
