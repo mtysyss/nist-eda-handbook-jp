@@ -32,7 +32,7 @@ DOEの基礎となる統計理論は、一般的に<u>プロセス・モデル</
 
 #### 制御された入力、出力、離散的非制御要因、連続的非制御要因を伴う典型的なプロセスの概略図 
 
-![Schematic of a process design](https://www.itl.nist.gov/div898/handbook/ch5_pri/section1/gifs/img1351.gif)
+![Schematic of a process design](https://www.itl.nist.gov/div898/handbook/pri/section1/gifs/img1351.gif)
 
 **図1.1　「ブラックボックス」プロセス・モデルの概略図** 
 

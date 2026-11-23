@@ -69,7 +69,7 @@ DOE等高線図は、最も重要な2因子について作成し、頂点（す�
 #### DOE等高線プロット
 以下は、巻数および巻線距離のDOE等高線図である。
 
-![The DOE contour plot identifies *X*<sub>1</sub>=-1 and *X*<sub>2</sub>=1 as the optimal settings](https://www.itl.nist.gov/div898/handbook/ch5_pri/section6/pri61a_r01.gif) 
+![The DOE contour plot identifies *X*<sub>1</sub>=-1 and *X*<sub>2</sub>=1 as the optimal settings](https://www.itl.nist.gov/div898/handbook/pri/section6/pri61a_r01.gif) 
 {: .text-center}
 
 応答変数（渦電流）の最大値は、*X*<sub>1</sub>（巻数）が -1、*X*<sub>2</sub>（巻線距離）が +1 の点に対応する。

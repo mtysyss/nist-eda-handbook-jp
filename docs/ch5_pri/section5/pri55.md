@@ -25,7 +25,7 @@
 
 #### 例の図解
 
-![Diagram illustrating the hierarchical structure of this example ](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/gifs/simplex8.gif)
+![Diagram illustrating the hierarchical structure of this example ](https://www.itl.nist.gov/div898/handbook/pri/section5/gifs/simplex8.gif)
 {: .text-center}
 
 **図5.15：階層型データ構造の例** 
@@ -298,7 +298,7 @@ Error (Subplot)                4
 
 #### 分割区画計画の図
 
-![Diagram of the strip-plot design for two process steps andthree factor variables](https://www.itl.nist.gov/div898/handbook/ch5_pri/section5/gifs/simplex9.gif)
+![Diagram of the strip-plot design for two process steps andthree factor variables](https://www.itl.nist.gov/div898/handbook/pri/section5/gifs/simplex9.gif)
 {: .text-center}
  
 **図5.16：2工程順、各工程に3要因がある帯区計画の図**
@@ -333,7 +333,7 @@ Error (Subplot)                4
 同様のモデルを焼鈍実験単位に適用すると、焼鈍実験単位内の効果に対する誤差項（自由度1）として、3因子交互作用項 D\*E\*F が生成される。
 
 #### 追加情報
-帯区計画の詳細については、[Milliken andJohnson (1987)](https../section8/pri8.md#Milliken,%20G.%20A.,%20and)または[Miller (1997)](../section8/pri8.md#Miller,%20A.)を参照のこと。
+帯区計画の詳細については、[Milliken andJohnson (1987)](../section8/pri8.md#Milliken,%20G.%20A.,%20and)または[Miller (1997)](../section8/pri8.md#Miller,%20A.)を参照のこと。
 
 ---
 #### 訳註  

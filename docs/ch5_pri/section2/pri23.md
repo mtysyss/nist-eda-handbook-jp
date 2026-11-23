@@ -19,7 +19,7 @@ Y値が急激に低下する場合、用いる近似多項式近似では、こ�
 非常にギザギザしている（すなわち、滑らかでない）ことが分かっている曲面は、滑らかな多項式によって適切に近似することはできない。
 
 #### 区分ごとに滑らかな応答とギザギザした応答の例
-![Graph of two curves: one piecewise smooth, one jagged](https://www.itl.nist.gov/div898/handbook/ch5_pri/section2/gifs/fig5210.gif)
+![Graph of two curves: one piecewise smooth, one jagged](https://www.itl.nist.gov/div898/handbook/pri/section2/gifs/fig5210.gif)
 
 　　**区分ごとに滑らか**　　　　　　**ギザギザ**  
 **図2.1　区分ごとに滑らかな応答とギザギザの応答の例**

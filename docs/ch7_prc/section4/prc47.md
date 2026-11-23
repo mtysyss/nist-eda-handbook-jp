@@ -50,7 +50,7 @@ F検定によって帰無仮説が棄却されたとき、通常は因子水準�
 これは、調査対象となる対比を事前に慎重に選択し、以下の点を確認することで回避できる。
 
 * そのような対比の数が、処理間の自由度を超えないこと
-* [直交対比](prc426.md#Definition%20and%20Estimation%20of)のみが選択されること。
+* [直交対比](https://www.itl.nist.gov/div898/handbook/prc/section4/prc426.htm#Definition%20and%20Estimation%20of)[^1}のみが選択されること。
 
 しかし、実験結果を観察した後に使用できる、強力な多重比較手順もいくつかある。
 
@@ -67,3 +67,9 @@ F検定によって帰無仮説が棄却されたとき、通常は因子水準�
 
 #### 欠陥率データの処理手順
 [母集団の不良率データ](prc46.md)を取り扱うとき、データ収集<u>後</u>にすべての群間の比較を同時に検討するために、[Marascuilo 法](prc474.md)を用いることができる。
+
+---
+
+#### 訳註
+
+[^1}:  [直交対比](https://www.itl.nist.gov/div898/handbook/prc/section4/prc426.htm#Definition%20and%20Estimation%20of)のリンクは、目次対象外のメンテナンス停止されたNIST のページに飛びます。

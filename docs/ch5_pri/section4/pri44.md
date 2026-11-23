@@ -27,14 +27,14 @@
     * [残差の正規確率プロット](../../ch1_eda/section3/eda33l.md)
 * モデルおよびモデル項の検証に関する総合的な数値指標
     * R二乗と調整済みR二乗値
-    * [モデルの適合度不足の検定](pmd44.md)
+    * [モデルの不適合検定](../../ch4_pmd/section4/pmd44.md)
     * 分散分析（ANOVA）表（[3章](../../ch3_ppc/section2/ppc23.md)または[7章](../../ch7_prc/section4/prc43.md)を参照）
     * [*p*-値](../../ch7_prc/section1/prc131.md)
 * モデル選択ツールや手順
     * ANOVA表（[3章](../../ch3_ppc/section2/ppc23.md)または[7章](../../ch7_prc/section4/prc43.md)章を参照）
     * [*p*-値](../../ch7_prc/section1/prc131.md)
-    * [残差分析](pmd44.md#resdef)
-    * [モデルの不適合検定](pmd44.md)
+    * [残差分析](../../ch4_pmd/section4/pmd44.md#残差)
+    * [モデルの不適合検定](../../ch4_pmd/section4/pmd44.md)
     * [正規性](../../ch1_eda/section3/eda336.md)および[線形性](../../ch1_eda/section3/eda335.md)のためのデータ変換
     * 段階的回帰の手順
     * 効果の[正規](../../ch1_eda/section3/eda33l.md)プロットまたは半正規プロット（主に2水準の完全および一部実施要因実験用）
@@ -43,4 +43,4 @@
 
 ---
 #### 訳註
-* [原典](https://www.itl.nist.gov/div898/handbook/ch5_pri/section4/pri44.htm)では、「分散分析」に関するリンク（3章: section2/ppc222、7章: section4/prc42）は、リンク先がないかもしくは違うページにリンクされています。(2026-08-20確認)該当ページ節と考えられるリンクに変更しています。
+* [原典](https://www.itl.nist.gov/div898/handbook/pri/section4/pri44.htm)では、「分散分析」に関するリンク（3章: section2/ppc222、7章: section4/prc42）は、リンク先がないかもしくは違うページにリンクされています。(2026-08-20確認)該当ページ節と考えられるリンクに変更しています。

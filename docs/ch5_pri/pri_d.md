@@ -109,7 +109,7 @@
             9. [動機：補間を行う最適な確認点の決め方](section5/pri5999.md) [5.5.9.9.9.]
             10. [動機：モデルを用いた補間方法](section5/pri599a.md) [5.5.9.9.10.]
             11. [動機：モデルを用いた外挿方法](section5/pri599b.md) [5.5.9.9.11.]
-            12. [Motivation: How do we Use the Model for Extrapolation?](section5/pri599c.md) [5.5.9.9.12.]
+
         10. [DOE等高線図](section5/pri59a.md) [5.5.9.10.]
             1. [解釈方法：軸](section5/pri59a1.md) [5.5.9.10.1.]
             2. [解釈方法：等高線](section5/pri59a2.md) [5.5.9.10.2.]
@@ -146,3 +146,9 @@
         11. [自分で解いてみる](section6/pri62b.md) [5.6.2.11.]
 7. [DOE用語集](section7/pri7.md) [5.7.]
 8. [参考文献](section8/pri8.md) [5.8.]
+
+---
+
+#### 訳註
+
+* 5.5.9.9.6.~5.5.9.9.12.間に、ページと目次の不整合があります。[原細詳細目次](https://www.itl.nist.gov/div898/handbook/pri/pri_d.htm)と実際の目次がズレており、原典目次の「6. Motivation: Why is the 1/2 in the Model?  [5.5.9.9.6.]」は存在しないようです。
