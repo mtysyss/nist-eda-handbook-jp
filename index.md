@@ -1,6 +1,8 @@
 # nist-eda-handbook-jp
 NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プロジェクト
 
+[著作権表示および免責事項](NOTICE.md)  
+
 
 1. [探索的データ解析](docs/ch1_eda/eda.md)  
 2. [測定工程の特徴付け](docs/ch2_mpc/mpc.md)  
@@ -19,4 +21,9 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 [詳細目次](dtoc.md)
 
 ---
+
+[remarks](REMARKS.md)
+
+
 * 翻訳対象のページは、ページ表示上部のリンクBack/Nextと本文中のリンクで表示されるページです。
+* 表形式の表示に、翻訳ファイル作業と本HTML表示変換の処理整合性が取れておらず、一部崩れている部分があります。

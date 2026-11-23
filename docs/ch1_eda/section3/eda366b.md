@@ -106,15 +106,19 @@ $$S(x) = 1 - \frac{\Gamma_{x}(\gamma)} {\Gamma(\gamma)} \hspace{.2in}x \ge 0; \g
 #### 母数推定
 2 係数ガンマ分布のモーメント法推定量は次式である。 
 
-$$\hat{\gamma} = (\frac{\bar{x}} {s})^{2}$$   
-$$\hat{\beta} = \frac{s^{2}} {\bar{x}}$$   
+$$ \begin{align}
+\hat{\gamma} &= (\frac{\bar{x}} {s})^{2} \\   
+\hat{\beta} &= \frac{s^{2}} {\bar{x}}
+\end{align} $$
 
 ここで $`\bar{x}`$ および $`$`s\`$) はそれぞれ標本平均と標本標準偏差である。
 
 2 係数ガンマ分布の最大尤度推定量は、以下の連立方程式の解である。
  
-$$\hat{\beta} - \frac{\bar{x}}{\hat{\gamma}} = 0$$   
-$$\log{\hat{\gamma}} - \psi(\hat{\gamma}) - \log \left( \frac{\bar{x}}{ \left( \prod_{i=1}^{n}{x_i} \right) ^{1/n} } \right) = 0$$   
+$$ \begin{align}
+\hat{\beta} - \frac{\bar{x}}{\hat{\gamma}} = 0 \\   
+\log{\hat{\gamma}} - \psi(\hat{\gamma}) - \log \left( \frac{\bar{x}}{ \left( \prod_{i=1}^{n}{x_i} \right) ^{1/n} } \right) = 0
+\end{align} $$   
  
 ここで $`ψ`$ はディガンマ関数を表す。
 これらの連立方程式は数値的に解く必要があり、通常は統計ソフトウェア・パッケージを用いて実行される。 

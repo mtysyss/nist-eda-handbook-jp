@@ -56,8 +56,8 @@ Weibull プロットは、以下の質問に答えるために用いる。
 分析がデータがWeibull 分布に従うと仮定する場合、この仮定を検定することが重要であり、仮定が成立すれば、Weibull 係数の適切な推定値を見つける必要がある。
 
 #### 関連技術
-Weibull [確率プロット](eda33m.md)  
-Weibull [PPCCプロット](eda33n.md)  
+[Weibull 確率プロット](eda33m.md)  
+[Weibull PPCCプロット](eda33n.md)  
 [Weibull ハザードプロット](../../ch8_apr/section2/apr22.md)  
 
 Weibull 確率プロット（Weibull PPCCプロットと併用）、Weibull ・ハザード・プロットおよびWeibull プロットは、いずれもデータモデルとしてのWeibull 分布の妥当性を評価し、さらに形状、尺度または位置母数の推定を提供する類似の手法である。 
