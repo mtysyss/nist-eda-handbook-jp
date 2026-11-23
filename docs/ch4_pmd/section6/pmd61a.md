@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section6/pmd61a.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section6/pmd61a.htm)  
 閲覧(UTC)：2026-07-26 14:04:30  
 [⬅️](pmd619.md)[➡️](pmd61b.md)  
 
@@ -17,7 +17,7 @@
 以下のプロットは校正工程をグラフで示したものである。
 
 #### 校正
-![plot illustrating calibration process](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section6/ldcll/plots/clbints1.gif)
+![plot illustrating calibration process](https://www.itl.nist.gov/div898/handbook/pmd/section6/ldcll/plots/clbints1.gif)
 
 #### 荷重上限の特定
 このプロットから、撓み量 1.239722 を生じさせた荷重は、およそ 1,750,000 であり、確実に 1,500,000 から 2,000,000 の範囲内にあることが明らかである。

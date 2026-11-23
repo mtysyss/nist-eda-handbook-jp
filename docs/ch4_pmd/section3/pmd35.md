@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section3/pmd35.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section3/pmd35.htm)  
 閲覧(UTC)：2026-07-21 12:15:14  
 [⬅️](pmd34.md)[➡️](../section4/pmd4.md)  
 

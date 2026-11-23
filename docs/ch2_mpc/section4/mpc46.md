@@ -1,6 +1,6 @@
 [原文 (Original English)](https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc46.htm)  
 閲覧(UTC)：2026-06-06 15:26:26  
-[⬅️](mpc456.md)[➡️](../section5/mp5.md)  
+[⬅️](mpc456.md)[➡️](../section5/mpc5.md)  
 
 2. [測定工程の特徴付け](../mpc.md)  
 2.4. [測定の再現性と再現性（R&R）調査](mpc4.md)  

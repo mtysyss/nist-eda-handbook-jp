@@ -10,7 +10,7 @@
 
 #### 1. [はじめに](section1/ppc1.md)
 1. [定義](section1/ppc11.md)
-2. [用途](section1/ppc12.htmd)
+2. [用途](section1/ppc12.md)
 3. [用語と概念](section1/ppc13.md)
 4. [PPCの手順](section1/ppc14.md)
 

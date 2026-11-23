@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section5/pmd51.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section5/pmd51.htm)  
 閲覧(UTC)：2026-07-26 14:01:23  
 [⬅️](pmd5.md)[➡️](pmd511.md)  
 
@@ -16,5 +16,5 @@
 工程モデルのその他の用途に対する推定と予測に関する簡単な説明は、[4.1.3節](../section1/pmd13.md)に示している。
 
 #### 予測の様々な種類
-1. [特定予測変数値に対する平均応答の推定法](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section5/pmd511.md)  
-2. [単応答値の予測と不確かさの見積り法](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section5/pmd512.md)
+1. [特定予測変数値に対する平均応答の推定法](https://www.itl.nist.gov/div898/handbook/pmd/section5/pmd511.md)  
+2. [単応答値の予測と不確かさの見積り法](https://www.itl.nist.gov/div898/handbook/pmd/section5/pmd512.md)

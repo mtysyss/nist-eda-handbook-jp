@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section5/pmd52.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section5/pmd52.htm)  
 閲覧(UTC)：2026-07-26 14:02:31  
 [⬅️](pmd512.md)[➡️](pmd521.md)  
 

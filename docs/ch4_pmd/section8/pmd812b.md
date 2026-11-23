@@ -1,4 +1,4 @@
-[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/pmd812b.htm)  
+[原文 (Original English)](https://www.itl.nist.gov/div898/handbook/pmd/section8/pmd812b.htm)  
 閲覧(UTC)：2026-07-26 14:08:44  
 [⬅️](pmd812a.md)[➡️](../../../index.md)  
 
@@ -143,34 +143,34 @@ $`n = m`$ に対しては、$`R'(x)`$ の分子多項式の次数は $`n + m - 2
 モデルの妥当性確認の結果、モデルが不適切であると判断された場合は、許容領域内の他の有理関数を試してみる。
 
 #### 形状 1
-![plot showing admissiable n and m for shape 1](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape1.gif)
+![plot showing admissiable n and m for shape 1](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape1.gif)
 
 #### 形状 2
-![plot showing admissiable n and m for shape 2](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape2.gif)
+![plot showing admissiable n and m for shape 2](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape2.gif)
 
 #### 形状 3
-![plot showing admissiable n and m for shape 3](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape3.gif)
+![plot showing admissiable n and m for shape 3](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape3.gif)
 
 #### 形状 4
-![plot showing admissiable n and m for shape 4](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape4.gif)
+![plot showing admissiable n and m for shape 4](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape4.gif)
 
 #### 形状 5
-![plot showing admissiable n and m for shape 5](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape5.gif)
+![plot showing admissiable n and m for shape 5](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape5.gif)
 
 #### 形状 6
-![plot showing admissiable n and m for shape 6](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape6.gif)
+![plot showing admissiable n and m for shape 6](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape6.gif)
 
 #### 形状 7
-![plot showing admissiable n and m for shape 7](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape7.gif)
+![plot showing admissiable n and m for shape 7](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape7.gif)
 
 #### 形状 8
-![plot showing admissiable n and m for shape 8](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape8.gif)
+![plot showing admissiable n and m for shape 8](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape8.gif)
 
 #### 形状 9
-![plot showing admissiable n and m for shape 9](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shape9.gif)
+![plot showing admissiable n and m for shape 9](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shape9.gif)
 
 #### 形状 10
-![plot showing admissiable n and m for shape 10](https://www.itl.nist.gov/div898/handbook/ch4_pmd/section8/plots/shap10.gif)
+![plot showing admissiable n and m for shape 10](https://www.itl.nist.gov/div898/handbook/pmd/section8/plots/shap10.gif)
 
 
 ---
