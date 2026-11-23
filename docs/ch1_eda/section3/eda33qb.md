@@ -69,7 +69,7 @@ $`k`$個の変数が与えられたとき、散布図行列は$`k`$行$`k`$列�
 絞込みはこの概念をさらに拡張する。
 絞込みでは、強調表示する点をマウスでインタラクティブに選択し、散布図行列が動的に更新される（理想的にはリアルタイムで）。
 つまり、あるプロット内の点群から矩形領域を選択し、その選択が他のプロットにどのように反映されるかを確認できる。
-絞込みの詳細は、Becker, Cleveland, Wilks による論文「_Dynamic Graphics for Data Analysis_」([Cleveland and McGill, 1988](../../section4/eda43.md#Cleveland3)) で論じられている。 
+絞込みの詳細は、Becker, Cleveland, Wilks による論文「_Dynamic Graphics for Data Analysis_」([Cleveland and McGill, 1988](../section4/eda43.md#Cleveland3)) で論じられている。 
 
 #### 関連技法
 [星図](eda33t.md)  

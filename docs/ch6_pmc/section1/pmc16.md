@@ -233,8 +233,8 @@ $$ \hat{C}_{pl} = \frac{\bar{x} - \text{LSL}} {3s} = \frac{16 - 8} {3(2)} = 1.33
 1. データが近似的に正規分布になるよう変換する。
 よく用いられる変換として、[Box-Cox 変換](../section5/pmc52.md#Box-Cox)がある 
 2. 非正規分布に適用可能な別の指標の組を採用または開発する。
-非パラメトリック版（[Pearn, Tai, Hsiao, and Ao (2014)](../section7/pmc7.md#Pearn) および [Chen and Ding (2001)](../section7/pmc7.md#Chen)）の *C*<sub>*p*</sub>, *C*<sub>*pk*</sub>, *C*<sub>*pm*</sub> 能力指標の非パラメトリック版は、それぞれ *C*<sub>*np*</sub>, *C*<sub>*npk*</sub>, *C*<sub>*npm*</sub> と表記される。
-これらの非パラメトリック能力指数の推定量は、以下の式によって計算される。<br><br>
+ノンパラメトリック版（[Pearn, Tai, Hsiao, and Ao (2014)](../section7/pmc7.md#Pearn) および [Chen and Ding (2001)](../section7/pmc7.md#Chen)）の *C*<sub>*p*</sub>, *C*<sub>*pk*</sub>, *C*<sub>*pm*</sub> 能力指標のノンパラメトリック版は、それぞれ *C*<sub>*np*</sub>, *C*<sub>*npk*</sub>, *C*<sub>*npm*</sub> と表記される。
+これらのノンパラメトリック能力指数の推定量は、以下の式によって計算される。<br><br>
 $` \begin{align}
 \hat{C}_{np} &= \frac{\text{USL} - \text{LSL}} {p(0.99865) - p(0.00135)} \\
 \hat{C}_{npk} &= \frac{\text{min}\left[ \text{USL} - \text{中央値}, \text{中央値} - \text{LSL} \right]} {(p(0.99865) - p(0.00135))/2 } \\
