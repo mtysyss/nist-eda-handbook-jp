@@ -8,13 +8,7 @@
 
 # ハンドブックの詳細目次
 
-章　[1](#ch1) [2](#ch2) [3](#ch3) [4](#ch4) [5](#ch5) [6](#ch6) [7](#ch7) [8](#ch8)
-
-<div id="ch1"></div>
-
 #### [1. 探索的データ解析](docs/ch1_eda/eda.md)
-
-[[最上段]](#top) [[次章へ]](#ch2)
 
 1. [EDA入門](docs/ch1_eda/docs/ch1_eda/section1/eda1.md) [1.1.]
     1. [EDAとは](docs/ch1_eda/docs/ch1_eda/section1/eda11.md) [1.1.1.]
@@ -232,13 +226,8 @@
             6. [例題を解いてみる](docs/ch1_eda/section4/eda42a6.md) [1.4.2.10.6.]
     3. [1章：探索的データ解析の参考文献](docs/ch1_eda/section4/eda43.md) [1.4.3.]
 
----
-
-<div id="ch2"></div>
 
 #### [2. 測定工程の特徴付け](docs/ch2_mpc/mpc.md)
-
-[[最上段へ]](#top) [[前章へ]](#ch1) [[次章へ]](#ch3)
 
 1. [特徴付け](docs/ch2_mpc/section1/mpc1.md) [2.1.]
     1. [特徴付けにおける課題](docs/ch2_mpc/section1/mpc11.md) [2.1.1.]
@@ -435,13 +424,8 @@
     4. [タイプB 不確かさの評価と誤差伝播](docs/ch2_mpc/section6/mpc64.md) [2.6.4.]
 7. [参考文献](docs/ch2_mpc/section7/mpc7.md) [2.7.]
 
----
-
-<div id="ch3"></div>
 
 #### [3. 生産工程の特徴付け](docs/ch3_ppc/ppc.md)
-
-[[最上段へ]](#top) [[前章へ]](#ch2) [[次章へ]](#ch4)
 
 1. [生産工程特徴付けの概要](docs/ch3_ppc/section1/ppc1.md) [3.1.]
     1. [PPCとは何か](docs/ch3_ppc/section1/ppc11.md) [3.1.1.]
@@ -505,13 +489,8 @@
         6. [例題を解いてみる](docs/ch3_ppc/section5/ppc526.md) [3.5.2.6.]
 6. [参考文献](docs/ch3_ppc/section6/ppc6.md) [3.6.]
 
----
-
-<div id="ch4"></div>
 
 #### [4. 工程のモデル化](docs/ch4_pmd/pmd.md)
-
-[[最上段へ]](#top) [[前章へ]](#ch3) [[次章へ]](#ch5)
 
 1. [工程のモデル化入門](docs/ch4_pmd/section1/pmd1.md) [4.1.]
     1. [工程のモデル化とは](docs/ch4_pmd/section1/pmd11.md) [4.1.1.]
@@ -623,13 +602,8 @@
             10. [3次／3次有理関数](docs/ch4_pmd/section8/pmd812a.md) [4.8.1.2.10.]
             11. [有理関数のモデルにおける m および n の決定](docs/ch4_pmd/section8/pmd812b.md) [4.8.1.2.11.]
 
----
-
-<div id="ch5"></div>
 
 #### [5. 工程の改善](docs/ch5_pri/pri.md)
-
-[[最上段へ]](#top) [[前章へ]](#ch4) [[次章へ]](#ch6)
 
 1. [はじめに](docs/ch5_pri/section1/pri1.md) [5.1.]
     1. [実験計画法とは](docs/ch5_pri/section1/pri11.md) [5.1.1.]
@@ -774,13 +748,8 @@
 7. [DOE用語集](docs/ch5_pri/section7/pri7.md) [5.7.]
 8. [参考文献](docs/ch5_pri/section8/pri8.md) [5.8.]
 
----
-
-<div id="ch6"></div>
 
 #### [6. 工程や製品の監視と管理](docs/ch6_pmc/pmc.md)
-
-[[最上段へ]](#top) [[前章へ]](#ch5) [[次章へ]](#ch7)
 
 1. [はじめに](docs/ch6_pmc/section1/pmc1.md) [6.1.]
     1. [統計的品質管理の始まり](docs/ch6_pmc/section1/pmc11.md) [6.1.1.]
@@ -887,13 +856,8 @@
         
 7. [参考文献](docs/ch6_pmc/section7/pmc7.md) [6.7.]
 
----
-
-<div id="ch7"></div>
 
 #### [7. 製品および工程の比較](docs/ch7_prc/prc.md)
-
-[[最上段へ]](#top) [[前章へ]](#ch6) [[次章へ]](#ch8)
 
 1. [はじめに](docs/ch7_prc/section1/prc1.md) [7.1.]
     1. [適用範囲とは](docs/ch7_prc/section1/prc11.md) [7.1.1.]
@@ -958,13 +922,8 @@
         
 5. [参考文献](docs/ch7_prc/section5/prc5.md) [7.5.]
 
----
-
-<div id="ch8"></div>
 
 #### [8. 製品の信頼性の評価](docs/ch8_apr/apr.md)
-
-[[最上段へ]](#top) [[前章へ]](#ch7) 
 
 1. [はじめに](docs/ch8_apr/section1/apr1.md) [8.1.]
     1. [製品の信頼性の評価と管理が重要なのはなぜか](docs/ch8_apr/section1/apr11.md) [8.1.1.]
