@@ -1,4 +1,4 @@
-# nist-eda-handbook-jp
+# NIST/SEMATECH 工学統計ハンドブック（非公式日本語版）
 NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プロジェクト
 
 [著作権表示および免責事項](NOTICE.md)  
@@ -23,4 +23,6 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 ---
 
 [remarks](REMARKS.md)
+
+(公開：2026-11-24)
 
