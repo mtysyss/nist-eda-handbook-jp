@@ -22,12 +22,12 @@ $$\large{\rho = X \cdot K_a \cdot F_T \cdot t \cdot F_{t/s}}$$
 
 $$
 \begin{align}
-&\rho = &抵抗率 = 0.00128 \quad \text{Ω・cm}\\
-&X = &電圧／電流 \quad (Ω) \\
-&t = &厚さ_{ウェハ}(cm) = 0.628 \quad \text{cm} \\  
-&K_a = &係数_{電気的} = 4.50 \quad \text{Ω・cm}\\  
-&F_T = &補正係数_{温度} \approx 1 \quad \text{℃} \\  
-&F_{t/s} = &係数_{厚さ/間隔} \approx 1.0 \\
+&\rho = 抵抗率 = 0.00128 \quad \text{Ω・cm}\\
+&X = 電圧／電流 \quad (Ω) \\
+&t = 厚さ_{ウェハ}(cm) = 0.628 \quad \text{cm} \\  
+&K_a = 係数_{電気的} = 4.50 \quad \text{Ω・cm}\\  
+&F_T = 補正係数_{温度} \approx 1 \quad \text{℃} \\  
+&F_{t/s} = 係数_{厚さ/間隔} \approx 1.0 \\
 \end{align}
 $$
 
@@ -115,11 +115,11 @@ $$s_{F(T)} = C(t) \cdot s_T = 0.0083 \sqrt{\frac{0.13^2}{6}} = 0.000441 \quad C 
 
 $$
 \begin{align}
-&a_6 = & ( \rho / X) = 100/0.111 = 900.901 \\
-&a_7 = & ( \rho / K_a) = 100/4.50 = 22.222 \\  
-&a_8 = & ( \rho / t) = 100/0.628 = 159.24 \\ 
-&a_9 = & ( \rho / F_T) = 100 \\
-&a_{10} = &(\rho / F_{t/s}) = 100 
+&a_6 = ( \rho / X) = 100/0.111 = 900.901 \\
+&a_7 = ( \rho / K_a) = 100/4.50 = 22.222 \\  
+&a_8 = ( \rho / t) = 100/0.628 = 159.24 \\ 
+&a_9 = ( \rho / F_T) = 100 \\
+&a_{10} = (\rho / F_{t/s}) = 100 
 \end{align}
 $$  
 
