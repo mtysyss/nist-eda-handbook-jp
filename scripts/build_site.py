@@ -1,6 +1,8 @@
 import argparse
+import datetime
 import html as html_lib
 import http.server
+import json
 import os
 import re
 import shutil
@@ -13,13 +15,32 @@ import webbrowser
 from pathlib import Path
 import markdown
 
+# 公開サイトのベースURL（末尾スラッシュなし）
+SITE_BASE_URL = "https://mtysyss.github.io/nist-eda-handbook-jp"
+SITE_NAME = "NIST/SEMATECH 工学統計ハンドブック（非公式日本語版）"
+DEFAULT_DESCRIPTION = (
+    "米国国立標準技術研究所（NIST）とSEMATECHによる工学統計ハンドブック"
+    "（Engineering Statistics Handbook）の非公式日本語翻訳版です。探索的データ解析、"
+    "測定プロセス解析、工程管理、実験計画法、信頼性工学などの統計手法を網羅しています。"
+)
+
 # メイン記事用のHTMLテンプレート
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="ja"{no_sidebar_attr}>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title}</title>
+  <title>{full_title}</title>
+  <meta name="description" content="{meta_description}">
+  <link rel="canonical" href="{canonical_url}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="{site_name}">
+  <meta property="og:title" content="{full_title}">
+  <meta property="og:description" content="{meta_description}">
+  <meta property="og:url" content="{canonical_url}">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  {json_ld_block}
   <style>
     :root {{
       --bg: #ffffff;
@@ -276,13 +297,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
     /* === 本文エリア === */
     .article-body {{ min-width: 0; }}
+    /* SEO上、main内のh1を主見出しとして保持しつつ視覚重複を抑制 */
     .article-body > h1:first-of-type {{
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
+      font-size: 1.35rem;
+      line-height: 1.4;
+      margin: 0 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
     }}
     h1, h2, h3, h4, h5 {{ scroll-margin-top: 64px; }}
 
@@ -555,7 +577,8 @@ R_SCRIPT_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{filename}</title>
+  <title>{filename} | {site_name}</title>
+  <meta name="robots" content="noindex">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/r.min.js"></script>
@@ -620,7 +643,7 @@ def rewrite_yakuchu_links(html_after_yakuchu: str) -> str:
         if gh_blob_match:
             folder = gh_blob_match.group(1)
             rest = gh_blob_match.group(2)
-            url = f"https://mtysyss.github.io/nist-eda-handbook-jp/{folder}{rest}"
+            url = f"{SITE_BASE_URL}/{folder}{rest}"
 
         if re.search(r'(?:^|/)(?:R_Sc?ripts)/[^"\'#?]+\.R(?:$|[?#])', url, flags=re.IGNORECASE):
             new_url = re.sub(r'(\.R)(?=$|[?#])', r'\1.html', url, flags=re.IGNORECASE)
@@ -744,21 +767,139 @@ def wrap_h4_sections(body_html: str) -> str:
 
     return "\n".join(parts)
 
+def extract_meta_description(body_html: str) -> str:
+    """本文HTMLの冒頭段落・リストから数式やタグを除去した概要文（最大140文字）を自動生成する"""
+    # 訳註以降は除外し、最初のh1も除いた本文から候補を抽出
+    main_part = re.split(r'<h4[^>]*>\s*訳註\s*</h4>', body_html, maxsplit=1)[0]
+    main_part = re.sub(r'<h1\b[^>]*>.*?</h1>', '', main_part, count=1, flags=re.DOTALL | re.IGNORECASE)
+
+    # 段落 <p> とリスト項目 <li> のテキストを順に連結
+    blocks = re.findall(r'<(?:p|li)\b[^>]*>(.*?)</(?:p|li)>', main_part, flags=re.DOTALL | re.IGNORECASE)
+    cleaned_chunks = []
+    for blk in blocks:
+        # LaTeX数式とHTMLタグを除去して自然な日本語テキストにする
+        txt = re.sub(r'\$\$.*?\$\$', ' ', blk, flags=re.DOTALL)
+        txt = re.sub(r'\$[^$]+\$', ' ', txt)
+        txt = re.sub(r'<[^>]+>', ' ', txt)
+        txt = html_lib.unescape(txt)
+        txt = re.sub(r'\s+', ' ', txt).strip()
+        if len(txt) >= 12:
+            cleaned_chunks.append(txt)
+        if sum(len(c) for c in cleaned_chunks) >= 180:
+            break
+
+    summary = " ".join(cleaned_chunks).strip()
+    if not summary:
+        return DEFAULT_DESCRIPTION
+    if len(summary) > 140:
+        summary = summary[:139].rstrip() + "…"
+    return summary
+
+def build_json_ld_block(
+    page_title: str,
+    canonical_url: str,
+    meta_description: str,
+    nav_items_raw: list[tuple[str, str, str]],
+    src_md_path: Path,
+    root_dir: Path,
+    orig_url: str | None,
+    lastmod_iso: str | None
+) -> str:
+    """SEO用の構造化データ（BreadcrumbList + TechArticle）をJSON-LDとして生成する"""
+    schemas = []
+
+    # 1. パンくずリスト（BreadcrumbList）
+    breadcrumb_items = [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ホーム",
+            "item": f"{SITE_BASE_URL}/index.html"
+        }
+    ]
+    for idx, (num_str, link_text, raw_url) in enumerate(nav_items_raw, start=2):
+        html_rel = md_url_to_html(raw_url)
+        if re.match(r'^https?://', html_rel, flags=re.IGNORECASE):
+            item_url = html_rel
+        else:
+            target_abs = (src_md_path.parent / html_rel).resolve()
+            try:
+                rel_from_root = target_abs.relative_to(root_dir).as_posix()
+                item_url = f"{SITE_BASE_URL}/{rel_from_root}"
+            except ValueError:
+                item_url = canonical_url
+
+        breadcrumb_items.append({
+            "@type": "ListItem",
+            "position": idx,
+            "name": f"{num_str} {link_text}".strip(),
+            "item": item_url
+        })
+
+    if canonical_url != f"{SITE_BASE_URL}/index.html":
+        breadcrumb_items.append({
+            "@type": "ListItem",
+            "position": len(breadcrumb_items) + 1,
+            "name": page_title,
+            "item": canonical_url
+        })
+
+    if len(breadcrumb_items) >= 2:
+        schemas.append({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": breadcrumb_items
+        })
+
+    # 2. 技術記事メタデータ（TechArticle）
+    article_schema = {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": page_title,
+        "description": meta_description,
+        "inLanguage": "ja",
+        "mainEntityOfPage": canonical_url,
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": SITE_NAME,
+            "url": f"{SITE_BASE_URL}/index.html"
+        }
+    }
+    if orig_url:
+        article_schema["isBasedOn"] = orig_url
+    if lastmod_iso:
+        article_schema["dateModified"] = lastmod_iso
+
+    schemas.append(article_schema)
+
+    # 変更前:
+    # json_str = json.dumps(schemas, ensure_ascii=False, indent=2)
+    # return f'<script type="application/ld+json">\n{json_str}\n  </script>'
+
+    # 変更後（各スキーマを個別の <script type="application/ld+json"> ブロックとして出力）:
+    script_tags = []
+    for schema in schemas:
+        json_str = json.dumps(schema, ensure_ascii=False, indent=2)
+        script_tags.append(f'<script type="application/ld+json">\n{json_str}\n  </script>')
+    return "\n  ".join(script_tags)
+
 def parse_top_navigation(
     nav_raw: str,
     nav_items_raw: list[tuple[str, str, str]],
     page_title: str,
     home_rel_url: str | None = None
-) -> tuple[str, str, str, str]:
-    """1つ目の <hr> より上のナビゲーション情報を解析する"""
+) -> tuple[str, str, str, str, str | None, str | None]:
+    """
+    1つ目の <hr> より上のナビゲーション情報を解析する。
+    戻り値: (header_prev_next_html, drawer_prev_next_html, chapter_tree_block, source_meta_block, orig_url, lastmod_date)
+    """
     if not nav_raw and not nav_items_raw and not home_rel_url:
-        return "", "", "", ""
+        return "", "", "", "", None, None
 
     all_links = re.findall(r'<a\s+[^>]*href=["\'][^"\']+["\'][^>]*>.*?</a>', nav_raw, flags=re.DOTALL)
     arrow_slots = {"home": None, "prev": None, "up": None, "next": None}
     drawer_slots = {"home": None, "prev": None, "up": None, "next": None}
 
-    # 一番左側にホームアイコン（index.html への相対リンク）を設置
     if home_rel_url:
         esc_home = html_lib.escape(home_rel_url)
         arrow_slots["home"] = f'<a href="{esc_home}" title="ホーム (index.html)">🏠</a>'
@@ -780,27 +921,35 @@ def parse_top_navigation(
     drawer_prev_next_html = "\n".join(v for v in drawer_slots.values() if v)
 
     if not nav_raw and not nav_items_raw:
-        return header_prev_next_html, drawer_prev_next_html, "", ""
+        return header_prev_next_html, drawer_prev_next_html, "", "", None, None
 
-    # 原典リンク・閲覧(UTC)日時・著作権表示および免責事項リンクの組み立て
     orig_link_match = re.search(
-        r'<a\s+[^>]*href=["\']https?://[^"\']+["\'][^>]*>.*?</a>',
+        r'<a\s+[^>]*href=["\'](https?://[^"\']+)["\'][^>]*>.*?</a>',
         nav_raw,
         flags=re.DOTALL | re.IGNORECASE
     )
     utc_match = re.search(r'閲覧\(UTC\)[：:]\s*([0-9\-:\s]+)', nav_raw)
 
+    orig_url = None
+    lastmod_date = None
     meta_lines = []
+
     if orig_link_match:
+        orig_url = orig_link_match.group(1)
         orig_tag = orig_link_match.group(0)
         if 'target=' not in orig_tag:
             orig_tag = orig_tag.replace('<a ', '<a target="_blank" rel="noopener" ', 1)
         meta_lines.append(orig_tag)
+
     if utc_match:
-        meta_lines.append(f"閲覧(UTC)：{html_lib.escape(utc_match.group(1).strip())}")
+        utc_str = utc_match.group(1).strip()
+        meta_lines.append(f"閲覧(UTC)：{html_lib.escape(utc_str)}")
+        date_only = re.match(r'(\d{4}-\d{2}-\d{2})', utc_str)
+        if date_only:
+            lastmod_date = date_only.group(1)
 
     meta_lines.append(
-        '<a href="https://mtysyss.github.io/nist-eda-handbook-jp/NOTICE.html" target="_blank" rel="noopener">著作権表示および免責事項</a>'
+        f'<a href="{SITE_BASE_URL}/NOTICE.html" target="_blank" rel="noopener">著作権表示および免責事項</a>'
     )
 
     source_meta_block = (
@@ -840,7 +989,7 @@ def parse_top_navigation(
             '</div>'
         )
 
-    return header_prev_next_html, drawer_prev_next_html, chapter_tree_block, source_meta_block
+    return header_prev_next_html, drawer_prev_next_html, chapter_tree_block, source_meta_block, orig_url, lastmod_date
 
 def build_layout_parts(
     html: str,
@@ -848,7 +997,7 @@ def build_layout_parts(
     nav_items_raw: list[tuple[str, str, str]],
     fallback_title: str,
     home_rel_url: str | None = None
-) -> tuple[str, str, str, str, str, str, bool]:
+) -> tuple[str, str, str, str, str, str, bool, list[tuple[str, str, str]], str | None, str | None]:
     """index.md 以外のページは最初の <hr> で上部ナビゲーションと本文を分離する"""
     if has_nav:
         hr_match = re.search(r'<hr\s*/?>', html, flags=re.IGNORECASE)
@@ -868,7 +1017,7 @@ def build_layout_parts(
     else:
         page_title = fallback_title
 
-    header_prev_next, drawer_prev_next, chapter_tree_block, source_meta_block = parse_top_navigation(
+    header_prev_next, drawer_prev_next, chapter_tree_block, source_meta_block, orig_url, lastmod_date = parse_top_navigation(
         nav_raw, nav_items_raw, page_title, home_rel_url=home_rel_url
     )
 
@@ -884,13 +1033,14 @@ def build_layout_parts(
 
     header_right_html = f'<div class="header-right">{header_prev_next}</div>' if header_prev_next else ""
 
+    # ヘッダー側は <span> とし、SEO上の主見出し <h1> は <main> 本文側へ一本化
     header_html = f"""
     <header class="top-nav">
       <div class="top-nav-inner">
         <div class="header-left">
           <button type="button" class="ctrl-btn mobile-toc-btn" id="mobile-toc-btn">☰ 目次</button>
           {accordion_buttons}
-          <h1 class="header-page-title" title="{html_lib.escape(page_title)}">{html_lib.escape(page_title)}</h1>
+          <span class="header-page-title" title="{html_lib.escape(page_title)}">{html_lib.escape(page_title)}</span>
         </div>
         {header_right_html}
       </div>
@@ -908,14 +1058,25 @@ def build_layout_parts(
 
     body_html = process_body_tables(body_raw)
     body_html = wrap_h4_sections(body_html)
-    return page_title, header_html, drawer_prev_next_block, chapter_tree_block, source_meta_block, body_html, has_sidebar
+    return (
+        page_title,
+        header_html,
+        drawer_prev_next_block,
+        chapter_tree_block,
+        source_meta_block,
+        body_html,
+        has_sidebar,
+        nav_items_raw,
+        orig_url,
+        lastmod_date,
+    )
 
 def convert_md_to_html(
     md_text: str,
     fallback_title: str,
     has_nav: bool = True,
     home_rel_url: str | None = None
-) -> tuple[str, str, str, str, str, str, bool]:
+) -> tuple[str, str, str, str, str, str, bool, list[tuple[str, str, str]], str | None, str | None]:
     math_blocks = []
     nav_items_raw: list[tuple[str, str, str]] = []
 
@@ -948,17 +1109,14 @@ def convert_md_to_html(
     else:
         working_md = md_text
 
-    # #### 訳註 の直前にある --- をMarkdown段階で除去
     working_md = re.sub(
         r'\n[ \t]*---+[ \t]*\n+(?=\s*####\s*訳註\b)',
         '\n\n',
         working_md
     )
 
-    # テーブル直後の属性記法・生<table>前後の空行を正規化
     working_md = preprocess_markdown_tables(working_md)
 
-    # ブロック数式 $$...$$ とインライン数式 $`...`$ をHTML変換前に退避
     protected = re.sub(r'\$\$.*?\$\$', lambda m: push_math(m.group(0)), working_md, flags=re.DOTALL)
     protected = re.sub(r'\$`([^`]+)`\$', lambda m: push_math(f"${m.group(1)}$"), protected)
 
@@ -973,14 +1131,11 @@ def convert_md_to_html(
         }
     )
 
-    # 退避した数式を復元
     for idx, math_str in enumerate(math_blocks):
         html = html.replace(f"@@MATH_{idx}@@", math_str)
 
-    # HTML変換後も <h4>訳註</h4> 直前に <hr> が残っていれば除去
     html = re.sub(r'<hr\s*/?>\s*(?=<h4[^>]*>\s*訳註\s*</h4>)', '', html, flags=re.IGNORECASE)
 
-    # <table>内の [text](url) や .md リンクを <a> タグ & .html に変換
     def replace_md_link(match):
         text = match.group(1)
         url = md_url_to_html(match.group(2))
@@ -1010,6 +1165,7 @@ def render_r_script_file(src_path: Path, dst_raw_path: Path):
     code_text = src_path.read_text(encoding="utf-8", errors="replace")
     viewer_html = R_SCRIPT_TEMPLATE.format(
         filename=src_path.name,
+        site_name=html_lib.escape(SITE_NAME),
         raw_filename=src_path.name,
         escaped_code=html_lib.escape(code_text)
     )
@@ -1029,7 +1185,7 @@ def extract_local_asset_paths(html_content: str, src_md_path: Path, root_dir: Pa
         if not clean_url:
             continue
 
-        gh_pages_prefix = "https://mtysyss.github.io/nist-eda-handbook-jp/"
+        gh_pages_prefix = f"{SITE_BASE_URL}/"
         if clean_url.startswith(gh_pages_prefix):
             rel_str = clean_url[len(gh_pages_prefix):]
             target_path = (root_dir / rel_str).resolve()
@@ -1066,8 +1222,16 @@ def copy_referenced_assets(asset_paths: set[Path], root_dir: Path, out_dir: Path
             dst_asset.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src_asset, dst_asset)
 
-def render_md_file(src_path: Path, dst_path: Path, root_dir: Path) -> set[Path]:
-    """1つのmdファイルをHTML変換して書き出し、そのページが参照しているローカルファイル集合を返す"""
+def render_md_file(
+    src_path: Path,
+    dst_path: Path,
+    root_dir: Path,
+    out_dir: Path
+) -> tuple[set[Path], str, str]:
+    """
+    1つのmdファイルをHTML変換して書き出し、
+    (参照ローカルファイル集合, 正規URL, 更新日YYYY-MM-DD) を返す。
+    """
     dst_path.parent.mkdir(parents=True, exist_ok=True)
     md_text = src_path.read_text(encoding="utf-8")
 
@@ -1076,19 +1240,60 @@ def render_md_file(src_path: Path, dst_path: Path, root_dir: Path) -> set[Path]:
         and src_path.name.lower() in ("index.md", "readme.md")
     )
 
-    # ルート直下の index.html への相対パスを計算（トップページ自身ではホームアイコン不要のため None）
     if is_root_index:
         home_rel_url = None
     else:
         home_rel_url = Path(os.path.relpath(root_dir.resolve() / "index.html", src_path.resolve().parent)).as_posix()
 
-    page_title, header_nav, drawer_prev_next, chapter_tree, source_meta, body_html, has_sidebar = convert_md_to_html(
+    (
+        page_title,
+        header_nav,
+        drawer_prev_next,
+        chapter_tree,
+        source_meta,
+        body_html,
+        has_sidebar,
+        nav_items_raw,
+        orig_url,
+        lastmod_date,
+    ) = convert_md_to_html(
         md_text, fallback_title=src_path.stem, has_nav=not is_root_index, home_rel_url=home_rel_url
     )
+
+    # 正規URLとタイトルの組み立て
+    rel_out_posix = dst_path.resolve().relative_to(out_dir.resolve()).as_posix()
+    canonical_url = f"{SITE_BASE_URL}/{rel_out_posix}"
+
+    if is_root_index or page_title == SITE_NAME:
+        full_title = SITE_NAME
+    else:
+        full_title = f"{page_title} | {SITE_NAME}"
+
+    meta_description = extract_meta_description(body_html)
+
+    if not lastmod_date:
+        mtime = datetime.datetime.fromtimestamp(src_path.stat().st_mtime, tz=datetime.timezone.utc)
+        lastmod_date = mtime.strftime("%Y-%m-%d")
+
+    json_ld_block = build_json_ld_block(
+        page_title=page_title,
+        canonical_url=canonical_url,
+        meta_description=meta_description,
+        nav_items_raw=nav_items_raw,
+        src_md_path=src_path.resolve(),
+        root_dir=root_dir.resolve(),
+        orig_url=orig_url,
+        lastmod_iso=lastmod_date,
+    )
+
     no_sidebar_attr = '' if has_sidebar else ' data-no-sidebar="true"'
     full_html = HTML_TEMPLATE.format(
         no_sidebar_attr=no_sidebar_attr,
-        title=html_lib.escape(page_title),
+        full_title=html_lib.escape(full_title),
+        meta_description=html_lib.escape(meta_description),
+        canonical_url=html_lib.escape(canonical_url),
+        site_name=html_lib.escape(SITE_NAME),
+        json_ld_block=json_ld_block,
         header_nav=header_nav,
         drawer_prev_next_block=drawer_prev_next,
         chapter_tree_block=chapter_tree,
@@ -1097,7 +1302,41 @@ def render_md_file(src_path: Path, dst_path: Path, root_dir: Path) -> set[Path]:
     )
     dst_path.write_text(full_html, encoding="utf-8")
 
-    return extract_local_asset_paths(full_html, src_path, root_dir)
+    return extract_local_asset_paths(full_html, src_path, root_dir), canonical_url, lastmod_date
+
+def generate_sitemap_and_robots(out_dir: Path, sitemap_entries: list[tuple[str, str]]):
+    """検索クローラ向けの sitemap.xml と robots.txt を出力ディレクトリ直下に生成する"""
+    # 重複URLを除外してURL順に整列
+    unique_entries: dict[str, str] = {}
+    for loc, lastmod in sitemap_entries:
+        unique_entries[loc] = lastmod
+
+    url_blocks = []
+    for loc in sorted(unique_entries.keys()):
+        lastmod = unique_entries[loc]
+        priority = "1.0" if loc.endswith("/index.html") and loc.count("/") == 4 else "0.8"
+        url_blocks.append(
+            "  <url>\n"
+            f"    <loc>{html_lib.escape(loc)}</loc>\n"
+            f"    <lastmod>{html_lib.escape(lastmod)}</lastmod>\n"
+            f"    <priority>{priority}</priority>\n"
+            "  </url>"
+        )
+
+    sitemap_xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(url_blocks)
+        + "\n</urlset>\n"
+    )
+    (out_dir / "sitemap.xml").write_text(sitemap_xml, encoding="utf-8")
+
+    robots_txt = (
+        "User-agent: *\n"
+        "Allow: /\n\n"
+        f"Sitemap: {SITE_BASE_URL}/sitemap.xml\n"
+    )
+    (out_dir / "robots.txt").write_text(robots_txt, encoding="utf-8")
 
 def build_single_file(target_md: str, root_dir: Path, out_dir: Path):
     """指定された1つの .md ファイルと、その中のリンク対象ファイルだけを出力先へ変換する"""
@@ -1112,47 +1351,67 @@ def build_single_file(target_md: str, root_dir: Path, out_dir: Path):
 
     rel_path = src_path.relative_to(root_dir)
     dst_path = (out_dir / rel_path).with_suffix(".html")
-    assets = render_md_file(src_path, dst_path, root_dir)
+    assets, _, _ = render_md_file(src_path, dst_path, root_dir, out_dir)
 
     if src_path.name.lower() in ("readme.md", "index.md") and src_path.parent == root_dir:
-        render_md_file(src_path, out_dir / "index.html", root_dir)
+        render_md_file(src_path, out_dir / "index.html", root_dir, out_dir)
 
     copy_referenced_assets(assets, root_dir, out_dir)
     print(f"単一ファイルビルド完了: {rel_path} -> {dst_path} （関連ファイル {len(assets)} 件コピー）")
     return dst_path
 
 def build_all(root_dir: Path, out_dir: Path):
-    """プロジェクトルート直下の .md、docs/ 配下の .md、およびそれらからリンクされたファイルのみビルドする"""
+    """プロジェクトルート直下の .md、docs/ 配下の .md、リンク対象ファイル、sitemap.xml / robots.txt をビルドする"""
     if out_dir.exists():
         shutil.rmtree(out_dir)
     out_dir.mkdir(parents=True)
 
     referenced_assets: set[Path] = set()
+    sitemap_entries: list[tuple[str, str]] = []
     md_count = 0
 
     root_mds = list(root_dir.glob("*.md"))
     has_root_index = any(f.name.lower() == "index.md" for f in root_mds)
 
     for md_file in root_mds:
+        # README.md と index.md が両方ある場合、index.md を正規URLとして登録
+        if md_file.name.lower() == "readme.md" and has_root_index:
+            dst_path = out_dir / md_file.with_suffix(".html").name
+            assets, _, _ = render_md_file(md_file, dst_path, root_dir, out_dir)
+            referenced_assets |= assets
+            md_count += 1
+            continue
+
         dst_path = out_dir / md_file.with_suffix(".html").name
-        referenced_assets |= render_md_file(md_file, dst_path, root_dir)
+        assets, canonical_url, lastmod = render_md_file(md_file, dst_path, root_dir, out_dir)
+        referenced_assets |= assets
+        sitemap_entries.append((canonical_url, lastmod))
         md_count += 1
+
         if md_file.name.lower() == "readme.md" and not has_root_index:
-            render_md_file(md_file, out_dir / "index.html", root_dir)
+            idx_path = out_dir / "index.html"
+            _, idx_url, idx_mod = render_md_file(md_file, idx_path, root_dir, out_dir)
+            sitemap_entries.append((idx_url, idx_mod))
 
     docs_dir = root_dir / "docs"
     if docs_dir.exists():
         for md_file in docs_dir.rglob("*.md"):
             rel_path = md_file.relative_to(root_dir)
             dst_path = (out_dir / rel_path).with_suffix(".html")
-            referenced_assets |= render_md_file(md_file, dst_path, root_dir)
+            assets, canonical_url, lastmod = render_md_file(md_file, dst_path, root_dir, out_dir)
+            referenced_assets |= assets
+            sitemap_entries.append((canonical_url, lastmod))
             md_count += 1
             if md_file.name.lower() == "readme.md":
-                render_md_file(md_file, dst_path.parent / "index.html", root_dir)
+                render_md_file(md_file, dst_path.parent / "index.html", root_dir, out_dir)
 
     copy_referenced_assets(referenced_assets, root_dir, out_dir)
+    generate_sitemap_and_robots(out_dir, sitemap_entries)
 
-    print(f"全体ビルド完了: {out_dir} （HTML {md_count} ページ / リンク対象ファイル {len(referenced_assets)} 件）")
+    print(
+        f"全体ビルド完了: {out_dir} "
+        f"（HTML {md_count} ページ / サイトマップ {len(sitemap_entries)} 件 / 関連ファイル {len(referenced_assets)} 件）"
+    )
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Markdown to HTML static site builder")
