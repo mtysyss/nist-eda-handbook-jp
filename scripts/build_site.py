@@ -41,6 +41,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary">
   {json_ld_block}
+  <link rel="stylesheet" href="{root_rel_prefix}pagefind/pagefind-ui.css">
   <style>
     :root {{
       --bg: #ffffff;
@@ -50,6 +51,15 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       --muted: #57606a;
       --accent: #0969da;
       --accent-bg: #ddf4ff;
+      --pagefind-ui-scale: 0.9;
+      --pagefind-ui-primary: #0969da;
+      --pagefind-ui-text: #24292f;
+      --pagefind-ui-background: #ffffff;
+      --pagefind-ui-border: #d0d7de;
+      --pagefind-ui-tag: #f6f8fa;
+      --pagefind-ui-border-width: 1px;
+      --pagefind-ui-border-radius: 6px;
+      --pagefind-ui-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
     }}
     * {{ box-sizing: border-box; }}
     html {{ scroll-behavior: smooth; }}
@@ -103,6 +113,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     }}
     .ctrl-btn:hover {{ background: #eef1f4; }}
     .mobile-toc-btn {{ display: none; font-weight: 600; }}
+    .search-open-btn {{ font-weight: 600; }}
 
     .header-page-title {{
       margin: 0 0 0 6px;
@@ -139,6 +150,51 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     .header-right a:hover {{
       background: var(--accent-bg);
       border-color: var(--accent);
+    }}
+
+    /* === Pagefind 検索モーダル === */
+    .search-modal-backdrop {{
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 300;
+      background: rgba(27, 31, 36, 0.55);
+      padding: 44px 16px 24px;
+      align-items: flex-start;
+      justify-content: center;
+    }}
+    .search-modal-backdrop.open {{ display: flex; }}
+    .search-modal-box {{
+      width: 100%;
+      max-width: 760px;
+      max-height: 84vh;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }}
+    .search-modal-header {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+    }}
+    .search-modal-body {{
+      padding: 14px;
+      overflow-y: auto;
+    }}
+    .search-fallback-msg {{
+      font-size: 13px;
+      color: var(--muted);
+      padding: 8px 4px;
     }}
 
     /* === メインコンテナ === */
@@ -297,7 +353,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
     /* === 本文エリア === */
     .article-body {{ min-width: 0; }}
-    /* SEO上、main内のh1を主見出しとして保持しつつ視覚重複を抑制 */
     .article-body > h1:first-of-type {{
       font-size: 1.35rem;
       line-height: 1.4;
@@ -482,12 +537,26 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       </div>
       {source_meta_block}
     </aside>
-    <main class="article-body" id="article-body">
+    <main class="article-body" id="article-body" data-pagefind-body>
       {body}
     </main>
   </div>
   <a href="#page-top" class="back-to-top" title="ページの先頭へ">↑ 先頭へ</a>
 
+  <!-- Pagefind サイト内検索モーダル -->
+  <div class="search-modal-backdrop" id="search-modal" aria-hidden="true">
+    <div class="search-modal-box" role="dialog" aria-modal="true" aria-label="サイト内全文検索">
+      <div class="search-modal-header">
+        <span>サイト内全文検索（{site_name}）</span>
+        <button type="button" class="ctrl-btn" id="search-close-btn">閉じる (Esc)</button>
+      </div>
+      <div class="search-modal-body">
+        <div id="pagefind-search-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="{root_rel_prefix}pagefind/pagefind-ui.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {{
       const article = document.getElementById('article-body');
@@ -558,6 +627,70 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           if (parentDetails) parentDetails.open = true;
         }}
       }}
+
+      // 5. Pagefind 検索モーダルの初期化と開閉制御
+      const searchModal = document.getElementById('search-modal');
+      const searchOpenBtn = document.getElementById('search-open-btn');
+      const searchCloseBtn = document.getElementById('search-close-btn');
+      let pagefindInitialized = false;
+
+      function openSearchModal() {{
+        searchModal.classList.add('open');
+        searchModal.setAttribute('aria-hidden', 'false');
+        if (!pagefindInitialized) {{
+          pagefindInitialized = true;
+          if (typeof PagefindUI !== 'undefined') {{
+            const resolvedBundlePath = new URL('{root_rel_prefix}pagefind/', window.location.href).pathname;
+            new PagefindUI({{
+              element: '#pagefind-search-container',
+              bundlePath: resolvedBundlePath,
+              showSubResults: true,
+              showImages: false,
+              resetStyles: false,
+              translations: {{
+                placeholder: 'キーワードを入力（例: ワイブル, 工程能力指数, Box-Cox, 管理図）',
+                zero_results: '「[SEARCH_TERM]」に一致するページは見つかりませんでした',
+                many_results: '[COUNT] 件のページが見つかりました',
+                one_result: '1 件のページが見つかりました',
+                searching: '「[SEARCH_TERM]」を検索中...',
+                load_more: 'さらに表示'
+              }}
+            }});
+          }} else {{
+            document.getElementById('pagefind-search-container').innerHTML =
+              '<p class="search-fallback-msg">検索インデックスが未生成です（ローカル検証時は <code>npx pagefind --site trialhtml</code> を実行してください）。</p>';
+          }}
+        }}
+        setTimeout(() => {{
+          const input = searchModal.querySelector('input');
+          if (input) input.focus();
+        }}, 50);
+      }}
+
+      function closeSearchModal() {{
+        searchModal.classList.remove('open');
+        searchModal.setAttribute('aria-hidden', 'true');
+      }}
+
+      if (searchOpenBtn) searchOpenBtn.addEventListener('click', openSearchModal);
+      if (searchCloseBtn) searchCloseBtn.addEventListener('click', closeSearchModal);
+      if (searchModal) {{
+        searchModal.addEventListener('click', (e) => {{
+          if (e.target === searchModal) closeSearchModal();
+        }});
+      }}
+      document.addEventListener('keydown', (e) => {{
+        if (e.key === 'Escape' && searchModal.classList.contains('open')) {{
+          closeSearchModal();
+        }} else if (
+          e.key === '/' &&
+          !searchModal.classList.contains('open') &&
+          !['INPUT', 'TEXTAREA', 'SELECT'].includes((document.activeElement || {{}}).tagName)
+        ) {{
+          e.preventDefault();
+          openSearchModal();
+        }}
+      }});
     }});
 
     // 全セクションの一括展開・折りたたみ
@@ -745,7 +878,7 @@ def process_body_tables(body_html: str) -> str:
     return body_html
 
 def wrap_h4_sections(body_html: str) -> str:
-    """<h4> から次の <h4> までを <details class="sec-block" open> で囲む"""
+    """<h4> から次の <h4> までを <details class="sec-block" open> で囲む（訳註セクションは検索ノイズ除外）"""
     h4_matches = list(re.finditer(r'(<h4\b[^>]*>.*?</h4>)', body_html, flags=re.DOTALL))
     if not h4_matches:
         return body_html
@@ -753,12 +886,14 @@ def wrap_h4_sections(body_html: str) -> str:
     parts = [body_html[:h4_matches[0].start()]]
     for i, m in enumerate(h4_matches):
         h4_tag = m.group(1)
+        h4_plain = re.sub(r'<[^>]+>', '', h4_tag).strip()
+        ignore_attr = ' data-pagefind-ignore' if h4_plain == '訳註' else ''
         content_start = m.end()
         content_end = h4_matches[i + 1].start() if i + 1 < len(h4_matches) else len(body_html)
         section_inner = body_html[content_start:content_end].strip()
 
         wrapped = (
-            f'<details class="sec-block" open>\n'
+            f'<details class="sec-block" open{ignore_attr}>\n'
             f'  <summary>{h4_tag}</summary>\n'
             f'  <div class="sec-content">\n{section_inner}\n  </div>\n'
             f'</details>'
@@ -769,15 +904,12 @@ def wrap_h4_sections(body_html: str) -> str:
 
 def extract_meta_description(body_html: str) -> str:
     """本文HTMLの冒頭段落・リストから数式やタグを除去した概要文（最大140文字）を自動生成する"""
-    # 訳註以降は除外し、最初のh1も除いた本文から候補を抽出
     main_part = re.split(r'<h4[^>]*>\s*訳註\s*</h4>', body_html, maxsplit=1)[0]
     main_part = re.sub(r'<h1\b[^>]*>.*?</h1>', '', main_part, count=1, flags=re.DOTALL | re.IGNORECASE)
 
-    # 段落 <p> とリスト項目 <li> のテキストを順に連結
     blocks = re.findall(r'<(?:p|li)\b[^>]*>(.*?)</(?:p|li)>', main_part, flags=re.DOTALL | re.IGNORECASE)
     cleaned_chunks = []
     for blk in blocks:
-        # LaTeX数式とHTMLタグを除去して自然な日本語テキストにする
         txt = re.sub(r'\$\$.*?\$\$', ' ', blk, flags=re.DOTALL)
         txt = re.sub(r'\$[^$]+\$', ' ', txt)
         txt = re.sub(r'<[^>]+>', ' ', txt)
@@ -805,10 +937,9 @@ def build_json_ld_block(
     orig_url: str | None,
     lastmod_iso: str | None
 ) -> str:
-    """SEO用の構造化データ（BreadcrumbList + TechArticle）をJSON-LDとして生成する"""
+    """SEO用の構造化データ（BreadcrumbList + TechArticle）を個別のJSON-LDタグとして生成する"""
     schemas = []
 
-    # 1. パンくずリスト（BreadcrumbList）
     breadcrumb_items = [
         {
             "@type": "ListItem",
@@ -851,7 +982,6 @@ def build_json_ld_block(
             "itemListElement": breadcrumb_items
         })
 
-    # 2. 技術記事メタデータ（TechArticle）
     article_schema = {
         "@context": "https://schema.org",
         "@type": "TechArticle",
@@ -872,11 +1002,6 @@ def build_json_ld_block(
 
     schemas.append(article_schema)
 
-    # 変更前:
-    # json_str = json.dumps(schemas, ensure_ascii=False, indent=2)
-    # return f'<script type="application/ld+json">\n{json_str}\n  </script>'
-
-    # 変更後（各スキーマを個別の <script type="application/ld+json"> ブロックとして出力）:
     script_tags = []
     for schema in schemas:
         json_str = json.dumps(schema, ensure_ascii=False, indent=2)
@@ -889,10 +1014,7 @@ def parse_top_navigation(
     page_title: str,
     home_rel_url: str | None = None
 ) -> tuple[str, str, str, str, str | None, str | None]:
-    """
-    1つ目の <hr> より上のナビゲーション情報を解析する。
-    戻り値: (header_prev_next_html, drawer_prev_next_html, chapter_tree_block, source_meta_block, orig_url, lastmod_date)
-    """
+    """1つ目の <hr> より上のナビゲーション情報を解析する"""
     if not nav_raw and not nav_items_raw and not home_rel_url:
         return "", "", "", "", None, None
 
@@ -1014,6 +1136,14 @@ def build_layout_parts(
     h1_match = re.search(r'<h1\b[^>]*>(.*?)</h1>', body_raw, flags=re.DOTALL)
     if h1_match:
         page_title = re.sub(r'<[^>]+>', '', h1_match.group(1)).strip()
+        # Pagefind用のタイトルメタ属性をh1に付与
+        body_raw = re.sub(
+            r'<h1\b([^>]*)>',
+            r'<h1\1 data-pagefind-meta="title">',
+            body_raw,
+            count=1,
+            flags=re.IGNORECASE
+        )
     else:
         page_title = fallback_title
 
@@ -1033,12 +1163,12 @@ def build_layout_parts(
 
     header_right_html = f'<div class="header-right">{header_prev_next}</div>' if header_prev_next else ""
 
-    # ヘッダー側は <span> とし、SEO上の主見出し <h1> は <main> 本文側へ一本化
     header_html = f"""
     <header class="top-nav">
       <div class="top-nav-inner">
         <div class="header-left">
           <button type="button" class="ctrl-btn mobile-toc-btn" id="mobile-toc-btn">☰ 目次</button>
+          <button type="button" class="ctrl-btn search-open-btn" id="search-open-btn" title="サイト内検索 (/)">🔍 検索</button>
           {accordion_buttons}
           <span class="header-page-title" title="{html_lib.escape(page_title)}">{html_lib.escape(page_title)}</span>
         </div>
@@ -1240,10 +1370,16 @@ def render_md_file(
         and src_path.name.lower() in ("index.md", "readme.md")
     )
 
-    if is_root_index:
-        home_rel_url = None
-    else:
-        home_rel_url = Path(os.path.relpath(root_dir.resolve() / "index.html", src_path.resolve().parent)).as_posix()
+    # ルートディレクトリまでの相対パス接頭辞（例: "" または "../../"）
+    # 変更前:
+    # rel_to_root = os.path.relpath(root_dir.resolve(), src_path.resolve().parent)
+
+    # 変更後（出力先HTMLとout_dirから確実に階層深さを計算する）:
+    rel_out_parts = dst_path.resolve().relative_to(out_dir.resolve()).parts
+    depth = len(rel_out_parts) - 1  # ルート直下(index.html)なら 0、docs/ch1/a.html なら 2
+    root_rel_prefix = "../" * depth
+
+    home_rel_url = None if is_root_index else f"{root_rel_prefix}index.html"
 
     (
         page_title,
@@ -1260,7 +1396,6 @@ def render_md_file(
         md_text, fallback_title=src_path.stem, has_nav=not is_root_index, home_rel_url=home_rel_url
     )
 
-    # 正規URLとタイトルの組み立て
     rel_out_posix = dst_path.resolve().relative_to(out_dir.resolve()).as_posix()
     canonical_url = f"{SITE_BASE_URL}/{rel_out_posix}"
 
@@ -1294,6 +1429,7 @@ def render_md_file(
         canonical_url=html_lib.escape(canonical_url),
         site_name=html_lib.escape(SITE_NAME),
         json_ld_block=json_ld_block,
+        root_rel_prefix=html_lib.escape(root_rel_prefix),
         header_nav=header_nav,
         drawer_prev_next_block=drawer_prev_next,
         chapter_tree_block=chapter_tree,
@@ -1306,7 +1442,6 @@ def render_md_file(
 
 def generate_sitemap_and_robots(out_dir: Path, sitemap_entries: list[tuple[str, str]]):
     """検索クローラ向けの sitemap.xml と robots.txt を出力ディレクトリ直下に生成する"""
-    # 重複URLを除外してURL順に整列
     unique_entries: dict[str, str] = {}
     for loc, lastmod in sitemap_entries:
         unique_entries[loc] = lastmod
@@ -1374,7 +1509,6 @@ def build_all(root_dir: Path, out_dir: Path):
     has_root_index = any(f.name.lower() == "index.md" for f in root_mds)
 
     for md_file in root_mds:
-        # README.md と index.md が両方ある場合、index.md を正規URLとして登録
         if md_file.name.lower() == "readme.md" and has_root_index:
             dst_path = out_dir / md_file.with_suffix(".html").name
             assets, _, _ = render_md_file(md_file, dst_path, root_dir, out_dir)
