@@ -40,6 +40,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <meta property="og:url" content="{canonical_url}">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary">
+  <meta name="google-site-verification" content="T8Vx5ciBFvqvPHvqQ53rcaTjcBdrlKpd0kvNk7EOo7c" >
   {json_ld_block}
   <link rel="stylesheet" href="{root_rel_prefix}pagefind/pagefind-ui.css">
   <style>
