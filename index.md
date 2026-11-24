@@ -24,6 +24,3 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 
 [remarks](REMARKS.md)
 
-
-* 翻訳対象のページは、ページ表示上部のリンクBack/Nextと本文中のリンクで表示されるページです。
-* 表形式の表示に、翻訳ファイル作業と本HTML表示変換の処理整合性が取れておらず、一部崩れている部分があります。
