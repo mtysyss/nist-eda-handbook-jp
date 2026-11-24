@@ -20,6 +20,8 @@ NIST/SEMATECH e-Handbook of Statistical Methods の非公式日本語翻訳プ�
 
 [詳細目次](dtoc.md)
 
+[よくある工学に関する質問](docs/toolaids/eq/index.md)
+
 ---
 
 [remarks](REMARKS.md)
