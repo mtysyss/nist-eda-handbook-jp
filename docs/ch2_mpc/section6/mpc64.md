@@ -20,12 +20,16 @@ $$\large{\rho = X \cdot K_a \cdot F_T \cdot t \cdot F_{t/s}}$$
 
 各量とその標準値の説明は、以下の通り。
 
-$$\rho = 抵抗率 = 0.00128 \quad Ω・cm $$  
-$$X = 電圧／電流 \quad (Ω) $$  
-$$t = 厚さ_{ウェハ}(cm) = 0.628 \quad cm $$  
-$$K_a = 係数_{電気的} = 4.50 \quad Ω・cm $$  
-$$F_T = 補正係数_{温度} \approx 1 \quad C $$  
-$$F_{t/s} = 係数_{厚さ/間隔} \approx 1.0 $$ 
+$$
+\begin{align}
+\rho = 抵抗率 = 0.00128 \quad Ω・cm \\
+X = 電圧／電流 \quad (Ω) \\
+t = 厚さ_{ウェハ}(cm) = 0.628 \quad cm \\  
+K_a = 係数_{電気的} = 4.50 \quad Ω・cm \\  
+F_T = 補正係数_{温度} \approx 1 \quad C \\  
+F_{t/s} = 係数_{厚さ/間隔} \approx 1.0 \\
+\end{align}
+$$
 
 #### タイプA 評価
 [タイプA 評価の事例研究](mpc63.md)で議論した抵抗率測定は、測定工程における以下の不確かさ源を網羅するよう反復され、関連する不確かさは抵抗率（Ω・cm）の単位で報告されている。
@@ -42,7 +46,7 @@ $$F_{t/s} = 係数_{厚さ/間隔} \approx 1.0 $$
 したがって、不確かさタイプB 評価は、誤差伝播を用いて計算する。
 抵抗率単位における[誤差伝播式](../section5/mpc553.md)は以下の通り。
 
-$$\displaystyle \large{s_p = \rho \sqrt{\frac{s_X^2}{X^2} + \frac{s_t^2}{t^2} + \frac{s_{Ka}^2}{K_a^2}+ \frac{s_{FT}^2}{F_T^2} + \frac{s_{F(t/s)^2}}{F_{t/s}^2}}}$$
+$$ \large{s_p = \rho \sqrt{\frac{s_X^2}{X^2} + \frac{s_t^2}{t^2} + \frac{s_{Ka}^2}{K_a^2}+ \frac{s_{FT}^2}{F_T^2} + \frac{s_{F(t/s)^2}}{F_{t/s}^2}}}$$
 
 #### タイプB 評価の標準偏差
 タイプB 成分の標準偏差は、ここにまとめられている。
@@ -69,7 +73,7 @@ $$a = 0.0001 \quad Ω・cm \qquad \text{および} \qquad a = 0.00038 \quad Ω�
 
 $$s_X = 0.0000534 / \sqrt{3} = 0.0000308 \quad Ω・cm $$ 
 
-$$\displaystyles_{Ka} = \sqrt{\frac{0.0001^2}{3} + \frac{0.00038^2}{3}} = 0.000227 \quad Ω・cm $$ 
+$$s_{Ka} = \sqrt{\frac{0.0001^2}{3} + \frac{0.00038^2}{3}} = 0.000227 \quad Ω・cm $$ 
 
 #### 厚さ
 厚さの標準偏差 *t* は、以下の 2つの不確かさ源を考慮している。
@@ -79,11 +83,11 @@ $$\displaystyles_{Ka} = \sqrt{\frac{0.0001^2}{3} + \frac{0.00038^2}{3}} = 0.0002
 
 これら誤差の上限は、それぞれ[一様分布](../section5/mpc541.md#一様分布)の以下の半値幅が仮定される。
 
-$$a = 0.000015 \quad cm　\quad \tet{および} \quad a = 0.000001 \quad cm $$
+$$a = 0.000015 \quad cm　\quad \text{および} \quad a = 0.000001 \quad cm $$
 
 したがって、厚さの標準偏差は
 
-$$\displaystyles_t = \sqrt{\frac{0.000015^2}{3} + \frac{0.000001^2}{3}} = 0.00000868 \quad cm $$
+$$s_t = \sqrt{\frac{0.000015^2}{3} + \frac{0.000001^2}{3}} = 0.00000868 \quad cm $$
 
 #### 温度補正
 温度補正の標準偏差は、以下に示す定義式から計算される。
@@ -94,11 +98,11 @@ $$a = 0.13 \quad C $$
 
 したがって、補正の標準偏差は
 
-$$\displaystyleF_T = 1-C(t) \cdot (T - 23 \quad C)$$
+$$F_T = 1-C(t) \cdot (T - 23 \quad C)$$
 
 補正値の標準偏差は
 
-$$\displaystyles_{F(T)} = C(t) \cdot s_T = 0.0083 \sqrt{\frac{0.13^2}{6}} = 0.000441 \quad C $$
+$$s_{F(T)} = C(t) \cdot s_T = 0.0083 \sqrt{\frac{0.13^2}{6}} = 0.000441 \quad C $$
 
 となる。
 
@@ -140,12 +144,12 @@ $$ a_{10} = (\rho / F_{t/s}) = 100 $$
 #### 標準不確かさ
 標準不確かさは次式で計算される。
 
-$$\displaystyleu = \sqrt{ \sum_{i=1}^{10} a_i^2 \cdot s_i^2} = 0.065 \quad ohm.cm$$
+$$u = \sqrt{ \sum_{i=1}^{10} a_i^2 \cdot s_i^2} = 0.065 \quad ohm.cm$$
 
 #### 近似自由度および拡張不確かさ
 *u* に関連する自由度は、Welch-Satterthwaite の式によって次式で近似される。
 
-$$ \displaystyle \large{ \nu = \frac{u^4}{ \sum_{i=1}^5 \frac{a_i^4 \cdot s_i^4}{\nu_i}}= 42 $$
+$$ \large{ \nu = \frac{u^4}{ \sum_{i=1}^5 \frac{a_i^4 \cdot s_i^4}{\nu_i}}= 42 $$
 
 この計算は自由度が無限大である成分の影響を受けないため、標準不確かさの自由度は、タイプA 不確かさの自由度と同じとなる。
  [t-表](../../ch1_eda/section3/eda3672.md)から、自由度 42、有意水準 0.05 における棄却限界値は 2.018 であるため、拡張不確かさは以下となる。
