@@ -701,6 +701,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       }});
     }}
   </script>
+  <script src="{root_rel_prefix}assets/js/vote.js" defer></script>
 </body>
 </html>
 """
@@ -1541,6 +1542,11 @@ def build_all(root_dir: Path, out_dir: Path):
                 render_md_file(md_file, dst_path.parent / "index.html", root_dir, out_dir)
 
     copy_referenced_assets(referenced_assets, root_dir, out_dir)
+    
+    assets_src = root_dir / "assets"
+    if assets_src.exists():
+        shutil.copytree(assets_src, out_dir / "assets", dirs_exist_ok=True)
+        
     generate_sitemap_and_robots(out_dir, sitemap_entries)
 
     print(
