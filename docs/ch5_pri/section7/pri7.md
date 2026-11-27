@@ -15,7 +15,7 @@
 例えば、4因子実験における効果D の推定値が実際には (D + ABC) を推定している場合、主効果D は 3因子交互作用 ABCと別名状態にある。
 **注**：高次交互作用が存在しないか、あるいは有意でない場合には、問題にならない。
 
-* <span id="Analysis"></span>**(Analysis of Variance(ANOCA)) 分散分析（ANOVA）**： 一連の観測値の変動を帰属可能な要因に分解し、様々な有意差検定を設定するための数学的手法。
+* <span id="Analysis"></span>**(Analysis of Variance(ANOVA)) 分散分析（ANOVA）**： 一連の観測値の変動を帰属可能な要因に分解し、様々な有意差検定を設定するための数学的手法。
 
 * <span id="Balanced"></span>**(Balanced Design) 釣合い計画**： すべてのセル（すなわち処理の組合せ）が同数の観測値を持つ実験計画法。
 
